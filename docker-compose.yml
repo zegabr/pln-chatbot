@@ -1,0 +1,6 @@
+version: "3"
+services:
+    chatbot:
+        build: .
+        ports:
+            - 5005:5005
