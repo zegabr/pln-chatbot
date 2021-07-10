@@ -1,0 +1,2014 @@
+I am feeling hungry so I would like to find a place to eat.,INFORM_INTENT
+I would like for it to be in San Jose.,INFORM
+I usually like eating the American type of food.,INFORM
+Can you give me the address of this restaurant.,REQUEST
+Can you give me the phone number that I can contact them with?,REQUEST
+Is there some other restaurant which you can suggest?,REQUEST_ALTS
+Do you have another restaurant matching my needs? For example a restaurant which is economical and is located in Palo Alto.,INFORM
+Do you have another restaurant matching my needs? For example a restaurant which is economical and is located in Palo Alto.,INFORM
+Do you have another restaurant matching my needs? For example a restaurant which is economical and is located in Palo Alto.,REQUEST_ALTS
+"Alright, that seems good. I would like to make a booking at this restaurant.",INFORM_INTENT
+"Alright, that seems good. I would like to make a booking at this restaurant.",SELECT
+I will be eating there at 11:30 am so make it for then.,INFORM
+That suits me well. Can you tell me if they feature live music?,REQUEST
+That suits me well. Can you tell me if they feature live music?,AFFIRM
+Will I be able to find liquor there? Can you give me the address of their location?,REQUEST
+Will I be able to find liquor there? Can you give me the address of their location?,REQUEST
+I appreciate it very much. That would be all.,THANK_YOU
+I appreciate it very much. That would be all.,GOODBYE
+"Hi i need a help, i am very hungry, I am looking for a restaurant",INFORM_INTENT
+Some Punjabi kind of foods in milpitas,INFORM
+Some Punjabi kind of foods in milpitas,INFORM
+"Ok, What is the address? How pricey are they?",REQUEST
+"Ok, What is the address? How pricey are they?",REQUEST
+"Ok, Find me another restaurant?",REQUEST_ALTS
+"No, suggest me another Restaurant, Some Take-out type of food will be perfect",INFORM
+"No, suggest me another Restaurant, Some Take-out type of food will be perfect",REQUEST_ALTS
+"Yes, it seems good for me",SELECT
+"Yes, I want it on the 11th",AFFIRM_INTENT
+"Yes, I want it on the 11th",INFORM
+at afternoon 1:30,INFORM
+"No, time change to twelve in the afternoon for one people",INFORM
+"No, time change to twelve in the afternoon for one people",INFORM
+"No, time change to twelve in the afternoon for one people",NEGATE
+Yes,AFFIRM
+"What is the Restaurant address, Do they have live music, I love it",REQUEST
+"What is the Restaurant address, Do they have live music, I love it",REQUEST
+Thank you very much for your help,THANK_YOU
+"No, Thanks",NEGATE
+"No, Thanks",THANK_YOU
+Help me find a good restaurant.,INFORM_INTENT
+Find me Ethiopian cuisine in Berkeley.,INFORM
+Find me Ethiopian cuisine in Berkeley.,INFORM
+Do they have live music?,REQUEST
+That's okay. I'd like to reserve a table for the 4th.,INFORM
+That's okay. I'd like to reserve a table for the 4th.,INFORM_INTENT
+That's okay. I'd like to reserve a table for the 4th.,SELECT
+Reserve the table for the 2nd of this month at 17:15.,INFORM
+Reserve the table for the 2nd of this month at 17:15.,INFORM
+That's right. Do they serve alcohol? And how expensive is the place?,REQUEST
+That's right. Do they serve alcohol? And how expensive is the place?,REQUEST
+That's right. Do they serve alcohol? And how expensive is the place?,AFFIRM
+Can you check if a table is available at 17:30?,INFORM
+Can you check if a table is available at 17:30?,INFORM_INTENT
+That's correct.,AFFIRM
+Thank you. That's all I need for now.,THANK_YOU
+Thank you. That's all I need for now.,GOODBYE
+I'm looking for a place to eat.,INFORM_INTENT
+Some Freshwater fish kind of food in Palo Alto would be perfect.,INFORM
+Some Freshwater fish kind of food in Palo Alto would be perfect.,INFORM
+Could you suggest any other restaurant?,REQUEST_ALTS
+"Yes, that works for me.",SELECT
+"Yes, I want to make a reservation for one. Make it at half past 6 in the evening.",AFFIRM_INTENT
+"Yes, I want to make a reservation for one. Make it at half past 6 in the evening.",INFORM
+"Yes, I want to make a reservation for one. Make it at half past 6 in the evening.",INFORM
+"Yes, that works for me. How pricey are they? What is their contact number?",REQUEST
+"Yes, that works for me. How pricey are they? What is their contact number?",REQUEST
+"Yes, that works for me. How pricey are they? What is their contact number?",AFFIRM
+Thank you very much.,THANK_YOU
+"No, thank you very much.",NEGATE
+"No, thank you very much.",THANK_YOU
+I'd like to find a place to eat.,INFORM_INTENT
+Lobster sounds great. Please search in San Mateo.,INFORM
+Lobster sounds great. Please search in San Mateo.,INFORM
+What's their phone number?,REQUEST
+Any other suggestions?,REQUEST_ALTS
+Do they have live music?,REQUEST
+Any other suggestions?,REQUEST_ALTS
+That would work great. I would like to make a reservation there at evening 5:30 on March 14th.,INFORM
+That would work great. I would like to make a reservation there at evening 5:30 on March 14th.,INFORM
+That would work great. I would like to make a reservation there at evening 5:30 on March 14th.,INFORM_INTENT
+That would work great. I would like to make a reservation there at evening 5:30 on March 14th.,SELECT
+"Yes, that would be great. Do they serve liquor or have live music?",REQUEST
+"Yes, that would be great. Do they serve liquor or have live music?",REQUEST
+"Yes, that would be great. Do they serve liquor or have live music?",AFFIRM
+Thanks so much!,THANK_YOU
+"Nope, that'll be all. Thanks!",NEGATE
+"Nope, that'll be all. Thanks!",THANK_YOU
+I'm looking for a Filipino place to eat.,INFORM
+I'm looking for a Filipino place to eat.,INFORM_INTENT
+I want to eat in San Bruno,INFORM
+Any other suggestions?,REQUEST_ALTS
+How cheap is it and how much does it cost?,REQUEST
+How cheap is it and how much does it cost?,REQUEST
+Please can you make the reservation,INFORM_INTENT
+Please can you make the reservation,SELECT
+On the 12th at six pm,INFORM
+On the 12th at six pm,INFORM
+That's good. Do they serve liquor and what is there number?,REQUEST
+That's good. Do they serve liquor and what is there number?,REQUEST
+That's good. Do they serve liquor and what is there number?,AFFIRM
+Thanks a lot,THANK_YOU
+Thanks a lot,GOODBYE
+Can you help find a place to eat?,INFORM_INTENT
+I would like Freshwater fish.,INFORM
+The city is San Jose.,INFORM
+Yes that is fine.,SELECT
+Yes make it for March 10th.,AFFIRM_INTENT
+Yes make it for March 10th.,INFORM
+Reserve for six in the evening.,INFORM
+Yes what is the address and do they have live music?,REQUEST
+Yes what is the address and do they have live music?,REQUEST
+Yes what is the address and do they have live music?,AFFIRM
+Thank you for all.,THANK_YOU
+"No, that is all.",NEGATE
+"No, that is all.",THANK_YOU
+My friend and I are looking for a place to eat.,INFORM_INTENT
+My family and I are in San Jose and the perfect place would have pizza and pasta. We don't have a price preference.,INFORM
+My family and I are in San Jose and the perfect place would have pizza and pasta. We don't have a price preference.,INFORM
+My family and I are in San Jose and the perfect place would have pizza and pasta. We don't have a price preference.,INFORM
+Is there any other restaurant that you can suggest?,REQUEST_ALTS
+Can I please have the address and contact number?,REQUEST
+Can I please have the address and contact number?,REQUEST
+Is there any other restaurant that you can suggest?,REQUEST_ALTS
+That restaurant will work can you please make a reservation for 12:30.,INFORM
+That restaurant will work can you please make a reservation for 12:30.,INFORM_INTENT
+That restaurant will work can you please make a reservation for 12:30.,SELECT
+"Yes, thank you that is correct.",AFFIRM
+Thank you so much for setting that up.,THANK_YOU
+That is all thank you so much.,NEGATE
+That is all thank you so much.,THANK_YOU
+Can you find me something economical to eat in Pleasanton.,INFORM
+Can you find me something economical to eat in Pleasanton.,INFORM
+Can you find me something economical to eat in Pleasanton.,INFORM_INTENT
+I would like some Italian food.,INFORM
+Can you provide the address and do they have live music?,REQUEST
+Can you provide the address and do they have live music?,REQUEST
+Any other recommendation?,REQUEST_ALTS
+Can you provide more options?,REQUEST_ALTS
+That sounds like a good choice for me.,SELECT
+"Yes, make a reservation at the restaurant.",INFORM_INTENT
+I'll reach there at 1:30 pm.,INFORM
+"No, change the time to 7 pm and for one person only.",INFORM
+"No, change the time to 7 pm and for one person only.",INFORM
+"No, change the time to 7 pm and for one person only.",NEGATE
+"No, change it on next friday.",INFORM
+"No, change it on next friday.",NEGATE
+Yes. Sounds good.,AFFIRM
+What is the address of the restaurant and do the have live music?,REQUEST
+What is the address of the restaurant and do the have live music?,REQUEST
+"Alright, Thank you.",THANK_YOU
+"Alright, Thank you.",GOODBYE
+I am looking to eat somewhere,INFORM_INTENT
+I want some breakfast in Fairfield,INFORM
+I want some breakfast in Fairfield,INFORM
+Do they have live music with liquor,REQUEST
+Do they have live music with liquor,REQUEST
+ok that works,SELECT
+"Yes, please make reservation for one people this evening 4:45",AFFIRM_INTENT
+"Yes, please make reservation for one people this evening 4:45",INFORM
+"Yes, please make reservation for one people this evening 4:45",INFORM
+thats correct. What is their phone number what how expensive are they,REQUEST
+thats correct. What is their phone number what how expensive are they,REQUEST
+thats correct. What is their phone number what how expensive are they,AFFIRM
+yes thats fine,AFFIRM
+thanks,THANK_YOU
+no thats it,NEGATE
+no thats it,THANK_YOU
+I'm starving! Can you help me find a restaurant that serves Breakfast in Fairfield?,INFORM
+I'm starving! Can you help me find a restaurant that serves Breakfast in Fairfield?,INFORM
+I'm starving! Can you help me find a restaurant that serves Breakfast in Fairfield?,INFORM_INTENT
+Is there a band playing there?,REQUEST
+That's okay. It will work anyway.,SELECT
+"Yes, I'll need to make a reservation for a table for 2.",AFFIRM_INTENT
+"Yes, I'll need to make a reservation for a table for 2.",INFORM
+Please make it for half past 5 in the evening.,INFORM
+"I'm sorry, I need to change that. I'd like it on the 9th and it will be for 3 people.",INFORM
+"I'm sorry, I need to change that. I'd like it on the 9th and it will be for 3 people.",INFORM
+"I'm sorry, I need to change that. I'd like it on the 9th and it will be for 3 people.",NEGATE
+I'm sorry. I need to make it on Monday next week at half past 12 in the afternoon.,INFORM
+I'm sorry. I need to make it on Monday next week at half past 12 in the afternoon.,INFORM
+I'm sorry. I need to make it on Monday next week at half past 12 in the afternoon.,NEGATE
+"Yes, I'm sorry for the confusion. Can you tell me their phone number please?",REQUEST
+"Yes, I'm sorry for the confusion. Can you tell me their phone number please?",AFFIRM
+Great! Thank you so much for your help.,THANK_YOU
+Great! Thank you so much for your help.,GOODBYE
+Can you help me find a place to eat at?,INFORM_INTENT
+"Cupertino, please.",INFORM
+Malaysian sounds good right now.,INFORM
+What's the other one?,REQUEST_ALTS
+Does the restaurant have live music?,REQUEST
+Sounds fine to me. Can you help me make a reservation?,INFORM_INTENT
+Sounds fine to me. Can you help me make a reservation?,SELECT
+"A quarter past 5 in the evening, please.",INFORM
+"No, I'd like it on March 13th.",INFORM
+"No, I'd like it on March 13th.",NEGATE
+"No, I'd like it at half past 12 in the afternoon.",INFORM
+"No, I'd like it at half past 12 in the afternoon.",NEGATE
+"Yes, sounds good.",AFFIRM
+Does the restaurant serve alcohol?,REQUEST
+"Thank you, that's all I need.",THANK_YOU
+"Thank you, that's all I need.",GOODBYE
+"Hello, could you help me search for a place to dine in?",INFORM_INTENT
+I would prefer a restaurant which serves up Cambodian food in SF.,INFORM
+I would prefer a restaurant which serves up Cambodian food in SF.,INFORM
+Are there any alternative restaurants?,REQUEST_ALTS
+"Sure, that sounds great!",SELECT
+"Yes, please do so.",AFFIRM_INTENT
+I would prefer to dine in at 19:15.,INFORM
+"Sorry, could you change the booking to 18:30 for 3 people?",INFORM
+"Sorry, could you change the booking to 18:30 for 3 people?",INFORM
+"Sorry, could you change the booking to 18:30 for 3 people?",NEGATE
+That's fine for me. May I know where they are located at?,REQUEST
+That's fine for me. May I know where they are located at?,AFFIRM
+"No, thank you anyway.",NEGATE
+"No, thank you anyway.",GOODBYE
+"I have a plan to eat out side for which I need some best places, can you search one for me?",INFORM_INTENT
+Asian kind of food will be good for me and please search it in Fremont City.,INFORM
+Asian kind of food will be good for me and please search it in Fremont City.,INFORM
+"Yes, I like the same.",SELECT
+"Yes, make it at half past 1 in the afternoon that will be the perfect time to eat.",AFFIRM_INTENT
+"Yes, make it at half past 1 in the afternoon that will be the perfect time to eat.",INFORM
+change it to March 10th.,INFORM
+change it to March 10th.,NEGATE
+"Yes, confirmed. continue with reservation.",AFFIRM
+Thanks for your help.,THANK_YOU
+"No, thanks. that's all.",NEGATE
+"No, thanks. that's all.",THANK_YOU
+I want to find a restaurant in Albany.,INFORM
+I want to find a restaurant in Albany.,INFORM_INTENT
+Barbecue is the best.,INFORM
+What is the other option?,REQUEST_ALTS
+Yes that sounds good.,SELECT
+Yes please reserve me a table for the 13th of March.,AFFIRM_INTENT
+Yes please reserve me a table for the 13th of March.,INFORM
+"5 o""clock in the evening please.",INFORM
+Yes is great.,AFFIRM
+Thanks for your help.,THANK_YOU
+No that will be all.,NEGATE
+No that will be all.,THANK_YOU
+Can you pull up a list of places to eat?,INFORM_INTENT
+Search San Francisco for Asian Fusion food,INFORM
+Search San Francisco for Asian Fusion food,INFORM
+Is there live music?,REQUEST
+Do they serve alcohol? And what's their phone number?,REQUEST
+Do they serve alcohol? And what's their phone number?,REQUEST
+Okay great. Please make a reservation for a party of six.,INFORM
+Okay great. Please make a reservation for a party of six.,INFORM_INTENT
+Okay great. Please make a reservation for a party of six.,SELECT
+half past 5 in the evening please.,INFORM
+That's correct. What's the address?,REQUEST
+That's correct. What's the address?,AFFIRM
+I want a reservation at this restaurant. Can you make it for twelve pm? For four people.,INFORM
+I want a reservation at this restaurant. Can you make it for twelve pm? For four people.,INFORM
+I want a reservation at this restaurant. Can you make it for twelve pm? For four people.,INFORM_INTENT
+"Yes, thank you. How's the pricing? Low priced?",REQUEST
+"Yes, thank you. How's the pricing? Low priced?",AFFIRM
+"Thank you, that is all.",THANK_YOU
+"Thank you, that is all.",GOODBYE
+"I'm looking for a good place to get something to eat, can you help?",INFORM_INTENT
+"Oh, I'm in Oakland. Please find an American restaurant.",INFORM
+"Oh, I'm in Oakland. Please find an American restaurant.",INFORM
+Are their prices extravagant? How can I contact them.,REQUEST
+Are their prices extravagant? How can I contact them.,REQUEST
+"Okay, that sounds good. Can you reserve a table for me?",INFORM_INTENT
+"Okay, that sounds good. Can you reserve a table for me?",SELECT
+Please reserve it for six pm.,INFORM
+Yes that's perfect. What's their address? Do they have a live band?,REQUEST
+Yes that's perfect. What's their address? Do they have a live band?,REQUEST
+Yes that's perfect. What's their address? Do they have a live band?,AFFIRM
+Okay thanks. That'll be all.,THANK_YOU
+Okay thanks. That'll be all.,GOODBYE
+I'm looking for somewhere to eat.,INFORM_INTENT
+In Oakland.,INFORM
+I want pizza and pasta.,INFORM
+Do they have liquor?,REQUEST
+"Okay, that works for me.",SELECT
+"Yes, for two people please.",AFFIRM_INTENT
+"Yes, for two people please.",INFORM
+I want it at half past 5 in the evening.,INFORM
+Yes.,AFFIRM
+Thanks.,THANK_YOU
+"No, that's okay.",NEGATE
+"No, that's okay.",THANK_YOU
+I'm looking for a restaurant.,INFORM_INTENT
+Asian Fusion in Concord.,INFORM
+Asian Fusion in Concord.,INFORM
+"Yes, that is good.",SELECT
+"Yes, any date works.",AFFIRM_INTENT
+"Yes, any date works.",INFORM
+"5 o""clock in the evening.",INFORM
+"Yes, that is good.",AFFIRM
+What is the address and is there music?,REQUEST
+What is the address and is there music?,REQUEST
+Thank you for your assistance.,THANK_YOU
+"No, that is all thank you.",NEGATE
+"No, that is all thank you.",THANK_YOU
+Are there any Mexican places in Rohnert Park?,INFORM
+Are there any Mexican places in Rohnert Park?,INFORM
+Are there any Mexican places in Rohnert Park?,INFORM_INTENT
+Is it an inexpensive restaurant?,REQUEST
+What's their phone number?,REQUEST
+Are there any other restaurants? Something like Ramen would be good. I want something that is not very costly.,INFORM
+Are there any other restaurants? Something like Ramen would be good. I want something that is not very costly.,INFORM
+Are there any other restaurants? Something like Ramen would be good. I want something that is not very costly.,REQUEST_ALTS
+That would be great!,SELECT
+Make a reservation this morning 11:15 for three people.,INFORM
+Make a reservation this morning 11:15 for three people.,INFORM
+Make a reservation this morning 11:15 for three people.,INFORM_INTENT
+That's correct. What's their address?,REQUEST
+That's correct. What's their address?,AFFIRM
+Is their music live?,REQUEST
+Okay. That was all I needed.,THANK_YOU
+Okay. That was all I needed.,GOODBYE
+I'm getting pretty hungry and need to find a place to eat.,INFORM_INTENT
+I would like something that I can pick-up in San Fran at any price range.,INFORM
+I would like something that I can pick-up in San Fran at any price range.,INFORM
+I would like something that I can pick-up in San Fran at any price range.,INFORM
+Do they have music or entertainment? Can I have their phone number?,REQUEST
+Do they have music or entertainment? Can I have their phone number?,REQUEST
+I am on a budget so I would like something that is inexpensive but serves alcohol. Can you suggest another restaurant with these qualities?,INFORM
+I am on a budget so I would like something that is inexpensive but serves alcohol. Can you suggest another restaurant with these qualities?,INFORM
+I am on a budget so I would like something that is inexpensive but serves alcohol. Can you suggest another restaurant with these qualities?,REQUEST_ALTS
+"Yes, that sounds like what I'm looking for.",SELECT
+"Yes, can you make the reservation for two people?",AFFIRM_INTENT
+"Yes, can you make the reservation for two people?",INFORM
+Please make the reservation for the 13th of this month at afternoon 12.,INFORM
+Please make the reservation for the 13th of this month at afternoon 12.,INFORM
+Yes that sounds great. What is the address of the restaurant?,REQUEST
+Yes that sounds great. What is the address of the restaurant?,AFFIRM
+Thank you for all your help.,THANK_YOU
+"No, that was all I needed but thank you.",NEGATE
+"No, that was all I needed but thank you.",THANK_YOU
+Can you help me find a restaurant?,INFORM_INTENT
+I prefer Redwood City.,INFORM
+"I would like Spanish food, economical pricing preferred.",INFORM
+"I would like Spanish food, economical pricing preferred.",INFORM
+That sounds good.,SELECT
+Yes please make a reservation for four.,AFFIRM_INTENT
+Yes please make a reservation for four.,INFORM
+Early evening 5:45 pm.,INFORM
+Yes that is correct. Do you have their phone number?,REQUEST
+Yes that is correct. Do you have their phone number?,AFFIRM
+Thank you. That is all for now.,THANK_YOU
+Thank you. That is all for now.,GOODBYE
+I am looking for a place to eat. Can you find restaurants specializing in Singaporean cuisine near me?,INFORM
+I am looking for a place to eat. Can you find restaurants specializing in Singaporean cuisine near me?,INFORM_INTENT
+I am looking for restaurants located in Millbrae.,INFORM
+"Great, thanks. What is their phone number? Do they serve alcohol?",REQUEST
+"Great, thanks. What is their phone number? Do they serve alcohol?",REQUEST
+"Okay, sounds good.",SELECT
+"Sure, that would be great.",AFFIRM_INTENT
+"Eleven in the morning, please.",INFORM
+Yes- that's perfect.,AFFIRM
+Wonderful. Thanks for your help.,THANK_YOU
+Wonderful. Thanks for your help.,GOODBYE
+Can you help me find an afforadable place to eat?,INFORM
+Can you help me find an afforadable place to eat?,INFORM_INTENT
+Please look for a place in Calistoga.,INFORM
+I'm in the mood for Cambodian food.,INFORM
+"Do you have any other suggestions? Actually, I think I'd prefer Barbecue.",INFORM
+"Do you have any other suggestions? Actually, I think I'd prefer Barbecue.",REQUEST_ALTS
+"Yeah, that does work for me.",SELECT
+"Yeah, please make me a reservation.",AFFIRM_INTENT
+"It should be half past 12 in the afternoon. Oh, and make it for two.",INFORM
+"It should be half past 12 in the afternoon. Oh, and make it for two.",INFORM
+"Wait no, it's just 1 person.",INFORM
+"Wait no, it's just 1 person.",NEGATE
+"Yeah, also do they have live music and liquor there?",REQUEST
+"Yeah, also do they have live music and liquor there?",REQUEST
+"Yeah, also do they have live music and liquor there?",AFFIRM
+"Okay, thanks. I don't need any more help.",THANK_YOU
+"Okay, thanks. I don't need any more help.",GOODBYE
+I will be going to eat with a friend what expensive restaurants do you recommend?,INFORM
+I will be going to eat with a friend what expensive restaurants do you recommend?,INFORM_INTENT
+I want something with Fish but make it an average priced restaurant.,INFORM
+I want something with Fish but make it an average priced restaurant.,INFORM
+I want to eat in Burlingame.,INFORM
+That sounds great. Please make a reservation.,INFORM_INTENT
+That sounds great. Please make a reservation.,SELECT
+At quarter to 1 in the afternoon.,INFORM
+"Yes, that is correct. Do you have the phone number?",REQUEST
+"Yes, that is correct. Do you have the phone number?",AFFIRM
+"Thanks a lot, that would be all.",THANK_YOU
+"Thanks a lot, that would be all.",GOODBYE
+I am tired of eating my cooking. I want to eat out tonight.,INFORM_INTENT
+I am in the mood for Izakaya cuisine.,INFORM
+I want something in Rohnert Park,INFORM
+That does not seems close by. Where is it located?,REQUEST
+Is there anything else? I want to go somewhere close to Pleasant Hill.,INFORM
+Is there anything else? I want to go somewhere close to Pleasant Hill.,REQUEST_ALTS
+Where is it located?,REQUEST
+It is closer and would work out perfectly for me.,SELECT
+"Yes, reserve it for me.",AFFIRM_INTENT
+"8 in the night, for 1 person",INFORM
+"8 in the night, for 1 person",INFORM
+Great. Is there live music? Is it a costly restaurant?,REQUEST
+Great. Is there live music? Is it a costly restaurant?,REQUEST
+Great. Is there live music? Is it a costly restaurant?,AFFIRM
+Try again to book a table for 2,INFORM
+Try again to book a table for 2,INFORM_INTENT
+I would like a table for 11:45 in the morning.,INFORM
+I would like a table for 11:45 in the morning.,NEGATE
+That would be great.,AFFIRM
+That would be great.,AFFIRM
+I appreciate your assistance.,THANK_YOU
+"No, you have be most helpful.",NEGATE
+"No, you have be most helpful.",THANK_YOU
+I am looking for an inexpensive place to eat that has live music.,INFORM
+I am looking for an inexpensive place to eat that has live music.,INFORM
+I am looking for an inexpensive place to eat that has live music.,INFORM_INTENT
+"I'd like some soup, and I'm looking in San Ramon.",INFORM
+"I'd like some soup, and I'm looking in San Ramon.",INFORM
+What is their address and contact number?,REQUEST
+What is their address and contact number?,REQUEST
+"Yes, that would work.",SELECT
+"Yes, please make the reservation for 7:30 pm.",AFFIRM_INTENT
+"Yes, please make the reservation for 7:30 pm.",INFORM
+"Yes, that's great. Do they serve liquor?",REQUEST
+"Yes, that's great. Do they serve liquor?",AFFIRM
+"Thank you, that is all I need.",THANK_YOU
+"Thank you, that is all I need.",GOODBYE
+Can you help me find somewhere to eat?,INFORM_INTENT
+Search in Cupertino for Dumplings.,INFORM
+Search in Cupertino for Dumplings.,INFORM
+"Is it expensive, and do they serve alcohol?",REQUEST
+"Is it expensive, and do they serve alcohol?",REQUEST
+Can you look for another place to eat in Santa Clara?,INFORM
+Can you look for another place to eat in Santa Clara?,REQUEST_ALTS
+Can you suggest something in the moderate price range?,INFORM
+Can you suggest something in the moderate price range?,REQUEST_ALTS
+"Great, can you make a reservation on the 7th of this month?",INFORM
+"Great, can you make a reservation on the 7th of this month?",INFORM_INTENT
+"Great, can you make a reservation on the 7th of this month?",SELECT
+How about 7:30 pm.,INFORM
+"Yes, that's right. Do they serve alcohol?",REQUEST
+"Yes, that's right. Do they serve alcohol?",AFFIRM
+"Great, thanks, that's all I need.",THANK_YOU
+"Great, thanks, that's all I need.",GOODBYE
+Hey! Today feeling so tired... Wish to have some food outside in a good restaurant... Can you find me one?,INFORM_INTENT
+I would love to taste some Seafood in San Mateo. Please find some good hotels.,INFORM
+I would love to taste some Seafood in San Mateo. Please find some good hotels.,INFORM
+How much they charge? Can I have their street address?,REQUEST
+How much they charge? Can I have their street address?,REQUEST
+"Yup, that works. Please can you reserve at this restaurant?",INFORM_INTENT
+"Yup, that works. Please can you reserve at this restaurant?",SELECT
+Probably at quarter past 1 in the afternoon.,INFORM
+Yup! sounds good. I've a question... Did liquor is provided at this restaurant?,REQUEST
+Yup! sounds good. I've a question... Did liquor is provided at this restaurant?,AFFIRM
+Thanks for your time.,THANK_YOU
+"Nope, thanks a lot.",NEGATE
+"Nope, thanks a lot.",THANK_YOU
+I'm looking for somewhere in Dublin to have a meal and a drink.,INFORM
+I'm looking for somewhere in Dublin to have a meal and a drink.,INFORM
+I'm looking for somewhere in Dublin to have a meal and a drink.,INFORM_INTENT
+I feel like a burger.,INFORM
+Do you have anything else?,REQUEST_ALTS
+Do they have live music? What's the price range?,REQUEST
+Do they have live music? What's the price range?,REQUEST
+Oh okay. Yeah sure that's fine.,SELECT
+I'd like to make a reservation.,INFORM_INTENT
+5 pm please. There's 3 people in the group.,INFORM
+5 pm please. There's 3 people in the group.,INFORM
+Yeah that works fine. What's their address and phone number?,REQUEST
+Yeah that works fine. What's their address and phone number?,REQUEST
+Yeah that works fine. What's their address and phone number?,AFFIRM
+Thanks a lot!,THANK_YOU
+"No thanks, that's all.",NEGATE
+"No thanks, that's all.",THANK_YOU
+"I am bored of eating food from home , i need a change . Will you find me a place to eat? It can be costly priced and i am very fond of it",INFORM
+"I am bored of eating food from home , i need a change . Will you find me a place to eat? It can be costly priced and i am very fond of it",INFORM_INTENT
+I need Pizza kind of food and i wish to eat in city Napa.,INFORM
+I need Pizza kind of food and i wish to eat in city Napa.,INFORM
+Will you specify restaurant address and whether they have live music ?,REQUEST
+Will you specify restaurant address and whether they have live music ?,REQUEST
+"Ok its fine , i prefer the same.",SELECT
+"Yes sure, Please make a reservation and number of people is 2",AFFIRM_INTENT
+"Yes sure, Please make a reservation and number of people is 2",INFORM
+Please fix it at 11:30 am,INFORM
+sorry make the reservation time as Morning 11:45,INFORM
+sorry make the reservation time as Morning 11:45,NEGATE
+ok its great and sounds good .Please inform me the contact number of that restaurant?,REQUEST
+ok its great and sounds good .Please inform me the contact number of that restaurant?,AFFIRM
+Whether they serve liquor?,REQUEST
+ok thanks a lot for your kind help,THANK_YOU
+ok thanks a lot for your kind help,GOODBYE
+I'm starting to get hungry. I want to go eat at a nice restaurant.,INFORM_INTENT
+Milpitas.,INFORM
+I feel like Cambodian tonight.,INFORM
+That's exactly what I'm looking for.,SELECT
+"Yes, I'd like to try this place out.",AFFIRM_INTENT
+6:30 pm. Please make the reservation for four people.,INFORM
+6:30 pm. Please make the reservation for four people.,INFORM
+Perfect. What are the prices at Anh Hong like?,REQUEST
+Perfect. What are the prices at Anh Hong like?,AFFIRM
+Thanks. You've been a big help.,THANK_YOU
+Thanks. You've been a big help.,GOODBYE
+I'm planning on going out to eat later on. Can you help me find a place to eat at?,INFORM_INTENT
+I'd like to go to a restaurant in Martinez that serves Thai food.,INFORM
+I'd like to go to a restaurant in Martinez that serves Thai food.,INFORM
+What's their phone number and do they serve alcohol?,REQUEST
+What's their phone number and do they serve alcohol?,REQUEST
+"Okay, great. I want to make a reservation please.",INFORM_INTENT
+"Okay, great. I want to make a reservation please.",SELECT
+Make the reservation for 7 pm.,INFORM
+"No, make it for 1 person on next Monday please.",INFORM
+"No, make it for 1 person on next Monday please.",INFORM
+"No, make it for 1 person on next Monday please.",NEGATE
+"Yup, that's right. Can you tell me if they have a live band?",REQUEST
+"Yup, that's right. Can you tell me if they have a live band?",AFFIRM
+Do you know if their menu is inexpensive and what their address is?,REQUEST
+Do you know if their menu is inexpensive and what their address is?,REQUEST
+"Great, thanks!",THANK_YOU
+No thanks. That's all I needed help with.,NEGATE
+No thanks. That's all I needed help with.,THANK_YOU
+I am looking for an intermediate priced eating place in the nearby area.,INFORM
+I am looking for an intermediate priced eating place in the nearby area.,INFORM_INTENT
+Any place in Pleasanton which serves Ramen kind of food and also alcohol will be ideal.,INFORM
+Any place in Pleasanton which serves Ramen kind of food and also alcohol will be ideal.,INFORM
+Any place in Pleasanton which serves Ramen kind of food and also alcohol will be ideal.,INFORM
+That is good a good choice. Please make a reservation for six people for 3rd of March.,INFORM
+That is good a good choice. Please make a reservation for six people for 3rd of March.,INFORM
+That is good a good choice. Please make a reservation for six people for 3rd of March.,INFORM_INTENT
+That is good a good choice. Please make a reservation for six people for 3rd of March.,SELECT
+Reserve it for Twelve pm.,INFORM
+Yes that is good.,AFFIRM
+Thank you.,THANK_YOU
+No. This should be enough for now.,NEGATE
+No. This should be enough for now.,THANK_YOU
+I would like to it in a place in Pleasanton.,INFORM
+I would like to it in a place in Pleasanton.,INFORM_INTENT
+I would love some Noodles,INFORM
+Can you tell me the phone number?,REQUEST
+Sounds good,SELECT
+Yes make it for 2 people,AFFIRM_INTENT
+Yes make it for 2 people,INFORM
+I want to be at 6:45 in the evening,INFORM
+No make it please at 12:45 for 4 people,INFORM
+No make it please at 12:45 for 4 people,INFORM
+No make it please at 12:45 for 4 people,NEGATE
+Yes is good.Tell me please if they serve Liquor and if they have a price range average priced,REQUEST
+Yes is good.Tell me please if they serve Liquor and if they have a price range average priced,REQUEST
+Yes is good.Tell me please if they serve Liquor and if they have a price range average priced,AFFIRM
+Yes is ok,AFFIRM
+Thank you very much that s all I need,THANK_YOU
+Thank you very much that s all I need,GOODBYE
+I'd like to find a place to eat.,INFORM_INTENT
+I'd like a Barbecue food restaurant in Campbell.,INFORM
+I'd like a Barbecue food restaurant in Campbell.,INFORM
+Is Liquor available? Where are they located?,REQUEST
+Is Liquor available? Where are they located?,REQUEST
+Do you have any other suggestions that are also affordable?,INFORM
+Do you have any other suggestions that are also affordable?,REQUEST_ALTS
+I'd like another kind of restaurant. I'd like Sushi.,INFORM
+I'd like another kind of restaurant. I'd like Sushi.,REQUEST_ALTS
+That's great.,SELECT
+Yes I'd like to make a reservation.,AFFIRM_INTENT
+Please can you book it for 7:15 pm.,INFORM
+"No, I'd like to book for March 14th.",INFORM
+"No, I'd like to book for March 14th.",NEGATE
+Perfect.,AFFIRM
+Do they serve alcohol? what is their phone number?,REQUEST
+Do they serve alcohol? what is their phone number?,REQUEST
+That's great. I don't need anything else right now.,THANK_YOU
+That's great. I don't need anything else right now.,GOODBYE
+Will you find me a place to eat?,INFORM_INTENT
+Palo Alto.,INFORM
+Brazilian.,INFORM
+Great. Please make a reservation.,INFORM_INTENT
+Great. Please make a reservation.,SELECT
+Quarter past 5 in the evening.,INFORM
+"No, change it to evening 6:15.",INFORM
+"No, change it to evening 6:15.",NEGATE
+Great. How pricey? What's their number?,REQUEST
+Great. How pricey? What's their number?,REQUEST
+Great. How pricey? What's their number?,AFFIRM
+Thanks.,THANK_YOU
+"No, thanks.",NEGATE
+"No, thanks.",THANK_YOU
+Will you find me somewhere to eat?,INFORM_INTENT
+"I really need good pasta, I'm underweight.",INFORM
+"Campbell please, thanks.",INFORM
+I need someplace cheaper. I want to eat a lot for not very costly.,INFORM
+I need someplace cheaper. I want to eat a lot for not very costly.,REQUEST_ALTS
+Where are they located?,REQUEST
+What's the situation with live music there?,REQUEST
+Please give a better choice.,REQUEST_ALTS
+You have found a winner.,SELECT
+Please do that.,AFFIRM_INTENT
+5:30 pm should be prime pasta time.,INFORM
+Do they have been and liquor?,REQUEST
+Do they have been and liquor?,AFFIRM
+"Great, I want to toast the victory of the team.",THANK_YOU
+Nothing much. I'm good.,NEGATE
+Nothing much. I'm good.,THANK_YOU
+"I want to eat out at an intermediate priced location, can you find me some options?",INFORM
+"I want to eat out at an intermediate priced location, can you find me some options?",INFORM_INTENT
+I want to go to Milpitas. Spicy Indian food sounds perfect.,INFORM
+I want to go to Milpitas. Spicy Indian food sounds perfect.,INFORM
+Is there live music? What's the contact number?,REQUEST
+Is there live music? What's the contact number?,REQUEST
+"Well, it works for me, can you make a reservation for 4 people at 1 o""clock in the afternoon?",INFORM
+"Well, it works for me, can you make a reservation for 4 people at 1 o""clock in the afternoon?",INFORM
+"Well, it works for me, can you make a reservation for 4 people at 1 o""clock in the afternoon?",INFORM_INTENT
+"Well, it works for me, can you make a reservation for 4 people at 1 o""clock in the afternoon?",SELECT
+"No, actually I want it for 3 people, and at evening 7:45.",INFORM
+"No, actually I want it for 3 people, and at evening 7:45.",INFORM
+"No, actually I want it for 3 people, and at evening 7:45.",NEGATE
+"Yes, that sounds good.",AFFIRM
+"No, thanks a lot.",NEGATE
+"No, thanks a lot.",THANK_YOU
+I am planning to go out for dinner. Can you find me restaurants nearby?,INFORM_INTENT
+I would like to eat in Milpitas and the restaurant should be in the moderate price range.,INFORM
+I would like to eat in Milpitas and the restaurant should be in the moderate price range.,INFORM
+I am looking for restaurants that offer Take-out.,INFORM
+What is the other restaurant you mentioned?,REQUEST_ALTS
+Where are they located?,REQUEST
+I like that location. I would like to make a reservation at Red Chillies The Malabar Cuisine.,INFORM_INTENT
+I like that location. I would like to make a reservation at Red Chillies The Malabar Cuisine.,SELECT
+The reservation needs to be at 11 am.,INFORM
+The reservation should be for March 14th.,INFORM
+The reservation should be for March 14th.,NEGATE
+Please make the reservation for 18:00.,INFORM
+Please make the reservation for 18:00.,NEGATE
+"Yes, that is correct.",AFFIRM
+Does the restaurant have any live entertainment? Is their contact information available?,REQUEST
+Does the restaurant have any live entertainment? Is their contact information available?,REQUEST
+I greatly appreciate your time.,THANK_YOU
+No. Thank you again.,NEGATE
+No. Thank you again.,THANK_YOU
+"I'm feeling hungry, do you know of any places that average priced?",INFORM
+"I'm feeling hungry, do you know of any places that average priced?",INFORM_INTENT
+I'm feeling a craving for Noodles.,INFORM
+Look for a place in Dublin.,INFORM
+"Yeah, I like the sound of that.",SELECT
+"Yeah, reserve me a table for one person please.",AFFIRM_INTENT
+"Yeah, reserve me a table for one person please.",INFORM
+I want it on the 7th of March at 13:00.,INFORM
+I want it on the 7th of March at 13:00.,INFORM
+"Sorry, it's actually for the 8th of March.",INFORM
+"Sorry, it's actually for the 8th of March.",NEGATE
+"Yeah, you got it. Do they have liquor over there?",REQUEST
+"Yeah, you got it. Do they have liquor over there?",AFFIRM
+"Thank you, you're great. That'll be all.",THANK_YOU
+"Thank you, you're great. That'll be all.",GOODBYE
+"I'm looking for somewhere to eat with my girlfriend, do you know of any good restaurants?",INFORM_INTENT
+I want something with a moderate priced in Petaluma. It also needs to serve alcohol.,INFORM
+I want something with a moderate priced in Petaluma. It also needs to serve alcohol.,INFORM
+I want something with a moderate priced in Petaluma. It also needs to serve alcohol.,INFORM
+"Some type of curry would be great, so Indian or Thai maybe.",INFORM
+"Yeah, that's great!",SELECT
+"Yes, I'd like to book a table.",AFFIRM_INTENT
+How about 11 in the morning?,INFORM
+"No, just for 1 person.",INFORM
+"No, just for 1 person.",NEGATE
+"Yep, that's perfect. What's the restaurant's address?",REQUEST
+"Yep, that's perfect. What's the restaurant's address?",AFFIRM
+Thanks so much!,THANK_YOU
+No thank you.,NEGATE
+No thank you.,THANK_YOU
+I'm on a budget and I am looking for a cafe that is not very costly.,INFORM
+I'm on a budget and I am looking for a cafe that is not very costly.,INFORM_INTENT
+I am really hungry for Pizza and Pasta.,INFORM
+I have to have something in San Francisco.,INFORM
+"Yes, please get me a reservation there.",INFORM_INTENT
+"Yes, please get me a reservation there.",SELECT
+Please reserve at quarter past 5 in the evening.,INFORM
+"Yes, exactly please.",AFFIRM
+"No, I don't want that.",NEGATE
+"Nothing, you've done quite enough.",NEGATE
+"Nothing, you've done quite enough.",THANK_YOU
+I'm hungry. Find places to eat please.,INFORM_INTENT
+Let's go with Foster City please.,INFORM
+Spicy Indian sound really good.,INFORM
+Give me other suggestions as well,REQUEST_ALTS
+Can you find out if they are average priced?,REQUEST
+Perfect. That works,SELECT
+"Yes, go ahead and do that.",AFFIRM_INTENT
+How about this afternoon 1:45.,INFORM
+No it doesn't. Change to 5:45 pm on the 4th of this month please.,INFORM
+No it doesn't. Change to 5:45 pm on the 4th of this month please.,INFORM
+No it doesn't. Change to 5:45 pm on the 4th of this month please.,NEGATE
+Yes. that is perfect.,AFFIRM
+"Thanks, that is all i needed.",THANK_YOU
+"Thanks, that is all i needed.",GOODBYE
+Can you find a place to eat?,INFORM_INTENT
+Some Sichuan food would be good.,INFORM
+Look in Mountain View.,INFORM
+Is the restaurant inexpensive?`,REQUEST
+Can you suggest a restaurant with inexpensive pricing?,INFORM
+Can you suggest a restaurant with inexpensive pricing?,REQUEST_ALTS
+What is the address? Do they have live music?,REQUEST
+What is the address? Do they have live music?,REQUEST
+"Yes, that's perfect. I want to reserve a table for 4.",INFORM
+"Yes, that's perfect. I want to reserve a table for 4.",INFORM_INTENT
+"Yes, that's perfect. I want to reserve a table for 4.",SELECT
+6 in the evening.,INFORM
+That works for me. What is the restaurant's phone number?,REQUEST
+That works for me. What is the restaurant's phone number?,AFFIRM
+Do they serve alcohol?,REQUEST
+Thanks. That's all I need.,THANK_YOU
+Thanks. That's all I need.,GOODBYE
+I would like to find a Chinese food restaurant.,INFORM
+I would like to find a Chinese food restaurant.,INFORM_INTENT
+Search in San Mateo.,INFORM
+How expensive are they?,REQUEST
+Can you suggest other restaurants in SF?,INFORM
+Can you suggest other restaurants in SF?,REQUEST_ALTS
+Can you suggest another restaurant?,REQUEST_ALTS
+What is the address?,REQUEST
+"Ok, make a reservation at 12 o""clock in the afternoon.",INFORM
+"Ok, make a reservation at 12 o""clock in the afternoon.",INFORM_INTENT
+"Ok, make a reservation at 12 o""clock in the afternoon.",SELECT
+"Yes, how expensive are they?",REQUEST
+"Yes, how expensive are they?",AFFIRM
+"Thank you, that's everything.",THANK_YOU
+"Thank you, that's everything.",GOODBYE
+Can you find me place to eat?,INFORM_INTENT
+Food kind of California will be perfect in SF.,INFORM
+Food kind of California will be perfect in SF.,INFORM
+Can you look for any other restaurant?,REQUEST_ALTS
+Can you find me the address?,REQUEST
+Can you find me any other restaurant?,REQUEST_ALTS
+Do they play live music and is the price range low-cost?,REQUEST
+Do they play live music and is the price range low-cost?,REQUEST
+Okay. That sound good to me.,SELECT
+Can you help me in making a reservation at the restaurant?,INFORM_INTENT
+The timing will be half past 7 in the evening.,INFORM
+"Yes, that sounds great to me.",AFFIRM
+That will be all. Thank you.,THANK_YOU
+That will be all. Thank you.,GOODBYE
+I am searching for a eating place with a intermediate priced,INFORM
+I am searching for a eating place with a intermediate priced,INFORM_INTENT
+Some Izakaya kind of food good in Foster City,INFORM
+Some Izakaya kind of food good in Foster City,INFORM
+Can you tell me other restaurant names?,REQUEST_ALTS
+Are there any live music?,REQUEST
+Ok. that is perfect for me and want to reserve that restaurant on March 4th.,INFORM
+Ok. that is perfect for me and want to reserve that restaurant on March 4th.,INFORM_INTENT
+Ok. that is perfect for me and want to reserve that restaurant on March 4th.,SELECT
+Do the reservation at evening 6:30,INFORM
+This is perfect. what is the address and contact number?,REQUEST
+This is perfect. what is the address and contact number?,REQUEST
+This is perfect. what is the address and contact number?,AFFIRM
+Thanks a lot. That is all i want.,THANK_YOU
+Thanks a lot. That is all i want.,GOODBYE
+i am meeting my friend after a long time and i wish to eat along with him. Will you find a place to eat and i don't have a price preference.,INFORM
+i am meeting my friend after a long time and i wish to eat along with him. Will you find a place to eat and i don't have a price preference.,INFORM_INTENT
+I like Pizza and Pasta kind of food and the place should be in San Francisco.,INFORM
+I like Pizza and Pasta kind of food and the place should be in San Francisco.,INFORM
+I need their contact number? Please provide me,REQUEST
+"Ok, that great and sound good to me.",SELECT
+Yes i wank to make a reservation at 6 in the evening.,AFFIRM_INTENT
+Yes i wank to make a reservation at 6 in the evening.,INFORM
+"Ok, very perfect. Book it. Do they have live music?",REQUEST
+"Ok, very perfect. Book it. Do they have live music?",AFFIRM
+Tell me their address?,REQUEST
+Thanks a lot and thanks for your help,THANK_YOU
+"No, thank a lot",NEGATE
+"No, thank a lot",THANK_YOU
+Can you help me locate a place to eat?,INFORM_INTENT
+Some Punjabi food would be great. Please look in Pleasanton.,INFORM
+Some Punjabi food would be great. Please look in Pleasanton.,INFORM
+Do they have live music?,REQUEST
+That is fine. Please make a reservation.,INFORM_INTENT
+That is fine. Please make a reservation.,SELECT
+Please make if at 12:15.,INFORM
+"Yes, that is correct. What is their address and phone number?",REQUEST
+"Yes, that is correct. What is their address and phone number?",REQUEST
+"Yes, that is correct. What is their address and phone number?",AFFIRM
+No thank you.,NEGATE
+No thank you.,GOODBYE
+I'm looking for somewhere to eat.,INFORM_INTENT
+I'd like pizza and somewhere in Sunnyvale.,INFORM
+I'd like pizza and somewhere in Sunnyvale.,INFORM
+What's their number?,REQUEST
+Do they serve alcohol? What's their address?,REQUEST
+Do they serve alcohol? What's their address?,REQUEST
+That works. I want to reserve a table.,INFORM_INTENT
+That works. I want to reserve a table.,SELECT
+Make it in the evening 7:15.,INFORM
+"No, make it in the afternoon 12:30.",INFORM
+"No, make it in the afternoon 12:30.",NEGATE
+"No, I want it to be for next tuesday, and only for one person.",INFORM
+"No, I want it to be for next tuesday, and only for one person.",INFORM
+"No, I want it to be for next tuesday, and only for one person.",NEGATE
+Yes.,AFFIRM
+"Thanks, that's everything.",THANK_YOU
+"Thanks, that's everything.",GOODBYE
+"I'm getting a craving for Diner food, can you help me look for a place?",INFORM
+"I'm getting a craving for Diner food, can you help me look for a place?",INFORM_INTENT
+Look in San Fran.,INFORM
+"Okay, that sounds good.",SELECT
+"Yeah, please make a reservation.",AFFIRM_INTENT
+I want it for the evening 4:45.,INFORM
+"No, it's just for one person. And on second though, can you make it at 6 pm.",INFORM
+"No, it's just for one person. And on second though, can you make it at 6 pm.",INFORM
+"No, it's just for one person. And on second though, can you make it at 6 pm.",NEGATE
+"Yeah, that's correct. Can you tell me their address?",REQUEST
+"Yeah, that's correct. Can you tell me their address?",AFFIRM
+Thanks so much.,THANK_YOU
+"No, thanks again.",NEGATE
+"No, thanks again.",THANK_YOU
+I'd like to find somewhere to eat. Someplace intermediate priced.,INFORM
+I'd like to find somewhere to eat. Someplace intermediate priced.,INFORM_INTENT
+Something Southern in the San Jose area would be great.,INFORM
+Something Southern in the San Jose area would be great.,INFORM
+Do you have any other suggestions? Maybe someplace with live music that also serves alcohol.,INFORM
+Do you have any other suggestions? Maybe someplace with live music that also serves alcohol.,INFORM
+Do you have any other suggestions? Maybe someplace with live music that also serves alcohol.,REQUEST_ALTS
+What's their number?,REQUEST
+And their address?,REQUEST
+Do you have anymore restaurant suggestions?,REQUEST_ALTS
+Sounds great.,SELECT
+Yes. Make it for a quarter to 12 in the morning.,AFFIRM_INTENT
+Yes. Make it for a quarter to 12 in the morning.,INFORM
+"Yes, that's perfect. What's their address and phone number again?",REQUEST
+"Yes, that's perfect. What's their address and phone number again?",REQUEST
+"Yes, that's perfect. What's their address and phone number again?",AFFIRM
+Thank you so much for all of your help.,THANK_YOU
+Thank you so much for all of your help.,GOODBYE
+Please search for an economical priced place to eat that serves alcohol.,INFORM
+Please search for an economical priced place to eat that serves alcohol.,INFORM
+Please search for an economical priced place to eat that serves alcohol.,INFORM_INTENT
+I prefer it in Oakland. I am craving Pizza.,INFORM
+I prefer it in Oakland. I am craving Pizza.,INFORM
+Do they happen to have live music? What is their phone number?,REQUEST
+Do they happen to have live music? What is their phone number?,REQUEST
+Are there other restaurant options?,REQUEST_ALTS
+That will do.,SELECT
+I want to make a restaurant reservation.,INFORM_INTENT
+I would like it to be half past 11 in the morning.,INFORM
+Its actually a party of 4.,INFORM
+Its actually a party of 4.,NEGATE
+That will do.,AFFIRM
+Can you tell me what their address is?,REQUEST
+Thank you. That is all.,THANK_YOU
+Thank you. That is all.,GOODBYE
+I want a good place to eat that is fancy priced,INFORM
+I want a good place to eat that is fancy priced,INFORM_INTENT
+I need it in SFO. French food will be perfect.,INFORM
+I need it in SFO. French food will be perfect.,INFORM
+Yes that works. I want a reservation at a nearby restaurant.,INFORM_INTENT
+Yes that works. I want a reservation at a nearby restaurant.,SELECT
+I want it at 13:15,INFORM
+Is there live music?,REQUEST
+Is there live music?,AFFIRM
+Yes that works,AFFIRM
+Thanks that is all,THANK_YOU
+Thanks that is all,GOODBYE
+I would like to look for a place where I could eat.,INFORM_INTENT
+"Please look in Dublin, a burger is perfect to have now.",INFORM
+"Please look in Dublin, a burger is perfect to have now.",INFORM
+I want a restaurant with music.,REQUEST
+"Alright, please make a reservation for me at this evening 7:15.",INFORM
+"Alright, please make a reservation for me at this evening 7:15.",INFORM_INTENT
+"Alright, please make a reservation for me at this evening 7:15.",SELECT
+Please make it at 7 pm.,INFORM
+Please make it at 7 pm.,NEGATE
+Actually its for 3 people on 14th of March.,INFORM
+Actually its for 3 people on 14th of March.,INFORM
+Actually its for 3 people on 14th of March.,NEGATE
+"Yes, that's right. How about the price range, is it very fancy?",REQUEST
+"Yes, that's right. How about the price range, is it very fancy?",AFFIRM
+"Thank you, that's all for now.",THANK_YOU
+"Thank you, that's all for now.",GOODBYE
+My husband and I want to have dinner out. Are there any good places to eat around here?,INFORM_INTENT
+I would like to stay around Milpitas.,INFORM
+I would really like some Latin American food.,INFORM
+"That's great, are there any other restaurants, maybe in Santa Clara?",INFORM
+"That's great, are there any other restaurants, maybe in Santa Clara?",REQUEST_ALTS
+How expensive are they?,REQUEST
+Do you have any other suggestions?,REQUEST_ALTS
+"Great, that's the one I want.",SELECT
+"Yes, please. I want to eat there.",AFFIRM_INTENT
+How about 12:30 in the afternoon?,INFORM
+"Yes, that is correct? Can you tell me their address and if they are having live music?",REQUEST
+"Yes, that is correct? Can you tell me their address and if they are having live music?",REQUEST
+"Yes, that is correct? Can you tell me their address and if they are having live music?",AFFIRM
+Thank you so much! That's everything.,THANK_YOU
+Thank you so much! That's everything.,GOODBYE
+Do you know of any places to eat in San Francisco?,INFORM
+Do you know of any places to eat in San Francisco?,INFORM_INTENT
+American food would really hit the spot.,INFORM
+Do you have any other suggestions? I would prefer something with a moderate price range.,INFORM
+Do you have any other suggestions? I would prefer something with a moderate price range.,REQUEST_ALTS
+Do you have their phone number? And do they serve liquor?,REQUEST
+Do you have their phone number? And do they serve liquor?,REQUEST
+"Okay, that works. Please make me a reservation for 12:45 pm.",INFORM
+"Okay, that works. Please make me a reservation for 12:45 pm.",INFORM_INTENT
+"Okay, that works. Please make me a reservation for 12:45 pm.",SELECT
+"Yeah, that's it.",AFFIRM
+Thanks so much.,THANK_YOU
+"No, thanks a lot.",NEGATE
+"No, thanks a lot.",THANK_YOU
+I'm looking for restaurants.,INFORM_INTENT
+In Oakland.,INFORM
+I like Fish best.,INFORM
+Any other options?,REQUEST_ALTS
+Any others? I want something afforadable.,INFORM
+Any others? I want something afforadable.,REQUEST_ALTS
+Do they have liquor and live music?,REQUEST
+Do they have liquor and live music?,REQUEST
+That works. I want to make a reservation.,INFORM_INTENT
+That works. I want to make a reservation.,SELECT
+"For two people, 10:30 in the morning.",INFORM
+"For two people, 10:30 in the morning.",INFORM
+That works. What's their address and number?,REQUEST
+That works. What's their address and number?,REQUEST
+That works. What's their address and number?,AFFIRM
+"Try booking again, for 1 person at 12:30.",INFORM
+"Try booking again, for 1 person at 12:30.",INFORM
+"Try booking again, for 1 person at 12:30.",INFORM_INTENT
+That's perfect.,AFFIRM
+"Thanks, that's all I need.",THANK_YOU
+"Thanks, that's all I need.",GOODBYE
+I would like to find a place to eat.,INFORM_INTENT
+Find me a sushi place in Alameda.,INFORM
+Find me a sushi place in Alameda.,INFORM
+That works for me. I would like to make a reservation.,INFORM_INTENT
+That works for me. I would like to make a reservation.,SELECT
+I would like it at afternoon 1:15.,INFORM
+"Yup, that's correct.",AFFIRM
+Thanks so much. That's all for today.,THANK_YOU
+Thanks so much. That's all for today.,GOODBYE
+Hi I'm hungry and also need to let loose tonight. Can you find me a place to eat that serves alcohol?,INFORM
+Hi I'm hungry and also need to let loose tonight. Can you find me a place to eat that serves alcohol?,INFORM_INTENT
+"I'm in the mood for some Chinese food tonight, preferably in Millbrae.",INFORM
+"I'm in the mood for some Chinese food tonight, preferably in Millbrae.",INFORM
+That sounds good to me.,SELECT
+"Yes, that would be great. Please make a reservation.",AFFIRM_INTENT
+I'd like to be there at evening 7:30.,INFORM
+That sounds great.,AFFIRM
+What is the address of the restaurant?,REQUEST
+"Thanks for everything, that's all I needed.",THANK_YOU
+"Thanks for everything, that's all I needed.",GOODBYE
+I'd like to find a place to eat in this city.,INFORM_INTENT
+Look for burger restaurants in Campbell.,INFORM
+Look for burger restaurants in Campbell.,INFORM
+What is Effie's address and do they serve drinks?,REQUEST
+What is Effie's address and do they serve drinks?,REQUEST
+I'd like to make a reservation there.,INFORM_INTENT
+I'd like to make a reservation there.,SELECT
+Make it on the 4th of this month please in the evening 6:30.,INFORM
+Make it on the 4th of this month please in the evening 6:30.,INFORM
+No I'd like a reservation on the 1st.,INFORM
+No I'd like a reservation on the 1st.,NEGATE
+No the reservation is for 3 people.,INFORM
+No the reservation is for 3 people.,NEGATE
+"Yes, sounds good.",AFFIRM
+Do they play live music and what is their phone number?,REQUEST
+Do they play live music and what is their phone number?,REQUEST
+"Thanks, that's all.",THANK_YOU
+"Thanks, that's all.",GOODBYE
+What would be a good place to eat?,INFORM_INTENT
+"I want some Noodles, and search in Berkeley.",INFORM
+"I want some Noodles, and search in Berkeley.",INFORM
+Do you have their number? And do they have live music?,REQUEST
+Do you have their number? And do they have live music?,REQUEST
+"I think that works out, make a reservation at the restaurant.",INFORM_INTENT
+"I think that works out, make a reservation at the restaurant.",SELECT
+11:30 in the morning seems good.,INFORM
+"Yeah, that's good. Do they serve liquor, and what is their address?",REQUEST
+"Yeah, that's good. Do they serve liquor, and what is their address?",REQUEST
+"Yeah, that's good. Do they serve liquor, and what is their address?",AFFIRM
+"Okay, thank you very much.",THANK_YOU
+"No, I do not. Thank you.",NEGATE
+"No, I do not. Thank you.",THANK_YOU
+I am looking for somewhere to eat? Do you know of any good places?,INFORM_INTENT
+I was thinking in Petaluma. Preferably a Pizza place.,INFORM
+I was thinking in Petaluma. Preferably a Pizza place.,INFORM
+Are there any others?,REQUEST_ALTS
+Any other suggestions?,REQUEST_ALTS
+Is it an inexpensive restaurant? What is the address?,REQUEST
+Is it an inexpensive restaurant? What is the address?,REQUEST
+That sounds like a good choice.,SELECT
+Yes. Reserve it for half past 1 in the afternoon.,AFFIRM_INTENT
+Yes. Reserve it for half past 1 in the afternoon.,INFORM
+That works for me. Do they serve alcohol?,REQUEST
+That works for me. Do they serve alcohol?,AFFIRM
+What number can I reach them at? Do they have live music?,REQUEST
+What number can I reach them at? Do they have live music?,REQUEST
+Thanks. That is all.,THANK_YOU
+Thanks. That is all.,GOODBYE
+I need a place to eat.,INFORM_INTENT
+I'm looking for brunch in San Fran.,INFORM
+I'm looking for brunch in San Fran.,INFORM
+Is there a different restaurant you can suggest.,REQUEST_ALTS
+Is there any other restaurant you can suggest?,REQUEST_ALTS
+Is there live music there?,REQUEST
+Where are they located?,REQUEST
+Yes. I would like to book a table.,INFORM_INTENT
+Yes. I would like to book a table.,SELECT
+I need it for 11:00.,INFORM
+"Yes, perfect. Is it in the very fancy price range?",REQUEST
+"Yes, perfect. Is it in the very fancy price range?",AFFIRM
+Can I have their contact phone?,REQUEST
+Thanks. That's all.,THANK_YOU
+Thanks. That's all.,GOODBYE
+"I need to find somewhere to get a good meal in Pleasanton, can you help?",INFORM
+"I need to find somewhere to get a good meal in Pleasanton, can you help?",INFORM_INTENT
+"I want Japanese food, my girlfriend is from Osaka, I'm trying to impress her.",INFORM
+Is there anything else? I want something a bit more afforadable.,INFORM
+Is there anything else? I want something a bit more afforadable.,REQUEST_ALTS
+Do they serve liquor and play live music?,REQUEST
+Do they serve liquor and play live music?,REQUEST
+"Okay, that'll be fine.",SELECT
+"Yes thanks, please book it.",AFFIRM_INTENT
+7:45 in the evening please.,INFORM
+"Yes, that's perfect.",AFFIRM
+"Yeah, that's okay.",AFFIRM
+Thanks. Where are they? How can I call them?,REQUEST
+Thanks. Where are they? How can I call them?,REQUEST
+"Okay, thanks. That's all for today.",THANK_YOU
+"Okay, thanks. That's all for today.",GOODBYE
+Do you know a place to eat?,INFORM_INTENT
+Do you know a place to eat in Petaluma?,INFORM
+I am looking for an Italian restaurant.,INFORM
+What's the number of the restaurant? Is there live music?,REQUEST
+What's the number of the restaurant? Is there live music?,REQUEST
+I would like to make a reservation for six at a restaurant.,INFORM
+I would like to make a reservation for six at a restaurant.,INFORM_INTENT
+I would like to make a reservation for six at a restaurant.,SELECT
+At 5 pm.,INFORM
+Yes that's right. What's the address?,REQUEST
+Yes that's right. What's the address?,AFFIRM
+That's all. Thanks.,THANK_YOU
+That's all. Thanks.,GOODBYE
+Hello! I am looking for a place to eat.,INFORM_INTENT
+I would prefer to eat at Pleasanton.,INFORM
+I would like something on the lines of Izakaya food.,INFORM
+"Sure, that sounds great!",SELECT
+Sure! Please reserve a table for me at 12:30 pm.,AFFIRM_INTENT
+Sure! Please reserve a table for me at 12:30 pm.,INFORM
+"Yes, that's fine for me.",AFFIRM
+How about placing a reservation at 19:15 instead?,INFORM
+How about placing a reservation at 19:15 instead?,INFORM_INTENT
+That is fine for me. What is their address and do they serve liquor?,REQUEST
+That is fine for me. What is their address and do they serve liquor?,REQUEST
+That is fine for me. What is their address and do they serve liquor?,AFFIRM
+"Sure, that sounds great!",AFFIRM
+"Thank you, that's all the help I need.",THANK_YOU
+"Thank you, that's all the help I need.",GOODBYE
+I'm looking for restaurants to dine in.,INFORM_INTENT
+"I'd like to try Punjabi food, somewhere in SFO.",INFORM
+"I'd like to try Punjabi food, somewhere in SFO.",INFORM
+Does that restaurant serve alcohol?,REQUEST
+"Alright, that works for me.",SELECT
+"I think so, yes.",AFFIRM_INTENT
+"I'd like to reserve the table for lunch, so 11 o""clock in the morning, for 2 people.",INFORM
+"That sounds right, yeah.",AFFIRM
+"That's all I need today, thanks.",THANK_YOU
+"That's all I need today, thanks.",GOODBYE
+I have a friend visiting from out of town and need to find somewhere good for us to eat. Can you look up restaurants in San Jose?,INFORM
+I have a friend visiting from out of town and need to find somewhere good for us to eat. Can you look up restaurants in San Jose?,INFORM_INTENT
+Some kind of Freshwater fish would be great.,INFORM
+How expensive is it?,REQUEST
+"Ok, that sounds good.",SELECT
+"Yes, please do.",AFFIRM_INTENT
+Can you make it on the 10th of this month at a quarter to 7 in the evening?,INFORM
+Can you make it on the 10th of this month at a quarter to 7 in the evening?,INFORM
+"Yes, that's perfect.",AFFIRM
+Can you try making the reservation for 1 in the afternoon?,INFORM
+Can you try making the reservation for 1 in the afternoon?,INFORM_INTENT
+"No, actually, change that to Tuesday next week.",INFORM
+"No, actually, change that to Tuesday next week.",NEGATE
+"Yes, that's perfect.",AFFIRM
+"Great, thank you!",THANK_YOU
+"No, thank you.",NEGATE
+"No, thank you.",THANK_YOU
+I think dining out will be a wonderful thing. Look for a suitable place please.,INFORM_INTENT
+It will be fine at San Francisco and pizza and pasta will cherish me.,INFORM
+It will be fine at San Francisco and pizza and pasta will cherish me.,INFORM
+"Great, make a reservation for me.",INFORM_INTENT
+"Great, make a reservation for me.",SELECT
+5:30 in the evening.,INFORM
+Please make it on March 3rd for 3 people.,INFORM
+Please make it on March 3rd for 3 people.,INFORM
+Please make it on March 3rd for 3 people.,NEGATE
+will you make it at 11:30 am on 7th of March?,INFORM
+will you make it at 11:30 am on 7th of March?,INFORM
+will you make it at 11:30 am on 7th of March?,NEGATE
+"Ok, its fine. thank you.",AFFIRM
+"Grateful, thank you.",THANK_YOU
+"Grateful, thank you.",GOODBYE
+I am meeting a friend for food later. Can you find me a pricey place nearby?,INFORM
+I am meeting a friend for food later. Can you find me a pricey place nearby?,INFORM_INTENT
+A place with pasta will be perfect?,INFORM
+We are meeting in San Francisco.,INFORM
+Are there any other nice restaurants in the area?,REQUEST_ALTS
+Do they serve liquor?,REQUEST
+Can you suggest any Mexican food restaurants?,INFORM
+Can you suggest any Mexican food restaurants?,REQUEST_ALTS
+Do they serve liquor?,REQUEST
+I want to make a reservation for Cala.,INFORM_INTENT
+I want to make a reservation for Cala.,SELECT
+Make it for one in the afternoon on March 7th.,INFORM
+Make it for one in the afternoon on March 7th.,INFORM
+Please change it to a quarter past 12 in the afternoon.,INFORM
+Please change it to a quarter past 12 in the afternoon.,NEGATE
+"Yes, that is good. Do they have live music?",REQUEST
+"Yes, that is good. Do they have live music?",AFFIRM
+Yes that works.,AFFIRM
+Thank you very much.,THANK_YOU
+"No, that is all.",NEGATE
+"No, that is all.",THANK_YOU
+I want to go out to eat in Milpitas.,INFORM
+I want to go out to eat in Milpitas.,INFORM_INTENT
+I'm looking for take-out.,INFORM
+"Alright, what is their number? Do they have live music?",REQUEST
+"Alright, what is their number? Do they have live music?",REQUEST
+"Alright, that works.",SELECT
+"Yes, make a reservation for three people.",AFFIRM_INTENT
+"Yes, make a reservation for three people.",INFORM
+"At 1 pm, please.",INFORM
+Yes that's right.,AFFIRM
+Can you try booking again for 4 people?,INFORM
+Can you try booking again for 4 people?,INFORM_INTENT
+"No, actually make it half past 6 in the evening.",INFORM
+"No, actually make it half past 6 in the evening.",NEGATE
+Yes that works. Can I have the address? Also how expensive are they?,REQUEST
+Yes that works. Can I have the address? Also how expensive are they?,REQUEST
+Yes that works. Can I have the address? Also how expensive are they?,AFFIRM
+"Thanks, that's all I needed.",THANK_YOU
+"Thanks, that's all I needed.",GOODBYE
+"I would like to eat at outside, can you find some nice place?",INFORM_INTENT
+"Yes, some salad type food with low-cost will be perfect. Also I need live music there.",INFORM
+"Yes, some salad type food with low-cost will be perfect. Also I need live music there.",INFORM
+"Yes, some salad type food with low-cost will be perfect. Also I need live music there.",INFORM
+If I got any place in San Jose then it will be nice for me.,INFORM
+What is the address of that restaurant?,REQUEST
+Do they have any liquor supply?,REQUEST
+"That's okay, can you make me a reservation at this restaurant for day after tomorrow.",INFORM
+"That's okay, can you make me a reservation at this restaurant for day after tomorrow.",INFORM_INTENT
+"That's okay, can you make me a reservation at this restaurant for day after tomorrow.",SELECT
+11:30 in the morning will be perfect.,INFORM
+Make it for one person.,INFORM
+Make it for one person.,NEGATE
+"Sorry, please change it to 3 persons and the date will be 2nd of March.",INFORM
+"Sorry, please change it to 3 persons and the date will be 2nd of March.",INFORM
+"Sorry, please change it to 3 persons and the date will be 2nd of March.",NEGATE
+"Yes, that is correct. continue.",AFFIRM
+"Thanks, that's all I want.",THANK_YOU
+"Thanks, that's all I want.",GOODBYE
+I am trying to find fancy place to eat. I'm willing to pay more for a nice meal.,INFORM
+I am trying to find fancy place to eat. I'm willing to pay more for a nice meal.,INFORM_INTENT
+I'm looking to have Korean Barbeque. I'm looking in Santa Clara.,INFORM
+I'm looking to have Korean Barbeque. I'm looking in Santa Clara.,INFORM
+Do they have alcohol?,REQUEST
+That sounds great.,SELECT
+Yes. I would like to make a reservation for 20:00.,AFFIRM_INTENT
+Yes. I would like to make a reservation for 20:00.,INFORM
+"That's correct. Will there be live music? Also, where is the restaurant?",REQUEST
+"That's correct. Will there be live music? Also, where is the restaurant?",REQUEST
+"That's correct. Will there be live music? Also, where is the restaurant?",AFFIRM
+"Yes, I'd like to make the reservation at 7 in the evening.",INFORM
+"Yes, I'd like to make the reservation at 7 in the evening.",INFORM_INTENT
+That sounds good.,AFFIRM
+Thank you!,THANK_YOU
+Nope. That's all.,NEGATE
+Nope. That's all.,THANK_YOU
+I want to find somewhere to eat. It needs to serve alcohol and it doesn't matter if it's pricey.,INFORM
+I want to find somewhere to eat. It needs to serve alcohol and it doesn't matter if it's pricey.,INFORM
+I want to find somewhere to eat. It needs to serve alcohol and it doesn't matter if it's pricey.,INFORM_INTENT
+Look in SFO. I'm feeling Japanese food.,INFORM
+Look in SFO. I'm feeling Japanese food.,INFORM
+What's the address and number?,REQUEST
+What's the address and number?,REQUEST
+That sounds good.,SELECT
+Yes. Make it for evening 5:45.,AFFIRM_INTENT
+Yes. Make it for evening 5:45.,INFORM
+"No, it's for 1 person. Let's do it on the 8th.",INFORM
+"No, it's for 1 person. Let's do it on the 8th.",INFORM
+"No, it's for 1 person. Let's do it on the 8th.",NEGATE
+No. Make it for 3 people at 11:15.,INFORM
+No. Make it for 3 people at 11:15.,INFORM
+No. Make it for 3 people at 11:15.,NEGATE
+"Yes, that's right. Do they have live music?",REQUEST
+"Yes, that's right. Do they have live music?",AFFIRM
+Thanks. That's it for now.,THANK_YOU
+Thanks. That's it for now.,GOODBYE
+Where can I go to eat that also serves alcohol?,INFORM
+Where can I go to eat that also serves alcohol?,INFORM_INTENT
+I want to go somewhere where I can get a reasonably priced burger.,INFORM
+I want to go somewhere where I can get a reasonably priced burger.,INFORM
+I'd like to eat somewhere in Berkeley.,INFORM
+"Okay, please make a reservation.",INFORM_INTENT
+"Okay, please make a reservation.",SELECT
+Half past 1 in the afternoon will be fine.,INFORM
+That sounds great. Is there live music and where are they located.,REQUEST
+That sounds great. Is there live music and where are they located.,REQUEST
+That sounds great. Is there live music and where are they located.,AFFIRM
+Make a seven pm reservation at a restaurant.,INFORM
+Make a seven pm reservation at a restaurant.,INFORM_INTENT
+"Yes, thanks.",AFFIRM
+"Ok, thank you.",THANK_YOU
+"Ok, thank you.",GOODBYE
+Could you suggest a place to eat?,INFORM_INTENT
+I think I'm craving Mexican food.,INFORM
+I want to eat in San Mateo.,INFORM
+That sounds great.,SELECT
+"Yes, I want to make one.",AFFIRM_INTENT
+11:30 am is fine.,INFORM
+Correct. What is the phone number of the place and does it have live music?,REQUEST
+Correct. What is the phone number of the place and does it have live music?,REQUEST
+Correct. What is the phone number of the place and does it have live music?,AFFIRM
+Thank you. That's all.,THANK_YOU
+Thank you. That's all.,GOODBYE
+I am looking for a place with good breakfast.,INFORM
+I am looking for a place with good breakfast.,INFORM_INTENT
+SFO,INFORM
+Is there anything else?,REQUEST_ALTS
+Sounds great.,SELECT
+"Yes. At evening 5:30, please.",AFFIRM_INTENT
+"Yes. At evening 5:30, please.",INFORM
+Sounds good.,AFFIRM
+Where are they located? Do they serve alcohol?,REQUEST
+Where are they located? Do they serve alcohol?,REQUEST
+"Thanks, that's all for now.",THANK_YOU
+"Thanks, that's all for now.",GOODBYE
+Can you recommend me somewhere to eat?,INFORM_INTENT
+It should be in SFO.,INFORM
+I'd like to get some Middle eastern food in Oakland.,INFORM
+I'd like to get some Middle eastern food in Oakland.,INFORM
+How about something else? I'm looking for a meal on a budget.,INFORM
+How about something else? I'm looking for a meal on a budget.,REQUEST_ALTS
+What is the address?,REQUEST
+"Okay, that sounds good.",SELECT
+"Yeah, make a reservation please.",AFFIRM_INTENT
+I'd like it to be at 13:30.,INFORM
+"No, it is just for 1 person.",INFORM
+"No, it is just for 1 person.",NEGATE
+"Yes, that sounds good.",AFFIRM
+"Okay great, thanks.",THANK_YOU
+"No, that's all thanks.",NEGATE
+"No, that's all thanks.",THANK_YOU
+"I would like to eat out side this time, can you search for a nice place?",INFORM_INTENT
+"Ya, I like to eat at some nice place in Calistoga.",INFORM
+"I like Taiwanese food so much, can you find something?",INFORM
+Is there any liquor supply? and let me know the address.,REQUEST
+Is there any liquor supply? and let me know the address.,REQUEST
+"That's fine, please make reservation for 4 including me.",INFORM
+"That's fine, please make reservation for 4 including me.",INFORM_INTENT
+"That's fine, please make reservation for 4 including me.",SELECT
+1:30 in the afternoon will be fine.,INFORM
+"Yes, that will be fine.",AFFIRM
+"Thanks for your help, that's enough to me.",THANK_YOU
+"Thanks for your help, that's enough to me.",GOODBYE
+I have a date later and I am looking for a good place to eat.,INFORM_INTENT
+I will be in Berkeley and am in the mood for some Breakfast type of food.,INFORM
+I will be in Berkeley and am in the mood for some Breakfast type of food.,INFORM
+Can you give me their address?,REQUEST
+That works out great.,SELECT
+Yes please. Go ahead and place the reservation.,AFFIRM_INTENT
+It is for 1 person at 12:15 in the afternoon.,INFORM
+It is for 1 person at 12:15 in the afternoon.,INFORM
+"Actually I changed my mind, make it at evening 6:45.",INFORM
+"Actually I changed my mind, make it at evening 6:45.",NEGATE
+Yes that is what I want. Can I have a contact number?,REQUEST
+Yes that is what I want. Can I have a contact number?,AFFIRM
+Yes please.,AFFIRM
+I'm a little concerned about price. Would you say that the price range is not very costly.?,REQUEST
+Thank you so much for your time.,THANK_YOU
+"No, that is all. Thank you again.",NEGATE
+"No, that is all. Thank you again.",THANK_YOU
+Can you recommend a restaurant where I can go for a meal.,INFORM_INTENT
+I would like a reasonably priced restaurant that serves Sushi in San Rafael.,INFORM
+I would like a reasonably priced restaurant that serves Sushi in San Rafael.,INFORM
+I would like a reasonably priced restaurant that serves Sushi in San Rafael.,INFORM
+Can you tell me their exact location.,REQUEST
+Can you tell me the phone number for the restaurant? And I would like to know if they have live music as well.,REQUEST
+Can you tell me the phone number for the restaurant? And I would like to know if they have live music as well.,REQUEST
+"I would like the name of another restaurant, one that serves Sichuan food, please.",INFORM
+"I would like the name of another restaurant, one that serves Sichuan food, please.",REQUEST_ALTS
+"Sure, that sounds good. I would like to go ahead and make a reservation for that restaurant.",INFORM_INTENT
+"Sure, that sounds good. I would like to go ahead and make a reservation for that restaurant.",SELECT
+I would like to reserve for 7 in the evening for Monday next week.,INFORM
+I would like to reserve for 7 in the evening for Monday next week.,INFORM
+"Sure, that's perfect.",AFFIRM
+Great. Thanks,THANK_YOU
+"No, all set. Thanks.",NEGATE
+"No, all set. Thanks.",THANK_YOU
+Please book me a restaurant in Cotati.,INFORM
+Please book me a restaurant in Cotati.,INFORM_INTENT
+"I would like to eat tacos, if available.",INFORM
+Can you find me another restaurant in Cotati with live music?,INFORM
+Can you find me another restaurant in Cotati with live music?,REQUEST_ALTS
+Please tell me the address of the restaurant and their general prices.,REQUEST
+Please tell me the address of the restaurant and their general prices.,REQUEST
+That seems like a good fit.,SELECT
+I would like to reserve a table for two people tonight.,AFFIRM_INTENT
+I would like to reserve a table for two people tonight.,INFORM
+I would like to reserve a table at half past 6 in the evening.,INFORM
+"Yes, I confirm those details.",AFFIRM
+"Can you tell me if they serve alcohol, and their phone number?",REQUEST
+"Can you tell me if they serve alcohol, and their phone number?",REQUEST
+Thank you for your assistance.,THANK_YOU
+Thank you for your assistance.,GOODBYE
+I am looking for a place to eat. I don't have a price preference.,INFORM
+I am looking for a place to eat. I don't have a price preference.,INFORM_INTENT
+Show me places to eat in San Francisco. I am looking for something afforadable priced.,INFORM
+Show me places to eat in San Francisco. I am looking for something afforadable priced.,INFORM
+Some Pizza and Pasta would be perfect.,INFORM
+"Yes, that works for me.",SELECT
+"Yes, I would like to make a reservation. Make a reservation for Sunday this week for 4 people.",AFFIRM_INTENT
+"Yes, I would like to make a reservation. Make a reservation for Sunday this week for 4 people.",INFORM
+"Yes, I would like to make a reservation. Make a reservation for Sunday this week for 4 people.",INFORM
+Mate it at 17:30.,INFORM
+"No, I want it on Thursday next week.",INFORM
+"No, I want it on Thursday next week.",NEGATE
+No make it at 19:30 and make the reservation for five poeple.,INFORM
+No make it at 19:30 and make the reservation for five poeple.,INFORM
+No make it at 19:30 and make the reservation for five poeple.,NEGATE
+Yes that works for me. Do they have live music.,REQUEST
+Yes that works for me. Do they have live music.,AFFIRM
+Do they serve liquor? What is the address of the restaurant.,REQUEST
+Do they serve liquor? What is the address of the restaurant.,REQUEST
+Thank you very much!,THANK_YOU
+No. Thank you very much.,NEGATE
+No. Thank you very much.,THANK_YOU
+Can you find me a place to eat please?,INFORM_INTENT
+"Somewhere in SF, and I am really craving Thai food at the moment!",INFORM
+"Somewhere in SF, and I am really craving Thai food at the moment!",INFORM
+How can I reach them? And what's their address?,REQUEST
+How can I reach them? And what's their address?,REQUEST
+"Great, that restaurant sounds good",SELECT
+Yes book me a table,AFFIRM_INTENT
+Let's do dinner at 6 in the evening,INFORM
+Actually let's just do it for one person,INFORM
+Actually let's just do it for one person,NEGATE
+Yes that's right,AFFIRM
+Thanks so much,THANK_YOU
+"No that's it for now, thanks",NEGATE
+"No that's it for now, thanks",THANK_YOU
+Give me a place to eat at.,INFORM_INTENT
+"San Bruno, I am looking for low priced, Taiwanese food.",INFORM
+"San Bruno, I am looking for low priced, Taiwanese food.",INFORM
+"San Bruno, I am looking for low priced, Taiwanese food.",INFORM
+Whats the address?,REQUEST
+Do they serve liquor?,REQUEST
+Could you suggest another similar restaurant that serves alcohol?,REQUEST_ALTS
+Could you suggest another restaurant without the price limitation?,INFORM
+Could you suggest another restaurant without the price limitation?,REQUEST_ALTS
+That works. I'd like to make a reservation at half past 12 in the afternoon for 6 people.,INFORM
+That works. I'd like to make a reservation at half past 12 in the afternoon for 6 people.,INFORM
+That works. I'd like to make a reservation at half past 12 in the afternoon for 6 people.,INFORM_INTENT
+That works. I'd like to make a reservation at half past 12 in the afternoon for 6 people.,SELECT
+Correct. What is their address?,REQUEST
+Correct. What is their address?,AFFIRM
+Make the reservation at eleven am.,INFORM
+Make the reservation at eleven am.,INFORM_INTENT
+Make the reservation for four people.,INFORM
+Make the reservation for four people.,NEGATE
+Yes! Do they have live music and serve liquor?,REQUEST
+Yes! Do they have live music and serve liquor?,REQUEST
+Yes! Do they have live music and serve liquor?,AFFIRM
+Thank you very much.,THANK_YOU
+"No, thank you.",NEGATE
+"No, thank you.",THANK_YOU
+I am looking for a Greek place to eat please.,INFORM
+I am looking for a Greek place to eat please.,INFORM_INTENT
+Please locate one in San Carlos.,INFORM
+Can you suggest any other restaurants? One that serves Spicy Noodles would be perfect.,INFORM
+Can you suggest any other restaurants? One that serves Spicy Noodles would be perfect.,REQUEST_ALTS
+Could you suggest any other ones? I'd like one that serves alcohol.,INFORM
+Could you suggest any other ones? I'd like one that serves alcohol.,REQUEST_ALTS
+"Yes, that sounds good. Please make a reservation.",INFORM_INTENT
+"Yes, that sounds good. Please make a reservation.",SELECT
+Please make if for 12:45.,INFORM
+"Yes, that is correct. Can you please provide me their phone number and address?",REQUEST
+"Yes, that is correct. Can you please provide me their phone number and address?",REQUEST
+"Yes, that is correct. Can you please provide me their phone number and address?",AFFIRM
+"Thank you very much, that is all I need.",THANK_YOU
+"Thank you very much, that is all I need.",GOODBYE
+Please help me find a restaurant.,INFORM_INTENT
+I am looking for a restaurant in Petaluma.,INFORM
+Somewhere similar to Asian Fusion would be nice.,INFORM
+"Yes, please make a reservation for 5:15 in the evening, next Friday.",INFORM
+"Yes, please make a reservation for 5:15 in the evening, next Friday.",INFORM
+"Yes, please make a reservation for 5:15 in the evening, next Friday.",INFORM_INTENT
+"Yes, please make a reservation for 5:15 in the evening, next Friday.",SELECT
+"No, it's only for 1 person. Please make the time quarter past 1 in the afternoon.",INFORM
+"No, it's only for 1 person. Please make the time quarter past 1 in the afternoon.",INFORM
+"No, it's only for 1 person. Please make the time quarter past 1 in the afternoon.",NEGATE
+"Actually, no. Make it the 13th of this month for 3 people.",INFORM
+"Actually, no. Make it the 13th of this month for 3 people.",INFORM
+"Actually, no. Make it the 13th of this month for 3 people.",NEGATE
+"Yes, that's correct. Does this restaurant serve liquor?",REQUEST
+"Yes, that's correct. Does this restaurant serve liquor?",AFFIRM
+"No, that will not work.",NEGATE
+"No, that will not be necessary.",NEGATE
+"No, that will not be necessary.",THANK_YOU
+I want to go out to eat.,INFORM_INTENT
+I am in Campbell. I am looking for pizza and pasta with a moderate price.,INFORM
+I am in Campbell. I am looking for pizza and pasta with a moderate price.,INFORM
+I am in Campbell. I am looking for pizza and pasta with a moderate price.,INFORM
+That sounds good.,SELECT
+Yes please!,AFFIRM_INTENT
+I want the reservation for 11:30.,INFORM
+Yes that is perfect. What is the address and phone number?,REQUEST
+Yes that is perfect. What is the address and phone number?,REQUEST
+Yes that is perfect. What is the address and phone number?,AFFIRM
+Thanks for your help.,THANK_YOU
+"No, that will be all.",NEGATE
+"No, that will be all.",THANK_YOU
+I would like to find a restaurant please.,INFORM_INTENT
+I would like a restaurant that serves alcohol in San Francisco. I'd like to eat in a Burgers restaurant please.,INFORM
+I would like a restaurant that serves alcohol in San Francisco. I'd like to eat in a Burgers restaurant please.,INFORM
+I would like a restaurant that serves alcohol in San Francisco. I'd like to eat in a Burgers restaurant please.,INFORM
+Can you please make another suggestion?,REQUEST_ALTS
+I'd like another suggestion please.,REQUEST_ALTS
+"Yes, I'm interested in that one.",SELECT
+"Yes, please. I would like a 13:30 reservation.",AFFIRM_INTENT
+"Yes, please. I would like a 13:30 reservation.",INFORM
+Yes that sounds wonderful.,AFFIRM
+I appreciate it very much. That's all I need right now.,THANK_YOU
+I appreciate it very much. That's all I need right now.,GOODBYE
+"I want to get something to eat, something that's pricey, help me look for a place.",INFORM
+"I want to get something to eat, something that's pricey, help me look for a place.",INFORM_INTENT
+Search in Pleasanton.,INFORM
+"I'm looking for Barbecue, that would hit the spot.",INFORM
+What's their phone number? And is there live music there?,REQUEST
+What's their phone number? And is there live music there?,REQUEST
+"Okay, that's fine. Make me a reservation for the restaurant.",INFORM_INTENT
+"Okay, that's fine. Make me a reservation for the restaurant.",SELECT
+I want it to be at 13:45.,INFORM
+"Yeah, that's correct. Also, what's their address, and do they serve liquor there?",REQUEST
+"Yeah, that's correct. Also, what's their address, and do they serve liquor there?",REQUEST
+"Yeah, that's correct. Also, what's their address, and do they serve liquor there?",AFFIRM
+"Yeah, that's fine.",AFFIRM
+"Thanks a lot, that's all the help I need.",THANK_YOU
+"Thanks a lot, that's all the help I need.",GOODBYE
+"I'm hungry, do you have any recommendations on where to eat?",INFORM_INTENT
+I'm craving some Sushi in San Francisco if possible.,INFORM
+I'm craving some Sushi in San Francisco if possible.,INFORM
+Do you know the price range of the restaurant?,REQUEST
+That sounds great. I want to make a reservation.,INFORM_INTENT
+That sounds great. I want to make a reservation.,SELECT
+Make a reservation for one person at afternoon 12.,INFORM
+Make a reservation for one person at afternoon 12.,INFORM
+"No, I'm sorry. It's for three people.",INFORM
+"No, I'm sorry. It's for three people.",NEGATE
+In second though I want it to be at 12:30 in the afternoon.,INFORM
+In second though I want it to be at 12:30 in the afternoon.,NEGATE
+That is correct. What is the address of the restaurant?,REQUEST
+That is correct. What is the address of the restaurant?,AFFIRM
+Do you know the phone number?,REQUEST
+Thanks a lot.,THANK_YOU
+"No, that would be all.",NEGATE
+"No, that would be all.",THANK_YOU
+Is there a place to eat?,INFORM_INTENT
+Antioch would be great.,INFORM
+I would love to eat some lobster.,INFORM
+That's great and it'll work for me.,SELECT
+I would love to make an appointment for one myself at 4:30 pm.,AFFIRM_INTENT
+I would love to make an appointment for one myself at 4:30 pm.,INFORM
+I would love to make an appointment for one myself at 4:30 pm.,INFORM
+"That will be great. Also, I just wanted to now pricey is it.",REQUEST
+"That will be great. Also, I just wanted to now pricey is it.",AFFIRM
+"Instead of the previous time, can you make it at 18:00?",INFORM
+"Instead of the previous time, can you make it at 18:00?",INFORM_INTENT
+That works and fits my schedule.,AFFIRM
+Thanks. That will do it for me.,THANK_YOU
+Thanks. That will do it for me.,GOODBYE
+What's a good place to grab a bite?,INFORM_INTENT
+I'm in the mood for a burger.,INFORM
+Find a place in Vallejo with live music.,INFORM
+Find a place in Vallejo with live music.,INFORM
+Yes. Please book a table.,INFORM_INTENT
+Yes. Please book a table.,SELECT
+1 in the afternoon.,INFORM
+"Yes, that is correct.",AFFIRM
+Thanks. I'm done for now.,THANK_YOU
+Thanks. I'm done for now.,GOODBYE
+I'm searching for a place to dine at.,INFORM_INTENT
+"I'd like for a moderate costing meal in Mountain View, preferably French.",INFORM
+"I'd like for a moderate costing meal in Mountain View, preferably French.",INFORM
+"I'd like for a moderate costing meal in Mountain View, preferably French.",INFORM
+Can you give me their phone number?,REQUEST
+What is the restaurant's location?,REQUEST
+"Is there any other restaurant you recommend, preferably in SF?",INFORM
+"Is there any other restaurant you recommend, preferably in SF?",REQUEST_ALTS
+"Yeah, that's the one for me. I'd like to book a spot at that restaurant.",INFORM_INTENT
+"Yeah, that's the one for me. I'd like to book a spot at that restaurant.",SELECT
+Put it for morning 10:30.,INFORM
+"Yeah, that's what I want. Can you give me their phone number?",REQUEST
+"Yeah, that's what I want. Can you give me their phone number?",AFFIRM
+I'd like to try making a reservation once more. Put it for eleven in the morning.,INFORM
+I'd like to try making a reservation once more. Put it for eleven in the morning.,INFORM_INTENT
+"Yeah, that's perfect for me. Do they possess live music?",REQUEST
+"Yeah, that's perfect for me. Do they possess live music?",AFFIRM
+Thank you for your assistance.,THANK_YOU
+No. Thank you for your assistance.,NEGATE
+No. Thank you for your assistance.,THANK_YOU
+I'm looking for a place to eat.,INFORM_INTENT
+I am in San Francisco.,INFORM
+Something Russian would be great.,INFORM
+Do they have live music?,REQUEST
+Do they serve alcohol? What's the address?,REQUEST
+Do they serve alcohol? What's the address?,REQUEST
+That sounds good. I'd like that one.,SELECT
+"Yes, please. I want to make a reservation for next Thursday.",AFFIRM_INTENT
+"Yes, please. I want to make a reservation for next Thursday.",INFORM
+Please reserve me at 6:15 in the evening.,INFORM
+"Yes, that's perfect.",AFFIRM
+"What is their contact number? Also, how expensive is their menu?",REQUEST
+"What is their contact number? Also, how expensive is their menu?",REQUEST
+Thanks very much.,THANK_YOU
+"No, that's it. Thanks.",NEGATE
+"No, that's it. Thanks.",THANK_YOU
+what can I have for breakfast,INFORM_INTENT
+Anyone that is burger like in nature,INFORM
+San francisco is okay,INFORM
+"Yes that is okay with me, I need a reservation at 1760",INFORM_INTENT
+"Yes that is okay with me, I need a reservation at 1760",SELECT
+evening 4:45 is perfect,INFORM
+That is okay with me,AFFIRM
+"Thanks, thats all I want",THANK_YOU
+"Thanks, thats all I want",GOODBYE
+I would like to find a place to eat in Santa Rosa.,INFORM
+I would like to find a place to eat in Santa Rosa.,INFORM_INTENT
+Please find me a ramen restaurant.,INFORM
+Do they play live music? And what's their phone number?,REQUEST
+Do they play live music? And what's their phone number?,REQUEST
+Could you suggest a not very costly option?,INFORM
+Could you suggest a not very costly option?,REQUEST_ALTS
+That would work great.,SELECT
+"Yes, please make a reservation for me.",AFFIRM_INTENT
+Please make it at 10:45 in the morning on the 4th of this month.,INFORM
+Please make it at 10:45 in the morning on the 4th of this month.,INFORM
+"Yes, that would be great. What's their address? And do they have live music?",REQUEST
+"Yes, that would be great. What's their address? And do they have live music?",REQUEST
+"Yes, that would be great. What's their address? And do they have live music?",AFFIRM
+"Yes, that would be great.",AFFIRM
+Thanks so much! That's all for now.,THANK_YOU
+Thanks so much! That's all for now.,GOODBYE
+I am looking for a restaurant.,INFORM_INTENT
+I am looking for asian food in SFO.,INFORM
+I am looking for asian food in SFO.,INFORM
+What other restaurants are there? I want to buy a drink.,INFORM
+What other restaurants are there? I want to buy a drink.,REQUEST_ALTS
+Do they have live music? Where are they located?,REQUEST
+Do they have live music? Where are they located?,REQUEST
+What other restaurants are there?,REQUEST_ALTS
+I want to make a reservation there.,INFORM_INTENT
+I want to make a reservation there.,SELECT
+I want the reservation at half past 7 in the evening.,INFORM
+"No, I actually want to go on March 14th.",INFORM
+"No, I actually want to go on March 14th.",NEGATE
+"Actually, we are going as a group of three.",INFORM
+"Actually, we are going as a group of three.",NEGATE
+That is correct.,AFFIRM
+Thank you!,THANK_YOU
+"No, that will be all.",NEGATE
+"No, that will be all.",THANK_YOU
+I am looking for a place to grab a bite to eat.,INFORM_INTENT
+I'm looking for Mediterranean in Redwood City.,INFORM
+I'm looking for Mediterranean in Redwood City.,INFORM
+Do they have alcoholic drinks?,REQUEST
+"Ok, I will go with that restaurant.",SELECT
+"Yes, can you please make a reservation for 17:30?",AFFIRM_INTENT
+"Yes, can you please make a reservation for 17:30?",INFORM
+"Yes, that is correct.",AFFIRM
+Thank you for helping me.,THANK_YOU
+Thank you for helping me.,GOODBYE
+I am wondering if you find me a good dining to have my food.,INFORM_INTENT
+I would love to have some kind of American food. Fairfield would be suitable to me.,INFORM
+I would love to have some kind of American food. Fairfield would be suitable to me.,INFORM
+Do they have bar? I would prefer one which serves alcohol too. Please can you find me some restaurant offering alcohol in addition to serving American food.,INFORM
+Do they have bar? I would prefer one which serves alcohol too. Please can you find me some restaurant offering alcohol in addition to serving American food.,REQUEST_ALTS
+"Might be.... If you don't mind, still do you have suggestions for any other restaurant?",REQUEST_ALTS
+Is it a costlier restaurant or a cheaper one? What's their prices? What's the street address of the restaurant?,REQUEST
+Is it a costlier restaurant or a cheaper one? What's their prices? What's the street address of the restaurant?,REQUEST
+Awesome... I would like to have my food there. Please can I make a reservation for the table at the restaurant?,INFORM_INTENT
+Awesome... I would like to have my food there. Please can I make a reservation for the table at the restaurant?,SELECT
+Please reserve in the morning at 11:15 am.,INFORM
+"Nope, please book it on 13th of this month.",INFORM
+"Nope, please book it on 13th of this month.",NEGATE
+Yup! That's works. Do you have phone number to reach out?,REQUEST
+Yup! That's works. Do you have phone number to reach out?,AFFIRM
+Thank you so much.,THANK_YOU
+"Nope, thanks a lot.",NEGATE
+"Nope, thanks a lot.",THANK_YOU
+I am looking for somewhere to eat.,INFORM_INTENT
+I want a economical place that serves alcohol in Oakland.,INFORM
+I want a economical place that serves alcohol in Oakland.,INFORM
+I want a economical place that serves alcohol in Oakland.,INFORM
+Gastrobar food will be perfect.,INFORM
+"Do you know if they have live music? If so, where?",REQUEST
+"Do you know if they have live music? If so, where?",REQUEST
+"Ok, that works for me!",SELECT
+Sure! I want to make a reservation for the 11th of March.,AFFIRM_INTENT
+Sure! I want to make a reservation for the 11th of March.,INFORM
+"Make it for 6 o""clock in the evening, for two people.",INFORM
+"Make it for 6 o""clock in the evening, for two people.",INFORM
+"Great, works for me! What is their number?",REQUEST
+"Great, works for me! What is their number?",AFFIRM
+"Thanks so much, that's all I needed!",THANK_YOU
+"Thanks so much, that's all I needed!",GOODBYE
+I would like to find a restaurant in Oakland,INFORM
+I would like to find a restaurant in Oakland,INFORM_INTENT
+Fish would be great,INFORM
+Can you tell me if the prices are inexpensive?,REQUEST
+And is alcohol available there? May I also have their phone number?,REQUEST
+And is alcohol available there? May I also have their phone number?,REQUEST
+"Excellent, that's perfect.",SELECT
+Yes please. I would like to reserve a table.,AFFIRM_INTENT
+I would like it for 6:15 pm,INFORM
+"Yes, that sounds great. Can you tell me if there is live music at the venue?",REQUEST
+"Yes, that sounds great. Can you tell me if there is live music at the venue?",AFFIRM
+I would like to attempt a reservation for evening 5:30.,INFORM
+I would like to attempt a reservation for evening 5:30.,INFORM_INTENT
+"Sure, that's perfect. May I also have the exact address for the venue?",REQUEST
+"Sure, that's perfect. May I also have the exact address for the venue?",AFFIRM
+"Great, thanks for your help.",THANK_YOU
+"No, all set. Thanks again",NEGATE
+"No, all set. Thanks again",THANK_YOU
+Can you find me a restaurant?,INFORM_INTENT
+Look in Santa Clara. Any Southern restaurants?,INFORM
+Look in Santa Clara. Any Southern restaurants?,INFORM
+Oh I've been meaning to try that,SELECT
+"Yes, book it",AFFIRM_INTENT
+Do they have room for two at 18:45?,INFORM
+Do they have room for two at 18:45?,INFORM
+No. Let's try 11:30 am on the 8th instead,INFORM
+No. Let's try 11:30 am on the 8th instead,INFORM
+No. Let's try 11:30 am on the 8th instead,NEGATE
+Yes that's right. Where are they? Any chance they have live music?,REQUEST
+Yes that's right. Where are they? Any chance they have live music?,REQUEST
+Yes that's right. Where are they? Any chance they have live music?,AFFIRM
+Thanks.,THANK_YOU
+Nope not now,NEGATE
+Nope not now,THANK_YOU
+I am looking for a place to eat.,INFORM_INTENT
+I want in Burlingame.,INFORM
+Some Barbecue will be prefect.,INFORM
+Do they serve liquor? How pricey are they?,REQUEST
+Do they serve liquor? How pricey are they?,REQUEST
+Yes that sounds good. Make a reservation for me.,INFORM_INTENT
+Yes that sounds good. Make a reservation for me.,SELECT
+Make it at 1:15 pm,INFORM
+Do they have live music? What is the contact number?,REQUEST
+Do they have live music? What is the contact number?,REQUEST
+Do they have live music? What is the contact number?,AFFIRM
+No. That doesn't work for me,NEGATE
+No. Thanks a lot,NEGATE
+No. Thanks a lot,THANK_YOU
+Will you find me a place to eat?,INFORM_INTENT
+Italian food in Pleasanton.,INFORM
+Italian food in Pleasanton.,INFORM
+Anything else?,REQUEST_ALTS
+What's the address and contact number?,REQUEST
+What's the address and contact number?,REQUEST
+Any other suggestions? Something affordable?,INFORM
+Any other suggestions? Something affordable?,REQUEST_ALTS
+Great.,SELECT
+"Yes, please, on 10th of this month.",AFFIRM_INTENT
+"Yes, please, on 10th of this month.",INFORM
+Afternoon 1:15.,INFORM
+Sounds good. What's the address?,REQUEST
+Sounds good. What's the address?,AFFIRM
+Thanks.,THANK_YOU
+"No, that's it. Thanks.",NEGATE
+"No, that's it. Thanks.",THANK_YOU
+I'm looking for a place to eat,INFORM_INTENT
+I'd like some Taiwanese food in SFO,INFORM
+I'd like some Taiwanese food in SFO,INFORM
+"Can you suggest some more restaurants, I no preference on price.",INFORM
+"Can you suggest some more restaurants, I no preference on price.",REQUEST_ALTS
+Does that restaurant server liquor?,REQUEST
+May I have their contact number and address?,REQUEST
+May I have their contact number and address?,REQUEST
+Can you suggest other restaurants?,REQUEST_ALTS
+That one would be great!,SELECT
+Yes I'd like to make a reservation.,AFFIRM_INTENT
+I'd like a reservation for three people at Half past 1 in the afternoon.,INFORM
+I'd like a reservation for three people at Half past 1 in the afternoon.,INFORM
+Yeah that sounds great.,AFFIRM
+Thanks.,THANK_YOU
+"No, thats all thanks.",NEGATE
+"No, thats all thanks.",THANK_YOU
+I'd like to find a place to eat in Oakland.,INFORM
+I'd like to find a place to eat in Oakland.,INFORM_INTENT
+I would love to eat some African food.,INFORM
+Could you give another suggestion? I would love a place with live music.,INFORM
+Could you give another suggestion? I would love a place with live music.,REQUEST_ALTS
+Where are they located? And do they serve liquor?,REQUEST
+Where are they located? And do they serve liquor?,REQUEST
+That works for me. I'd like to make a reservation on the 12th.,INFORM
+That works for me. I'd like to make a reservation on the 12th.,INFORM_INTENT
+That works for me. I'd like to make a reservation on the 12th.,SELECT
+Please schedule it at 11:15 in the morning.,INFORM
+That would be great.,AFFIRM
+"I want to try booking again, but this time on the 3rd of this month.",INFORM
+"I want to try booking again, but this time on the 3rd of this month.",INFORM_INTENT
+"Never mind, make it for 12:30.",INFORM
+"Never mind, make it for 12:30.",NEGATE
+"Yup, that would be great. Are the prices above average?",REQUEST
+"Yup, that would be great. Are the prices above average?",AFFIRM
+Thanks so much. That'll be all for today.,THANK_YOU
+Thanks so much. That'll be all for today.,GOODBYE
+"I need somewhere to have dinner, can you find me a reasonably priced place to eat?",INFORM
+"I need somewhere to have dinner, can you find me a reasonably priced place to eat?",INFORM_INTENT
+I want something to-go.,INFORM
+"I'm in Walnut Creek at the moment, please search there.",INFORM
+Do they have live music? Where can I find them?,REQUEST
+Do they have live music? Where can I find them?,REQUEST
+"Okay, that sounds great.",SELECT
+"Yes thanks, please do it.",AFFIRM_INTENT
+"6 o""clock in the evening thanks.",INFORM
+"Yes that's perfect, thanks.",AFFIRM
+Thanks a lot homie.,THANK_YOU
+"No, nothing at all.",NEGATE
+"No, nothing at all.",THANK_YOU
+I want something not very costly priced,INFORM
+I want something not very costly priced,INFORM_INTENT
+I need it in San Mateo,INFORM
+A Diner kind of food will be good,INFORM
+what is the address?,REQUEST
+Yes that is good and I want a reservation at a restaurant,INFORM_INTENT
+Yes that is good and I want a reservation at a restaurant,SELECT
+I want it at 5:45 in the evening,INFORM
+yes that is good,AFFIRM
+No that is all,NEGATE
+No that is all,GOODBYE
+I would like to go to a restaurant.,INFORM_INTENT
+"I want some Indian food, preferable curry. Is there any place in Newark.",INFORM
+"I want some Indian food, preferable curry. Is there any place in Newark.",INFORM
+That would be fine. I would like you a reservation.,INFORM_INTENT
+That would be fine. I would like you a reservation.,SELECT
+I prefer 7:30 in the evening.,INFORM
+That sounds like a good plan.,AFFIRM
+Great. You have been helpful. I do not need anything else.,THANK_YOU
+Great. You have been helpful. I do not need anything else.,GOODBYE
+I'm looking for somewhere to eat.,INFORM_INTENT
+Somewhere to eat in San Bruno. Some Latin American food is what I'm looking for.,INFORM
+Somewhere to eat in San Bruno. Some Latin American food is what I'm looking for.,INFORM
+Any other suggestions? Specifically places that serve alcohol.,INFORM
+Any other suggestions? Specifically places that serve alcohol.,REQUEST_ALTS
+That's good.,SELECT
+Yes I would. Next Friday for six people.,AFFIRM_INTENT
+Yes I would. Next Friday for six people.,INFORM
+Yes I would. Next Friday for six people.,INFORM
+I want it on the 9th at 5:30 in the evening.,INFORM
+I want it on the 9th at 5:30 in the evening.,INFORM
+Change the time to 6:30 in the evening.,INFORM
+Change the time to 6:30 in the evening.,NEGATE
+Yes that's right. Is the restaurant low priced with live music?,REQUEST
+Yes that's right. Is the restaurant low priced with live music?,REQUEST
+Yes that's right. Is the restaurant low priced with live music?,AFFIRM
+I want to make a reservation for 2 people.,INFORM
+I want to make a reservation for 2 people.,INFORM_INTENT
+Yes that's good.,AFFIRM
+"Thank you, that's all I need.",THANK_YOU
+"Thank you, that's all I need.",GOODBYE
+I am looking for a not very costly place to get a bite to eat and an alcoholic drink.,INFORM
+I am looking for a not very costly place to get a bite to eat and an alcoholic drink.,INFORM
+I am looking for a not very costly place to get a bite to eat and an alcoholic drink.,INFORM_INTENT
+Thai food would be great.,INFORM
+I want Oriental food in Berkeley.,INFORM
+I want Oriental food in Berkeley.,INFORM
+I would like a reservation for 1.,INFORM
+I would like a reservation for 1.,INFORM_INTENT
+I would like a reservation for 1.,SELECT
+I want a reservation on the 13th at 12:30.,INFORM
+I want a reservation on the 13th at 12:30.,INFORM
+Yes that is correct.,AFFIRM
+Will there be live music?,REQUEST
+What's the number and address?,REQUEST
+What's the number and address?,REQUEST
+Thanks! I appreciate at it!,THANK_YOU
+"No thanks, I'm good.",NEGATE
+"No thanks, I'm good.",THANK_YOU
+"Hey, can you help me find a place to eat?",INFORM_INTENT
+I want to eat in SF.,INFORM
+I'm feeling some Szcheuan.,INFORM
+Sounds good. What's their number and address?,REQUEST
+Sounds good. What's their number and address?,REQUEST
+"That's great, thanks.",SELECT
+"Yes, please. On the 1st of this month.",AFFIRM_INTENT
+"Yes, please. On the 1st of this month.",INFORM
+For around 11:45.,INFORM
+Yes that's good. Are they expensive? Is there live music?,REQUEST
+Yes that's good. Are they expensive? Is there live music?,REQUEST
+Yes that's good. Are they expensive? Is there live music?,AFFIRM
+"Yes, that's good.",AFFIRM
+Thanks a lot. That's everything.,THANK_YOU
+Thanks a lot. That's everything.,GOODBYE
+"I need somewhere to get a bite to eat, can you hook me up?",INFORM_INTENT
+"I want some ramen, I'm really craving it. Can you find me an afforadable place in Morgan Hill?",INFORM
+"I want some ramen, I'm really craving it. Can you find me an afforadable place in Morgan Hill?",INFORM
+"I want some ramen, I'm really craving it. Can you find me an afforadable place in Morgan Hill?",INFORM
+"Nah, I'd rather somewhere else. Do you have another one?",REQUEST_ALTS
+"Yeah, that'll be good for me.",SELECT
+"Yes, please book a table for two.",AFFIRM_INTENT
+"Yes, please book a table for two.",INFORM
+I'd like the table for afternoon 12:30 thanks.,INFORM
+"No actually, I want it for three people on the 12th instead.",INFORM
+"No actually, I want it for three people on the 12th instead.",INFORM
+"No actually, I want it for three people on the 12th instead.",NEGATE
+Yeah that's perfect. Do they serve alcohol? Do they have live music?,REQUEST
+Yeah that's perfect. Do they serve alcohol? Do they have live music?,REQUEST
+Yeah that's perfect. Do they serve alcohol? Do they have live music?,AFFIRM
+Thanks a lot.,THANK_YOU
+"No thanks, that's all.",NEGATE
+"No thanks, that's all.",THANK_YOU
+i want to eat at a place in mountain view preferably one that serves alcohol.,INFORM
+i want to eat at a place in mountain view preferably one that serves alcohol.,INFORM
+i want to eat at a place in mountain view preferably one that serves alcohol.,INFORM_INTENT
+"something cafe like, i want some reasonably priced food.",INFORM
+"something cafe like, i want some reasonably priced food.",INFORM
+"yes that works, place reservation next wednesday",INFORM
+"yes that works, place reservation next wednesday",INFORM_INTENT
+"yes that works, place reservation next wednesday",SELECT
+1 pm,INFORM
+no make it 19:00 on march 9th,INFORM
+no make it 19:00 on march 9th,INFORM
+no make it 19:00 on march 9th,NEGATE
+yes that works for me. is there live music? what is their number?,REQUEST
+yes that works for me. is there live music? what is their number?,REQUEST
+yes that works for me. is there live music? what is their number?,AFFIRM
+"thank you, that will be it.",THANK_YOU
+"thank you, that will be it.",GOODBYE
+I'm looking for a restaurant to go to. I'd prefer a place that specializes in fish.,INFORM
+I'm looking for a restaurant to go to. I'd prefer a place that specializes in fish.,INFORM_INTENT
+"The location is Fremont, please.",INFORM
+What is their address and contact number?,REQUEST
+What is their address and contact number?,REQUEST
+That sounds good. I need a reservation made there for one person.,INFORM
+That sounds good. I need a reservation made there for one person.,INFORM_INTENT
+That sounds good. I need a reservation made there for one person.,SELECT
+"12:30 would be good, please.",INFORM
+No. Actually I need it for three people on the 14th of March.,INFORM
+No. Actually I need it for three people on the 14th of March.,INFORM
+No. Actually I need it for three people on the 14th of March.,NEGATE
+No. Can you change it to 1 pm on the 9th?,INFORM
+No. Can you change it to 1 pm on the 9th?,INFORM
+No. Can you change it to 1 pm on the 9th?,NEGATE
+Yes. Can you tell me if the restaurant is costly and do they offer live music?,REQUEST
+Yes. Can you tell me if the restaurant is costly and do they offer live music?,REQUEST
+Yes. Can you tell me if the restaurant is costly and do they offer live music?,AFFIRM
+Thank you very much.,THANK_YOU
+"No, I'm all set. Thank you.",NEGATE
+"No, I'm all set. Thank you.",THANK_YOU
+"I would like to find somewhere to eat, preferably Asian food.",INFORM
+"I would like to find somewhere to eat, preferably Asian food.",INFORM_INTENT
+"Please search in San Mateo, price is not an issue.",INFORM
+"Please search in San Mateo, price is not an issue.",INFORM
+Do they have a liquor license and also do they have any live music?,REQUEST
+Do they have a liquor license and also do they have any live music?,REQUEST
+That sounds perfect for me.,SELECT
+I would like a reservation made for 1:30 pm. for 1 person please.,AFFIRM_INTENT
+I would like a reservation made for 1:30 pm. for 1 person please.,INFORM
+I would like a reservation made for 1:30 pm. for 1 person please.,INFORM
+"Yes that is correct, do you have their phone number?",REQUEST
+"Yes that is correct, do you have their phone number?",AFFIRM
+Thank you.,THANK_YOU
+"No, that is all, thank you.",NEGATE
+"No, that is all, thank you.",THANK_YOU
+I would like to find a place to eat.,INFORM_INTENT
+I want to find one in South San Francisco.,INFORM
+Sushi would be perfect.,INFORM
+Can you find another restaurant? I am looking for some thing with afforadable prices in San Mateo.,INFORM
+Can you find another restaurant? I am looking for some thing with afforadable prices in San Mateo.,INFORM
+Can you find another restaurant? I am looking for some thing with afforadable prices in San Mateo.,REQUEST_ALTS
+Do you have any other sugggestions?,REQUEST_ALTS
+"Yes, that restaurant works for me. I would like to make a reservation for 2 people.",INFORM
+"Yes, that restaurant works for me. I would like to make a reservation for 2 people.",INFORM_INTENT
+"Yes, that restaurant works for me. I would like to make a reservation for 2 people.",SELECT
+Place a reservation for 12:15.,INFORM
+No it is for 1 person at 10:45.,INFORM
+No it is for 1 person at 10:45.,INFORM
+No it is for 1 person at 10:45.,NEGATE
+"Yes, that sounds good.",AFFIRM
+No. That was all I needed.,NEGATE
+No. That was all I needed.,GOODBYE
+I am in SFO for business and looking for a place to eat.,INFORM
+I am in SFO for business and looking for a place to eat.,INFORM_INTENT
+Are there any Pakistani places?,INFORM
+"Sounds good, what is their address and do they have live music?",REQUEST
+"Sounds good, what is their address and do they have live music?",REQUEST
+"ok, I guess that would work for me. I'd like to make a reservation, please.",INFORM_INTENT
+"ok, I guess that would work for me. I'd like to make a reservation, please.",SELECT
+"March 14th at 17:30, please.",INFORM
+"March 14th at 17:30, please.",INFORM
+Please make the reservation for three people.,INFORM
+Please make the reservation for three people.,NEGATE
+"Thank you, that's perfect. Do they serve liquor?",REQUEST
+"Thank you, that's perfect. Do they serve liquor?",AFFIRM
+What is their phone number?,REQUEST
+Thank you very much for the help. That is all I need.,THANK_YOU
+Thank you very much for the help. That is all I need.,GOODBYE
+I need somewhere to take a friend out for dinner. I would prefer if it was To-go,INFORM
+I need somewhere to take a friend out for dinner. I would prefer if it was To-go,INFORM_INTENT
+I'd like it to be in San Jose,INFORM
+Is there anywhere else? I will be drinking so I'd prefer a place that serves alcohol,INFORM
+Is there anywhere else? I will be drinking so I'd prefer a place that serves alcohol,REQUEST_ALTS
+Does the restaurant have live music?,REQUEST
+That's perfect! I need to book a reservation for 5 people on the 7th of March.,INFORM
+That's perfect! I need to book a reservation for 5 people on the 7th of March.,INFORM
+That's perfect! I need to book a reservation for 5 people on the 7th of March.,INFORM_INTENT
+That's perfect! I need to book a reservation for 5 people on the 7th of March.,SELECT
+Book it for four people at 6 pm,INFORM
+Book it for four people at 6 pm,INFORM
+"No, I actually want it on the 12th of this month at twelve pm.",INFORM
+"No, I actually want it on the 12th of this month at twelve pm.",INFORM
+"No, I actually want it on the 12th of this month at twelve pm.",NEGATE
+Yes that's great,AFFIRM
+Thanks so much!,THANK_YOU
+"No that's everything, thank you.",NEGATE
+"No that's everything, thank you.",THANK_YOU
+"I want to go out to eat, looking for Parisian food.",INFORM
+"I want to go out to eat, looking for Parisian food.",INFORM_INTENT
+In San Francisco.,INFORM
+"Yes, that would work. Can you go ahead and make a reservation?",INFORM_INTENT
+"Yes, that would work. Can you go ahead and make a reservation?",SELECT
+How about quarter past 11 in the morning.,INFORM
+"Yes, that's it.",AFFIRM
+"Try booking again, but at evening 6.",INFORM
+"Try booking again, but at evening 6.",INFORM_INTENT
+"Yes, that's it. Do they serve alcohol?",REQUEST
+"Yes, that's it. Do they serve alcohol?",AFFIRM
+Thanks for the help.,THANK_YOU
+"Nope, that's all thanks.",NEGATE
+"Nope, that's all thanks.",THANK_YOU
+Hi. I'd like to find a place to eat.,INFORM_INTENT
+I'd like the restaurant to be in Pleasanton. I'm in the mood for some Taiwanese food.,INFORM
+I'd like the restaurant to be in Pleasanton. I'm in the mood for some Taiwanese food.,INFORM
+That's pretty expensive. I'm looking for a restaurant that's not very costly.,INFORM
+That's pretty expensive. I'm looking for a restaurant that's not very costly.,REQUEST_ALTS
+I went there once and it sucked. Is there anything else?,REQUEST_ALTS
+Do they serve liquor?,REQUEST
+What's their address?,REQUEST
+"All right, I'm willing to try them.",SELECT
+"Yes, please.",AFFIRM_INTENT
+12 in the afternoon.,INFORM
+"No, it's for one person on the 6th.",INFORM
+"No, it's for one person on the 6th.",INFORM
+"No, it's for one person on the 6th.",NEGATE
+"Oh, darn. My friends want dinner with me. Can we make it three people at 5:15 pm?",INFORM
+"Oh, darn. My friends want dinner with me. Can we make it three people at 5:15 pm?",INFORM
+"Oh, darn. My friends want dinner with me. Can we make it three people at 5:15 pm?",NEGATE
+"Yes, great! What's their phone number? Also, do they play live music?",REQUEST
+"Yes, great! What's their phone number? Also, do they play live music?",REQUEST
+"Yes, great! What's their phone number? Also, do they play live music?",AFFIRM
+"Wow, what a waste. No, that'll be all.",NEGATE
+"Wow, what a waste. No, that'll be all.",THANK_YOU
+Can you find me a place to eat?,INFORM_INTENT
+I'd love some Izakaya type food.,INFORM
+"I'd like something in a moderate price range. How about Gastrobar type food, in St. Helena.",INFORM
+"I'd like something in a moderate price range. How about Gastrobar type food, in St. Helena.",INFORM
+"I'd like something in a moderate price range. How about Gastrobar type food, in St. Helena.",INFORM
+Do you have an address for the restaurant?,REQUEST
+That would work for me.,SELECT
+"Yes, make the reservation.",AFFIRM_INTENT
+Half past 12 in the afternoon would be good.,INFORM
+"No, make it for 4 people, at 17:00.",INFORM
+"No, make it for 4 people, at 17:00.",INFORM
+"No, make it for 4 people, at 17:00.",NEGATE
+"No. I want the reservation on the 12th of March, for 6 people.",INFORM
+"No. I want the reservation on the 12th of March, for 6 people.",INFORM
+"No. I want the reservation on the 12th of March, for 6 people.",NEGATE
+Yes. That is what I want.,AFFIRM
+No. Thank you.,NEGATE
+No. Thank you.,THANK_YOU
+I'll be out of town for a business conference and am looking for a place to eat while I'm there.,INFORM_INTENT
+I'd like to find a Burger in San Francisco.,INFORM
+I'd like to find a Burger in San Francisco.,INFORM
+Do they serve liquor? What's the address?,REQUEST
+Do they serve liquor? What's the address?,REQUEST
+That works.,SELECT
+"Yes, make it for Tuesday next week at evening 5.",AFFIRM_INTENT
+"Yes, make it for Tuesday next week at evening 5.",INFORM
+"Yes, make it for Tuesday next week at evening 5.",INFORM
+That works.,AFFIRM
+"Thanks, that's all I needed.",THANK_YOU
+"Thanks, that's all I needed.",GOODBYE
+Can you find me somewhere to eat in Dublin?,INFORM
+Can you find me somewhere to eat in Dublin?,INFORM_INTENT
+"Chinese food and not very costly, please.",INFORM
+"Chinese food and not very costly, please.",INFORM
+Where is it located?,REQUEST
+Do bands play there?,REQUEST
+That sounds good.,SELECT
+"Yes, on the 7th for four people.",AFFIRM_INTENT
+"Yes, on the 7th for four people.",INFORM
+"Yes, on the 7th for four people.",INFORM
+Please reserve the table for 14:00.,INFORM
+"Yes, that is perfect.",AFFIRM
+Can you make a restaurant reservation for 2 people?,INFORM
+Can you make a restaurant reservation for 2 people?,INFORM_INTENT
+Yes. What is the phone number? Can I buy alcohol there?,REQUEST
+Yes. What is the phone number? Can I buy alcohol there?,REQUEST
+Yes. What is the phone number? Can I buy alcohol there?,AFFIRM
+Can you make a reservation at a restaurant for March 9th?,INFORM
+Can you make a reservation at a restaurant for March 9th?,INFORM_INTENT
+Can you change it to afternoon 1:45?,INFORM
+Can you change it to afternoon 1:45?,NEGATE
+Yes that isperfect.,AFFIRM
+"Thank you, I'm done.",THANK_YOU
+"Thank you, I'm done.",GOODBYE
+"I am planning to eat in some nice place outside, can you help me to search for one place that suits me?",INFORM_INTENT
+"Ya, I prefer Asian food which I am always dreaming to eat and please search for me in Pleasant Hill.",INFORM
+"Ya, I prefer Asian food which I am always dreaming to eat and please search for me in Pleasant Hill.",INFORM
+"Let me know the phone number and address of that restaurant, so that I can confirm.",REQUEST
+"Let me know the phone number and address of that restaurant, so that I can confirm.",REQUEST
+"Yes, that is fine, please make me a reservation on Tuesday next week.",INFORM
+"Yes, that is fine, please make me a reservation on Tuesday next week.",INFORM_INTENT
+"Yes, that is fine, please make me a reservation on Tuesday next week.",SELECT
+18:45 will be fine.,INFORM
+"yes, confirmed. Please check whether they offer any live music and also get the price details.",REQUEST
+"yes, confirmed. Please check whether they offer any live music and also get the price details.",REQUEST
+"yes, confirmed. Please check whether they offer any live music and also get the price details.",AFFIRM
+"No, not necessary. thanks. That's all.",NEGATE
+"No, not necessary. thanks. That's all.",GOODBYE
