@@ -1,0 +1,680 @@
+Phrase,Intent
+"I'm looking for a restaurant, can you help?",INFORM
+Check in the San Jose area. I'd like to find a place that serves Diner style food.,INFORM
+Great! can you make a reservation for one on Saturday this week?,SELECT
+Great! can you make a reservation for one on Saturday this week?,INFORM
+For lunch at 12 in the afternoon.,INFORM
+"On second thought, make it for Tuesday next week.",NEGATE
+"On second thought, make it for Tuesday next week.",INFORM
+Yes. Also see if they have outdoor seating and what their rating is.,REQUEST
+Yes. Also see if they have outdoor seating and what their rating is.,AFFIRM
+Great! Thank you.,THANK_YOU
+"No, thank you. I'm good for now.",THANK_YOU
+"No, thank you. I'm good for now.",NEGATE
+Can you help me find a place to eat?,INFORM
+I'm interested in Napa.,INFORM
+"Yes, I'm interested in Japanese.",INFORM
+Are there any others you can recommend?,REQUEST_ALTS
+Can you give me their phone number please?,REQUEST
+Can you give me their user rating and tell me if they have any outdoor seating?,REQUEST
+Are there any other restaurants you can recommend that have vegetarian options?,REQUEST_ALTS
+Are there any other restaurants you can recommend that have vegetarian options?,INFORM
+That sounds good! I am looking to book a table on the 3rd.,SELECT
+That sounds good! I am looking to book a table on the 3rd.,INFORM
+I am thinking evening 4:45.,INFORM
+"Yes, that is correct!",AFFIRM
+"Thank you, that is all I need for now.",THANK_YOU
+"Thank you, that is all I need for now.",GOODBYE
+Think you could find me a place to eat?,INFORM
+Find me a place that serves burgers in San Jose and you will be my hero.,INFORM
+"Wow, that sounds delicious. What's their phone number?",REQUEST
+"Great, thanks.",SELECT
+"Yes, I would.",AFFIRM
+"Make the reservation for 3. No, actually, make it for a quarter past 5 in the evening.",INFORM
+Yes that is all correct. Can you tell me the restaurants user rating and address?,REQUEST
+Yes that is all correct. Can you tell me the restaurants user rating and address?,AFFIRM
+Great. Thank you very much for your help.,THANK_YOU
+"For now, yes. I'll let you know if I need anything further.",THANK_YOU
+"For now, yes. I'll let you know if I need anything further.",NEGATE
+I'm looking for a restaurant that serves Oriental food.,INFORM
+Find a restaurant in SFO.,INFORM
+"Yes, that sounds good. I'd like to make a reservation for 3 people today at 1 pm.",SELECT
+"Yes, that sounds good. I'd like to make a reservation for 3 people today at 1 pm.",INFORM
+"Yes, that is right.",AFFIRM
+Thank you!,THANK_YOU
+"No, thank you.",THANK_YOU
+"No, thank you.",NEGATE
+I need help searching for a place to eat.,INFORM
+I want to look for Korean Barbeque in SFO.,INFORM
+Is there outdoor seating? And what's their user rating?,REQUEST
+"Okay, that can work. Please book me a table.",SELECT
+"Okay, that can work. Please book me a table.",INFORM
+I want it for half past 10 in the morning.,INFORM
+That is right.,AFFIRM
+Can we try for a table at 7 pm?,INFORM
+Thanks a lot.,THANK_YOU
+Thanks a lot.,GOODBYE
+"Nothing else, thanks a lot.",THANK_YOU
+"Nothing else, thanks a lot.",NEGATE
+"Will you please help me find a good, reasonably priced place to eat in San Jose?",INFORM
+I think I'm in the mood for Cantonese.,INFORM
+Okay. How about some other suggestions?,REQUEST_ALTS
+That's possible. But what else is there?,REQUEST_ALTS
+Can you let me know what their user rating is? I'm also wondering if they have seating outdoors.,REQUEST
+"Okay, sounds good. Let's book a table for 4 please in the evening 5:30.",SELECT
+"Okay, sounds good. Let's book a table for 4 please in the evening 5:30.",INFORM
+"Okay, sounds like you got it all!",AFFIRM
+Thanks for all your help today.,THANK_YOU
+I don't think so. Thanks again.,THANK_YOU
+I don't think so. Thanks again.,NEGATE
+I need help finding somewhere to eat.,INFORM
+I want a Barbecue place in San Fran.,INFORM
+What else is there?,REQUEST_ALTS
+Can you give me their phone number?,REQUEST
+And what is their user rating?,REQUEST
+"Alright, that seems good.",SELECT
+"Yes, please do that.",AFFIRM
+I want it for 7:15 pm.,INFORM
+"No, it should be a table for 4 and for seven pm.",NEGATE
+"No, it should be a table for 4 and for seven pm.",INFORM
+Yes. And can you tell me their address?,REQUEST
+Yes. And can you tell me their address?,AFFIRM
+"No, thanks again.",THANK_YOU
+"No, thanks again.",NEGATE
+Can you find me a Ramen restaurant?,INFORM
+I'd like something in Belmont.,INFORM
+That sounds great. Can you reserve me a table? How about the 9th of March at 5:30 in the evening?,SELECT
+That sounds great. Can you reserve me a table? How about the 9th of March at 5:30 in the evening?,INFORM
+That's correct. Do you have their address?,REQUEST
+That's correct. Do you have their address?,AFFIRM
+Thank you very much!,THANK_YOU
+"No, that'll be all, thanks!",THANK_YOU
+"No, that'll be all, thanks!",NEGATE
+Please locate a nice restaurant in Petaluma for me.,INFORM
+Yes. A Light meal would be perfect.,INFORM
+Sounds like a good choice.,SELECT
+Please make a reservation.,AFFIRM
+I would like to book a table at 6:15 in the evening.,INFORM
+"That is exactly what I want, thanks.",AFFIRM
+Thanks a million.,THANK_YOU
+"Nothing right now, thanks.",THANK_YOU
+"Nothing right now, thanks.",NEGATE
+Can you find me some Cambodian restaurants that serve vegetarian food?,INFORM
+Search around Fairfax.,INFORM
+Can you recommend me some Barbecue restaurants in SF?,REQUEST_ALTS
+Can you recommend me some Barbecue restaurants in SF?,INFORM
+That sounds good. I need to book a table.,SELECT
+That sounds good. I need to book a table.,INFORM
+Make it for evening 7:30.,INFORM
+Yes. How expensive is the restaurant?,REQUEST
+Yes. How expensive is the restaurant?,AFFIRM
+Thank you very much.,THANK_YOU
+No. Thank you.,THANK_YOU
+No. Thank you.,NEGATE
+Can you please help me find a place to eat?,INFORM
+Please find restaurants in Santa Clara.,INFORM
+Please find something serving Latin American food.,INFORM
+What is there phone number?,REQUEST
+"Yes, that sounds good.",SELECT
+"Yes please, reserve a table.",AFFIRM
+Please make the reservation at 5:30 in the evening.,INFORM
+"Yes, that is correct. Do they have vegetarian options on the menu, and what is their user rating?",REQUEST
+"Yes, that is correct. Do they have vegetarian options on the menu, and what is their user rating?",AFFIRM
+"Yes, that works.",AFFIRM
+"Thank you very much, that is all I need for now.",THANK_YOU
+"Thank you very much, that is all I need for now.",GOODBYE
+I want to find a restaurant please. I don't care about the price range.,INFORM
+See if there's anything in Danville please with Southern food.,INFORM
+What kind of a customer rating do they have there?,REQUEST
+"Okay, how about the address and phone number?",REQUEST
+"May I get some other recommendations from you? Maybe a place with patio dining, if possible, and somewhere that's reasonably priced.",REQUEST_ALTS
+"May I get some other recommendations from you? Maybe a place with patio dining, if possible, and somewhere that's reasonably priced.",INFORM
+"Oh, I think I would.",SELECT
+"I think you should, yes.",AFFIRM
+Let's shoot for 5:30 pm.,INFORM
+Actually can you make it for a party of 3 please?,NEGATE
+Actually can you make it for a party of 3 please?,INFORM
+"Sorry, I also need to move that to the 14th please.",NEGATE
+"Sorry, I also need to move that to the 14th please.",INFORM
+"Great, thanks. What is the address of the restaurant?",REQUEST
+"Great, thanks. What is the address of the restaurant?",AFFIRM
+Thanks for taking care of that.,THANK_YOU
+"No, I think I'm good.",THANK_YOU
+"No, I think I'm good.",NEGATE
+I need a place to eat.,INFORM
+Find me a Neapolitan restaurant in Cupertino.,INFORM
+Can you get me the address and phone number?,REQUEST
+"Yes, that's good.",SELECT
+"Yes, that's good.",AFFIRM
+"Yes, please. Reserve a table for four people.",AFFIRM
+"Yes, please. Reserve a table for four people.",INFORM
+Make it for morning 11:15 for 3 people.,INFORM
+"Yes, that will work.",AFFIRM
+"No, that's alright.",NEGATE
+No. Thank you very much.,THANK_YOU
+No. Thank you very much.,NEGATE
+"I'm really hungry, but on a budget. Could you please help me find restaurants with moderate prices, in Palo Alto?",INFORM
+Anything that serves Diner type food will do.,INFORM
+Great! I really like the sound of that. Please reserve me a table for 1 at that restaurant.,SELECT
+Great! I really like the sound of that. Please reserve me a table for 1 at that restaurant.,INFORM
+"Let it be a 12:30 in the afternoon reservation, please.",INFORM
+"Yes, that is correct.",AFFIRM
+Thank you very much. You've been very helpful. That will be all.,THANK_YOU
+Thank you very much. You've been very helpful. That will be all.,GOODBYE
+"Hello, I am looking for a place to eat. I am hoping to get take-out and for the restaurant to have vegetarian options.",INFORM
+Please find restaurants in San Jose.,INFORM
+How is the pricing? Cheap or expensive?,REQUEST
+Do they have outdoor seating?,REQUEST
+Are there any other restaurants you can recommend?,REQUEST_ALTS
+"Yes, that will work. Can you please book a reservation for me? It will be for half past 11 in the morning.",SELECT
+"Yes, that will work. Can you please book a reservation for me? It will be for half past 11 in the morning.",INFORM
+"Yes, that is correct. Are they not very costly?",REQUEST
+"Yes, that is correct. Are they not very costly?",AFFIRM
+Thank you for your help!,THANK_YOU
+"No, that will be all. Thank you!",THANK_YOU
+"No, that will be all. Thank you!",NEGATE
+"I'm searching for location to dine at, preferably ones not very costly for cost. Get me one in San Mateo.",INFORM
+Get me one that offers Oriental cuisine.,INFORM
+"Yeah, that's fine with me.",SELECT
+"Yeah, that's fine with me.",AFFIRM
+"Yeah, I'd like to book a spot there.",AFFIRM
+Book it for quarter to 2 in the afternoon.,INFORM
+Does the diner offer outdoor seating? What is the contact number?,REQUEST
+Thank you for your help; that's all.,THANK_YOU
+Thank you for your help; that's all.,GOODBYE
+I have a plan to eat outside once and I need a nice restaurant for me. Can you search for the one in San Ramon?,INFORM
+I want to eat some Pakistani food and search it accordingly.,INFORM
+Let me know their address to decide further.,REQUEST
+That is okay for me. Can I get a table there?. Please book it for me now.,SELECT
+That is okay for me. Can I get a table there?. Please book it for me now.,INFORM
+Make it at evening 4:30.,INFORM
+That is confirmed and you can go ahead.,AFFIRM
+Please check it for another time that is 1:30 pm.,INFORM
+That is confirmed. Please proceed.,AFFIRM
+That is nice and thank you so much.,THANK_YOU
+"No, nothing for now.",THANK_YOU
+"No, nothing for now.",NEGATE
+I'm trying to find a place to eat in Sunnyvale. Can you find me any afforadable Spicy Indian restaurants in the area?,INFORM
+Is this a good restaurant for vegetarians? What is their rating?,REQUEST
+"Okay, this place sounds great. Let's go ahead and start booking a table.",SELECT
+"Okay, this place sounds great. Let's go ahead and start booking a table.",INFORM
+I need a table for 2 on March 14th at 12:00.,INFORM
+"Yes, that's perfect. Also can I get their number?",REQUEST
+"Yes, that's perfect. Also can I get their number?",AFFIRM
+You you so much! I appreciate your help.,THANK_YOU
+No thanks. That's all. Thanks again.,THANK_YOU
+No thanks. That's all. Thanks again.,NEGATE
+Can you find a place for me to eat in Los Gatos?,INFORM
+"Yes, try searching for Chinese.",INFORM
+"Great, can you make a reservation there next Tuesday at morning 11:30.",SELECT
+"Great, can you make a reservation there next Tuesday at morning 11:30.",INFORM
+"Yup, that's great. What's their rating an do they have outdoor seating?",REQUEST
+"Yup, that's great. What's their rating an do they have outdoor seating?",AFFIRM
+"Thanks, that's all for now.",THANK_YOU
+"Thanks, that's all for now.",GOODBYE
+Find for me please a restaurant tagged affordable for price that have outdoor seating.I would like that Steakhouse to be served.,INFORM
+In Livermore will be okay.,INFORM
+Sounds very good.Book a table for 3 people.,SELECT
+Sounds very good.Book a table for 3 people.,INFORM
+Try to make it at half past 1 in the afternoon.,INFORM
+"Yes, very good.Tell me the user rating for this restaurant.",REQUEST
+"Yes, very good.Tell me the user rating for this restaurant.",AFFIRM
+Thank you for all.,THANK_YOU
+No.Thanks.,THANK_YOU
+No.Thanks.,NEGATE
+Can you find me some place to eat?,INFORM
+Look for restaurants in Moraga.,INFORM
+I want some Take-out.,INFORM
+Is it a cheap restaurant?,REQUEST
+"Okay, that sounds good. I need to book a table for 1. How about on the 12th at 5 in the evening?",SELECT
+"Okay, that sounds good. I need to book a table for 1. How about on the 12th at 5 in the evening?",INFORM
+Yes that works. Does the restaurant have vegetarian options?,REQUEST
+Yes that works. Does the restaurant have vegetarian options?,AFFIRM
+Can you help me find a place to eat with outdoor seating?,INFORM
+Check restaurants in Bolinas that serve Veggie.,INFORM
+Do they have vegetarians options on the menu? Can you get me their phone number please?,REQUEST
+"Yes, that is good.",SELECT
+"Yes please, at 5 o""clock in the evening on 11th of this month.",AFFIRM
+"Yes please, at 5 o""clock in the evening on 11th of this month.",INFORM
+Please change that to half past 6 in the evening on 14th of March.,NEGATE
+Please change that to half past 6 in the evening on 14th of March.,INFORM
+Yes that is correct.,AFFIRM
+Thank you so much. That is all.,THANK_YOU
+Thank you so much. That is all.,GOODBYE
+I'd like to find a nice reasonably priced restaurant.,INFORM
+How about Seafood?,INFORM
+Find Walnut Creek restaurants.,INFORM
+"Do you have something else, with vegetarian options? How about Greek food?",REQUEST_ALTS
+"Do you have something else, with vegetarian options? How about Greek food?",INFORM
+Sounds fabulous.,SELECT
+"Yes, reserve a table. I am interested in a table for 3rd of March. Make the reservation for 19:15.",AFFIRM
+"Yes, reserve a table. I am interested in a table for 3rd of March. Make the reservation for 19:15.",INFORM
+Sounds good. Tell me the restaurant's user rating.,REQUEST
+Sounds good. Tell me the restaurant's user rating.,AFFIRM
+"No, thanks.",NEGATE
+"No, but thank you.",THANK_YOU
+"No, but thank you.",NEGATE
+Hi I'm hungry and want to go out to eat. Preferably something with vegetarian options that serves Pizza and Pasta.,INFORM
+Please find me restaurants in Palo Alto.,INFORM
+Are the prices cheap? What is the average rating?,REQUEST
+Is there anything else you can recommend me?,REQUEST_ALTS
+That sounds good.,SELECT
+"Yes that would be great, book me a table.",AFFIRM
+I would like to make a reservation for 4:30 in the evening.,INFORM
+"Yes, that is wonderful.",AFFIRM
+Please try booking the table for half past 12 in the afternoon.,INFORM
+That works for me.,AFFIRM
+What is their contact number and address?,REQUEST
+"No, that will be all. Thank you.",THANK_YOU
+"No, that will be all. Thank you.",NEGATE
+"Hey, do you think you could help me find a nice place to eat?",INFORM
+"Yeah, I could really go for some Punjabi right now. Can you find me something in San Carlos?",INFORM
+Awesome! That sounds great.,SELECT
+Yes I would. Can you reserve a table for three at eleven AM on the 13th of this month?,AFFIRM
+Yes I would. Can you reserve a table for three at eleven AM on the 13th of this month?,INFORM
+"Yes, that's right.",AFFIRM
+"Yeah, can you get their address for me?",REQUEST
+"Okay, thank you so much!",THANK_YOU
+No that is all. Thank you very much.,THANK_YOU
+No that is all. Thank you very much.,NEGATE
+I can't figure out where to go to eat. Can you help?,INFORM
+"Find me a place in the San Jose area, maybe something Asian.",INFORM
+That sounds good to me.,SELECT
+"Uh, can you book me a table for one at that restaurant?",INFORM
+"Make it for 5:45 in the evening, please.",INFORM
+Yes that works for me. Confirmed.,AFFIRM
+Can you try booking another table for two at 6 in the evening?,INFORM
+Yes that is all correct.,AFFIRM
+"Just forget about it, I'll call them directly. Thank you for trying.",THANK_YOU
+"Just forget about it, I'll call them directly. Thank you for trying.",NEGATE
+"I'm hungry, where should I go?",INFORM
+How about some pasta in San Mateo?,INFORM
+"Nah, what about some Barbecue?",REQUEST_ALTS
+"Nah, what about some Barbecue?",INFORM
+Do they have vegetarian options? How much will this cost me?,REQUEST
+I guess I can eat meat once. Get me a table.,SELECT
+I guess I can eat meat once. Get me a table.,INFORM
+Make it for 7:15 pm.,INFORM
+"Ok, You twisted my arm. Do they have outdoor cafe style seating? What's their user rating?",REQUEST
+"Ok, You twisted my arm. Do they have outdoor cafe style seating? What's their user rating?",AFFIRM
+"Cool, thanks.",THANK_YOU
+Not just yet.,THANK_YOU
+Not just yet.,NEGATE
+I'm looking for a classy restaurant in SF. Please help me find one.,INFORM
+I'm craving something like Japanese. Find something like Izakaya.,INFORM
+That sounds like just what I'm looking for.,SELECT
+I sure do. Book it for me.,AFFIRM
+Please make the reservation for 7:45 pm.,INFORM
+That works just fine for me. I can't wait to go.,AFFIRM
+Is there outdoor seating available? I need their phone number as well.,REQUEST
+"No outdoor seating? That's okay. Anyway, thank you for your help.",THANK_YOU
+No that's all. Thank you for your help.,THANK_YOU
+No that's all. Thank you for your help.,NEGATE
+I want to find a place where I can have a meal.,INFORM
+"The place should have vegetarian alternatives, more specifically some place that serves Sushi in Berkeley.",INFORM
+"Alright, this seems nice.",SELECT
+"Yes, I want to have a table booked for me at this restaurant. I want to have the table to be reserved for two people on the 11th, as for the time, it should be for 2 pm.",AFFIRM
+"Yes, I want to have a table booked for me at this restaurant. I want to have the table to be reserved for two people on the 11th, as for the time, it should be for 2 pm.",INFORM
+"Yes, that is what I want.",AFFIRM
+"Would you mind trying again to book a table, but make it for four people at 7:15 pm",INFORM
+"Alright, that suits me well. Can you check if they have places to sit outside since I like fresh air.",REQUEST
+"Alright, that suits me well. Can you check if they have places to sit outside since I like fresh air.",AFFIRM
+I do not want that. That would be all.,NEGATE
+I do not want that. That would be all.,GOODBYE
+Can you help me find a restaurant to eat dinner?,INFORM
+"Yes, I am looking for Greek food in Los Altos.",INFORM
+That one is good.,SELECT
+"Yes, please reserve a table.",AFFIRM
+Make the reservations for half past 7 in the evening.,INFORM
+"No, let me make that for March 7th at two pm.",NEGATE
+"No, let me make that for March 7th at two pm.",INFORM
+"You got it, thank you.",AFFIRM
+"No, that's OK, thank you.",THANK_YOU
+"No, that's OK, thank you.",NEGATE
+Help me find somewhere to eat.,INFORM
+Find an Italian restaurant in Belmont.,INFORM
+What's the phone number?,REQUEST
+"Great, thank you.",SELECT
+"Yeah, reserve a table for 2 for the 14th of this month at morning 11:30.",AFFIRM
+"Yeah, reserve a table for 2 for the 14th of this month at morning 11:30.",INFORM
+"Correct, is it cheap and what's their address?",REQUEST
+"Correct, is it cheap and what's their address?",AFFIRM
+Thank you again.,THANK_YOU
+"Nope, thank you!",THANK_YOU
+"Nope, thank you!",NEGATE
+I'm searching for a location to dine at.,INFORM
+Get me a diner in San Francisco that offers Asian cuisine.,INFORM
+"Yeah, I'd like to make a reservation on March 5th.",AFFIRM
+"Yeah, I'd like to make a reservation on March 5th.",INFORM
+Make the booking for 12:30 pm.,INFORM
+"Yeah, that's fine. Is the diner cheap? Where is it located?",REQUEST
+"Yeah, that's fine. Is the diner cheap? Where is it located?",AFFIRM
+Thank you for your assistance.,THANK_YOU
+Thank you for your assistance.,GOODBYE
+Nope; thank you for your help.,THANK_YOU
+Nope; thank you for your help.,NEGATE
+Can you find me a place to eat around the SFO area?,INFORM
+"I want some Ramen, that sounds good right now",INFORM
+Where are they located?,REQUEST
+What else can you recommend to me?,REQUEST_ALTS
+Is it pricey there? And what's their rating,REQUEST
+What about cheap restaurants that you can recommend?,REQUEST_ALTS
+What about cheap restaurants that you can recommend?,INFORM
+"Oh that sounds good, book me a table please!",SELECT
+"Oh that sounds good, book me a table please!",INFORM
+"Dinner time, around 18:30",INFORM
+"Yes please, also what's their rating?",REQUEST
+"Yes please, also what's their rating?",AFFIRM
+"Great, thanks for that",THANK_YOU
+"No, that's all for now, thank you",THANK_YOU
+"No, that's all for now, thank you",NEGATE
+"Hello, I was wondering if you could help me find a place to eat?",INFORM
+I would like to eat at a barbecue restaurant. Preferably somewhere in Emeryville.,INFORM
+"Yes, that works for me. Can you help me book a table there? It will be a reservation for one person on March 10th at 11:45 am.",SELECT
+"Yes, that works for me. Can you help me book a table there? It will be a reservation for one person on March 10th at 11:45 am.",INFORM
+"Yes, I can do that.",AFFIRM
+"No, that will be all. Thank you again.",THANK_YOU
+"No, that will be all. Thank you again.",NEGATE
+Its boring to eat at home for a change i wish to eat outside. Will you find me a restaurant tagged intermediate priced for price?,INFORM
+Please find something like Lobster and find restaurants in Belmont.,INFORM
+ok thats great. it sound good to me.,SELECT
+Yes I need to reserve a table.,AFFIRM
+Make the reservation at afternoon 12:30,INFORM
+ok thats great. please fix it. DO they have vegetarians options on the menu?,REQUEST
+ok thats great. please fix it. DO they have vegetarians options on the menu?,AFFIRM
+THanks a lot and thats all i need.,THANK_YOU
+THanks a lot and thats all i need.,GOODBYE
+I'm new in town and would like to find a place to get something to eat.,INFORM
+"Somewhere close by, so Mountain View would be great.",INFORM
+"I really enjoy French food, if you can find a place that serves it.",INFORM
+That sounds great!,SELECT
+"Yes, please. I need to book a table for 4 and prefer it to be in the morning 11:45.",AFFIRM
+"Yes, please. I need to book a table for 4 and prefer it to be in the morning 11:45.",INFORM
+That sounds great! Can you provide me with their location?,REQUEST
+That sounds great! Can you provide me with their location?,AFFIRM
+Can you give ma an idea of how pricey the establishment is?,REQUEST
+Thanks a lot!,THANK_YOU
+"Nope, that's all I need at the moment.",THANK_YOU
+"Nope, that's all I need at the moment.",NEGATE
+Can you find me a Filipino place to eat.,INFORM
+I'm looking for something in Geyserville serving pasta outdoors.,INFORM
+That one sounds okay.,SELECT
+Yes. Please book.,AFFIRM
+Please reserve for 1 in the afternoon.,INFORM
+Yes. That's correct.,AFFIRM
+Thanks. That will be all.,THANK_YOU
+Thanks. That will be all.,GOODBYE
+I have friends visiting and would like to find a place to eat.,INFORM
+I enjoy freshwater fish and would like to dine in San Fran.,INFORM
+Is this an ultra high-end restaurant? I will also need their address.,REQUEST
+This place sounds great. Please reserve a table here.,SELECT
+This place sounds great. Please reserve a table here.,INFORM
+Please make a reservation for 12:30 on March 2nd.,INFORM
+That is exactly right.,AFFIRM
+Thank you for your help! That is all I need at the moment.,THANK_YOU
+Thank you for your help! That is all I need at the moment.,GOODBYE
+I'm planning to dine out soon. Can you help me select a restaurant in Mountain View?,INFORM
+"Sure, search for restaurants that have Ramen.",INFORM
+Can you tell me if they have seating available outside?,REQUEST
+"What is the average user rating for this establishment? Also, can you give me their contact number?",REQUEST
+"Great, thanks!",SELECT
+"Sure, I'd like to make a reservation for 1 person at eleven in the morning on the 4th.",AFFIRM
+"Sure, I'd like to make a reservation for 1 person at eleven in the morning on the 4th.",INFORM
+That is correct. Can you tell me the price range of this restaurant?,REQUEST
+That is correct. Can you tell me the price range of this restaurant?,AFFIRM
+"Great, thanks for your help! That's it for me.",THANK_YOU
+"Great, thanks for your help! That's it for me.",GOODBYE
+I feel like Thai food. Find me something in San Fran.,INFORM
+Depends. What's their rating? Also do they have vegetarian options?,REQUEST
+Awesome. That sounds good to me.,SELECT
+"Yes, I do.",AFFIRM
+Make it for 11:30 in the morning.,INFORM
+"Yes, confirmed.",AFFIRM
+Great. Thank you.,THANK_YOU
+Great. Thank you.,GOODBYE
+I am planning on going out for a meal with friends. Can you find me a place in Healdsburg?,INFORM
+Sure. I'm interested in restaurants that serve Diner food.,INFORM
+"Can you tell me the user rating for this establishment? Also, is outdoor seating available?",REQUEST
+"Great, that sounds perfect! I would like to go ahead and make a reservation here.",SELECT
+"Great, that sounds perfect! I would like to go ahead and make a reservation here.",INFORM
+"I would like a reservation for 6:30 in the evening, please.",INFORM
+"Yes, that's perfect! Can you tell me if the price range is affordable? And also, are there menu items for vegetarians?",REQUEST
+"Yes, that's perfect! Can you tell me if the price range is affordable? And also, are there menu items for vegetarians?",AFFIRM
+Excellent. Thanks for you help. That's everything for me!,THANK_YOU
+Excellent. Thanks for you help. That's everything for me!,GOODBYE
+"Hi, could you get me a restaurant booking on the 8th please?",INFORM
+Could you get me a reservation at P.f. Chang's in Corte Madera at afternoon 12?,INFORM
+"Sure, that is great.",AFFIRM
+Could you try booking a table at Benissimo instead?,INFORM
+"Sure, may I know if they have vegetarian options and how expensive is their food?",REQUEST
+"Sure, may I know if they have vegetarian options and how expensive is their food?",AFFIRM
+"I see, thanks alot!",THANK_YOU
+"No, that is all. Thank you!",THANK_YOU
+"No, that is all. Thank you!",NEGATE
+Can you book a table for me at the Ancient Szechuan for the 11th of this month at 11:30 am?,INFORM
+Can you book a table at the Butterfly restaurant in San Francisco?,INFORM
+That's perfect. What cuisine do they offer?,REQUEST
+That's perfect. What cuisine do they offer?,AFFIRM
+Can you get me the user rating of the restaurant? Is it expensive?,REQUEST
+Thanks a bunch!,THANK_YOU
+No. Thank you. That's all I need.,THANK_YOU
+No. Thank you. That's all I need.,NEGATE
+"Can you check restaurants in Pacifica, I'm looking to make a reservation.",INFORM
+See if you can get one at Puerto 27 for 1:15 pm.,INFORM
+Yes that's right.,AFFIRM
+Thanks so much. That's all I need for now.,THANK_YOU
+Thanks so much. That's all I need for now.,GOODBYE
+I need to book a dinner reservation for a date. Help me reserve a table at a restaurant.,INFORM
+"Something around 8 in the night should be fine. Oh, and look in the San Jose area.",INFORM
+Let's try booking a table at Little Hunan.,INFORM
+It sure is. Please make the reservation right away.,AFFIRM
+Okay. Try booking a table at Little Hunan again but make it at a quarter past 5 in the evening.,INFORM
+That's correct. Let's hope the reservation goes through this time.,AFFIRM
+Really? That'll work just fine. Please try that.,AFFIRM
+"At last. Thank you so much. Before I let you go, can you tell me the restaurant's user rating?",REQUEST
+Are there any vegetarian dishes available at that restaurant?,REQUEST
+That's alright. Thanks for the information.,THANK_YOU
+Oh nothing. Booking the table was all I needed. Thanks again.,THANK_YOU
+Oh nothing. Booking the table was all I needed. Thanks again.,NEGATE
+Can you book a reservation for a restaurant at this evening 5:30?,INFORM
+See if you can get a table at Mi Zacatecas.,INFORM
+It's in American Canyon.,INFORM
+Confirm. Can you tell me what type of food they serve there?,REQUEST
+Confirm. Can you tell me what type of food they serve there?,AFFIRM
+"Great, that will be all.",THANK_YOU
+"Great, that will be all.",GOODBYE
+I need to book a table at a restaurant.,INFORM
+"I want it at 1:15 in the afternoon, please.",INFORM
+"I need a table at Saap Ver, in San Francisco.",INFORM
+"Yes, that is everything. Address?",REQUEST
+"Yes, that is everything. Address?",AFFIRM
+"No, but thanks.",THANK_YOU
+"No, but thanks.",NEGATE
+I'm looking to book a table. Can you try Triptych in SF?,INFORM
+Give me 6:15 in the evening please.,INFORM
+"No, wrong. Give me Friday next week instead.",NEGATE
+"No, wrong. Give me Friday next week instead.",INFORM
+"No, one more time. One person.",NEGATE
+"No, one more time. One person.",INFORM
+"Yes, that's a winner thanks. Do they have vegetarian options?",REQUEST
+"Yes, that's a winner thanks. Do they have vegetarian options?",AFFIRM
+"No, that will not do.",NEGATE
+"No, that will not do.",GOODBYE
+I would like to make a reservation at a restaurant for half past 1 in the afternoon.,INFORM
+I would like a table at Left Bank.,INFORM
+I would like a restaurant in Larkspur.,INFORM
+"Yes, that reservation is good.",AFFIRM
+I need to make a reservation for a restaurant in Oakland. The reservation should be for next Wednesday at 6:45 pm.,INFORM
+Can you book me a table at Mcdonald's?,INFORM
+That is correct. How expensive is the restaurant and does it have outdoor seating?,REQUEST
+That is correct. How expensive is the restaurant and does it have outdoor seating?,AFFIRM
+Thank you.,THANK_YOU
+No thanks.,THANK_YOU
+No thanks.,NEGATE
+I want to make a restaurant reservation.,INFORM
+"It's name is La Hacienda and I want the reservation for 2 o""clock in the afternoon.",INFORM
+It's in Cloverdale.,INFORM
+"Yeah,that's good. What's the user rating of the restaurant?",REQUEST
+"Yeah,that's good. What's the user rating of the restaurant?",AFFIRM
+"No, thanks a lot.",THANK_YOU
+"No, thanks a lot.",NEGATE
+I am trying to book a dinner reservation in San Fran for one. Can you try booking a table at Lers Ros?,INFORM
+"If you could, please make the reservation for 12:15 in the afternoon.",INFORM
+That will work just fine.,AFFIRM
+No that's all the help I needed. Thanks.,NEGATE
+No that's all the help I needed. Thanks.,GOODBYE
+I want to book a table at a restaurant in Danville please,INFORM
+"Yeah actually, can you try Lotus for me",INFORM
+Let's do it before lunch at 11:45,INFORM
+Yes that's all correct,AFFIRM
+Yes please do that,AFFIRM
+Is it cheap over there? Also give me their address,REQUEST
+"OK, thanks that's it for now",THANK_YOU
+"OK, thanks that's it for now",GOODBYE
+"My boss from headquarters is coming to town and I would like to treat him and his wife to dinner. Can you help me find a restaurant in San Francisco with available seating for four people, next Tuesday?",INFORM
+"Yes, a general dinner time is fine, so let's try to book a table for 6:30 pm.",INFORM
+"Yes, I'm told that Aq is very good. Let's try that one first.",INFORM
+"No, I'm sorry, I forgot he is not bring his wife so lets book a table for 3 at Ming's instead.",NEGATE
+"No, I'm sorry, I forgot he is not bring his wife so lets book a table for 3 at Ming's instead.",INFORM
+"Perfect, and can you also tell me the the establishment's rating as well?",REQUEST
+"Perfect, and can you also tell me the the establishment's rating as well?",AFFIRM
+"Great, I believe that will be all fr now. Thanks!",THANK_YOU
+"Great, I believe that will be all fr now. Thanks!",GOODBYE
+Help me to find hotel in Petaluma to book a table at evening 7:30.,INFORM
+"yeah, get me at Cattlemens.",INFORM
+"Good, thats all.",AFFIRM
+Shall I get veg food there. What is their phone number?,REQUEST
+"Great service, thank you.",THANK_YOU
+"No, thats all.",THANK_YOU
+"No, thats all.",NEGATE
+Can you help me book a table at Thai Chili on March 11th? Please find restaurants in Santa Clara.,INFORM
+I want 5:45 in the evening.,INFORM
+"Yes, that's fine.",AFFIRM
+Could you look at restaurants for me to reserve a table?,INFORM
+How about Chianti Cucina in Novato.,INFORM
+For 4:45 pm please.,INFORM
+"Yes, perfect. Book it please. Is there any outdoor seating there? What kinds of foods do they have?",REQUEST
+"Yes, perfect. Book it please. Is there any outdoor seating there? What kinds of foods do they have?",AFFIRM
+Yes please.,AFFIRM
+Thanks so much. That's all.,THANK_YOU
+Thanks so much. That's all.,GOODBYE
+I want to book a table for 4 people on March 10th in Petaluma.,INFORM
+Try please at Izakaya Kitaru.At 17:30 will be very good for me.,INFORM
+Yes is okay.Outdoor seating are available?,REQUEST
+Yes is okay.Outdoor seating are available?,AFFIRM
+Tell me the phone number and the address.,REQUEST
+Thanks for the help. That's what I wanted for the moment.,THANK_YOU
+Thanks for the help. That's what I wanted for the moment.,GOODBYE
+Can you book a table at a restaurant for me?,INFORM
+I am looking for restaurants in Mountain View for the reservation at seven pm.,INFORM
+I would like to go with Sushi 85.,INFORM
+"Okay, That sounds great! Find me the address please.",REQUEST
+"Okay, That sounds great! Find me the address please.",AFFIRM
+Can you find me their phone number?,REQUEST
+"Okay, Thank you for the help!",THANK_YOU
+No. That will be all. Thank you!,THANK_YOU
+No. That will be all. Thank you!,NEGATE
+I need to reserve a table at a restaurant in SF for 7 pm.,INFORM
+Can you reserve a table at Regent?,INFORM
+That is correct.,AFFIRM
+"Thanks, that is all.",THANK_YOU
+"Thanks, that is all.",GOODBYE
+I'd like to make a reservation at a restaurant.,INFORM
+"It's a restaurant called Amalfi, please try that.",INFORM
+I want it for 5:30 in the evening and it should be in Larkspur.,INFORM
+"Yeah, that sounds awesome.",AFFIRM
+Thanks a lot. That's it for now.,THANK_YOU
+Thanks a lot. That's it for now.,GOODBYE
+Can you help me to book a table at a restaurant for 2 people at evening 6:30,INFORM
+Would you kindly book the table at Mcdonalds?,INFORM
+Search restaurants in Morgan Hill and it is for next monday,INFORM
+Okay..this is cool,AFFIRM
+Is there outdoor seating in that restaurant and can i know the phone number,REQUEST
+This is cool..thanks a lot.,THANK_YOU
+This is cool..thanks a lot.,GOODBYE
+I would like to reserve a table for 1 at La Briciola tomorrow morning 11.,INFORM
+"Search in SFO, please.",INFORM
+"No, please make it a table for 3.",NEGATE
+"No, please make it a table for 3.",INFORM
+"Yes, that sounds great. What type of food do they serve?",REQUEST
+"Yes, that sounds great. What type of food do they serve?",AFFIRM
+That sounds fine.,AFFIRM
+"Thank you, I'm all set.",THANK_YOU
+"Thank you, I'm all set.",GOODBYE
+"Can you find me a restaurant table for 3 people in Alameda, please?",INFORM
+I'd like it for 11:30 in the morning on March 13th. It'll just be one person dining.,INFORM
+How about Cafe Jolie?,INFORM
+"Yes, that's perfect.",AFFIRM
+"Yes, that's everything for today.",THANK_YOU
+"Yes, that's everything for today.",NEGATE
+Looking to book a table at the Academy bar?,INFORM
+Find in San Fran at 19:00,INFORM
+"Yes, thats right",AFFIRM
+Any vegetarian options there?,REQUEST
+thanks a lot,THANK_YOU
+"no, thanks again",THANK_YOU
+"no, thanks again",NEGATE
+I need to book a table at a nice restaurant.,INFORM
+"I kinda want to eat at Namu Gaji at one pm, the branch in SFO",INFORM
+Yup that's right. Can you check how pricey it is and what their user rating is?,REQUEST
+Yup that's right. Can you check how pricey it is and what their user rating is?,AFFIRM
+"No, I'm not available then",NEGATE
+"No, not right now, thanks for your assistance",THANK_YOU
+"No, not right now, thanks for your assistance",NEGATE
+I want to reserve a restaurant table for 1 at 1 in the afternoon.,INFORM
+I'd like a table at Yin Keng. Look in Windsor.,INFORM
+That's it. Do they have vegetarian meals? Where is the restaurant?,REQUEST
+That's it. Do they have vegetarian meals? Where is the restaurant?,AFFIRM
+Thanks for your help.,THANK_YOU
+"No, that is all.",THANK_YOU
+"No, that is all.",NEGATE
+Please book one table at Tandoori Mahal at 12:30 in the afternoon. The date is 13th of this month.,INFORM
+I am looking for one in San Francisco.,INFORM
+"Fine, what about food category.",REQUEST
+"Fine, what about food category.",AFFIRM
+Get me their phone number. What is their rating?,REQUEST
+"Good service, thank you.",THANK_YOU
+"Good service, thank you.",GOODBYE
+"I want to have a table booked for me at a restaurant, because I want to have a meal.",INFORM
+Can you check if you can make a booking of a table at Castle Rock?,INFORM
+I prefer to have the booking be made for 12:00.,INFORM
+I am interested in restaurants which are located in Livermore.,INFORM
+That is not right. Could you please see if you can make a booking at Mcdonald's?,NEGATE
+That is not right. Could you please see if you can make a booking at Mcdonald's?,INFORM
+I don't want that either. See if you can find me restaurants in Pittsburg.,NEGATE
+I don't want that either. See if you can find me restaurants in Pittsburg.,INFORM
+Yes that suits me well. Could you inform me about the fact how expensive is the restaurant?,REQUEST
+Yes that suits me well. Could you inform me about the fact how expensive is the restaurant?,AFFIRM
+I appreciate it very much. That would be all.,THANK_YOU
+I appreciate it very much. That would be all.,GOODBYE
+I'd like to book a table for 1 this sunday somewhere in half moon bay.,INFORM
+"Could you find something at Miramar Beach, quarter past 11 in the morning?",INFORM
+"Exactly. What is their address, and what's the user rating?",REQUEST
+"Exactly. What is their address, and what's the user rating?",AFFIRM
+Yes.,AFFIRM
+Thank you so much.,THANK_YOU
+Nope! Thank you!,THANK_YOU
+Nope! Thank you!,NEGATE
+"I would like to take this girl I like out for a casual meal on the 3rd of this month, when I get paid so something around eleven am would be perfect. Can you help me locate a restaurant in Palo Alto?",INFORM
+"Yes, I've heard really good things about a restaurant called Lotus.",INFORM
+Yes everything you have is correct.,AFFIRM
+"No, that won't work but thank you any way.",NEGATE
+"No, that won't work but thank you any way.",GOODBYE
+I want to make a restaurant reservation somewhere please.,INFORM
+I am in Palo Alto.,INFORM
+"Yes, Anatolian please for 3 people, if you would.",INFORM
+Would you try for 12:30?,INFORM
+"Oops, please change that to one person.",NEGATE
+"Oops, please change that to one person.",INFORM
+"Okay, thanks. I'm wondering if they have vegetarian choices on their menu. Also, what kind of menu do they have in general?",REQUEST
+"Okay, thanks. I'm wondering if they have vegetarian choices on their menu. Also, what kind of menu do they have in general?",AFFIRM
+Wonderful. Thank you for helping me.,THANK_YOU
+"No, that's all I needed.",THANK_YOU
+"No, that's all I needed.",NEGATE
+"Hi there, could you get me a table at a restaurant on the 14th of March at 1:30 pm please?",INFORM
+Could you get me a reservation at Schroeder's please?,INFORM
+A table for two at San Francisco will be fine.,INFORM
+That sounds great to me!,AFFIRM
+Thank you so much!,THANK_YOU
+"No, that is all I need. Really appreciate it!",THANK_YOU
+"No, that is all I need. Really appreciate it!",NEGATE

@@ -25,7 +25,7 @@ intent_mapper = {
 
 def filter_itents(json_file, file_name):
   for item in json_file:
-      if type_name not in item['services']:
+      if len(item['services']) > 1 or type_name not in item['services']:
         continue
       for turn in item['turns']:
           if turn['speaker'] == 'SYSTEM':
@@ -60,15 +60,14 @@ def intent_group():
           i += 1
   print(i)
   
-
 if __name__ == '__main__': 
-  for path in pathlib.Path("dstc8-schema-guided-dialogue/train").iterdir():
+  for path in pathlib.Path(f'../dstc8-schema-guided-dialogue/{file_name}').iterdir():
     if path.is_file() and not path.match('*schema.json'):
       current_file = open(path, "r")
       json_file = json.loads(current_file.read())
       filter_itents(json_file, path)
       current_file.close()
-  f = open(f'{file_name}.csv', 'w')
+  f = open(f'./classification/{file_name}_dataset.csv', 'w')
   writer = csv.writer(f)
   writer.writerow(['Phrase', 'Intent'])
   for (phrase, intent_list) in user.items():

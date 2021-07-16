@@ -1,0 +1,17 @@
+Events_1: 417
+Flights_3: 390
+RentalCars_1: 380
+Weather_1: 356
+Hotels_4: 340
+Restaurants_2: 335
+Buses_1: 328
+Banks_2: 293
+Travel_1: 282
+RideSharing_1: 269
+Hotels_1: 235
+Services_4: 200
+Music_1: 195
+Homes_1: 179
+Media_2: 178
+Movies_2: 140
+Alarm_1: 36

@@ -1,5 +1,8 @@
 import pathlib
 import json
+from sys import argv
+
+file_name = argv[1]
 
 type_dict = {}
 
@@ -8,7 +11,7 @@ def process_object(json_file):
     for type in obj['services']:
       type_dict[type] = type_dict[type] + 1 if type in type_dict else 0
 
-for path in pathlib.Path("dstc8-schema-guided-dialogue/train").iterdir():
+for path in pathlib.Path(f'../dstc8-schema-guided-dialogue/{file_name}').iterdir():
   if path.is_file() and not path.match('*schema.json'):
     current_file = open(path, "r")
     json_file = json.loads(current_file.read())
