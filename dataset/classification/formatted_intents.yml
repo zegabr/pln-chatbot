@@ -1,8 +1,4 @@
 nlu:
-- intent: Intent
-  examples: |
-    - Phrase
-
 - intent: INFORM
   examples: |
     - I'm looking for a restaurant can you help?

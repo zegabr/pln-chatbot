@@ -1,282 +1,240 @@
 nlu:
-- lookup: Entity
+- lookup: date
   examples: |
-    - Phrase
+    - today
+    - March 2nd
+    - March 13th
+    - March 5th
+    - 14th of March
+    - the 11th
+    - this sunday
+    - March 7th
+    - the 12th
+    - 13th of this month
+    - Saturday this week
+    - next Tuesday
+    - March 14th
+    - the 8th
+    - 3rd of March
+    - the 3rd
+    - Friday next week
+    - the 14th
+    - 14th of this month
+    - next Wednesday
+    - 3rd of this month
+    - March 10th
+    - 11th of this month
+    - the 4th
+    - Tuesday next week
+    - 9th of March
+    - next monday
+    - March 11th
 
-- lookup: 
+- lookup: restaurant_name
   examples: |
-    - 
+    - Left Bank
+    - Lotus
+    - Namu Gaji
+    - Lers Ros
+    - Little Hunan
+    - Ancient Szechuan
+    - Cattlemens
+    - Cafe Jolie
+    - P.f. Chang's
+    - Benissimo
+    - Ming's
+    - Anatolian
+    - Thai Chili
+    - Castle Rock
+    - Izakaya Kitaru
+    - Amalfi
+    - Academy bar
+    - Mcdonald's
+    - Aq
+    - Mcdonalds
+    - La Briciola
+    - Chianti Cucina
+    - Miramar Beach
+    - Puerto 27
+    - Schroeder's
+    - Saap Ver
+    - Butterfly
+    - Triptych
+    - Tandoori Mahal
+    - Yin Keng
+    - Regent
+    - Mi Zacatecas
+    - La Hacienda
+    - Sushi 85
 
-- lookup: B-category
+- lookup: time
   examples: |
-    - Burmese
-    - italian
-    - Pick-up
-    - diner
-    - Asian
-    - pizza
-    - Sushi
-    - Thai
-    - Soup
-    - Diner
-    - Latin
-    - tacos
-    - Pizza
-    - Southern
-    - barbecue
-    - persian
-    - sushi
-    - Cambodian
-    - Japanese
-    - Mediterranean
-    - Malaysian
-    - Spicy
-    - Coffee
-    - Moroccan
-    - lobster
-    - breakfast
-    - Freshwater
-    - Italian
-    - Himalayan
-    - Turkish
-    - Barbecue
-    - Oriental
-
-- lookup: B-location
-  examples: |
-    - San
-    - Berkeley
-    - Santa
-    - Palo
-    - Concord
-    - SF
-    - Lafayette
-    - Oakland
-    - SFO
-    - Redwood
-    - Los
-    - Cupertino
-    - Livermore
-    - Benicia
-    - Sunnyvale
-    - Walnut
-    - Vacaville
-    - Danville
-    - Mountain
-    - Moraga
-    - Newark
-    - Milpitas
-    - Orinda
-    - Saratoga
-    - Napa
-    - Castro
-    - Albany
-    - Rohnert
-
-- lookup: I-location
-  examples: |
-    - Fran
-    - Clara
-    - Alto
-    - Jose
-    - Carlos
-    - City
-    - Gatos
-    - Creek
-    - Rafael
-    - Mateo
-    - View
-    - Rosa
-    - Francisco
-    - Valley
-    - Park
-
-- lookup: B-time
-  examples: |
-    - afternoon
-    - 12:15
-    - 7
-    - 11:30
-    - half
-    - six
-    - 8
-    - 7:15
-    - 17:00
-    - quarter
-    - one
-    - 12:00
-    - 5:15
-    - 17:45
-    - 12:45
-    - 18:45
+    - half past 12 in the afternoon
+    - 1:15 pm
+    - 5 in the evening
+    - 4:30 in the evening
+    - half past 6 in the evening
+    - evening 4:45
+    - 19:00
+    - quarter to 2 in the afternoon
+    - 1 in the afternoon
+    - 6 in the evening
+    - 4:45 pm
+    - 5:45 in the evening
+    - half past 7 in the evening
+    - morning 11:45
+    - 1:15 in the afternoon
+    - 8 in the night
     - 19:15
-    - 6:30
-    - 6:45
-    - 18:00
-    - 20:00
-    - 1:15
-    - 17:15
-    - 13:00
-    - 17:30
-    - Half
-    - 18:30
-    - 7:30
-    - two
-    - seven
-    - 18:15
-    - 5:30
-
-- lookup: I-time
-  examples: |
-    - 12:30
-    - the
-    - in
-    - evening
-    - past
-    - 6
-    - 1
-    - 10
-    - morning
-    - night
-    - 5:45
-    - pm
-    - 10:45
-    - 12
-    - am
+    - half past 1 in the afternoon
+    - 6:15 in the evening
+    - 6:30 in the evening
+    - quarter past 5 in the evening
+    - quarter past 11 in the morning
+    - two pm
+    - evening 7:30
+    - morning 11:30
+    - 12:30 pm
+    - 11:30 in the morning
+    - 1:30 pm
+    - half past 10 in the morning
+    - 7:15 pm
+    - 12 in the afternoon
+    - 5 o"clock in the evening
+    - 12:00
     - 11:45
-    - 4:45
-    - 11
-    - 5
-    - 11:15
-    - o
-    - ''
-    - clock
-    - 6:15
-    - to
+    - morning 11
+    - 17:30
+    - evening 4:30
+    - 5:30 pm
+    - evening 5:30
+    - eleven am
+    - morning 11:15
+    - afternoon 12
+    - 12:30 in the afternoon
+    - afternoon 12:30
+    - eleven AM
+    - 6:45 pm
+    - half past 11 in the morning
+    - 5:30 in the evening
+    - 7:45 pm
+    - eleven in the morning
+    - 2 o"clock in the afternoon
+    - 12:30
+    - 2 pm
+    - 6:30 pm
+    - 12:15 in the afternoon
+    - seven pm
+    - 11:45 am
+    - 7 pm
+    - one pm
+    - evening 6:30
+    - 1 pm
+    - 11:30 am
+    - 18:30
 
-- lookup: B-date
+- lookup: location
   examples: |
-    - 5th
-    - 12th
-    - 4th
-    - 13th
-    - Saturday
-    - 3rd
-    - Sunday
-    - Tuesday
-    - Wednesday
-    - 14th
-    - 8th
+    - Bolinas
+    - Belmont
+    - SFO
+    - Cupertino
+    - Geyserville
+    - half moon bay
+    - Walnut Creek
+    - Santa Clara
+    - Berkeley
+    - Oakland
+    - Danville
+    - Larkspur
+    - Cloverdale
+    - Pittsburg
+    - Alameda
+    - San Fran
+    - Corte Madera
+    - Novato
+    - Napa
+    - San Francisco
+    - San Ramon
+    - Livermore
+    - Petaluma
+    - Sunnyvale
+    - Moraga
+    - American Canyon
+    - Palo Alto
+    - San Mateo
+    - Los Gatos
+    - Morgan Hill
+    - Pacifica
+    - San Jose
+    - Healdsburg
+    - Fairfax
+    - Mountain View
+    - SF
+    - Emeryville
+    - San Carlos
+    - Windsor
+    - Los Altos
 
-- lookup: I-date
+- lookup: price_range
   examples: |
-    - of
-    - March
-    - this
-    - month
-    - 6th
-    - week
-    - 10th
-    - 11th
-    - 9th
-    - next
-    - Friday
-    - 2nd
-    - Monday
-    - Thursday
+    - moderate
+    - ultra high-end
+    - pricey
+    - dontcare
+    - cheap
 
-- lookup: B-number_of_seats
+- lookup: has_vegetarian_options
   examples: |
-    - 3
+    - True
+    - False
+
+- lookup: category
+  examples: |
+    - Diner
+    - Ramen
+    - Asian
+    - Spicy Indian
+    - Cantonese
+    - Latin American
+    - Sushi
+    - Italian
+    - Barbecue
+    - take-out
+    - Seafood
+    - Light meal
+    - Lobster
+    - burgers
+    - Neapolitan
+    - Oriental
+    - Japanese
+    - Chinese
+    - Southern
+    - French
+    - pasta
+    - barbecue
+    - freshwater fish
+    - Take-out
+    - Veggie
+    - Izakaya
+    - Punjabi
+    - Pizza and Pasta
+    - Steakhouse
+    - Korean Barbeque
+    - Pakistani
+    - Filipino
+    - Greek
+    - Thai
+    - Cambodian
+
+- lookup: number_of_seats
+  examples: |
     - 4
     - 2
+    - 1
+    - 3
 
-- lookup: B-price_range
+- lookup: has_seating_outdoors
   examples: |
-    - ultra
-    - cheap
-    - moderate
-    - pricey
+    - True
 
-- lookup: I-price_range
-  examples: |
-    - high-end
-
-- lookup: I-category
-  examples: |
-    - and
-    - pasta
-    - Bar
-    - &
-    - Salad
-    - American
-    - Pasta
-    - Noodles
-    - light
-    - bites
-    - fish
-    - Fusion
-    - Fish
-
-- lookup: B-restaurant_name
-  examples: |
-    - Sino
-    - Sipan
-    - Rosie
-    - Bourbon
-    - Andes
-    - Ludwig
-    - Villa
-    - Big
-    - Tuba
-    - simply
-    - Zaoh
-    - House
-    - Mcdonald
-    - Uncle
-    - Mai
-    - Tacolicious
-    - Isushi
-    - Lalla
-    - Taverna
-    - Sai
-    - Kiku
-    - Royal
-    - Kittea
-    - Kathmandu
-    - Rokko
-    - El
-    - Tonayan
-    - Tanchito
-    - Dickey
-    - Koryo
-    - Sakana
-    - Sidebar
-    - The
-    - Vanessa
-    - Blue
-    - Hakka
-
-- lookup: I-restaurant_name
-  examples: |
-    - Mccann
-    - 's
-    - Steak
-    - Cafe
-    - German
-    - Table
-    - Romano
-    - fondue
-    - Of
-    - Genji
-    - Yu
-    - T
-    - Rangoon
-    - Cat
-    - Restaurant
-    - Tesoro
-    - Cooperage
-    - Bistro
-    - Gingko
-    - Blackhawk
-    - Grill
