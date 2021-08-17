@@ -2,42 +2,25 @@ version: "2.0"
 
 stories:
 
-# - story: happy path
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: mood_great
-#   - action: utter_happy
-
-# - story: sad path 1
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: mood_unhappy
-#   - action: utter_cheer_up
-#   - action: utter_did_that_help
-#   - intent: affirm
-#   - action: utter_happy
-
-# - story: sad path 2
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: mood_unhappy
-#   - action: utter_cheer_up
-#   - action: utter_did_that_help
-#   - intent: deny
-#   - action: utter_goodbye
-
-- story: interactive_story_1
+- story: main path
   steps:
-  - intent: INFORM
-    entities:
-    - location: Geyserville
+  - intent: greet
+  - action: utter_how_can_i_help
 
-# TODO
+
+#########################
+# TODO historinha
 # pedir pra reservar
 # local, tempo, quantidade de pessoas
 
-# saber se tem reserva
-# local, tempo, quantidade de pessoas
+# saber se um local tá aberto está aberto
+# 
+
+# sugerir local
+# 
+
+
+## ola
+# opa no que posso ajudar?
+
+## ask_if_open || 

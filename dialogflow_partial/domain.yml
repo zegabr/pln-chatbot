@@ -1,0 +1,104 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - request_reservation
+
+entities:
+  - name
+  - restaurant_name
+  - time
+  - cuisine
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_how_can_i_help:
+  - text: "Hi, how can i help you?"
+  - text: "hi, what can i help you with?"
+
+  utter_can_help_more:
+  - text: "Can i help you with something else?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+  - text: "Ok bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_make_reservation:
+  - text: "Thank you {name}. Your reservation was made for {restaurant_name} at {time}"
+
+  utter_ask_name:
+  - text: "how can i call you?"
+  - text: "please tell me your name"
+  - text: "what is your name"
+
+  utter_ask_restaurant_name:
+  - text: "what restaurant do you want to go?"
+
+  utter_ask_time:
+  - text: "when do you want to go?"
+
+  utter_ask_cuisine:
+  - text: "what type of food do you like"
+  
+slots:
+  name:
+    type: text
+  restaurant_name:
+    type: text
+  time:
+    type: text
+  cuisine:
+    type: text
+
+forms: 
+  # to request reservation
+  reservation_form: 
+    required_slots:
+      name:
+        - type: from_entity
+          entity: name
+      restaurant_name:
+        - type: from_entity
+          entity: restaurant_name
+      time:
+        - type: from_entity
+          entity: time
+  
+   # to get some info about some restaurant
+  restaurant_info_form:
+    required_slots:
+      restaurant_name:
+        - type: from_entity
+          entity: restaurant_name
+  
+   # request for restaurant recommendation
+  request_recommendation_form:
+    required_slots:
+      cuisine:
+        - type: from_entity
+          entity: cuisine
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
