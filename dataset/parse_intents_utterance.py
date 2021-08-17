@@ -9,6 +9,7 @@ file_name = argv[2]
 users = {}
 users['USER'] = {}
 users['SYSTEM'] = {}
+entities = set()
 
 intent_mapper = {
   'REQ_MORE': -7,
@@ -53,6 +54,7 @@ def filter_itents(json_file, file_name):
         for action in frame['actions']:
           intent = compare_intents(action['act'], intent)
           if action['values'] and action['slot'] != 'party_size':
+            entities.add(action['slot'])
             text = text.replace(action['values'][0], '[%s](%s)' % (action['values'][0], action['slot']))
       if intent not in users[speaker]:
         users[speaker][intent] = set()
@@ -85,6 +87,7 @@ if __name__ == '__main__':
     for intent, phrases in intents.items():
       unique_user_phrases[user][intent] = list(phrases)
       unique_user_phrases[user][intent].sort()
-      find_bugs(phrases)
+      # find_bugs(phrases)
   f = open('intents_to_utterance.json', 'w')
   json.dump(unique_user_phrases, f, indent=2)
+  print(entities)
