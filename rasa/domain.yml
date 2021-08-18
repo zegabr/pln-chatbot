@@ -29,7 +29,7 @@ intents:
   - inform_price_range
 
 entities:
-  - name
+  - PERSON
   - restaurant_name
   - cuisine
   - city
@@ -104,8 +104,8 @@ forms:
   reservation_form: 
     required_slots:
       name:
-        - type: from_text
-          entity: name
+        - type: from_entity
+          entity: PERSON
       restaurant_name:
         - type: from_entity
           entity: restaurant_name
