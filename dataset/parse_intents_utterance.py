@@ -85,9 +85,11 @@ if __name__ == '__main__':
     if user not in unique_user_phrases:
       unique_user_phrases[user] = {}
     for intent, phrases in intents.items():
+      print('\t- ', intent)
       unique_user_phrases[user][intent] = list(phrases)
       unique_user_phrases[user][intent].sort()
       # find_bugs(phrases)
+    print('------ end of %s --------' % user)
   f = open('intents_to_utterance.json', 'w')
   json.dump(unique_user_phrases, f, indent=2)
   print(entities)

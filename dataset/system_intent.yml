@@ -1,5 +1,5 @@
 nlu:
-- intent: REQUEST
+- intent: request
   examples: |
     - All right. What time would you like me to make the reservation for?
     - Alright, what type of food would you like?
@@ -595,7 +595,7 @@ What kind of food are you looking for some examples are -
     - which city should I search from
     - which city should i search in? what time is the reservation for? do you have a preferred restaurant
 
-- intent: NEGATE
+- intent: negate
   examples: |
     - 4 people want to eat at [Brixx Pizzeria](restaurant_name) in [Petaluma](city) at [11 am](time) [today](date). Is that correct?
     - A good restaurant in [Oakland](city) is [Annapurna Restaurant & Bar](restaurant_name).
@@ -1927,7 +1927,7 @@ What kind of food are you looking for some examples are -
     - your seat is booked
     - your welcome. will there be anything else, I can assist with?
 
-- intent: GOODBYE
+- intent: goodbye
   examples: |
     - Absolutely, have a wonderful time.
     - Anytime, enjoy your day!
@@ -2077,7 +2077,7 @@ What kind of food are you looking for some examples are -
     - have nice day.
     - no problem, have a great day.
 
-- intent: INFORM
+- intent: inform
   examples: |
     - All booked for you. No live music, unfortunately. I've checked online and the price is [moderate](price_range).
     - Amber restaurant does not serve liquor.

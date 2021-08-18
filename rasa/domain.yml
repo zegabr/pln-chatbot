@@ -2,19 +2,34 @@ version: "2.0"
 
 intents:
   - greet
-  - goodbye
-  - affirm
-  - deny
   - mood_great
   - mood_unhappy
   - bot_challenge
   - request_reservation
+  - inform_intent
+  - inform
+  - affirm
+  - thank_you
+  - request
+  - request_alts
+  - select
+  - affirm_intent
+  - negate
+  - goodbye
 
 entities:
   - name
   - restaurant_name
-  - time
   - cuisine
+  - city
+  - time
+  - price_range
+  - street_address
+  - count
+  - date
+  - serves_alcohol
+  - has_live_music
+  - phone_number
 
 responses:
   utter_greet:

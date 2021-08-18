@@ -14,7 +14,7 @@ rules:
 ##########################################33
 - rule: ask for info when user requests reservation
   steps:
-  - intent: request_reservation
+  - intent: inform_intent
   - action: reservation_form
   - active_loop: reservation_form
 

@@ -10,10 +10,10 @@ js = json.loads(open('intents_to_utterance_fixed.json').read())
 def print_examples_yml(a):
     print('nlu:')
     for intent in a:
-        print(f'- intent: {intent}')
+        print(f'- intent: {intent.lower()}')
         print('  examples: |')
         for example in a[intent]:
             print(f'    - {example}')
         print()
 
-print_examples_yml(js['SYSTEM'])
+print_examples_yml(js['USER'])
