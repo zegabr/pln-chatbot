@@ -6,16 +6,27 @@ intents:
   - mood_unhappy
   - bot_challenge
   - request_reservation
-  - inform_intent
-  - inform
+  - inform_intent_intent
+  - inform_time
+  - inform_restaurant_name
   - affirm
+  - goodbye
   - thank_you
-  - request
+  - inform_city
+  - inform_date
+  - request_price_range
+  - negate
+  - request_phone_number
+  - request_street_address
+  - request_cuisine
+  - request_has_live_music
+  - inform_cuisine
   - request_alts
   - select
   - affirm_intent
-  - negate
-  - goodbye
+  - inform_party_size
+  - request_serves_alcohol
+  - inform_price_range
 
 entities:
   - name
@@ -99,6 +110,9 @@ forms:
       time:
         - type: from_entity
           entity: time
+      date:
+        - type: from_entity
+          entity: date
   
    # to get some info about some restaurant
   restaurant_info_form:

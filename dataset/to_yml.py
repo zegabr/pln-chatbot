@@ -1,19 +1,22 @@
 import sys
 import json
 import yaml
+from sys import argv
 
-js = json.loads(open('intents_to_utterance_fixed.json').read())
+filter = argv[1]
 
-# f = open('nlu.yml', 'w')
+js = json.loads(open('intents_to_utterance.json').read())
+
+f = open('%s_intent.yml' % filter.lower(), 'w')
 # yaml.dump(js, f, allow_unicode=True)
 
 def print_examples_yml(a):
-    print('nlu:')
+    f.write('nlu:\n')
     for intent in a:
-        print(f'- intent: {intent.lower()}')
-        print('  examples: |')
+        f.write(f'- intent: {intent}\n')
+        f.write('  examples: |\n')
         for example in a[intent]:
-            print(f'    - {example}')
-        print()
+            f.write(f'    - {example}\n')
+        f.write('\n')
 
-print_examples_yml(js['USER'])
+print_examples_yml(js[filter])

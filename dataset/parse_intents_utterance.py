@@ -52,10 +52,10 @@ def filter_itents(json_file, file_name):
         if frame['service'] != type_name:
           continue
         for action in frame['actions']:
-          intent = compare_intents(action['act'], intent)
+          intent = '%s_%s' % (action['act'].lower(), action['slot'])
           if action['values'] and action['slot'] != 'party_size':
             entities.add(action['slot'])
-            text = text.replace(action['values'][0], '[%s](%s)' % (action['values'][0], action['slot']))
+            text = text.lower().replace(action['values'][0].lower(), '[%s](%s)' % (action['values'][0], action['slot']))
       if intent not in users[speaker]:
         users[speaker][intent] = set()
       users[speaker][intent].add(text)
