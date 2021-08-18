@@ -6,7 +6,7 @@ intents:
   - mood_unhappy
   - bot_challenge
   - request_reservation
-  - inform_intent_intent
+  - inform_intent
   - inform_time
   - inform_restaurant_name
   - affirm
@@ -71,7 +71,7 @@ responses:
   - text: "I am a bot, powered by Rasa."
 
   utter_make_reservation:
-  - text: "Thank you {name}. Your reservation was made for {restaurant_name} at {time}"
+  - text: "Thank you {name}. Your reservation was made for {restaurant_name}, {date}, {time}"
 
   utter_ask_name:
   - text: "how can i call you?"
@@ -94,6 +94,8 @@ slots:
     type: text
   time:
     type: text
+  date:
+    type: text
   cuisine:
     type: text
 
@@ -102,7 +104,7 @@ forms:
   reservation_form: 
     required_slots:
       name:
-        - type: from_entity
+        - type: from_text
           entity: name
       restaurant_name:
         - type: from_entity

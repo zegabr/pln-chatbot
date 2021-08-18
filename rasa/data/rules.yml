@@ -18,18 +18,27 @@ rules:
   - action: reservation_form
   - active_loop: reservation_form
 
+# - rule: stops reservation form and make reservation
+#   condition:
+#   # Condition that form is active.
+#     - active_loop: reservation_form
+#   steps:
+#     # Form is deactivated
+#     - action: reservation_form
+#     - active_loop: null
+#     - slot_was_set:
+#       - requested_slot: null
+#     # The actions we want to run when the form is submitted.
+#     - action: utter_make_reservation
+
 - rule: stops reservation form and make reservation
   condition:
-  # Condition that form is active.
-  - active_loop: reservation_form
+    - active_loop: reservation_form
   steps:
-  # Form is deactivated
-  - action: reservation_form
-  - active_loop: null
-  - slot_was_set:
-    - requested_slot: null
-  # The actions we want to run when the form is submitted.
-  - action: utter_make_reservation
+    - action: reservation_form
+    - active_loop: null
+    - action: utter_make_reservation
+
 #################################################3
 # - rule: happy path
 #   steps:
