@@ -201,86 +201,44 @@ nlu:
 
 - intent: inform_time
   examples: |
-    - [1 in the afternoon](time).
-    - [1 pm](time)
-    - [1 pm](time).
-    - [11 in the morning](time) please.
     - [11:15](time) would be ideal.
-    - [11:30 am](time) is fine.
-    - [11:30 in the morning](time) seems good.
-    - [11:30 in the morning](time) will be perfect.
-    - [12 in the afternoon](time).
+    - [11:30](time) is fine.
+    - [11:30]time) seems good.
+    - [11:30](time) will be perfect.
+    - [12:00](time).
     - [12:30](time) would be good, please.
     - [17:30](time), please.
     - [18:45](time) will be fine.
-    - [Evening 6:45](time) works fine for me.
-    - [Half past 1 in the afternoon](time) will be fine.
-    - [Half past 12 in the afternoon](time) would be good.
-    - [Quarter past 5 in the evening](time).
-    - [afternoon 2](time).
-    - [evening 4:45](time) is perfect
-    - [evening 5](time), thanks.
-    - [half past 5 in the evening](time) please.
+    - [18:45](time) works fine for me.
+    - [16:45](time) is perfect
     - [march 14th](date) at [17:30](time), please.
-    - [milpitas](city). in the [morning 10:45](time).
-    - [san francisco](city) please. can you book for [11:30](time)?
-    - a [quarter past 5 in the evening](time), please.
-    - a [quarter to 1 in the afternoon](time), please.
-    - a reservation for two at [all spice](restaurant_name) in [san mateo](city) at [afternoon 1:30](time)
-    - asya is in [san carlos](city). the reservation is for three people at [7 in the evening](time).
-    - at [1 pm](time) please.
-    - at [1 pm](time), please.
-    - at [11:15 am](time) will be good for me
-    - at [18:45](time) for 2 people/
-    - at [5 pm](time).
-    - at [5:30 in the evening](time).
-    - i would like it at [1 o"clock in the afternoon](time).
-    - i would like it at [afternoon 1:15](time).
+    - can you book for [11:30](time)?
+    - at [11:15](time) will be good for me
+    - at [18:45](time) for 2 people
+    - at [5:30](time).
+    - i would like it at [13:15](time).
     - i would like it for [18:30](time).
-    - i would like it for [6:15 pm](time)
-    - i would like it to be [half past 11 in the morning](time).
     - i would prefer to dine in at [19:15](time).
-    - i'd like a table at [11 in the morning](time) on [the 9th](date).
     - i'd like it for four at [12:00](time) at [lark creek](restaurant_name) in [san jose](city)
-    - i'd like it in the [evening 5:30](time).
-    - i'm thinking [5:15 pm](time).
+    - i'm thinking [5:15](time).
     - id like it for [19:00](time).
-    - let's do dinner at [6 in the evening](time)
-    - let's make it for [12:30 pm](time).
-    - let's say [1 pm](time), please.
-    - lets eat at [five pm](time).
-    - look in [san bruno](city) for a reservation at [quarter past 11 in the morning](time)
-    - lunch time, [twelve in the afternoon](time)
-    - make a reservation for one person at [afternoon 12](time).
-    - make the reservation at [seven pm](time).
-    - make the reservation for [5 o"clock in the evening](time).
-    - make the reservation for [7 pm](time).
-    - make the reservation for [one in the afternoon](time).
-    - make the reservation in [san francisco](city) for [7 in the evening](time) on [wednesday next week](date).
-    - make the reservation in [sf](city) at [11:30 in the morning](time).
+    - let's make it for [12:30](time).
+    - make the reservation in [sf](city) at [11:30](time).
     - mate it at [17:30](time).
-    - my plan is to be there by [1:30 in the afternoon](time).
-    - on [the 8th](date), at [11 in the morning](time) if possible.
+    - my plan is to be there by [13:30](time).
     - place a reservation for [12:15](time).
-    - please can you book it for [7:15 pm](time).
-    - please fix it at [11:30 am](time)
-    - please make a reservation at [limon](restaurant_name) for [the 13th](date) at [morning 11:45](time).
-    - please make it on the [3rd of march](date) at [quarter past 1 in the afternoon](time).
-    - please reserve in the morning at [11:15 am](time).
-    - please schedule it at [11:15 in the morning](time).
-    - reserve for [six in the evening](time).
-    - set the reservation at [12:45 pm](time).
-    - the reservation needs to be at [11 am](time).
-    - the restaurant is [thanh long](restaurant_name) at [1:15 in the afternoon](time).
+    - please can you book it for [7:15](time).
+    - please fix it at [11:30](time)
+    - please make a reservation at [limon](restaurant_name) for [the 13th](date) at [11:45](time).
+    - please reserve in the morning at [11:15](time).
+    - please schedule it at [11:15](time).
+    - set the reservation at [12:45](time).
+    - the restaurant is [thanh long](restaurant_name) at [13:15](time).
     - the time is [13:30](time) and the city is [alameda](city). i prefer [applebee's](restaurant_name); they have great food.
     - yes please, make it at [12:45](time).
-    - yes, i'd love to go to [la vera](restaurant_name). can you book for [5 in the evening](time)?
     - yes. i would like to make a reservation for [20:00](time).
-    - yes. make it for [evening 5:45](time).
-    - yes. make it for a [quarter to 12 in the morning](time).
-    - yes. reserve it for [half past 1 in the afternoon](time).
+    - yes. make it for [5:45](time).
     - you can set the reservation at [17:30](time).
-    - you make make the reservation for [twelve pm](time).
 
 - intent: inform_restaurant_name
   examples: |

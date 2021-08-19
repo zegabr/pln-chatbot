@@ -21,7 +21,7 @@ stories:
       - intent: request_phone_number
       - slot_was_set:
         - suggested_restaurant
-      # - action: get_restaurant_info
+      - action: get_restaurant_info
 
   - story: request restaurant address
     steps:
