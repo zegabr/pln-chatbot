@@ -38,26 +38,21 @@ class GetRestaurantInfo(Action):
         return "get_restaurant_info"
 
     async def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        restaurant = tracker.get_slot("restaurant_name")
+        restaurantId = tracker.get_slot("suggested_restaurant")
 
-        if not restaurant:
+        if not restaurantId:
             dispatcher.utter_message(text="ERROR.")
             return []
 
-        params = {
-            "location": "recife",
-            "term": restaurant
-        }
 
-        response = make_request(params)
-        restaurants = (json.loads(response.content))["businesses"]
+        response = requests.get('https://api.yelp.com/v3/businesses/%s' % restaurantId, headers=api_headers)
+        restaurant = response.json()
 
-        if not len(restaurants):
+        if not restaurant:
             dispatcher.utter_message(
-                text="Sorry, I couldn't find a restaurant with this name :(")
+                text="Sorry, I couldn't find a restaurant :(")
             return []
 
-        restaurant = restaurants[0]
         print(restaurant)
 
         name = restaurant["name"]
@@ -67,7 +62,7 @@ class GetRestaurantInfo(Action):
 
         message = f"Here is some info about {name}:\n It has a rating of {rating} out of 5 stars.\n Its phone number is {phone}. And it is located at {address}."
         dispatcher.utter_message(text=message)
-        return [SlotSet("restaurant_name", name)]
+        return []
 
 
 class GetRestaurantsByParams(Action):
@@ -110,8 +105,9 @@ class GetRestaurantsByParams(Action):
             return []
 
         restaurantName = restaurants[0]["name"]
+        restaurantId = restaurants[0]["id"]
 
         dispatcher.utter_message(
             text=f"Here is the perfect restaurant for you! {restaurantName}.")
 
-        return [SlotSet("suggested_restaurant", restaurantName)]
+        return [SlotSet("suggested_restaurant", restaurantId)]

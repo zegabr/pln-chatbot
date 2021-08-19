@@ -5,29 +5,28 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - request_reservation
   - inform_intent
   - inform_time
   - inform_phone_number
   - inform_name
   - inform_restaurant_name
+  - inform_cuisine
+  - inform_party_size
   - affirm
   - goodbye
   - thank_you
   - inform_city
   - inform_date
-  - request_price_range
   - negate
+  - request_price_range
   - request_phone_number
   - request_street_address
   - request_cuisine
   - request_has_live_music
-  - inform_cuisine
+  - request_serves_alcohol
   - request_alts
   - select
   - affirm_intent
-  - inform_party_size
-  - request_serves_alcohol
   - inform_price_range
 
 entities:
@@ -113,6 +112,7 @@ slots:
   price_range:
     type: text
   suggested_restaurant:
+    influence_conversation: true
     type: text
 
 forms:

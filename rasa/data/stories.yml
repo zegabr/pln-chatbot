@@ -15,3 +15,31 @@ stories:
       - active_loop: reservation_form
       - active_loop: null
       - action: get_restaurants_by_params
+
+  - story: request restaurant phone number
+    steps:
+      - intent: request_phone_number
+      - slot_was_set:
+        - suggested_restaurant
+      # - action: get_restaurant_info
+
+  - story: request restaurant address
+    steps:
+      - intent: request_street_address
+      - slot_was_set:
+        - suggested_restaurant
+      # - action: get_restaurant_info
+
+  - story: request restaurant phone number
+    steps:
+      - intent: request_phone_number
+      - slot_was_set:
+        - suggested_restaurant
+      # - action: get_restaurant_info
+
+  - story: request alternatives
+    steps:
+      - intent: request_alts
+      - slot_was_set:
+        - suggested_restaurant
+      # - action: get_restaurant_info
