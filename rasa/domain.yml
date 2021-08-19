@@ -46,57 +46,57 @@ entities:
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+    - text: "Hey! How are you?"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+    - text: "Did that help you?"
 
   utter_how_can_i_help:
-  - text: "Hi, how can i help you?"
-  - text: "hi, what can i help you with?"
+    - text: "Hi, how can i help you?"
+    - text: "hi, what can i help you with?"
 
   utter_can_help_more:
-  - text: "Can i help you with something else?"
+    - text: "Can i help you with something else?"
 
   utter_happy:
-  - text: "Great, carry on!"
+    - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "Bye"
-  - text: "Ok bye"
+    - text: "Bye"
+    - text: "Ok bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+    - text: "I am a bot, powered by Rasa."
 
   utter_make_reservation:
-  - text: "Thank you. Your reservation was made for {restaurant_name}, today {time}"
-  - text: "Thank you. Your reservation was made for {restaurant_name}, today {time}. It's registered under your phone, {phone_number}"
+    - text: "Thank you. Your reservation was made for {restaurant_name}, today {time}"
+    - text: "Thank you. Your reservation was made for {restaurant_name}, today {time}. It's registered under your phone, {phone_number}"
 
   utter_ask_phone_number:
-  - text: "please tell me your phone number"
-  - text: "what is your phone number"
+    - text: "please tell me your phone number"
+    - text: "what is your phone number"
 
   utter_ask_restaurant_name:
-  - text: "what restaurant do you want to go?"
+    - text: "what restaurant do you want to go?"
 
   utter_ask_time:
-  - text: "when do you want to go?"
+    - text: "when do you want to go?"
 
   utter_ask_cuisine:
-  - text: "what type of food do you like"
+    - text: "what type of food do you like"
 
   utter_ask_city:
-  - text: "where do you live?"
-  - text: "where are you?"
-  
+    - text: "where do you live?"
+    - text: "where are you?"
+
   utter_ask_price_range:
-  - text: "Tu e rico boy?"
-  - text: "what's your budget?"
-  
+    - text: "Tu e rico boy?"
+    - text: "what's your budget?"
+
 slots:
   phone_number:
     type: text
@@ -112,10 +112,12 @@ slots:
     type: text
   price_range:
     type: text
+  suggested_restaurant:
+    type: text
 
-forms: 
+forms:
   # to request reservation
-  reservation_form: 
+  reservation_form:
     required_slots:
       phone_number:
         - type: from_entity
@@ -132,15 +134,15 @@ forms:
       cuisine:
         - type: from_entity
           entity: cuisine
-  
-   # to get some info about some restaurant
+
+    # to get some info about some restaurant
   restaurant_info_form:
     required_slots:
       restaurant_name:
         - type: from_entity
           entity: restaurant_name
-  
-   # request for restaurant recommendation
+
+    # request for restaurant recommendation
   request_recommendation_form:
     required_slots:
       cuisine:
@@ -150,3 +152,6 @@ forms:
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+actions:
+  - get_restaurant_info
+  - get_restaurants_by_params
