@@ -8,6 +8,8 @@ intents:
   - request_reservation
   - inform_intent
   - inform_time
+  - inform_phone_number
+  - inform_name
   - inform_restaurant_name
   - affirm
   - goodbye
@@ -71,12 +73,12 @@ responses:
   - text: "I am a bot, powered by Rasa."
 
   utter_make_reservation:
-  - text: "Thank you {name}. Your reservation was made for {restaurant_name}, {date}, {time}"
+  - text: "Thank you. Your reservation was made for {restaurant_name}, today {time}"
+  - text: "Thank you. Your reservation was made for {restaurant_name}, today {time}. It's registered under your phone, {phone_number}"
 
-  utter_ask_name:
-  - text: "how can i call you?"
-  - text: "please tell me your name"
-  - text: "what is your name"
+  utter_ask_phone_number:
+  - text: "please tell me your phone number"
+  - text: "what is your phone number"
 
   utter_ask_restaurant_name:
   - text: "what restaurant do you want to go?"
@@ -86,9 +88,17 @@ responses:
 
   utter_ask_cuisine:
   - text: "what type of food do you like"
+
+  utter_ask_city:
+  - text: "where do you live?"
+  - text: "where are you?"
+  
+  utter_ask_price_range:
+  - text: "Tu e rico boy?"
+  - text: "what's your budget?"
   
 slots:
-  name:
+  phone_number:
     type: text
   restaurant_name:
     type: text
@@ -98,23 +108,30 @@ slots:
     type: text
   cuisine:
     type: text
+  city:
+    type: text
+  price_range:
+    type: text
 
 forms: 
   # to request reservation
   reservation_form: 
     required_slots:
-      name:
+      phone_number:
         - type: from_entity
-          entity: PERSON
-      restaurant_name:
-        - type: from_entity
-          entity: restaurant_name
+          entity: phone_number
       time:
         - type: from_entity
           entity: time
-      date:
+      city:
         - type: from_entity
-          entity: date
+          entity: city
+      price_range:
+        - type: from_entity
+          entity: price_range
+      cuisine:
+        - type: from_entity
+          entity: cuisine
   
    # to get some info about some restaurant
   restaurant_info_form:

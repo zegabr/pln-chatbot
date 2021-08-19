@@ -9,28 +9,10 @@ stories:
 #   - intent: mood_great
 #   - action: utter_happy
 
-# - story: sad path 1
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: mood_unhappy
-#   - action: utter_cheer_up
-#   - action: utter_did_that_help
-#   - intent: affirm
-#   - action: utter_happy
-
-# - story: sad path 2
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: mood_unhappy
-#   - action: utter_cheer_up
-#   - action: utter_did_that_help
-#   - intent: deny
-#   - action: utter_goodbye
-
-
-# # - story: main path
-# #   steps:
-# #   - intent: greet
-# #   - action: utter_how_can_i_help
+- story: ask for info when user requests reservation
+  steps:
+  - intent: inform_intent
+  - action: reservation_form
+  - active_loop: reservation_form
+  - active_loop: null
+  - action: utter_make_reservation

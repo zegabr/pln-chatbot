@@ -58,32 +58,76 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
+# - regex: phone_number
+#   examples: |
+#     - \(?\+?[0-9]{1,3}\)? ?-?\(?[0-9]{1,3}\)? ?-?[0-9]{3,5} ?-?[0-9]{4}( ?-?[0-9]{3})? ?(\w{1,10}\s?\d{1,6})?
+
+- intent: inform_phone_number
+  examples: |
+    - [925-750-8888](phone_number) is the phone number
+    - i have a phone number of [415-402-5290](phone_number).
+    - if you want to phone them you can at [408-971-8523](phone_number).
+    - if you want to phone them you can through [707-431-1995](phone_number).
+    - it is [707-585-9069](phone_number).
+    - it's [408-737-8384](phone_number)
+    - no alcohol and their phone is [415-318-8000](phone_number).
+    - no alcohol. the phone number is [415-731-5515](phone_number)
+    - no live music and the number is [415-561-1111](phone_number).
+    - no music, sadly. but their number is [415-771-5900](phone_number)
+    - no, alcohol is not served. here's their phone number: [650-487-8737](phone_number)
+    - sure, you can contact them at [408-270-2578](phone_number).
+    - sure, you can contact them at [510-445-1602](phone_number).
+    - the address is [2598 telegraph avenue](street_address) and the phone number is [510-843-3951](phone_number).
+    - the contact number for reservations is [408-645-5001](phone_number).
+    - the number for hukilau is [408-279-4888](phone_number).
+    - the number is [510-728-7728](phone_number), but sadly no live music.
+    - the phone number for aslam's rasoi in san francisco is [415-695-0599](phone_number).
+    - the price range is [moderate](price_range). the phone number is [415-755-6250](phone_number).
+    - the restaurant's number is [650-968-2300](phone_number).
+    - the restaurant's phone number is [415-252-1036](phone_number).
+    - their number is [415-292-9997](phone_number).
+    - their number is [650-581-1305](phone_number).
+    - their number is [925-387-0388](phone_number) and they don't serve alcohol.
+    - their phone number is [415-543-5100](phone_number)
+    - their phone number is [510-797-3474](phone_number) and their address is [3810 mowry avenue](street_address).
+    - their phone number is [650-322-6872](phone_number).
+    - their phone number is [925-777-0888](phone_number). they serve [chinese](cuisine) food.
+    - their prices are in the [moderate](price_range) range and their phone number is [415-292-6916](phone_number)
+    - their telephone number is [415-501-9100](phone_number).
+    - there is no live music and you can contact them at [415-402-5290](phone_number)
+    - they can be reached at [408-528-8500](phone_number)
+    - they do not appear to have live music shows. their contact number is [415-348-0808](phone_number).
+    - they do not have live entertainment. the restaurant's phone number is [669-213-9385](phone_number).
+    - they live at [43635 boscell road](street_address) and you can reach them at [510-979-1368](phone_number).
+    - unfortunately no, they do not have live music, however here is the number: [510-558-8367](phone_number).
+    - unfortunately they don't have a live band. you can reach them at [415-567-4903](phone_number).
+    - will's has [moderate](price_range) prices and their phone number is [415-566-8088](phone_number).
+    - yes, it's [510-918-3205](phone_number).
+    - you can reach them at [510-524-1286](phone_number).
+
 - intent: inform_name
   examples: |
-    - [daniel](PERSON)
-    - my name is [daniel](PERSON)
-    - i'm [daniel](PERSON)
-    - my name is [daniel bastos](PERSON)
-    - [daniel bastos](PERSON)
-    - you can call me [daniel bastos](PERSON)
-    - [gabriel](PERSON)
-    - my name is [gabriel](PERSON)
-    - i'm [gabriel](PERSON)
-    - my name is [gabriel pereira](PERSON)
-    - [gabriel pereira](PERSON)
-    - you can call me [gabriel pereira](PERSON)
-    - [gabriel](PERSON)
-    - my name is [gabriel](PERSON)
-    - i'm [gabriel](PERSON)
-    - my name is [gabriel pereira](PERSON)
-    - [rodrigo silva](PERSON)
-    - you can call me [joao da china](PERSON)
-    - [bruno](PERSON)
-    - my name is [victor](PERSON)
-    - i'm [luigi](PERSON)
-    - my name is [mario franco](PERSON)
-    - [maria gabriela](PERSON)
-    - you can call me [gabriela silveira](PERSON)
+    - [Bruno](name)
+    - [Daniel](name)
+    - [Daniel bastos](name)
+    - [Gabriel](name)
+    - [Gabriel Pereira](name)
+    - [Rodrigo Silva](name)
+    - [Maria Gabriela](name)
+    - i'm [Daniel](name)
+    - i'm [Gabriel Silva](name)
+    - i'm [Gabriel](name)
+    - i'm [Luigi](name)
+    - you can call me [Daniel Bastos](name)
+    - you can call me [Gabriel Pereira](name)
+    - you can call me [Joao da China](name)
+    - you can call me [Gabriela Silveira](name)
+    - my name is [Daniel](name)
+    - my name is [Daniel Bastos](name)
+    - my name is [Gabriel](name)
+    - my name is [Gabriel Pereira](name)
+    - my name is [Victor](name)
+    - my name is [Mario Franco](name)
 
 - intent: inform_intent
   examples: |

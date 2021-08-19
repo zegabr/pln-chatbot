@@ -12,12 +12,6 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 ##########################################33
-- rule: ask for info when user requests reservation
-  steps:
-  - intent: inform_intent
-  - action: reservation_form
-  - active_loop: reservation_form
-
 # - rule: stops reservation form and make reservation
 #   condition:
 #   # Condition that form is active.
@@ -30,14 +24,6 @@ rules:
 #       - requested_slot: null
 #     # The actions we want to run when the form is submitted.
 #     - action: utter_make_reservation
-
-- rule: stops reservation form and make reservation
-  condition:
-    - active_loop: reservation_form
-  steps:
-    - action: reservation_form
-    - active_loop: null
-    - action: utter_make_reservation
 
 #################################################3
 # - rule: happy path
