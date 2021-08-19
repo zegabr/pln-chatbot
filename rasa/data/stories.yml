@@ -1,101 +1,101 @@
 version: "2.0"
 
 stories:
-- story: Request restaurant phone number
-  steps:
-    - intent: request_phone_number
-    - action: get_restaurant_phone_number
+  - story: Request restaurant phone number
+    steps:
+      - intent: request_phone_number
+      - action: get_restaurant_phone_number
 
-- story: Request restaurant address
-  steps:
-    - intent: request_street_address
-    - action: get_restaurant_address
+  - story: Request restaurant address
+    steps:
+      - intent: request_street_address
+      - action: get_restaurant_address
 
-- story: Request alternatives
-  steps:
-    - intent: request_alts
-    - action: get_restaurants_by_params
+  - story: Request alternatives
+    steps:
+      - intent: request_alts
+      - action: get_restaurants_by_params
 
-- story: Make reservation
-  steps:
-    - intent: affirm_intent
-    - action: make_reservation
-    - action: form_reset
+  - story: Make reservation
+    steps:
+      - intent: affirm_intent
+      - action: make_reservation
+      - action: form_reset
 
-- story: Happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - action: utter_how_can_i_help
-  - intent: mood_great
-  - action: utter_happy
+  - story: Happy path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_how_can_i_help
+      - intent: mood_great
+      - action: utter_happy
 
-- story: Sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - action: utter_how_can_i_help
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - story: Sad path 1
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_how_can_i_help
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: affirm
+      - action: utter_happy
 
-- story: Sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: negate
-  - action: utter_goodbye
+  - story: Sad path 2
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: negate
+      - action: utter_goodbye
 
-- story: Ask for info when user requests reservation
-  steps:
-  - intent: inform_intent
-  - action: form_reset
-  - slot_was_set:
-    - found_restaurant: false
-  - action: reservation_form
-  - active_loop: reservation_form
-  - slot_was_set:
-    - requested_slot: phone_number
-  - slot_was_set:
-    - phone_number: 123-123-123
-  - slot_was_set:
-    - phone_number: 123-123-123
-  - slot_was_set:
-    - requested_slot: time
-  - slot_was_set:
-    - time: 12:00
-  - slot_was_set:
-    - time: 12:00
-  - slot_was_set:
-    - requested_slot: city
-  - slot_was_set:
-    - city: Alabama
-  - slot_was_set:
-    - city: Alabama
-  - slot_was_set:
-    - requested_slot: price_range
-  - slot_was_set:
-    - price_range: moderate
-  - slot_was_set:
-    - price_range: moderate
-  - slot_was_set:
-    - requested_slot: cuisine
-  - slot_was_set:
-    - cuisine: Italian
-  - slot_was_set:
-    - cuisine: Italian
-  - slot_was_set:
-    - requested_slot: null
-  - active_loop: null
-  - action: get_restaurants_by_params
-  - slot_was_set:
-    - suggested_restaurant: ',t4vs3w06A6SoB6uPR7pChw'
-  - slot_was_set:
-    - restaurant_name: North Italia
-  - slot_was_set:
-    - found_restaurant: true
+  - story: Ask for info when user requests reservation
+    steps:
+      - intent: inform_intent
+      - action: form_reset
+      - slot_was_set:
+          - found_restaurant: false
+      - action: reservation_form
+      - active_loop: reservation_form
+      - slot_was_set:
+          - requested_slot: phone_number
+      - slot_was_set:
+          - phone_number: 123-123-123
+      - slot_was_set:
+          - phone_number: 123-123-123
+      - slot_was_set:
+          - requested_slot: time
+      - slot_was_set:
+          - time: 12:00
+      - slot_was_set:
+          - time: 12:00
+      - slot_was_set:
+          - requested_slot: city
+      - slot_was_set:
+          - city: Alabama
+      - slot_was_set:
+          - city: Alabama
+      - slot_was_set:
+          - requested_slot: price_range
+      - slot_was_set:
+          - price_range: moderate
+      - slot_was_set:
+          - price_range: moderate
+      - slot_was_set:
+          - requested_slot: cuisine
+      - slot_was_set:
+          - cuisine: Italian
+      - slot_was_set:
+          - cuisine: Italian
+      - slot_was_set:
+          - requested_slot: null
+      - active_loop: null
+      - action: get_restaurants_by_params
+      - slot_was_set:
+          - suggested_restaurant: ",t4vs3w06A6SoB6uPR7pChw"
+      - slot_was_set:
+          - restaurant_name: North Italia
+      - slot_was_set:
+          - found_restaurant: true
