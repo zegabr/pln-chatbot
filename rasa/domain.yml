@@ -1,157 +1,141 @@
-version: "2.0"
-
-intents:
-  - greet
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - inform_intent
-  - inform_time
-  - inform_phone_number
-  - inform_name
-  - inform_restaurant_name
-  - inform_cuisine
-  - inform_party_size
-  - affirm
-  - goodbye
-  - thank_you
-  - inform_city
-  - inform_date
-  - negate
-  - request_price_range
-  - request_phone_number
-  - request_street_address
-  - request_cuisine
-  - request_has_live_music
-  - request_serves_alcohol
-  - request_alts
-  - select
-  - affirm_intent
-  - inform_price_range
-
-entities:
-  - PERSON
-  - restaurant_name
-  - cuisine
-  - city
-  - time
-  - price_range
-  - street_address
-  - count
-  - date
-  - serves_alcohol
-  - has_live_music
-  - phone_number
-
-responses:
-  utter_greet:
-    - text: "Hey! How are you?"
-
-  utter_cheer_up:
-    - text: "Here is something to cheer you up:"
-      image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-    - text: "Did that help you?"
-
-  utter_how_can_i_help:
-    - text: "Hi, how can i help you?"
-    - text: "hi, what can i help you with?"
-
-  utter_can_help_more:
-    - text: "Can i help you with something else?"
-
-  utter_happy:
-    - text: "Great, carry on!"
-
-  utter_goodbye:
-    - text: "Bye"
-    - text: "Ok bye"
-
-  utter_iamabot:
-    - text: "I am a bot, powered by Rasa."
-
-  utter_make_reservation:
-    - text: "Thank you. Your reservation was made for {restaurant_name}, today {time}"
-    - text: "Thank you. Your reservation was made for {restaurant_name}, today {time}. It's registered under your phone, {phone_number}"
-
-  utter_ask_phone_number:
-    - text: "please tell me your phone number"
-    - text: "what is your phone number"
-
-  utter_ask_restaurant_name:
-    - text: "what restaurant do you want to go?"
-
-  utter_ask_time:
-    - text: "when do you want to go?"
-
-  utter_ask_cuisine:
-    - text: "what type of food do you like"
-
-  utter_ask_city:
-    - text: "where do you live?"
-    - text: "where are you?"
-
-  utter_ask_price_range:
-    - text: "Tu e rico boy?"
-    - text: "what's your budget?"
-
-slots:
-  phone_number:
-    type: text
-  restaurant_name:
-    type: text
-  time:
-    type: text
-  date:
-    type: text
-  cuisine:
-    type: text
-  city:
-    type: text
-  price_range:
-    type: text
-  suggested_restaurant:
-    influence_conversation: true
-    type: text
-
-forms:
-  # to request reservation
-  reservation_form:
-    required_slots:
-      phone_number:
-        - type: from_entity
-          entity: phone_number
-      time:
-        - type: from_entity
-          entity: time
-      city:
-        - type: from_entity
-          entity: city
-      price_range:
-        - type: from_entity
-          entity: price_range
-      cuisine:
-        - type: from_entity
-          entity: cuisine
-
-    # to get some info about some restaurant
-  restaurant_info_form:
-    required_slots:
-      restaurant_name:
-        - type: from_entity
-          entity: restaurant_name
-
-    # request for restaurant recommendation
-  request_recommendation_form:
-    required_slots:
-      cuisine:
-        - type: from_entity
-          entity: cuisine
-
+version: '2.0'
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+intents:
+- inform_city
+- request_has_live_music
+- inform_intent
+- request_phone_number
+- request_street_address
+- request_alts
+- affirm_intent
+- inform_cuisine
+- inform_phone_number
+- inform_time
+- greet
+- mood_great
+- mood_unhappy
+- bot_challenge
+- inform_name
+- inform_restaurant_name
+- inform_party_size
+- affirm
+- goodbye
+- thank_you
+- inform_date
+- negate
+- request_price_range
+- request_cuisine
+- request_serves_alcohol
+- select
+- inform_price_range
+entities:
+- PERSON
+- city
+- count
+- cuisine
+- date
+- has_live_music
+- phone_number
+- price_range
+- restaurant_name
+- serves_alcohol
+- street_address
+- time
+slots:
+  phone_number:
+    type: text
+    influence_conversation: true
+  restaurant_name:
+    type: text
+    influence_conversation: true
+  time:
+    type: text
+    influence_conversation: true
+  date:
+    type: text
+    influence_conversation: true
+  cuisine:
+    type: text
+    influence_conversation: true
+  city:
+    type: text
+    influence_conversation: true
+  price_range:
+    type: text
+    influence_conversation: true
+  seen_restaurants:
+    type: text
+    influence_conversation: true
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_how_can_i_help:
+  - text: Hi, how can i help you?
+  - text: hi, what can i help you with?
+  utter_can_help_more:
+  - text: Can i help you with something else?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  - text: Ok bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_make_reservation:
+  - text: Thank you. Your reservation was made for {restaurant_name}, today {time}
+  - text: Thank you. Your reservation was made for {restaurant_name}, today {time}. It's registered under your phone, {phone_number}
+  utter_ask_phone_number:
+  - text: please tell me your phone number
+  - text: what is your phone number
+  utter_ask_restaurant_name:
+  - text: what restaurant do you want to go?
+  utter_ask_time:
+  - text: when do you want to go?
+  utter_ask_cuisine:
+  - text: what type of food do you like
+  utter_ask_city:
+  - text: where do you live?
+  - text: where are you?
+  utter_ask_price_range:
+  - text: Tu e rico boy?
+  - text: what's your budget?
 actions:
-  - get_restaurant_info
-  - get_restaurants_by_params
+- get_restaurant_address
+- get_restaurant_phone_number
+- get_restaurants_by_params
+- utter_make_reservation
+forms:
+  reservation_form:
+    required_slots:
+      phone_number:
+      - type: from_entity
+        entity: phone_number
+      time:
+      - type: from_entity
+        entity: time
+      city:
+      - type: from_entity
+        entity: city
+      price_range:
+      - type: from_entity
+        entity: price_range
+      cuisine:
+      - type: from_entity
+        entity: cuisine
+  restaurant_info_form:
+    required_slots:
+      restaurant_name:
+      - type: from_entity
+        entity: restaurant_name
+  request_recommendation_form:
+    required_slots:
+      cuisine:
+      - type: from_entity
+        entity: cuisine

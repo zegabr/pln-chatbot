@@ -15,31 +15,35 @@ stories:
       - active_loop: reservation_form
       - active_loop: null
       - action: get_restaurants_by_params
+      - action: action_listen
 
   - story: request restaurant phone number
     steps:
       - intent: request_phone_number
       - slot_was_set:
-        - suggested_restaurant
-      # - action: get_restaurant_info
+          - seen_restaurants
+      - action: get_restaurant_phone_number
+      - action: action_listen
 
   - story: request restaurant address
     steps:
       - intent: request_street_address
       - slot_was_set:
-        - suggested_restaurant
-      # - action: get_restaurant_info
-
-  - story: request restaurant phone number
-    steps:
-      - intent: request_phone_number
-      - slot_was_set:
-        - suggested_restaurant
-      # - action: get_restaurant_info
+          - seen_restaurants
+      - action: get_restaurant_address
+      - action: action_listen
 
   - story: request alternatives
     steps:
       - intent: request_alts
       - slot_was_set:
-        - suggested_restaurant
-      # - action: get_restaurant_info
+          - seen_restaurants
+      - action: get_restaurants_by_params
+      - action: action_listen
+
+  - story: make reservation
+    steps:
+      - intent: affirm_intent
+      - slot_was_set:
+          - seen_restaurants
+      - action: utter_make_reservation
