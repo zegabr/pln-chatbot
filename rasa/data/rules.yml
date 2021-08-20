@@ -6,7 +6,7 @@ rules:
       - intent: goodbye
       - action: utter_goodbye
       - action: form_reset
-      
+
   # - rule: Active restaurant form
   #   steps:
   #     - intent: inform_intent
