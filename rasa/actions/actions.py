@@ -45,11 +45,13 @@ def make_request_by_id(id):
 
     return response
 
+
 def found_restaurant(tracker: Tracker, dispatcher: CollectingDispatcher):
     found = tracker.get_slot("found_restaurant")
     if not found:
         dispatcher.utter_message('Please, try selecting a restaurant first.')
     return found
+
 
 class GetRestaurantPhoneNumber(Action):
     def name(self) -> Text:
@@ -178,6 +180,7 @@ class GetRestaurantsByParams(Action):
 
         return [SlotSet("suggested_restaurant", seenRestaurants), SlotSet("restaurant_name", restaurantName), SlotSet("found_restaurant", True)]
 
+
 class ResetForm(Action):
     def name(self) -> Text:
         return "form_reset"
@@ -188,6 +191,7 @@ class ResetForm(Action):
             text=f"Okay, let's start fresh! :D")
 
         return [AllSlotsReset(), SlotSet("found_restaurant", False)]
+
 
 class MakeReservation(Action):
     def name(self) -> Text:

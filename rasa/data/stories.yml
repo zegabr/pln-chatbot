@@ -15,6 +15,7 @@ stories:
     steps:
       - intent: request_alts
       - action: get_restaurants_by_params
+      - action: action_listen
 
   - story: Make reservation
     steps:
