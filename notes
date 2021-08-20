@@ -52,3 +52,17 @@ https://blog.rasa.com/intents-entities-understanding-the-rasa-nlu-pipeline/
 
 https://blog.tensorflow.org/2020/12/how-rasa-open-source-gained-layers-of-flexibility-with-tensorflow-2x.html
 
+
+
+
+Sugestão de roteiro para a apresentação: 
+1 - Visão geral do bot (domínio etc) -- DANZIN
+
+3.2 - Dialog flow e stories -- GABI
+3.3 - Busca (mostrar dados, ferramenta utilizada e como a integração foi feita no RASA ACTIOMS) -- GABI
+
+3 - Bot -- DANZIN
+
+2 - Classificador e extrator: (mostrar as redes e resultados) -- ZEZIN
+3.1 - Classificador e extrator (mostrar resultados se foi utilizado o modelo do RASA) -- ZEZIN
+Se quiserem preparar slides com isso, melhor.

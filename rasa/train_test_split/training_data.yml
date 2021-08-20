@@ -2,901 +2,901 @@ version: "2.0"
 nlu:
 - intent: bot_challenge
   examples: |
-    - are you a human?
-    - are you a bot?
     - am I talking to a human?
+    - am I talking to a bot?
+    - are you a human?
 - intent: request_cuisine
   examples: |
-    - does this restaurant serve [Tacos](cuisine)?
     - What type of food can I eat there?
     - does the restaurant play live music? and does it serve [Burger](cuisine) types of food?
+    - does this restaurant serve [Tacos](cuisine)?
 - intent: inform_price_range
   examples: |
     - please search in [san mateo](city), price is not an issue.
-    - i would like to eat in [milpitas](city) and the restaurant should be in the [moderate](price_range) price range.
     - something [cafe](cuisine) like, i want some reasonably priced food.
-    - i am in the [pacifica](city) area. i would like [sushi](cuisine) at an afforadable price.
-    - my family and i are in [san jose](city) and the perfect place would have [pizza and pasta](cuisine). we don't have a price preference.
-    - [chinese](cuisine) food and not very costly, please.
     - i would like something that i can [pick-up](cuisine) in [san fran](city) at any price range.
+    - i would like to eat in [milpitas](city) and the restaurant should be in the [moderate](price_range) price range.
+    - [chinese](cuisine) food and not very costly, please.
+    - my family and i are in [san jose](city) and the perfect place would have [pizza and pasta](cuisine). we don't have a price preference.
+    - i want something with [fish](cuisine) but make it an average priced restaurant.
 - intent: greet
   examples: |
-    - goodevening
-    - let's go
-    - good evening
-    - goodmorning
-    - good afternoon
-    - hello
-    - good morning
-    - hey dude
     - hello there
-    - hey
+    - goodmorning
+    - goodevening
     - hey there
+    - good afternoon
+    - hey dude
+    - hey
+    - hello
+    - let's go
+    - moin
+    - good morning
 - intent: mood_great
   examples: |
-    - amazing
-    - great
-    - I am great
-    - so perfect
-    - feeling like a king
-    - wonderful
-    - so so perfect
     - super stoked
-    - so good
-    - perfect
+    - so perfect
     - I am amazing
+    - I am feeling very good
+    - extremely good
+    - so so perfect
+    - so good
+    - amazing
+    - I am going to save the world
+    - I am great
+    - great
 - intent: mood_unhappy
   examples: |
+    - my day was horrible
+    - very sad
     - unhappy
     - I am sad
-    - super sad
-    - I'm so sad
     - I am disappointed
-    - my day was horrible
-    - so saad
-    - sad
-    - not very good
+    - I don't feel very well
     - not good
+    - super sad
+    - sad
+    - so saad
     - so sad
 - intent: request_price_range
   examples: |
-    - Do they have live music? What's the price range?
-    - is the restaurant [inexpensive](price_range)?`
-    - How expensive are they?
-    - How expensive is their menu?
-    - can you find out if they are average priced?
-    - Can you tell me if they feature live music there? How much do the things cost in general there?
-    - how cheap is it and how much does it cost?
-    - Where is it located? Does it cost a lot?
-    - Do you know the price range of the restaurant?
-    - is the restaurant costly?
+    - can you tell me if the prices are [inexpensive](price_range)?
     - How expensive is this restaurant?
-    - What's their phone number? How pricey are they?
-    - what is their phone number and are there prices economical?
+    - Do you know the price range of the restaurant?
     - is it an [inexpensive](price_range) restaurant?
+    - How expensive are they?
+    - How much they charge? Can I have their street address?
+    - what is their phone number and are there prices economical?
+    - how cheap is it and how much does it cost?
+    - What's their phone number? How pricey are they?
+    - What is the restaurant's price range? Do they serve alcohol?
+    - Where is it located? Does it cost a lot?
+    - is the restaurant costly?
+    - is the restaurant [inexpensive](price_range)?`
+    - Do they have live music? What's the price range?
 - intent: request_serves_alcohol
   examples: |
-    - Do you know if they serve alcoholic beverages there?
+    - Do they serve liquor and play live music?
+    - Great, thanks. What is their phone number? Do they serve alcohol?
+    - Do you know if they serve alcoholic drinks and, also, can you give me their address.
+    - Is there any liquor supply? and let me know the address.
+    - What's their number and is liquor available?
     - Do they serve alcohol?
     - I'd also like it to have this restaurant live music inside, and to have a large variety of liquor to order as well.
-    - Do they have live music and serve Alcoholic drinks?
-    - Do you know if they serve alcoholic drinks and, also, can you give me their address.
-    - Sound great. What is their contact number? Do you know if they serve liquor?
-    - Do they serve liquor?
-    - Is there any liquor supply? and let me know the address.
-    - Do they serve liquor and play live music?
     - is it [expensive](price_range), and do they serve alcohol?
-    - Great, thanks. What is their phone number? Do they serve alcohol?
-    - What's their number and is liquor available?
+    - Sound great. What is their contact number? Do you know if they serve liquor?
     - Where can I find it and do they sell liquor?
+    - Do they have liquor?
+    - Do they have live music and serve Alcoholic drinks?
+    - Do they serve liquor?
 - intent: inform_name
   examples: |
-    - you can call me [Gabriela Silveira](name)
-    - i'm [Daniel](name)
-    - [Maria Gabriela](name)
-    - my name is [Daniel Bastos](name)
-    - you can call me [Gabriel Pereira](name)
-    - my name is [Victor](name)
-    - [Rodrigo Silva](name)
-    - [Gabriel Pereira](name)
-    - i'm [Gabriel](name)
-    - i'm [Luigi](name)
-    - you can call me [Daniel Bastos](name)
-    - [Bruno](name)
-    - i'm [Gabriel Silva](name)
-    - my name is [Daniel](name)
     - [Gabriel](name)
+    - you can call me [Gabriela Silveira](name)
     - my name is [Gabriel](name)
+    - [Gabriel Pereira](name)
+    - i'm [Gabriel Silva](name)
+    - [Rodrigo Silva](name)
+    - my name is [Daniel](name)
+    - [Daniel bastos](name)
+    - my name is [Victor](name)
+    - [Maria Gabriela](name)
     - my name is [Gabriel Pereira](name)
+    - [Bruno](name)
+    - you can call me [Gabriel Pereira](name)
+    - i'm [Daniel](name)
+    - you can call me [Daniel Bastos](name)
+    - i'm [Luigi](name)
+    - [Daniel](name)
 - intent: affirm_intent
   examples: |
-    - Yes I would like to make a reservation.
-    - Yes thanks, please book it.
     - Yes a reservation would be a good idea.
-    - Yes, I want to book a table.
-    - Yes, that will be great.
-    - Yes, make the reservation.
-    - Yeah, please make me a reservation.
-    - Yes, please, for today.
-    - Yes, please do.
-    - Yes, make a reservation, please.
-    - Yes book me a table
-    - I think so, yes.
-    - Yes go ahead and make reservations.
-    - Yes will be perfect
-    - Yes please do
     - Yes, that would be great. Please make a reservation.
-    - yes, i want to make a reservation
-    - Yes, book it
-    - Yes, please do so.
-    - Yes, make a reservation.
+    - Yes will be perfect
+    - Yes, make a reservation, please.
+    - Yes thanks, please book it.
+    - Yes thanks, please do it.
     - Yes, go ahead and do that.
+    - Yeah, please make me a reservation.
+    - Yes, make a reservation.
+    - Yes I would like to make a reservation.
+    - Yes go ahead and make reservations.
+    - Yes, please do so.
+    - yes, i want to make a reservation
+    - Yes, make the reservation.
+    - Yes, book it
+    - Yes please do
+    - Yes, that will be great.
+    - Yes book me a table
+    - Yes, please make a reservation for me.
+    - Please do that.
+    - I think so, yes.
 - intent: inform_date
   examples: |
-    - in [san rafael](city) for the [5th of this month](date).
-    - let's make it an [evening 7:30](time) reservation and you should look in [san francisco](city).
     - yes, please, on [10th of this month](date).
-    - yes, please. on the [1st of this month](date).
-    - i want it for [12:15 pm](time) [next Friday](date).
-    - i would like the reservation to be made at the [parkside](restaurant_name) restaurant and i will need the reservation to be the [7th of this month](date) please.
-    - yes, any date works.
-    - i want it to be at [afternoon 12:30](time) and on [Saturday this week](date).
     - would be nice [half past 12 in the afternoon](time) for the [day after tomorrow](date), please.
-    - i want the restaurant to be [kobe](restaurant_name) for [Saturday this week](date) at [afternoon 1:30](time).
-    - on [the 12th](date) at [six pm](time)
-    - it's in [berkeley](city). let's book for [March 7th](date) at [12 o"clock in the afternoon](time)
-    - the restaurant is named [foreign cinema](restaurant_name). i want to reserve it for [later today](date).
-    - can you make me a reservation at [carnitas michoacan](restaurant_name) in [gilroy](city) at [11:15 am](time). any day will work for me.
-    - yes, please. i want to make a reservation for [next Thursday](date).
-    - [7 pm](time) on [Thursday next week](date).
-    - sure! i want to make a reservation for the [11th of March](date).
-    - yes, i really want to try [the park](restaurant_name). see if it's available on [the 6th](date).
+    - i want it for [12:15 pm](time) [next Friday](date).
     - [antioch](city) please, on the [7th of this month](date).
-    - yes i would like a reservation for [this Saturday](date).
+    - i'd like to make a reservation for the [14th of this month](date) at [mendoza's](restaurant_name) in [san jose](city) for [7:30 in the evening](time).
+    - yes, please. on the [1st of this month](date).
+    - i would like the reservation to be made at the [parkside](restaurant_name) restaurant and i will need the reservation to be the [7th of this month](date) please.
+    - in [san rafael](city) for the [5th of this month](date).
+    - i want it to be at [afternoon 12:30](time) and on [Saturday this week](date).
+    - it's in [berkeley](city). let's book for [March 7th](date) at [12 o"clock in the afternoon](time)
     - the name of the restaurant is [marche aux fleurs](restaurant_name). the location is in [ross](city), and the date is on [the 10th](date).
-    - can you make it on the [10th of this month](date) at a [quarter to 7 in the evening](time)?
+    - the restaurant is named [foreign cinema](restaurant_name). i want to reserve it for [later today](date).
+    - i'm looking in [sfo](city) in particular and i have open availability for the date.
+    - yes please reserve me a table for the [13th of March](date).
+    - yes, i really want to try [the park](restaurant_name). see if it's available on [the 6th](date).
+    - sure! i want to make a reservation for the [11th of March](date).
+    - [7 pm](time) on [Thursday next week](date).
+    - let's make it an [evening 7:30](time) reservation and you should look in [san francisco](city).
+    - i want the restaurant to be [kobe](restaurant_name) for [Saturday this week](date) at [afternoon 1:30](time).
+    - yes, please. i want to make a reservation for [next Thursday](date).
+    - yes, any date works.
+    - on [the 12th](date) at [six pm](time)
 - intent: inform_restaurant_name
   examples: |
-    - in [san carlos](city), the restaurant i'd like to find is [West Park](restaurant_name).
-    - [Agave Grill](restaurant_name) please, for [march 10th](date)
-    - [Chili's Grill](restaurant_name) is the restaurant.
-    - we would like to make reservations for two at [18:00](time), at the [Pub Republic](restaurant_name) in [petaluma](city).
     - yes, the name of the restaurant is [Bikaner](restaurant_name).
-    - let's meet at [7 pm](time) at the [Jojo Restaurant](restaurant_name).
-    - i like the restaurant [Paul Martin's](restaurant_name).
-    - [Wence's](restaurant_name) is the restaurant i want.
-    - [6:15 in the evening](time) at [Bistro liaison](restaurant_name).
-    - i want [san jose](city) in [village](restaurant_name) at [11:30 in the morning](time)
-    - [Bj's](restaurant_name) is my first choice
-    - yes, the [State Bird](restaurant_name) in [sfo](city)
-    - the name of the resturaunt is [Fontana's](restaurant_name).
-    - i would like to go to [Bj's](restaurant_name).
-    - i'm looking for a reservation to [Amami](restaurant_name) in [san bruno](city).
     - the diner is [Darda](restaurant_name).
+    - the name of the resturaunt is [Fontana's](restaurant_name).
     - i need a table for one at the [El Rancho](restaurant_name) restaurant in [concord](city).
-    - yes, it's called [Juerga](restaurant_name).
-    - the restaurant is [Spencer's](restaurant_name).
-    - [Sushi Hashiri](restaurant_name), please.
-    - in [san mateo](city) the restaurant is [Sushi Yoshizumi](restaurant_name).
-    - i'm thinking about [Rice Bowl](restaurant_name), at [morning 11:30](time)
     - let's set it up for [6:30 pm](time) at [Sakoon](restaurant_name).
+    - yes i would like to be in [oakland](city) at restaurant [Sukho](restaurant_name) on [the 8th](date) at [17:00](time)
+    - i would like to go to [Bj's](restaurant_name).
+    - the restaurant is [Spencer's](restaurant_name).
+    - i like the restaurant [Paul Martin's](restaurant_name).
+    - i'm looking for a reservation to [Amami](restaurant_name) in [san bruno](city).
+    - i could go for some [Taco Bell](restaurant_name).
+    - i'm thinking about [Rice Bowl](restaurant_name), at [morning 11:30](time)
+    - a restaurant called [Rangecafe](restaurant_name).
+    - [Sushi Hashiri](restaurant_name), please.
+    - [evening 7:15](time) at [Mcdonald's](restaurant_name).
+    - i want [san jose](city) in [village](restaurant_name) at [11:30 in the morning](time)
+    - in [san mateo](city) the restaurant is [Sushi Yoshizumi](restaurant_name).
+    - [Chili's Grill](restaurant_name) is the restaurant.
+    - yes, it's called [Juerga](restaurant_name).
+    - let's meet at [7 pm](time) at the [Jojo Restaurant](restaurant_name).
     - it's called [the Alembic](restaurant_name).
+    - [Agave Grill](restaurant_name) please, for [march 10th](date)
+    - in [san carlos](city), the restaurant i'd like to find is [West Park](restaurant_name).
+    - we would like to make reservations for two at [18:00](time), at the [Pub Republic](restaurant_name) in [petaluma](city).
 - intent: request_phone_number
   examples: |
-    - You know their phone number? also would they have some live music?
+    - What's the number and address?
     - Can I please have the address and contact number?
-    - Hmm, what is their number?
-    - Do you know if they have live music? Also, please give me their number.
-    - What is the address and phone number?
-    - do they [Tacos](cuisine) there? what's the phone number?
     - what's their phone number? do you know if they serve [pasta](cuisine)?
-    - Can you tell me the phone number for the restaurant? And I would like to know if they have live music as well.
-    - any Liquor supply is available there? get me the contact number.
-    - Can I call them? Is there live music?
-    - Can you tell me the phone number?
-    - what is their phone number?
-    - What's the number of the restaurant? Is there live music?
-    - What is their phone number?
-    - are their prices extravagant? how can i contact them.
-    - What's their phone number?
     - Do they have live music and could you provide me with their contact number?
+    - What is their contact number?
+    - Do you know if they have live music? Also, please give me their number.
+    - Can you tell me the phone number which I can use to contact them?
+    - What's their phone number?
+    - You know their phone number? also would they have some live music?
     - Do they play live music and what is their phone number?
     - Do they serve alcohol? And what's their phone number?
-    - What's the number and address?
-    - I need their contact number? Please provide me
+    - are their prices extravagant? how can i contact them.
+    - do they [Tacos](cuisine) there? what's the phone number?
+    - Will there be live music? What is their phone number?
+    - what is their phone number?
+    - What is their phone number?
+    - How can I reach them?
     - What's their number?
+    - What's their address and contact number?
     - What's the address and number?
-    - What is their contact number?
-    - What is the price range? What is the phone number?
+    - And is alcohol available there? May I also have their phone number?
+    - any Liquor supply is available there? get me the contact number.
     - Do they serve alcohol? what is their phone number?
+    - Can you tell me the phone number for the restaurant? And I would like to know if they have live music as well.
+    - Can I call them? Is there live music?
+    - Hmm, what is their number?
 - intent: request_has_live_music
   examples: |
-    - How pricey will it be. Does they play live music?
-    - Does the restaurant have any live music playing?
-    - Is there live music?
+    - Does live music play there?
     - Do bands play there?
-    - I prefer a restaurant with a live music and by the way how's the price?
+    - Do they have live music and what is their phone number?
+    - is there live music and is it price rage [moderate](price_range)?
+    - Do they play live music?
+    - Can you tell me if there is any live music there? What is their street number?
+    - Does the restaurant have any live music playing?
+    - What is their contact number? Do they have live music?
     - May I have their address please? Do they play live music there?
     - Can you tell me if they have alcohol and live music?
     - Are there any live music?
-    - Do they have a number and do they have live music?
-    - is there live music and is it price rage [moderate](price_range)?
-    - I want a restaurant with music.
-    - Do they have live music? What is there address
-    - Do you know if they have live music?
-    - Alright, what is their number? Do they have live music?
-    - What's their phone number? And is there live music there?
-    - Can you tell me if there is any live music there? What is their street number?
-    - Do they have live music and what is their phone number?
-    - [moderate](price_range)
-    - Is there live music there?
-    - Find out if they have live music. Also how expensive is this restaurant?
-    - Are they expensive?
-    - Will you specify restaurant address and whether they have live music ?
-    - Does live music play there?
-    - What is their contact number? Do they have live music?
     - Can you provide the address and do they have live music?
+    - Find out if they have live music. Also how expensive is this restaurant?
+    - What's their phone number? And is there live music there?
+    - do they play live music and is the price range low-cost?
+    - Do they have live music? What is there address
     - Do you have their number? And do they have live music?
-    - Is there live music at that restaurant?
+    - Do they have a number and do they have live music?
+    - Will you specify restaurant address and whether they have live music ?
+    - I'm in the mood for live music, do they have it there?
+    - Alright, what is their number? Do they have live music?
+    - I want a restaurant with music.
+    - Where is the restaurant located? Is there live music scheduled to play?
+    - Is there live music there?
+    - [moderate](price_range)
+    - What's the situation with live music there?
+    - Is there live music?
 - intent: request_street_address
   examples: |
-    - And their address?
-    - Where are they located? And do they serve liquor?
-    - What is the address?
-    - What is the address of the restaurant and do the have live music?
-    - May I have their contact number and address?
-    - Will I be able to find liquor there? Can you give me the address of their location?
-    - What is the address for Alta Msp?
-    - May I know their address?
+    - Could you give me their address?
     - The address is what?
+    - What is the address of the restaurant and do the have live music?
+    - Where is it located?
+    - May I have their contact number and address?
+    - Is Liquor available? Where are they located?
+    - give me their address. is the menu pricey?
+    - May I know their address?
+    - What is the address for Alta Msp?
+    - What's the address and phone number please?
+    - Can you find me the address?
+    - What is their address and contact number?
+    - What is the address?
+    - Can you tell me what their address is?
+    - is it an [inexpensive](price_range) restaurant? what is the address?
+    - what's rubio's address? do they serve [Taiwanese](cuisine) food?
+    - Can you tell me their exact location.
+    - Tell me the address.
+    - what is their address?
+    - what is the address?
+    - What is the address and do they serve Alcohol?
+    - Is it pricy? What's their address?
+    - What's their address?
+    - What is their location?
+    - Whats the address?
+    - Do they have live music? What is their address?
     - Tell me their address?
     - Please tell me the address of the restaurant and their general prices.
-    - Tell me the address.
-    - What's their address?
-    - Can you find me the address?
     - Is it a costlier restaurant or a cheaper one? What's their prices? What's the street address of the restaurant?
-    - What is their address and contact number?
-    - Is Liquor available? Where are they located?
-    - Do they serve liquor? What is the address of the restaurant.
-    - what's rubio's address? do they serve [Taiwanese](cuisine) food?
-    - Whats the address?
-    - what is their address?
-    - Can you tell me what their address is?
-    - what is the address?
-    - Where is it located?
-    - is it an [inexpensive](price_range) restaurant? what is the address?
-    - do you know if their menu is [inexpensive](price_range) and what their address is?
-    - Is it pricy? What's their address?
-    - Can you tell me their exact location.
-    - give me their address. is the menu pricey?
 - intent: inform_party_size
   examples: |
-    - our reservation is at [11:30](time) for four people.
-    - i want the reservation in [Walnut Creek](city) for 1 person.
-    - the restaurant is called [Zaoh](restaurant_name). i'd like to make a reservation for 6 people.
-    - Yes, can you make the reservation for two people?
-    - I would like to reserve a table for two people tonight.
-    - yes i want to make a reservation for the [14th of March](date) for two people.
-    - reserve it for this [evening 7](time) pm for 6 people.
-    - i would like a reservation for two people at [Shiki](restaurant_name) at [one in the afternoon](time).
-    - i would love to make an appointment for one myself at [4:30 pm](time).
-    - Make a reservation for two people.
-    - there's a place in [San Jose](city) called [pearl river](restaurant_name) - can you just book it for one please
-    - i want it in [SFO](city), a restaurant called [kabuto](restaurant_name), just for one please
     - Yes, for two people please.
-    - i would like a reservation made for [1:30 pm](time). for 1 person please.
     - yes, on [the 7th](date) for four people.
-    - please search in [SF](city), for 4 people.
-    - Yeah, reserve me a table for one person please.
-    - yes, [Sheba Piano](restaurant_name). the booking if for 5 people.
-    - [1:30 in the afternoon](time), for 5 people.
-    - Yes please make a reservation for four.
-    - yes, i'm interested in a restaurant called [Maruya](restaurant_name) and this will be for three people.
+    - i would like a reservation for two people at [Shiki](restaurant_name) at [one in the afternoon](time).
     - Yes, I'll need to make a reservation for a table for 2.
+    - yes i want to make a reservation for the [14th of March](date) for two people.
+    - [1:30 in the afternoon](time), for 5 people.
+    - I would like to reserve a table for two people tonight.
     - yes! the [Old Siam](restaurant_name), it's my favorite. could you book it for 4 people please?
+    - Yes please make a reservation for four.
+    - i want it in [SFO](city), a restaurant called [kabuto](restaurant_name), just for one please
     - Yes, please book a table for two.
-    - i'd like a reservation for three people at [Half past 1 in the afternoon](time).
-    - make it for [6 o"clock in the evening](time), for two people.
+    - there's a place in [San Jose](city) called [pearl river](restaurant_name) - can you just book it for one please
+    - yes, [Sheba Piano](restaurant_name). the booking if for 5 people.
+    - Yes sure, Please make a reservation and number of people is 2
     - yes, i want the reservation for 6 people at  [1 o"clock in the afternoon](time).
-    - yes, i would like to make a reservation. make a reservation for [Sunday this week](date) for 4 people.
-    - i'd like a reservation for one person at [17:15](time).
+    - Yeah, reserve me a table for one person please.
+    - yes i would. [Next Friday](date) for six people.
+    - Make a reservation for two people.
+    - Yes, make a reservation for three people.
+    - i was thinking [17:45](time), for two guests.
+    - i would love to make an appointment for one myself at [4:30 pm](time).
+    - i want the reservation in [Walnut Creek](city) for 1 person.
+    - yes, i'm interested in a restaurant called [Maruya](restaurant_name) and this will be for three people.
+    - our reservation is at [11:30](time) for four people.
+    - Yes make it for 2 people
+    - Yes, for one.
+    - make it for [6 o"clock in the evening](time), for two people.
+    - Yes, can you make the reservation for two people?
+    - i'd like a reservation for three people at [Half past 1 in the afternoon](time).
 - intent: inform_time
   examples: |
-    - you can set the reservation at [17:30](time).
+    - set the reservation at [12:45](time).
+    - yes please, make it at [12:45](time).
     - please schedule it at [11:15](time).
-    - [11:30](time) will be perfect.
-    - at [11:15](time) will be good for me
+    - i would prefer to dine in at [19:15](time).
     - i would like it at [13:15](time).
-    - the time is [13:30](time) and the city is [alameda](city). i prefer [applebee's](restaurant_name); they have great food.
+    - let's make it for [12:30](time).
     - please can you book it for [7:15](time).
     - mate it at [17:30](time).
-    - [11:15](time) would be ideal.
     - i would like it for [18:30](time).
-    - id like it for [19:00](time).
-    - yes please, make it at [12:45](time).
-    - make the reservation in [sf](city) at [11:30](time).
-    - [18:45](time) works fine for me.
-    - at [5:30](time).
-    - i would prefer to dine in at [19:15](time).
-    - can you book for [11:30](time)?
-    - i'm thinking [5:15](time).
-    - [11:30]time) seems good.
-    - [18:45](time) will be fine.
-    - please make a reservation at [limon](restaurant_name) for [the 13th](date) at [11:45](time).
-    - [17:30](time), please.
-    - i'd like it for four at [12:00](time) at [lark creek](restaurant_name) in [san jose](city)
-    - place a reservation for [12:15](time).
-    - please reserve in the morning at [11:15](time).
+    - the restaurant is [thanh long](restaurant_name) at [13:15](time).
     - my plan is to be there by [13:30](time).
-    - [11:30](time) is fine.
     - [12:00](time).
+    - can you book for [11:30](time)?
+    - [18:45](time) will be fine.
     - [16:45](time) is perfect
+    - make the reservation in [sf](city) at [11:30](time).
+    - i'd like it for four at [12:00](time) at [lark creek](restaurant_name) in [san jose](city)
+    - [11:30](time) will be perfect.
     - please fix it at [11:30](time)
+    - [march 14th](date) at [17:30](time), please.
+    - at [18:45](time) for 2 people
+    - please make a reservation at [limon](restaurant_name) for [the 13th](date) at [11:45](time).
+    - i'm thinking [5:15](time).
+    - place a reservation for [12:15](time).
+    - [11:30]time) seems good.
+    - you can set the reservation at [17:30](time).
     - yes. make it for [5:45](time).
+    - [12:30](time) would be good, please.
+    - yes. i would like to make a reservation for [20:00](time).
+    - id like it for [19:00](time).
+    - [18:45](time) works fine for me.
 - intent: inform_phone_number
   examples: |
-    - their number is [925-387-0388](phone_number) and they don't serve alcohol.
-    - it is [707-585-9069](phone_number).
-    - no live music and the number is [415-561-1111](phone_number).
-    - if you want to phone them you can at [408-971-8523](phone_number).
     - the number for hukilau is [408-279-4888](phone_number).
-    - i have a phone number of [415-402-5290](phone_number).
-    - no alcohol and their phone is [415-318-8000](phone_number).
-    - no, alcohol is not served. here's their phone number: [650-487-8737](phone_number)
-    - the phone number for aslam's rasoi in san francisco is [415-695-0599](phone_number).
-    - the number is [510-728-7728](phone_number), but sadly no live music.
-    - they live at [43635 boscell road](street_address) and you can reach them at [510-979-1368](phone_number).
-    - unfortunately no, they do not have live music, however here is the number: [510-558-8367](phone_number).
-    - unfortunately they don't have a live band. you can reach them at [415-567-4903](phone_number).
-    - their phone number is [510-797-3474](phone_number) and their address is [3810 mowry avenue](street_address).
-    - their number is [650-581-1305](phone_number).
-    - you can reach them at [510-524-1286](phone_number).
-    - the restaurant's phone number is [415-252-1036](phone_number).
-    - if you want to phone them you can through [707-431-1995](phone_number).
-    - their prices are in the [moderate](price_range) range and their phone number is [415-292-6916](phone_number)
-    - the restaurant's number is [650-968-2300](phone_number).
-    - they do not appear to have live music shows. their contact number is [415-348-0808](phone_number).
+    - they can be reached at [408-528-8500](phone_number)
+    - [+55(81)98886-1160](phone_number)
     - [925-750-8888](phone_number) is the phone number
-    - no music, sadly. but their number is [415-771-5900](phone_number)
-    - sure, you can contact them at [408-270-2578](phone_number).
-    - the contact number for reservations is [408-645-5001](phone_number).
-    - the price range is [moderate](price_range). the phone number is [415-755-6250](phone_number).
-    - will's has [moderate](price_range) prices and their phone number is [415-566-8088](phone_number).
-    - they do not have live entertainment. the restaurant's phone number is [669-213-9385](phone_number).
-    - yes, it's [510-918-3205](phone_number).
+    - no alcohol and their phone is [415-318-8000](phone_number).
+    - no live music and the number is [415-561-1111](phone_number).
     - their phone number is [415-543-5100](phone_number)
-    - their number is [415-292-9997](phone_number).
     - the address is [2598 telegraph avenue](street_address) and the phone number is [510-843-3951](phone_number).
+    - if you want to phone them you can at [408-971-8523](phone_number).
+    - the number is [510-728-7728](phone_number), but sadly no live music.
+    - sure, you can contact them at [408-270-2578](phone_number).
+    - their number is [925-387-0388](phone_number) and they don't serve alcohol.
+    - the contact number for reservations is [408-645-5001](phone_number).
+    - you can reach them at [510-524-1286](phone_number).
+    - their phone number is [510-797-3474](phone_number) and their address is [3810 mowry avenue](street_address).
     - sure, you can contact them at [510-445-1602](phone_number).
+    - if you want to phone them you can through [707-431-1995](phone_number).
+    - their number is [415-292-9997](phone_number).
+    - unfortunately no, they do not have live music, however here is the number: [510-558-8367](phone_number).
+    - will's has [moderate](price_range) prices and their phone number is [415-566-8088](phone_number).
+    - their prices are in the [moderate](price_range) range and their phone number is [415-292-6916](phone_number)
+    - their phone number is [650-322-6872](phone_number).
+    - it is [707-585-9069](phone_number).
+    - the restaurant's number is [650-968-2300](phone_number).
+    - their phone number is [925-777-0888](phone_number). they serve [chinese](cuisine) food.
+    - no alcohol. the phone number is [415-731-5515](phone_number)
+    - their number is [650-581-1305](phone_number).
+    - the phone number for aslam's rasoi in san francisco is [415-695-0599](phone_number).
+    - they do not appear to have live music shows. their contact number is [415-348-0808](phone_number).
+    - the restaurant's phone number is [415-252-1036](phone_number).
+    - they live at [43635 boscell road](street_address) and you can reach them at [510-979-1368](phone_number).
+    - it's [408-737-8384](phone_number)
+    - there is no live music and you can contact them at [415-402-5290](phone_number)
 - intent: goodbye
   examples: |
-    - Thank you very much for the help. That is all I need.
-    - That is all I needed, thank you very much.
-    - Thank you very much that s all I need
-    - Thanks
-    - Thank you very much. That will be all for today, I appreciate it.
-    - Thanks so much. That'll be all for today.
-    - Okay good to know.
-    - Thank you for all your help. That is everything.
-    - Thanks so much. I think I'm good for now.
-    - No thank you.
-    - thanks a lot
-    - Thank you!
-    - thanks a lot, that is all for now
-    - Thanks ,that is all that I needed
-    - Thank you, you helped me a lot.
-    - Thank you. That's all.
-    - I appreciate it very much. That would be all.
-    - Thanks, that's all i need.
-    - Okay, thanks!
-    - Thanks. that's it
-    - Alright, Thank you.
     - Thanks a lot
-    - Thanks so much, that's it for now.
-    - I appreciate it very much. That's all I need right now.
+    - Thank you very much that s all I need
+    - Okay good to know.
     - that's great, thank you very much
-    - Thank you so much for all of your help.
+    - Thanks
+    - Thanks, that's all I want.
+    - Thanks, that's all for now.
+    - thank you, that will be it.
+    - thanks a lot, that is all for now
+    - Okay, thanks!
+    - Thanks, that's all i need.
+    - Thanks. that's it
+    - Thank you for all your help. That is everything.
+    - Thank you very much for the help. That is all I need.
     - Grateful, thank you.
     - Okay thanks. That'll be all.
+    - No thank you.
+    - Thank you!
+    - That is all I needed, thank you very much.
+    - No, thank you anyway.
+    - Perfect, thank you so much!
+    - Thank you, that will be all.
+    - Alright, Thank you.
     - Great! Thank you so much for your help.
-    - thank you, that will be it.
-    - Thank you, that's all for now.
-    - Excellent. Thanks, that's it for me
-    - Thanks, that's all for now.
-    - Thank you. That is all I need.
+    - Thanks ,that is all that I needed
+    - I appreciate it very much. That would be all.
+    - Thanks, t
+    - Thanks so much, that's it for now.
+    - thank you very much.that is all i need.
+    - Thank you, you helped me a lot.
+    - Thanks so mu
+    - Thank you. That's all.
+    - thanks a lot
+    - Thanks so much. I think I'm good for now.
 - intent: request_alts
   examples: |
-    - Can you look for any other restaurant?
-    - that's pretty expensive. i'm looking for a restaurant that's not very costly.
-    - Can you please make another suggestion?
-    - i am on a budget so i would like something that is [inexpensive](price_range) but serves alcohol. can you suggest another restaurant with these qualities?
-    - Could you suggest another similar restaurant that serves alcohol?
-    - anything else, budget priced?
-    - Could you suggest alternative restaurants?
-    - could you suggest another restaurant without the price limitation?
-    - okay, let's keep looking then. let's look at pricey restaurants now. how about a [Barbecue](cuisine) place?
-    - Eh, I've heard the food isn't too great there. How about something else?
-    - that's great, are there any other restaurants, maybe in [Santa Clara](city)?
-    - i am looking for a different noodle place that is [inexpensive](price_range). are there cheaper places in millbrae?
-    - Is there anything else you might recommend?
-    - can you suggest a restaurant with [inexpensive](price_range) pricing?
-    - can you suggest an afforadable restaurant in [sfo](city)?
-    - Nah, I'd rather somewhere else. Do you have another one?
-    - is there any other restaurant you recommend, preferably in [SF](city)?
-    - Could you suggest another?
-    - do you have another restaurant matching my needs? for example a restaurant which is economical and is located in [Palo Alto](city).
-    - alright, could you actually suggest any other restaurants for me? but in [San Fran](city) this time.
-    - What else is there.
-    - I'd like another suggestion please.
-    - Is there anything else?
-    - I went there once and it sucked. Is there anything else?
-    - Is there any other restaurant you can suggest?
-    - do you have any other suggestions that are also affordable?
     - What's the other one?
-    - What is another restaurant?
-    - is there anything else? i want something a bit more afforadable.
-    - Okay, then are there any other restaurants that'll work?
-    - are there any additional restaurants that have alcohol available?
-    - what other restaurants are there? i want to buy a drink.
-    - Ok, Find me another restaurant?
-    - Are there any other nice restaurants in the area?
+    - okay, let's keep looking then. let's look at pricey restaurants now. how about a [Barbecue](cuisine) place?
     - Can you suggest other restaurants?
-    - Please give a better choice.
-    - can you suggest something in the [moderate](price_range) price range?
-    - how about something else? i'm looking for a meal on a budget.
-    - Please find other restaurants.
-    - any other suggestions? something affordable?
-    - Can you find me any other restaurant?
-    - could you please give me suggestions for other restaurants that are budget friendly please.
-    - Give me other recommendations please.
-    - can you give me more options? i want it in [Milpitas](city) now.
+    - Can you look for any other restaurant?
+    - Another restaurant can you recommend?
+    - What is another restaurant?
+    - Do you have any other sugggestions?
+    - that's great, are there any other restaurants, maybe in [Santa Clara](city)?
+    - i want another option
     - What is the other option?
+    - Nah, I'd rather somewhere else. Do you have another one?
+    - Are there any other restauarnts nearby?
     - could you give another suggestion? i would love a place with live music.
+    - Is there any other restaurant you can suggest?
+    - Please find other restaurants.
+    - could you please give me suggestions for other restaurants that are budget friendly please.
+    - can you give me more options? i want it in [Milpitas](city) now.
+    - i want somewhere that is more [expensive](price_range), do you know of anywhere else?
+    - Can you find me any other restaurant?
+    - What else do you have?
+    - What else is there.
+    - that's pretty expensive. i'm looking for a restaurant that's not very costly.
+    - Give me other recommendations please.
+    - can you suggest something in the [moderate](price_range) price range?
+    - Any other places?
+    - I went there once and it sucked. Is there anything else?
+    - Is there anything else you might recommend?
+    - Is there anything else?
+    - Eh, I've heard the food isn't too great there. How about something else?
+    - Could you suggest alternative restaurants?
+    - do you have another restaurant matching my needs? for example a restaurant which is economical and is located in [Palo Alto](city).
+    - Could you suggest another?
+    - Could you suggest another similar restaurant that serves alcohol?
+    - any other suggestions? something affordable?
+    - is there any other restaurant you recommend, preferably in [SF](city)?
+    - how about something else? i'm looking for a meal on a budget.
+    - do you have any other suggestions that are also affordable?
+    - what other restaurants are there? i want to buy a drink.
+    - I'd like another suggestion please.
+    - i need someplace cheaper. i want to eat a lot for not very costly.
+    - i am looking for a different noodle place that is [inexpensive](price_range). are there cheaper places in millbrae?
+    - i am on a budget so i would like something that is [inexpensive](price_range) but serves alcohol. can you suggest another restaurant with these qualities?
+    - could you suggest another restaurant without the price limitation?
+    - are there any additional restaurants that have alcohol available?
+    - can you find me another restaurant in cotati with live music?
+    - can you suggest an afforadable restaurant in [sfo](city)?
 - intent: inform_city
   examples: |
+    - [Alabama](city)
+    - look in [San Fran](city).
+    - [San Jose](city) is my preferred location.
+    - somewhere in [San Leandro](city)
+    - find a place in [Vallejo](city) with live music.
     - we want to eat at the [claw shack](restaurant_name) in [San Jose](city). please make the reservation for [11:30 am](time).
     - actually, make the time [1 in the afternoon](time). the city is [San Fran](city).
-    - in [SFO](city).
-    - i would prefer something located in [San Jose](city) and on the lines of [punjabi](cuisine) cuisine.
-    - great! i am looking for food in [Oakland](city).
-    - [San francisco](city) is okay
-    - i want [oriental](cuisine) food in [Berkeley](city).
-    - i would like it close to the office in [SF](city) and i think my boss likes [burgers](cuisine).
-    - please search in [Petaluma](city)
-    - ya, i like to eat at some nice place in [Calistoga](city).
-    - the city is [San Jose](city).
-    - i want to dine at stella in [Burlingame](city)
-    - [San Jose](city) is my preferred location.
-    - look in [San Fran](city).
-    - i'd like to go to [golden harvest](restaurant_name) in [St. Helena](city).
-    - in [San Francisco](city).
-    - [Milpitas](city).
-    - i am looking for a restaurant in [Petaluma](city).
-    - i want it in [SF](city).
-    - i want it on [the 4th](date) day of the month. i want the city of [SFO](city).
-    - close to [Dublin](city)
-    - [Palo Alto](city) would
-    - i want it in [Richmond](city).
-    - in [Oakland](city).
-    - i want it in [Livermore](city).
-    - i want to go to [Milpitas](city). [spicy indian](cuisine) food sounds perfect.
-    - search in [Cupertino](city) for [dumplings](cuisine).
-    - it must be in [SFO](city)
-    - [Antioch](city) would be great.
-    - [Santa Clara](city)
-    - i would like it in [Danville](city).
-    - [Alabama](city)
-    - i am in [Oakland](city).
-    - the location is [Fremont](city), please.
-    - somewhere in [San Leandro](city)
-    - please make the reservation for [1:30 in the afternoon](time) in [Portola Valley](city).
-    - [Hayward](city).
-    - can you find a restaurant in [San Fran](city)?
-    - search in [San Francisco](city).
-    - i'd like [pizza](cuisine) and somewhere in [Sunnyvale](city).
-    - find me [ethiopian](cuisine) cuisine in [Berkeley](city).
-    - find me a [sushi](cuisine) place in [Alameda](city).
-    - the restaurant i would like to place a reservation at is called [bj's](restaurant_name) and i would like to place the reservation at the [San Jose](city) location of this restaurant.
-    - i want to eat in [San Bruno](city)
+    - i want something with a [moderate](price_range) priced in [Petaluma](city). it also needs to serve alcohol.
     - it has to be in [San Fran](city).
-    - i'd like to go to a restaurant in [Martinez](city) that serves [thai](cuisine) food.
-    - i want the restaurant [yi yuan](restaurant_name) in [Millbrae](city).
-    - i would prefer to eat at [Pleasanton](city).
-    - yes, please look for the [burma ruby](restaurant_name) restaurant in [Palo Alto](city).
+    - [Oakland](city) is okay for me.
+    - search in [Cupertino](city) for [dumplings](cuisine).
+    - i would like it in [Danville](city).
+    - it must be in [SFO](city)
+    - i want to dine at stella in [Burlingame](city)
+    - i'd like [pizza](cuisine) and somewhere in [Sunnyvale](city).
+    - i want to go to [sushi omakase](restaurant_name) in [Gilroy](city).
+    - [Hayward](city).
+    - do you know a place to eat in [Petaluma](city)?
+    - i'd like to go to [golden harvest](restaurant_name) in [St. Helena](city).
+    - i want it in [Richmond](city).
+    - [Alameda](city)
+    - it should be in [SFO](city).
+    - great! i am looking for food in [Oakland](city).
+    - i want it in [SF](city).
+    - in [San Francisco](city).
+    - the city is [San Jose](city).
     - in [San Francisco](city)
+    - i am looking for a restaurant in [Petaluma](city).
+    - can you find a restaurant in [San Fran](city)?
+    - i have to have something in [San Francisco](city).
+    - please search in [Petaluma](city)
     - yes, its called [marnee](restaurant_name) in [San Francisco](city).
+    - ya, i like to eat at some nice place in [Calistoga](city).
+    - close to [Dublin](city)
+    - in [Oakland](city).
+    - [Antioch](city) would be great.
+    - i am in [Oakland](city).
+    - i am looking for restaurants located in [Millbrae](city).
+    - i want it on [the 4th](date) day of the month. i want the city of [SFO](city).
+    - search in [San Francisco](city).
+    - yes, please look for the [burma ruby](restaurant_name) restaurant in [Palo Alto](city).
+    - i would like it close to the office in [SF](city) and i think my boss likes [burgers](cuisine).
+    - i'd like to go to a restaurant in [Martinez](city) that serves [thai](cuisine) food.
+    - i want to go to [Milpitas](city). [spicy indian](cuisine) food sounds perfect.
+    - find me [ethiopian](cuisine) cuisine in [Berkeley](city).
+    - i would prefer to eat at [Pleasanton](city).
+    - [Milpitas](city).
+    - we are meeting in [San Francisco](city).
+    - i want the restaurant [yi yuan](restaurant_name) in [Millbrae](city).
+    - somewhere in [Union City](city).
+    - [San francisco](city) is okay
 - intent: inform_intent
   examples: |
-    - i'm very hungry right now, i'd like to eat somewhere.
-    - i wish to make a reservation at a restaurant in [pleasant hill](city).
-    - can i make a reservation at this restaurant?
-    - i want to make a reservation at [asya](restaurant_name)
-    - i'm meeting a friend soon, and we'd like to make a reservation at a restaurant.
-    - yes, can you change the time to [7 o"clock in the evening](time)?
-    - i'd like to make a reservation on the [12th of march](date) for three people.
-    - can you help me find a place to eat at?
-    - try again for a reservation at [18:00](time).
-    - i want to eat something that is not very costly.
-    - i would like to eat at outside, can you find some nice place?
-    - can you find a place to eat?
-    - i'm looking for a good place to get something to eat, can you help?
-    - can i make a restaurant reservation? i want it on [march 12th](date).
-    - are there any [mexican](cuisine) places in [rohnert park](city)?
-    - search eateries in [san fran](city). please
-    - can you find me something economical to eat in [pleasanton](city).
-    - can you help me find a low priced restaurant in the area?
-    - i would like to take my wife to dinner at her favorite restaurant, [allegro romano](restaurant_name).
-    - i'm interested in making a reservation for five people at the [artisan](restaurant_name) restaurant in [lafayette](city).
-    - instead of the previous time, can you make it at [18:00](time)?
-    - im searching for a place to eat.
     - i want to make a reservation at [cassava](restaurant_name) restaurant.
-    - i'm literally starving to death right now. find me a place that serves like fries and maybe a [burger](cuisine).
-    - can you help me find a restaurant?
-    - im very hungry i would like to eat somewhere
-    - can i make a reservation at a restaurant?
-    - i'd like to make a restaurant reservation at [quarter to 7 in the evening](time).
-    - i would like to set up a reservation at a restaurant please.
-    - i want to go out to eat.
-    - please try booking again in [the mexican restaurant](restaurant_name) at [18:45](time)
-    - i'm looking to find a restaurant in the area. i'm taking my wife out to celebrate our anniversary, and i want it to be a nice place, something pricey. also she loves fish so if they serve [freshwater fish](cuisine) they would be perfect.
-    - i'm looking for a [filipino](cuisine) place to eat.
-    - what places are there to eat around here?
-    - please try reserving again at [11:45](time).
-    - i would like to book a reservation for a place to eat.
-    - can you check if a table is available at [17:30](time)?
-    - it's my friend's birthday and i want to take them to [aquitaine](restaurant_name) in [sf](city), can you book me a reservation?
-    - what can i have for breakfast
-    - i would like to make reservations for 2 at [pescatore](restaurant_name).
     - id like to make a reservation for [friday next week](date).
-    - can i please make a reservation for [7 pm](time) at [tambo](restaurant_name).
-    - lets try a different time to book the reservation. try for [five in the evening](time).
-    - i was thinking about going to the restaurant, can you help me with the reservation process?
-    - what would be a good place to eat?
-    - can you get me dinner reservations for [6 in the evening](time)?
-    - let me attempt to book hunan impression again. let's instead for with the [5th of this month](date), at [evening 5:30](time).
+    - will you find me somewhere to eat?
+    - i want to make a reservation at [asya](restaurant_name)
+    - can i make a reservation at this restaurant?
     - what's a good place to grab a bite?
-    - can you help find a place to eat?
-    - i want to make a reservation at a restaurant for the [6th of march](date).
-    - i would like to reserve a table at a restaurant.
+    - where can i go to eat that also serves alcohol?
+    - let's search places to eat please.
+    - what places are there to eat around here?
+    - what would be a good place to eat?
+    - can you find a place to eat?
+    - can you help me find a low priced restaurant in the area?
+    - please try booking again in [the mexican restaurant](restaurant_name) at [18:45](time)
     - i want to eat somewhere in [san mateo](city), can you give me a recommendation?
+    - can you help find a place to eat?
+    - i would like to reserve a table at a restaurant.
+    - yes, can you change the time to [7 o"clock in the evening](time)?
+    - search eateries in [san fran](city). please
+    - i was thinking about going to the restaurant, can you help me with the reservation process?
+    - i'm looking for a [filipino](cuisine) place to eat.
+    - i would like to make reservations for 2 at [pescatore](restaurant_name).
+    - i'm very hungry right now, i'd like to eat somewhere.
+    - i'm looking for a place to eat
+    - is there a place to eat?
+    - i'm looking for a good place to eat to take my date. she really like's [shabu-shabu](cuisine) food and lives in [berkeley](city).
+    - i'd like to book a spot at a diner.
+    - what can i have for breakfast
+    - i would like to eat at outside, can you find some nice place?
     - i'm looking for somewhere to eat.
+    - instead of the previous time, can you make it at [18:00](time)?
+    - will you find me a place to eat?
+    - i will eat later, please find me a place.
+    - can you find me somewhere to eat in [dublin](city)?
+    - i would like to book a reservation for a place to eat.
+    - let me attempt to book hunan impression again. let's instead for with the [5th of this month](date), at [evening 5:30](time).
+    - can you help me find a place to eat at?
+    - i would like to set up a reservation at a restaurant please.
+    - it's my friend's birthday and i want to take them to [aquitaine](restaurant_name) in [sf](city), can you book me a reservation?
     - i'm trying to find a restaurant.
+    - try to make a reservation for a [quarter past 6 in the evening](time).
+    - can i please make a reservation for [7 pm](time) at [tambo](restaurant_name).
+    - i'm interested in making a reservation for five people at the [artisan](restaurant_name) restaurant in [lafayette](city).
+    - im very hungry i would like to eat somewhere
+    - please try reserving again at [11:45](time).
+    - can you help me find a restaurant?
+    - i'm meeting a friend soon, and we'd like to make a reservation at a restaurant.
+    - i would like to take my wife to dinner at her favorite restaurant, [allegro romano](restaurant_name).
+    - i want to make a reservation at a restaurant for the [6th of march](date).
+    - can you check if a table is available at [17:30](time)?
+    - im searching for a place to eat.
+    - can i make a reservation at a restaurant?
+    - i want to eat something that is not very costly.
+    - can you find me something economical to eat in [pleasanton](city).
+    - lets try a different time to book the reservation. try for [five in the evening](time).
 - intent: inform_cuisine
   examples: |
-    - i need [Pizza](cuisine) kind of food and i wish to eat in city [napa](city).
-    - i want [Izakaya](cuisine) food in [santa rosa](city).
-    - i'd love some [Izakaya](cuisine) type food.
-    - something like [Freshwater fish](cuisine).
-    - please find me a [Izakaya](cuisine) restaurant in [fremont](city).
-    - i think a [breakfast & brunch](cuisine) place would be perfect.
-    - i would love to have some kind of [American](cuisine) food. [fairfield](city) would be suitable to me.
-    - some [Freshwater fish](cuisine) would be good in [san francisco](city)
-    - i need it in [sfo](city). [French](cuisine) food will be perfect.
-    - [Sushi](cuisine) sounds good right now.
-    - [Spicy Indian](cuisine) sound really good.
-    - [Gastrobar](cuisine) food will be perfect.
-    - [Malaysian](cuisine) sounds good right now.
-    - i was thinking in [petaluma](city). preferably a [Pizza](cuisine) place.
-    - i'd like some [Taiwanese](cuisine) food in [sfo](city)
-    - look in [sfo](city). i'm feeling [Japanese](cuisine) food.
-    - are there any [Pakistani](cuisine) places?
-    - i'd like to try [Punjabi](cuisine) food, somewhere in [sfo](city).
-    - we will be arriving in [newark](city) this weekend. we love to dine at a restaurant specializing in [Afghan](cuisine) food.
-    - some [Izakaya](cuisine) kind of food good in [foster city](city)
-    - i'm craving some [Sushi](cuisine) in [san francisco](city) if possible.
-    - i'd like to try some [Korean](cuisine) food.
-    - i am really hungry for [Pizza and Pasta](cuisine).
-    - i want to have [Taiwanese](cuisine) food in [san fran](city).
+    - the perfect place would serve [Parisian](cuisine) food.
     - [Mexican](cuisine) food sounds good.
-    - i really want some [Freshwater fish](cuisine).
-    - i'll be eating in [sf](city). i love [Japanese](cuisine), that would be great.
-    - a place with [pasta](cuisine) will be perfect?
-    - i'm looking for [Barbecue](cuisine), that would hit the spot.
-    - [American](cuisine) food would really hit the spot.
-    - i would prefer some [Filipino](cuisine) food which is affordable and not too expensive.
+    - i think a [breakfast & brunch](cuisine) place would be perfect.
     - i love [cantonese](cuisine) food.
-    - something like a [Diner](cuisine) should do.
-    - [italian](cuisine) food
-    - yes, some [salad](cuisine) type food with low-cost will be perfect. also i need live music there.
-    - i am craving some [Mediterranean](cuisine) food!
-    - i want to order food in [san jose](city), specifically [Spicy Indian](cuisine) food which would be perfect.
-    - it will be fine at [san francisco](city) and [pizza and pasta](cuisine) will cherish me.
-    - we will eat in [alameda](city), and i am looking forward to eat some [tacos](cuisine).
-    - some [Barbecue](cuisine) will be prefect.
-    - ya, i prefer [Asian](cuisine) food which i am always dreaming to eat and please search for me in [pleasant hill](city).
     - i don't know, some [Sushi](cuisine) would be perfect, i guess.
-    - [Mediterranean](cuisine) would be great.
-    - look for [burger](cuisine) restaurants in [campbell](city).
-    - [Fish](cuisine) would be great
-    - i think i am craving for [sushi](cuisine).
-    - [Brazilian](cuisine).
-    - i'd definitely like something affordable. actually, some [Shabu-shabu](cuisine) sounds great right now.
-    - here where i can get a reasonably priced [burger](cuisine).
-    - [Barbecue](cuisine) would be excellent
-    - i'd like for a [moderate](price_range) costing meal in [mountain view](city), preferably [French](cuisine).
-    - i would like [Izakaya](cuisine) cuisine.
-    - i need it in [san francisco](city). some [veggie](cuisine) food will be great.
-    - a [Diner](cuisine) kind of food will be good
-    - i am looking for restaurants that offer [Take-out](cuisine).
+    - look in [sfo](city). i'm feeling [Japanese](cuisine) food.
+    - i'd like to try some [Korean](cuisine) food.
+    - i'd like to try [Punjabi](cuisine) food, somewhere in [sfo](city).
+    - something like a [Diner](cuisine) should do.
+    - i really want some [Freshwater fish](cuisine).
+    - oh, i'm in [oakland](city). please find an [American](cuisine) restaurant.
+    - [Gastrobar](cuisine) food will be perfect.
+    - please find me a [Izakaya](cuisine) restaurant in [fremont](city).
+    - i am really hungry for [Pizza and Pasta](cuisine).
     - i enjoy [Szcheuan](cuisine) food.
+    - i'd definitely like something affordable. actually, some [Shabu-shabu](cuisine) sounds great right now.
+    - some [Barbecue](cuisine) will be prefect.
+    - i want [Izakaya](cuisine) food in [santa rosa](city).
+    - [Fish](cuisine) would be great
+    - [Spicy Indian](cuisine) sound really good.
+    - anywhere that serves [fish](cuisine) would be perfect.
+    - [Barbecue](cuisine) would be excellent
+    - i like [Taiwanese](cuisine) food so much, can you find something?
     - i would like [Freshwater fish](cuisine).
+    - here where i can get a reasonably priced [burger](cuisine).
+    - [italian](cuisine) food
+    - i'm craving some [Sushi](cuisine) in [san francisco](city) if possible.
+    - i think i am craving for [sushi](cuisine).
+    - [Malaysian](cuisine) sounds good right now.
+    - [Mediterranean](cuisine) would be great.
+    - anyone that is [burger](cuisine) like in nature
+    - [Brazilian](cuisine).
+    - i'd like for a [moderate](price_range) costing meal in [mountain view](city), preferably [French](cuisine).
+    - i want to have [Taiwanese](cuisine) food in [san fran](city).
+    - look for [burger](cuisine) restaurants in [campbell](city).
+    - i was thinking in [petaluma](city). preferably a [Pizza](cuisine) place.
+    - we will be arriving in [newark](city) this weekend. we love to dine at a restaurant specializing in [Afghan](cuisine) food.
+    - i would like to eat [tacos](cuisine), if available.
+    - are there any [Pakistani](cuisine) places?
+    - i would prefer some [Filipino](cuisine) food which is affordable and not too expensive.
+    - ya, i prefer [Asian](cuisine) food which i am always dreaming to eat and please search for me in [pleasant hill](city).
+    - can you find me a restaurant that serves [freshwater fish](cuisine) that's close by?
+    - yes, i prefer some [Curry](cuisine) variety and it will be on affordable price.
+    - some [Izakaya](cuisine) kind of food good in [foster city](city)
+    - [American](cuisine) food would really hit the spot.
+    - [Sushi](cuisine) sounds good right now.
+    - it will be fine at [san francisco](city) and [pizza and pasta](cuisine) will cherish me.
+    - [Asian Fusion](cuisine) sounds nice.
+    - i would love to have some kind of [American](cuisine) food. [fairfield](city) would be suitable to me.
+    - a [Diner](cuisine) kind of food will be good
+    - i would like something on the lines of [Izakaya](cuisine) food.
+    - we will eat in [alameda](city), and i am looking forward to eat some [tacos](cuisine).
+    - yes, some [salad](cuisine) type food with low-cost will be perfect. also i need live music there.
+    - i need [Pizza](cuisine) kind of food and i wish to eat in city [napa](city).
+    - i'd love some [Izakaya](cuisine) type food.
+    - i need it in [san francisco](city). some [veggie](cuisine) food will be great.
+    - i like eating [Ramen](cuisine) sometimes so that kind of food would be nice.
 - intent: thank_you
   examples: |
-    - Thanks.
-    - No for now. Thank you.
-    - Thank you
-    - Okay, thank you very much.
     - I think not. Thanks for your diligence.
-    - Thanks, but no.
-    - Thank you for all your help.
-    - Thank You
-    - No, I do not. Thank you.
-    - That's it, thank you.
-    - No, that is fine. Thank you very much for your help!
-    - No. thats it!
-    - No that's it, thanks again.
+    - Wow, what a waste. No, that'll be all.
     - No. This should be enough for now.
-    - No. Everything is great, thank you.
-    - Thanks, that's one less thing I have to do.
-    - Great, thanks a bunch.
-    - no.
-    - Thanks your a big help.
-    - I greatly appreciate your time.
-    - No, that was all I needed but thank you.
-    - Thanks so much.
-    - Great. Thanks so much.
-    - No. That was it, thanks.
-    - Okay, thank you very much for your assistance.
-    - Nice. Your assistance is highly appreciated.
-    - Great, I want to toast the victory of the team.
-    - No. Thanks for your help.
-    - No. Thanks anyway.
-    - no thats it
-    - no. I'm good.
-    - Okay, thank you.
-    - No, you have been most helpful already.
-    - No,it s ok.Thnak you!
-    - Okay great, thanks.
-    - No. That will be all.
-    - Okay. Thank you for your help.
-    - No, nothing at all.
-    - Alright, thank you.
-    - That sounds great! Thank you.
-    - No, that is all thank you.
-    - Thanks very much.
-    - Nothing, you've done quite enough.
-    - That's alright, thank you very much.
-    - no. thank you for your help
-    - No. That will be all. Thank you.
-    - Sweet, thanks so much.
-    - thanks
-    - No issues, thank you very much.
-    - No, thank you for your assistance.
-    - No, that's enjoy.
-    - No that's it for now, thanks
-    - No. I am all set. Thanks again.
-    - No, that's all. Thanks, again!
-    - thanks you very much
-    - No, that's quite enough.
-    - I really appreciate it.
+    - Nothing much. I'm good.
     - No thats all.
+    - No, that is fine. Thank you very much for your help!
+    - No, nothing at all.
+    - No and thanks for you your help anyway.
+    - No,it s ok.Thnak you!
+    - Thanks so much.
+    - Thanks very much.
+    - No. That will be all. Thank you.
+    - thanks.
+    - No, that was all I needed but thank you.
+    - Nice. Your assistance is highly appreciated.
+    - no.
+    - Okay, thank you.
+    - I greatly appreciate your time.
+    - Thanks, but no.
+    - No that's it for now, thanks
+    - No but I appreciate it.
+    - No, you have been most helpful already.
+    - No issues, thank you very much.
+    - no thats it
+    - No. Thanks anyway.
+    - No, that's enjoy.
     - Awesome, thank you!
+    - No. That was it, thanks.
+    - Okay, thank you very much.
+    - TI appreciate your help thanks.
+    - Great, thanks a bunch.
+    - Thanks your a big help.
+    - That's alright, thank you very much.
+    - No, that's all. Thanks, again!
+    - Great, I want to toast the victory of the team.
+    - No, I do not. Thank you.
+    - Nothing, you've done quite enough.
+    - thanks you very much
+    - Thank You
+    - No, that's okay.
+    - No, that is all. Thank you again.
+    - That is all thank you so much.
+    - Okay great, thanks.
+    - That sounds great! Thank you.
+    - Excellent. Thank you.
+    - Thank you for all of your work.
+    - No. Thanks for your help.
+    - Thanks.
+    - no. thank you for your help
+    - Thanks, that's one less thing I have to do.
+    - thanks
+    - Great. Thanks so much.
+    - no. I'm good.
+    - Thank you for all.
+    - That's it, thank you.
+    - No, that is all thank you.
+    - No that's it, thanks again.
+    - I really appreciate it.
+    - No, that's quite enough.
 - intent: negate
   examples: |
-    - It's actually for 1 person.
-    - no. the restaurant is [villa d'este](restaurant_name). i want it in [San Francisco](city).
-    - please no.
-    - i would like to make the booking at [evening 7:30](time) on [March 10th](date).
-    - oops, did i say march 9th earlier? make it [March 8th](date).
-    - i'm sorry, i need to change that. i'd like it on [the 9th](date) and it will be for 3 people.
-    - No
-    - Actually, could you make it for five people?
-    - no, i'd like to book for [March 14th](date).
-    - no. please make it for [7:30 pm](time) at [santa clara](city).
     - actually, i want to make the reservation for the [14th of March](date) at [evening 5:30](time).
-    - Wait no, it's just 1 person.
-    - Actually, we are going as a group of three.
-    - no, actually i want it for 3 people, and at [evening 7:45](time).
-    - no. make it at [12 in the afternoon](time).
-    - no, sorry, change of plans. i would like the [3rd of March](date) instead.
-    - No. Make it for 4 people.
-    - sorry, please change it to 3 persons and the date will be [2nd of March](date).
-    - It is for 1 person.
-    - that's incorrect, i was it to be on the [14th of this month](date).
-    - No.Its book for 1 person.
-    - that's not what i want. i forgot about a couple that will join us so the reservation should be for four people and on [the 8th](date).
-    - no make it at [19:30](time) and make the reservation for five poeple.
-    - in second though i want it to be at [12:30 in the afternoon](time).
-    - I don't think so.
-    - Please make the reservation for three people.
-    - make it the [7th of March](date) instead.
-    - no, i want it on [Thursday next week](date).
-    - actually, scratch that. make it [Celia's](restaurant_name) and at [5:30 pm](time).
-    - please make it on [March 3rd](date) for 3 people.
-    - no, the name of the restaurant is [El Amigo](restaurant_name) and it is for 1 person.
-    - i'm sorry, would you please make the reservation on [the 7th](date) in the [evening 5](time)?
-    - It should be for 4 people.
-    - Make it for one person.
-    - no make it please at [12:45](time) for 4 people
-    - the reservation should be for [March 14th](date).
-    - no, sorry, please make it [March 4th](date) instead.
-    - Oh, wait, it's for five people, not 6.
-    - nope, sorry please can you make it on [the 13th](date) in [Sunnyvale](city)?
-    - Actually can you make it for 2?
-    - can you change it to [afternoon 1:45](time)?
-    - no i want it on the [3rd of this month](date) and for six people.
-    - It's for 5 people, not 6.
-    - Make it for four people instead
-    - I need the reservation for 2 people
-    - no, i actually want to go on [March 14th](date).
-    - no, it's for one person on [the 6th](date).
-    - you know what, better make it at [6 o"clock in the evening](time) for three people
-    - can you change the city to [Hayward](city)?
-    - Would you please change that reservation to a table for 4 people.
-    - no. it is for three people
-    - nope, please can you reserve at [Sunnyvale](city).
     - no, i want it to be for [next tuesday](date), and only for one person.
-    - no, please reschedule for [2nd of March](date).
-    - hold on. make it [11:30 in the morning](time) and it is for just 1 person.
-    - no, can you please change the reservation to [7:30 pm](time).
-    - actually, i would like it [this sunday](date) at [19:00](time).
-    - actually change it to [eleven in the morning](time).
-    - no. make it at [4:30 pm](time).
-    - it's supposed to be on [the 2nd](date).
-    - no, it is for 3 people at [1 pm](time).
-    - no. i want the reservation on the [12th of March](date), for 6 people.
-    - Actually is is for six people.
-    - i would like the reservation changed to [March 5th](date).
-    - no. the restaurant is [Siam Taste](restaurant_name).
-    - I want a reservation for 4 persons.
-    - no, actually make it [half past 6 in the evening](time).
+    - no, i want it on [Thursday next week](date).
+    - no make it at [19:30](time) and make the reservation for five poeple.
+    - no can u make it at [19:00](time)
+    - Please make the reservation for three people.
+    - i'm sorry, would you please make the reservation on [the 7th](date) in the [evening 5](time)?
+    - Actually can you make it for 2?
+    - I need the reservation for 2 people
+    - please make the reservation for [18:00](time).
     - make it at [5:30 pm](time) for 1 instead.
-    - actually, no. make it the [13th of this month](date) for 3 people.
-    - Its actually a party of 4.
+    - no. make it at [4:30 pm](time).
+    - no i want it on the [3rd of this month](date) and for six people.
+    - actually change it to [eleven in the morning](time).
+    - no, i forgot, my mother-in-law canceled, so i only need reservations for two and i need those at the [Crouching TIger](restaurant_name).
+    - please make it on [March 3rd](date) for 3 people.
+    - no, i'd like to book for [March 14th](date).
     - no, make it at [one in the afternoon](time).
+    - hold on. make it [11:30 in the morning](time) and it is for just 1 person.
+    - no, i want it on the [12th of this month](date) at [13:00](time).
+    - no, i'd like it [next Monday](date).
+    - no, can you please change the reservation to [7:30 pm](time).
+    - that's incorrect, i was it to be on the [14th of this month](date).
+    - Make it for four people instead
+    - Actually, we are going as a group of three.
+    - Wait no, it's just 1 person.
+    - that's not what i want. i forgot about a couple that will join us so the reservation should be for four people and on [the 8th](date).
+    - it's supposed to be on [the 2nd](date).
+    - this is incorrect. the restaurant is [Black Angus](restaurant_name).
+    - no, please reschedule for [2nd of March](date).
+    - No.Its book for 1 person.
+    - no, it's for 1 person. let's do it on [the 8th](date).
+    - It should be for 4 people.
+    - no, i actually want to go on [March 14th](date).
+    - no. the restaurant is [Siam Taste](restaurant_name).
+    - Would you please change that reservation to a table for 4 people.
+    - Its actually a party of 4.
+    - in second though i want it to be at [12:30 in the afternoon](time).
+    - actually, let's make it [7 pm](time).
+    - i would like to make the booking at [evening 7:30](time) on [March 10th](date).
+    - It's actually for 1 person.
+    - no. make it at [12 in the afternoon](time).
+    - no, actually make it [half past 6 in the evening](time).
+    - can you change the city to [Hayward](city)?
+    - nope, please can you reserve at [Sunnyvale](city).
+    - please no.
+    - No. That doesn't work for me
+    - nope, sorry please can you make it on [the 13th](date) in [Sunnyvale](city)?
+    - will you make it at [11:30 am](time) on [7th of March](date)?
+    - make it the [7th of March](date) instead.
+    - no. it is for three people
+    - actually, i would like it [this sunday](date) at [19:00](time).
+    - no make it please at [12:45](time) for 4 people
+    - Actually is is for six people.
+    - no, actually i want it for 3 people, and at [evening 7:45](time).
+    - no, sorry, change of plans. i would like the [3rd of March](date) instead.
+    - It's for 5 people, not 6.
+    - no, it's for one person on [the 6th](date).
+    - can you change it to [afternoon 1:45](time)?
+    - actually, scratch that. make it [Celia's](restaurant_name) and at [5:30 pm](time).
+    - oops, did i say march 9th earlier? make it [March 8th](date).
+    - no, it is for 3 people at [1 pm](time).
+    - no, sorry, please make it [March 4th](date) instead.
+    - no. please make it for [7:30 pm](time) at [santa clara](city).
+    - Actually let's just do it for one person
+    - sorry, please change it to 3 persons and the date will be [2nd of March](date).
+    - i would like the reservation changed to [March 5th](date).
+    - Please make the reservation for 1 person.
+    - the reservation should be for [March 14th](date).
+    - actually change it to [march 5th](date) in [El Cerrito](city).
+    - no. the restaurant is [villa d'este](restaurant_name). i want it in [San Francisco](city).
 - intent: select
   examples: |
-    - yes, that is fine, please make me a reservation on [tuesday next week](date).
-    - sounds good. make a reservation at [13:30](time) at the restaurant.
-    - perfect, so i want to make a reservation, then.
-    - that works for me. i would like to make a reservation.
-    - All right, I'm willing to try them.
-    - yes. please book a table.
-    - That seems like a good fit.
-    - That will do.
     - yes. i would like to book a table.
     - alright, please make a reservation for me at this [evening 7:15](time).
-    - That will work.
-    - yes, that sounds good. can you reserve it for [march 8th](date)?
-    - great, can you make a reservation on the [7th of this month](date)?
-    - alright, that seems good. i would like to make a booking at this restaurant.
-    - Alright, let's go with that.
-    - that works. i'd like to make a reservation at [half past 12 in the afternoon](time) for 6 people.
-    - can i make a reservation for it
-    - Okay. That sound good to me.
-    - that works for me and i'd like to make a reservation at the restaurant.
-    - Perfect, that works for me!
-    - Great.
-    - Perfect. That works
-    - Yes that sounds awesome.
-    - well, it works for me, can you make a reservation for 4 people at [1 o"clock in the afternoon](time)?
-    - yes, that's perfect. i want to reserve a table for 4.
-    - Yes, it seems good for me
-    - That sounds pretty good.
-    - You have found a winner.
-    - Excellent, that's perfect.
-    - That's great, thanks.
-    - yes, please get me a reservation there.
-    - that's perfect! i would like to make a reservation.
-    - sure, that really sounds great. let's make reservations for 2 people please.
-    - I think it would fit me perfectly
-    - Ok, that works for me!
-    - That is good for me.
-    - sure, that sounds good. i would like to go ahead and make a reservation for that restaurant.
-    - Yes, sounds good.
-    - that's perfect! i need to book a reservation for 5 people on the [7th of march](date).
-    - sounds ok. can you book me a table there for [11:30 am](time)?
-    - Great, that restaurant sounds good
     - that works. i want to reserve a table.
-    - that restaurant sounds great to me, i would like to make a reservation there.
-    - That is perfedt.
-    - Okay that works for me.
-    - please can you make the reservation
-    - that's fine, please make reservation for 4 including me.
-    - awesome... i would like to have my food there. please can i make a reservation for the table at the restaurant?
-    - That's great and it'll work for me.
-    - that'll work. i'd like a reservation there.
-    - okay, that sounds good. can you reserve a table for me?
+    - yes, that's perfect. i want to reserve a table for 4.
+    - sounds good. make a reservation at [13:30](time) at the restaurant.
+    - can i make a reservation for it
+    - Great, that restaurant sounds good
     - i would like to make a reservation at akemi.
+    - Perfect. That works
+    - You have found a winner.
     - i would like to make a reservation for six at a restaurant.
-    - that sounds like a nice place. please set the reservations for that restaurant at [17:30](time).
-    - that is fine. please make a reservation.
-    - that's okay, can you make me a reservation at this restaurant for [day after tomorrow](date).
-    - yes, that would work. can you go ahead and make a reservation?
-    - That would be fine.
-    - yeah, that works for me. i'd like to make reservations at a restaurant on the [10th of march](date).
-    - Yes that is fine.
-    - that is good a good choice. please make a reservation for six people for [3rd of march](date).
-    - That sounds good, thank you.
-    - i'd like to make a reservation there.
-    - yup, that works. please can you reserve at this restaurant?
-    - yes that works, place reservation [next wednesday](date)
-    - that would be fine. i would like you a reservation.
-    - yes, that seems good for me, i want make a reservation at [11:15](time)
-    - Yeah, that sounds great.
-    - Yeah, that will do just fine.
     - That sounds good to me.
+    - Alright, let's go with that.
+    - I think it would fit me perfectly
+    - that sounds like a nice place. please set the reservations for that restaurant at [17:30](time).
+    - that's okay, can you make me a reservation at this restaurant for [day after tomorrow](date).
+    - that works for me. i would like to make a reservation.
+    - Oh okay. Yeah sure that's fine.
+    - Ok, that works for me!
+    - Excellent, that's perfect.
+    - Yes that is fine.
+    - Ok its fine , i prefer the same.
+    - That will do.
+    - yes that works. i want a reservation at a nearby restaurant.
+    - All right, I'm willing to try them.
+    - that is perfect, and i want to make a reservation.
+    - that is fine. please make a reservation.
+    - that restaurant sounds great to me, i would like to make a reservation there.
+    - Alright, that works.
+    - awesome... i would like to have my food there. please can i make a reservation for the table at the restaurant?
+    - That one would be great!
+    - That's great.
+    - That would be fine.
+    - great, can you make a reservation on the [7th of this month](date)?
+    - That's great, thanks.
+    - that's perfect! i would like to make a reservation.
+    - Yes that sounds awesome.
+    - Okay that works for me.
+    - that'll work. i'd like a reservation there.
+    - yes. please book a table.
+    - okay, i still make it a go. please make a reservation for me at [13:30](time).
+    - That will work.
+    - sounds ok. can you book me a table there for [11:30 am](time)?
+    - sure, that sounds good. i would like to go ahead and make a reservation for that restaurant.
+    - okay, that sounds good. can you reserve a table for me?
+    - yes that works, place reservation [next wednesday](date)
+    - that works for me and i'd like to make a reservation at the restaurant.
+    - Okay. That sound good to me.
+    - that sounds great, can you make me a reservation for [the 7th](date)?
+    - that sounds great! could you help me make a reservation there?
+    - yes, that restaurant works for me. i would like to make a reservation for 2 people.
+    - That is perfedt.
+    - That sounds pretty good.
+    - perfect, so i want to make a reservation, then.
+    - great, make a reservation for me.
+    - that would be fine. i would like you a reservation.
+    - Yeah, that will do just fine.
+    - yes, that sounds good. can you reserve it for [march 8th](date)?
+    - please can you make the reservation
+    - Yes, sounds good.
+    - That's great and it'll work for me.
+    - That is good for me.
+    - That seems like a good fit.
+    - Yes, it seems good for me
+    - yes, that would work. can you go ahead and make a reservation?
+    - sure, that really sounds great. let's make reservations for 2 people please.
+    - That's good.
+    - Yeah, that sounds great.
+    - Perfect, that works for me!
+    - That sounds good, thank you.
 - intent: affirm
   examples: |
-    - That works well for me,Yes
-    - you got it. hey, do they have [Noodles](cuisine)? what's the price range?
-    - Is there live music?
-    - Yes that is correct.
-    - yes, exactly, i will need the address. are they in the low priced category?
-    - That's perfect!
-    - Yep, that's perfect!
-    - Great. Is there live music? Is it a costly restaurant?
-    - yes
-    - That's perfect.
-    - Yes, that's also fine.
-    - Yes, exactly please.
-    - what is their phone number and are they above average in pricing?
-    - that is correct. can you tell me what the address is and if they serve [Burger](cuisine) dishes?
-    - yes that works for me. is it in the bargain price range?
-    - Yeah, that's good for me. Do they play live songs?
-    - yes, confirmed. Please check whether they offer any live music and also get the price details.
-    - yes, the information is correct. is the restaurant [very expensive](price_range)? do they have live music?
-    - Yes, thank you.
-    - Yes, that works thank you.
-    - yeah, that's correct. are the prices costly there?
-    - Yes will be ok for me
-    - Yep, that would be great. Do they serve nice liquor?
-    - I am fine with that. Can you tell me what kind of food they serve and if they have live music?
-    - Yes, thank you, Can you give me the address to the restaurant? I was wondering what kind of prices do they have?
-    - This is good for me
-    - Yes that works for me.
-    - Do they have been and liquor?
-    - yes, that works for me
-    - Yes. That is what I want.
-    - That's great.
-    - Confirming all the details are correct. But how about the contact number, do you have it? and one more question, please. Are they serving alcoholic beverages?
-    - Great! That is perfect. Now I need to know if they have live music?
-    - Yes, that's fine too.
-    - Yes, do they serve liquor?
-    - Yes that's ok.
-    - Yes, that's perfect.
-    - yes. are they considered intermediate priced?
-    - yes thats fine
-    - Ok, very perfect. Book it. Do they have live music?
-    - Yes that works for me. Do they have live music.
-    - Yes, that is perfect. I was wondering if this location will have live music? Also what is the address of this restaurant?
-    - Perfect. What's their cuisine type and number?
-    - Yup, that's right. Can you tell me if they have a live band?
-    - thats correct. What is their phone number what how expensive are they
-    - thats correct. do they have liquor? what is their intermediate priced
-    - Indeed, that all sounds good.
-    - Yeah, that's fine.
-    - that will work, is this going to cost a lot of money?  i do not want anything too extravagant.
-    - Yes is ok
-    - Confirmed, what is the address?
-    - That will be great. Also, I just wanted to now pricey is it.
-    - That is perfect!
-    - That sounds good.
-    - yes. That is right.
-    - yes, All correct
-    - Yes, that sounds great. Can you tell me if there is live music at the venue?
-    - Sounds right. What kind of food do they have there?
-    - Absolutely, thank you.
-    - Yes, that's works for me.
-    - Correct. What is their phone number?
-    - that sounds great. can i know their address? do they serve [Spicy Indian](cuisine) food?
-    - Yes. That works for me.
-    - yes that's right. is the restaurant low priced with live music?
-    - yes this is good. what is the address of this restaurant? does it serve [American](cuisine) food?
-    - Yes, that's fine, Are they offering any live music there?
-    - yes that works for me. is there live music? what is their number?
-    - yup, that would be great. are the prices above average?
-    - Yes that's good. What's their number?
     - Please check that for me.
-    - Did they serve liquor and what kind of food do they serve?
+    - Yes, thank you, Can you give me the address to the restaurant? I was wondering what kind of prices do they have?
+    - Yes that is correct. Do you have their phone number?
+    - Yup, that's right. Can you tell me if they have a live band?
+    - That's good. Do they serve liquor and what is there number?
+    - yes, All correct
+    - Sure that sounds good.
+    - that sounds great. can i know their address? do they serve [Spicy Indian](cuisine) food?
+    - Yep, that would be great. Do they serve nice liquor?
+    - Yes that works for me. Do they have live music.
+    - Yep, sounds good!
+    - that is correct. can you tell me what the address is and if they serve [Burger](cuisine) dishes?
+    - Correct. What is their phone number?
+    - That's perfect!
+    - Great! That is perfect. Now I need to know if they have live music?
+    - yes that's perfect. do you know if a band is playing that night? also do they serve [Burrito](cuisine) food at the bar?
+    - yes, exactly, i will need the address. are they in the low priced category?
+    - This is good for me
+    - Yes, that's fine, Are they offering any live music there?
+    - yes that's right. is the restaurant low priced with live music?
+    - That will do.
+    - Yes that's good. What's their number?
+    - That sounds good.
+    - thats correct. What is their phone number what how expensive are they
+    - Yes. That works for me.
+    - thats correct. do they have liquor? what is their intermediate priced
+    - Confirmed, what is the address?
+    - Is there live music?
+    - Yes, that sounds great. Can you tell me if there is live music at the venue?
+    - Yes, that's okay.
+    - Indeed, that all sounds good.
+    - Yes that is correct.
+    - I am fine with that. Can you tell me what kind of food they serve and if they have live music?
+    - Yes. that is perfect.
+    - yes. are they considered intermediate priced?
+    - yup, that would be great. are the prices above average?
+    - Confirming all the details are correct. But how about the contact number, do you have it? and one more question, please. Are they serving alcoholic beverages?
+    - yes, the information is correct. is the restaurant [very expensive](price_range)? do they have live music?
+    - Absolutely, thank you.
+    - Yeah, that's correct. Can you tell me their address?
+    - That works well for me,Yes
+    - Yes, that is perfect. Do they have live music?
+    - Yes that's ok.
+    - That is perfect!
+    - Yes, do they serve liquor?
+    - yes that works for me. is it in the bargain price range?
+    - yes. That is right.
+    - Yes, that is perfect. I was wondering if this location will have live music? Also what is the address of this restaurant?
+    - Ok, very perfect. Book it. Do they have live music?
+    - Yes, that's perfect.
+    - you got it. hey, do they have [Noodles](cuisine)? what's the price range?
+    - yes, thank you. how's the pricing? low priced?
+    - Yes, that's fine too.
+    - yes. can you tell me if the restaurant is costly and do they offer live music?
+    - Yes, exactly please.
+    - Yes, thank you.
+    - yes, confirmed. Please check whether they offer any live music and also get the price details.
+    - Sounds right. What kind of food do they have there?
+    - Yes, that works thank you.
+    - Yes will be ok for me
+    - Yes, that sounds great. Could I also have their contact number, please?
+    - what is their phone number and are they above average in pricing?
+    - That will be great. Also, I just wanted to now pricey is it.
     - That's would be excellent.
+    - Yes, this restraint sounds great. Can you tell me more about the type food that is served?
+    - Yes, that's also fine.
+    - yes, that works for me
+    - yes is good.tell me please if they serve liquor and if they have a price range average priced
+    - Yep, that's perfect!
+    - That works for me. What type of food and liquor do they serve?
+    - That's perfect.
+    - Do they have been and liquor?

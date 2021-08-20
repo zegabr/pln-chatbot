@@ -1,0 +1,94 @@
+{
+  "time": {
+    "precision": 0.8441558441558441,
+    "recall": 0.9420289855072463,
+    "f1-score": 0.8904109589041096,
+    "support": 276,
+    "confused_with": {}
+  },
+  "cuisine": {
+    "precision": 0.7851239669421488,
+    "recall": 0.7786885245901639,
+    "f1-score": 0.7818930041152264,
+    "support": 122,
+    "confused_with": {
+      "restaurant_name": 3
+    }
+  },
+  "name": {
+    "precision": 0.9629629629629629,
+    "recall": 0.7647058823529411,
+    "f1-score": 0.8524590163934426,
+    "support": 34,
+    "confused_with": {
+      "city": 4,
+      "restaurant_name": 2
+    }
+  },
+  "street_address": {
+    "precision": 0.6666666666666666,
+    "recall": 0.2222222222222222,
+    "f1-score": 0.3333333333333333,
+    "support": 9,
+    "confused_with": {}
+  },
+  "date": {
+    "precision": 0.8808510638297873,
+    "recall": 0.9324324324324325,
+    "f1-score": 0.9059080962800876,
+    "support": 222,
+    "confused_with": {
+      "time": 4
+    }
+  },
+  "city": {
+    "precision": 0.8601036269430051,
+    "recall": 0.83,
+    "f1-score": 0.8447837150127224,
+    "support": 200,
+    "confused_with": {
+      "restaurant_name": 9
+    }
+  },
+  "price_range": {
+    "precision": 0.9444444444444444,
+    "recall": 0.8095238095238095,
+    "f1-score": 0.8717948717948718,
+    "support": 21,
+    "confused_with": {}
+  },
+  "phone_number": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 41,
+    "confused_with": {}
+  },
+  "restaurant_name": {
+    "precision": 0.6666666666666666,
+    "recall": 0.3709677419354839,
+    "f1-score": 0.4766839378238342,
+    "support": 124,
+    "confused_with": {
+      "cuisine": 15
+    }
+  },
+  "micro avg": {
+    "precision": 0.8472906403940886,
+    "recall": 0.8198284080076264,
+    "f1-score": 0.8333333333333333,
+    "support": 1049
+  },
+  "macro avg": {
+    "precision": 0.8456639158457251,
+    "recall": 0.7389521776182555,
+    "f1-score": 0.773029659295292,
+    "support": 1049
+  },
+  "weighted avg": {
+    "precision": 0.8375429354180263,
+    "recall": 0.8198284080076264,
+    "f1-score": 0.8213658900777318,
+    "support": 1049
+  }
+}
