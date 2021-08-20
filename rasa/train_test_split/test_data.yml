@@ -1,0 +1,268 @@
+version: "2.0"
+nlu:
+- intent: bot_challenge
+  examples: |
+    - am I talking to a bot?
+- intent: request_cuisine
+  examples: |
+    - does the restaurant also serve [Szcheuan](cuisine) food?
+- intent: inform_price_range
+  examples: |
+    - i want something with [fish](cuisine) but make it an average priced restaurant.
+    - show me places to eat in [san francisco](city). i am looking for something afforadable priced.
+- intent: greet
+  examples: |
+    - hi
+    - moin
+- intent: mood_great
+  examples: |
+    - extremely good
+    - I am going to save the world
+    - I am feeling very good
+- intent: mood_unhappy
+  examples: |
+    - very sad
+    - I don't feel very well
+    - extremly sad
+- intent: request_price_range
+  examples: |
+    - can you tell me if the prices are [inexpensive](price_range)?
+    - What is the restaurant's price range? Do they serve alcohol?
+    - How much they charge? Can I have their street address?
+- intent: request_serves_alcohol
+  examples: |
+    - is there liquor? what is the budget like?
+    - Do they have liquor?
+    - Does the restaurant serve alcohol?
+    - Do they have a bar there?
+- intent: inform_name
+  examples: |
+    - [Daniel bastos](name)
+    - my name is [Mario Franco](name)
+    - [Daniel](name)
+    - you can call me [Joao da China](name)
+- intent: affirm_intent
+  examples: |
+    - Yes, I want a reservation.
+    - Yes thanks, please do it.
+    - Yes, please make a reservation for me.
+    - Yes, if possible.
+    - Please do that.
+- intent: inform_date
+  examples: |
+    - i'm looking in [sfo](city) in particular and i have open availability for the date.
+    - yes please reserve me a table for the [13th of March](date).
+    - [18:00](time) on the [4th of this month](date).
+    - please make it at [10:45 in the morning](time) on the [4th of this month](date).
+    - [12:15 in the afternoon](time) [this Saturday](date) for one person.
+    - i'd like to make a reservation for the [14th of this month](date) at [mendoza's](restaurant_name) in [san jose](city) for [7:30 in the evening](time).
+- intent: inform_restaurant_name
+  examples: |
+    - a restaurant called [Rangecafe](restaurant_name).
+    - yup! i would prefer a mexican restaurant, the [Crab House](restaurant_name).
+    - yes i would like to be in [oakland](city) at restaurant [Sukho](restaurant_name) on [the 8th](date) at [17:00](time)
+    - i could go for some [Taco Bell](restaurant_name).
+    - please, make it at [7:15 pm](time). the restaurant is [Hikari Sushi](restaurant_name) in [san fran](city).
+    - [evening 7:15](time) at [Mcdonald's](restaurant_name).
+- intent: request_phone_number
+  examples: |
+    - How can I reach them?
+    - And is alcohol available there? May I also have their phone number?
+    - Will there be live music? What is their phone number?
+    - Can you tell me the phone number which I can use to contact them?
+    - What's their address and contact number?
+    - May I have their contact number?
+- intent: request_has_live_music
+  examples: |
+    - Will there be live music?
+    - Do they play live music?
+    - Where is the restaurant located? Is there live music scheduled to play?
+    - do they play live music and is the price range low-cost?
+    - What is the address and is there music?
+    - What's the situation with live music there?
+    - I'm in the mood for live music, do they have it there?
+- intent: request_street_address
+  examples: |
+    - What's the address and phone number please?
+    - Could you give me their address?
+    - Do you have an address for the restaurant?
+    - What is the address and do they serve Alcohol?
+    - What is their location?
+    - Do they have live music? What is their address?
+    - What's their location? Do they serve liquor?
+- intent: inform_party_size
+  examples: |
+    - Yes, for one.
+    - Yes, make a reservation for three people.
+    - Yes sure, Please make a reservation and number of people is 2
+    - yes i would. [Next Friday](date) for six people.
+    - [brixx pizzeria](restaurant_name) in [petaluma](city) is the place. it's a group of four people at [11 am](time).
+    - i was thinking [17:45](time), for two guests.
+    - yes i would like to make a reservation for 4 people at [11:00](time), please.
+    - Yes make it for 2 people
+- intent: inform_time
+  examples: |
+    - set the reservation at [12:45](time).
+    - let's make it for [12:30](time).
+    - [march 14th](date) at [17:30](time), please.
+    - at [18:45](time) for 2 people
+    - the restaurant is [thanh long](restaurant_name) at [13:15](time).
+    - yes. i would like to make a reservation for [20:00](time).
+    - [12:30](time) would be good, please.
+- intent: inform_phone_number
+  examples: |
+    - there is no live music and you can contact them at [415-402-5290](phone_number)
+    - no alcohol. the phone number is [415-731-5515](phone_number)
+    - their phone number is [925-777-0888](phone_number). they serve [chinese](cuisine) food.
+    - [+55(81)98886-1160](phone_number)
+    - their telephone number is [415-501-9100](phone_number).
+    - they can be reached at [408-528-8500](phone_number)
+    - their phone number is [650-322-6872](phone_number).
+    - it's [408-737-8384](phone_number)
+- intent: goodbye
+  examples: |
+    - Thanks, that's all I want.
+    - thank you very much.that is all i need.
+    - Thank you, that will be all.
+    - No, thank you anyway.
+    - Thanks, t
+    - Perfect, thank you so much!
+    - Ok, thank you, that will be all.
+    - Thank you, that is all I need.
+    - Thanks so mu
+- intent: request_alts
+  examples: |
+    - i want somewhere that is more [expensive](price_range), do you know of anywhere else?
+    - Any other places?
+    - Any other options?
+    - Another restaurant can you recommend?
+    - What else do you have?
+    - no, suggest me another restaurant, some [Take-out](cuisine) type of food will be perfect
+    - i want another option
+    - Are there any other restauarnts nearby?
+    - can you find me another restaurant in cotati with live music?
+    - i need someplace cheaper. i want to eat a lot for not very costly.
+    - Do you have any other sugggestions?
+- intent: inform_city
+  examples: |
+    - i want something with a [moderate](price_range) priced in [Petaluma](city). it also needs to serve alcohol.
+    - do you know a place to eat in [Petaluma](city)?
+    - we are meeting in [San Francisco](city).
+    - [Oakland](city) is okay for me.
+    - it should be in [SFO](city).
+    - i want to make it for two people at [one in the afternoon](time) in [San Francisco](city).
+    - i want to go to [sushi omakase](restaurant_name) in [Gilroy](city).
+    - i have to have something in [San Francisco](city).
+    - i am looking for restaurants located in [Millbrae](city).
+    - yes, the restaurant is called [sociale](restaurant_name) and it will be for the one located in [San Fran](city).
+    - find a place in [Vallejo](city) with live music.
+    - [Alameda](city)
+    - somewhere in [Union City](city).
+- intent: inform_intent
+  examples: |
+    - try to make a reservation for a [quarter past 6 in the evening](time).
+    - i'd like to make a reservation.
+    - i'm looking for a good place to eat to take my date. she really like's [shabu-shabu](cuisine) food and lives in [berkeley](city).
+    - i'm looking for a place to eat
+    - can you help me choose a place to eat?
+    - i'd like to book a spot at a diner.
+    - can you find me somewhere to eat in [dublin](city)?
+    - where can i go to eat that also serves alcohol?
+    - will you find me somewhere to eat?
+    - i won't have time to make dinner after my big meeting so i would like to make a dinner reservation.
+    - is there a place to eat?
+    - i will eat later, please find me a place.
+    - let's search places to eat please.
+    - will you find me a place to eat?
+- intent: inform_cuisine
+  examples: |
+    - i would love to eat some [lobster](cuisine).
+    - the perfect place would serve [Parisian](cuisine) food.
+    - i like eating [Ramen](cuisine) sometimes so that kind of food would be nice.
+    - i would like to eat [tacos](cuisine), if available.
+    - anyone that is [burger](cuisine) like in nature
+    - i like [Taiwanese](cuisine) food so much, can you find something?
+    - oh, i'm in [oakland](city). please find an [American](cuisine) restaurant.
+    - [Asian Fusion](cuisine) sounds nice.
+    - can you find me a restaurant that serves [freshwater fish](cuisine) that's close by?
+    - yes, i prefer some [Curry](cuisine) variety and it will be on affordable price.
+    - anywhere that serves [fish](cuisine) would be perfect.
+    - i think i'm craving [Mexican](cuisine) food.
+    - i think [Korean Barbeque](cuisine) sound wonderful.
+    - i would like something on the lines of [Izakaya](cuisine) food.
+- intent: thank_you
+  examples: |
+    - No, that is all. Thank you again.
+    - No and thanks for you your help anyway.
+    - TI appreciate your help thanks.
+    - Nothing much. I'm good.
+    - That is all thank you so much.
+    - No, that's okay.
+    - No, thank a lot
+    - That's it! Thank you!
+    - thanks.
+    - No but I appreciate it.
+    - Excellent. Thank you.
+    - No, thank you for your help.
+    - Thank you for all of your work.
+    - Wow, what a waste. No, that'll be all.
+    - Thank you for all.
+- intent: negate
+  examples: |
+    - no, it's for 1 person. let's do it on [the 8th](date).
+    - No. That doesn't work for me
+    - no, change it to [evening 6:15](time).
+    - Make the reservation for four people.
+    - No, thanks.
+    - no, i forgot, my mother-in-law canceled, so i only need reservations for two and i need those at the [Crouching TIger](restaurant_name).
+    - actually change it to [march 5th](date) in [El Cerrito](city).
+    - Actually let's just do it for one person
+    - please make the reservation for [18:00](time).
+    - no can i get it on the [5th of this month](date) for five people
+    - will you make it at [11:30 am](time) on [7th of March](date)?
+    - Please make the reservation for 1 person.
+    - actually, let's make it [7 pm](time).
+    - this is incorrect. the restaurant is [Black Angus](restaurant_name).
+    - no can u make it at [19:00](time)
+    - no, i'd like it [next Monday](date).
+    - no, i want it on the [12th of this month](date) at [13:00](time).
+- intent: select
+  examples: |
+    - great, make a reservation for me.
+    - That's great.
+    - okay, i still make it a go. please make a reservation for me at [13:30](time).
+    - that is perfect, and i want to make a reservation.
+    - Alright, that works.
+    - yes that works. i want a reservation at a nearby restaurant.
+    - Oh okay. Yeah sure that's fine.
+    - that sounds great, can you make me a reservation for [the 7th](date)?
+    - great, make a reservation for the [11th of march](date).
+    - That one would be great!
+    - That's good.
+    - this is perfect for me and i need a reservation on [march 11th](date)
+    - Ok its fine , i prefer the same.
+    - that sounds great! could you help me make a reservation there?
+    - yes, that restaurant works for me. i would like to make a reservation for 2 people.
+    - yea, gotta love dana's. make me a reservation for just one.
+    - that restaurant will work can you please make a reservation for [12:30](time).
+    - yes. it is good for me. please make a reservation on [8th of march](date).
+- intent: affirm
+  examples: |
+    - Yep, sounds good!
+    - Yes, that sounds great. Could I also have their contact number, please?
+    - yes. can you tell me if the restaurant is costly and do they offer live music?
+    - Yes, that's okay.
+    - yes, thank you. how's the pricing? low priced?
+    - Yup, that'll be perfect.
+    - Thats perfect.
+    - yes is good.tell me please if they serve liquor and if they have a price range average priced
+    - Yes that is correct. Do you have their phone number?
+    - yes that's perfect. do you know if a band is playing that night? also do they serve [Burrito](cuisine) food at the bar?
+    - That will do.
+    - Yes, this restraint sounds great. Can you tell me more about the type food that is served?
+    - That's good. Do they serve liquor and what is there number?
+    - That works for me. What type of food and liquor do they serve?
+    - Sure that sounds good.
+    - Yes. that is perfect.
+    - Yes, that is perfect. Do they have live music?
+    - Yeah, that's correct. Can you tell me their address?

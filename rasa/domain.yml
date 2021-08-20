@@ -31,7 +31,6 @@ intents:
 - select
 - inform_price_range
 entities:
-- PERSON
 - city
 - count
 - cuisine
@@ -104,7 +103,6 @@ responses:
   - text: where do you live?
   - text: where are you?
   utter_ask_price_range:
-  - text: Tu e rico boy?
   - text: what's your budget?
 actions:
 - get_restaurant_address
