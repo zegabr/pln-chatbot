@@ -11,16 +11,16 @@ pipeline:
     max_ngram: 4
 
     # BERT
-  # - name: LanguageModelFeaturizer
-  #   # Name of the language model to use
-  #   model_weights: "rasa/LaBSE"
-  #   model_name: "bert"
-  #   # Pre-Trained weights to be loaded
+  - name: LanguageModelFeaturizer
+    # Name of the language model to use
+    model_weights: "rasa/LaBSE"
+    model_name: "bert"
+    # Pre-Trained weights to be loaded
 
-  #   # An optional path to a specific directory to download and cache the pre-trained model weights.
-  #   # The `default` cache_dir is the same as https://huggingface.co/transformers/serialization.html#cache-directory .
-  #   cache_dir: null
-  ## BERT
+    # An optional path to a specific directory to download and cache the pre-trained model weights.
+    # The `default` cache_dir is the same as https://huggingface.co/transformers/serialization.html#cache-directory .
+    cache_dir: null
+  # BERT
   
   - name: DIETClassifier
     epochs: 50

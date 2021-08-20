@@ -1,1082 +1,18 @@
 [
   {
-    "text": "hey there",
-    "intent": "greet",
-    "intent_prediction": {
-      "name": "request_has_live_music",
-      "confidence": 0.27729201316833496
-    }
-  },
-  {
-    "text": "great",
-    "intent": "mood_great",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.9853014945983887
-    }
-  },
-  {
-    "text": "wonderful",
-    "intent": "mood_great",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.6992098093032837
-    }
-  },
-  {
-    "text": "I am going to save the world",
-    "intent": "mood_great",
-    "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.29250264167785645
-    }
-  },
-  {
-    "text": "can you check if a table is available at 17:30?",
-    "intent": "inform_intent",
-    "intent_prediction": {
-      "name": "inform_time",
-      "confidence": 0.8243463635444641
-    }
-  },
-  {
-    "text": "i'm literally starving to death right now. find me a place that serves like fries and maybe a burger.",
-    "intent": "inform_intent",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.8044357895851135
-    }
-  },
-  {
-    "text": "evening 7:15 at Mcdonald's.",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
-      "name": "inform_time",
-      "confidence": 0.9656552672386169
-    }
-  },
-  {
-    "text": "i could go for some Taco Bell.",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.9886683225631714
-    }
-  },
-  {
-    "text": "i'm thinking about Rice Bowl, at morning 11:30",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
-      "name": "inform_time",
-      "confidence": 0.519267737865448
-    }
-  },
-  {
-    "text": "please, make it at 7:15 pm. the restaurant is Hikari Sushi in san fran.",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.42450228333473206
-    }
-  },
-  {
-    "text": "Ok, very perfect. Book it. Do they have live music?",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "request_has_live_music",
-      "confidence": 0.9019328951835632
-    }
-  },
-  {
-    "text": "Sure that sounds good.",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.9878153800964355
-    }
-  },
-  {
-    "text": "That's great.",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.9977322220802307
-    }
-  },
-  {
-    "text": "That's would be excellent.",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.3479659855365753
-    }
-  },
-  {
-    "text": "that will work, is this going to cost a lot of money?  i do not want anything too extravagant.",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "request_alts",
-      "confidence": 0.5668904185295105
-    }
-  },
-  {
-    "text": "I appreciate it very much. That would be all.",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.5946128368377686
-    }
-  },
-  {
-    "text": "No, thank you anyway.",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.9961374998092651
-    }
-  },
-  {
-    "text": "Okay good to know.",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "request_serves_alcohol",
-      "confidence": 0.26069575548171997
-    }
-  },
-  {
-    "text": "Perfect, thank you so much!",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.9155257344245911
-    }
-  },
-  {
-    "text": "Thank you!",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.8735800981521606
-    }
-  },
-  {
-    "text": "That is all I needed, thank you very much.",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.5571427345275879
-    }
-  },
-  {
-    "text": "thank you, that will be it.",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.794034481048584
-    }
-  },
-  {
-    "text": "Awesome, thank you!",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.6776173114776611
-    }
-  },
-  {
-    "text": "Thank you for all your help.",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.7511343359947205
-    }
-  },
-  {
-    "text": "Thanks your a big help.",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.6777226328849792
-    }
-  },
-  {
-    "text": "Thanks, that's one less thing I have to do.",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.7022023797035217
-    }
-  },
-  {
-    "text": "Thanks.",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.8544940948486328
-    }
-  },
-  {
-    "text": "no.",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.7319582104682922
-    }
-  },
-  {
-    "text": "no. I'm good.",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.20918479561805725
-    }
-  },
-  {
-    "text": "thanks.",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.8572147488594055
-    }
-  },
-  {
-    "text": "i want to dine at stella in Burlingame",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "inform_restaurant_name",
-      "confidence": 0.5711012482643127
-    }
-  },
-  {
-    "text": "i want to go to Milpitas. spicy indian food sounds perfect.",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.7719889879226685
-    }
-  },
-  {
-    "text": "i want to make it for two people at one in the afternoon in San Francisco.",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "inform_party_size",
-      "confidence": 0.7261747717857361
-    }
-  },
-  {
-    "text": "ya, i like to eat at some nice place in Calistoga.",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.9414351582527161
-    }
-  },
-  {
-    "text": "can you make me a reservation at carnitas michoacan in gilroy at 11:15 am. any day will work for me.",
-    "intent": "inform_date",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.8495025038719177
-    }
-  },
-  {
-    "text": "i want it for 12:15 pm next Friday.",
-    "intent": "inform_date",
-    "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.6391072869300842
-    }
-  },
-  {
-    "text": "i'm looking in sfo in particular and i have open availability for the date.",
-    "intent": "inform_date",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.929672360420227
-    }
-  },
-  {
-    "text": "let's make it an evening 7:30 reservation and you should look in san francisco.",
-    "intent": "inform_date",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.7824543714523315
-    }
-  },
-  {
-    "text": "is the restaurant costly?",
-    "intent": "request_price_range",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.852523922920227
-    }
-  },
-  {
-    "text": "I need the reservation for 2 people",
-    "intent": "negate",
-    "intent_prediction": {
-      "name": "inform_party_size",
-      "confidence": 0.9548742771148682
-    }
-  },
-  {
-    "text": "No, thanks.",
-    "intent": "negate",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.9591907858848572
-    }
-  },
-  {
-    "text": "No. That doesn't work for me",
-    "intent": "negate",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.938560962677002
-    }
-  },
-  {
-    "text": "no, i forgot, my mother-in-law canceled, so i only need reservations for two and i need those at the Crouching TIger.",
-    "intent": "negate",
-    "intent_prediction": {
-      "name": "inform_party_size",
-      "confidence": 0.4036388099193573
-    }
-  },
-  {
-    "text": "no, i want it on Thursday next week.",
-    "intent": "negate",
-    "intent_prediction": {
-      "name": "inform_date",
-      "confidence": 0.9396451711654663
-    }
-  },
-  {
-    "text": "What's their address and contact number?",
-    "intent": "request_phone_number",
-    "intent_prediction": {
-      "name": "request_street_address",
-      "confidence": 0.7403748035430908
-    }
-  },
-  {
-    "text": "What's the address and phone number please?",
-    "intent": "request_street_address",
-    "intent_prediction": {
-      "name": "request_phone_number",
-      "confidence": 0.9795636534690857
-    }
-  },
-  {
-    "text": "Can you provide the address and do they have live music?",
-    "intent": "request_has_live_music",
-    "intent_prediction": {
-      "name": "request_phone_number",
-      "confidence": 0.664739727973938
-    }
-  },
-  {
-    "text": "Find out if they have live music. Also how expensive is this restaurant?",
-    "intent": "request_has_live_music",
-    "intent_prediction": {
-      "name": "request_price_range",
-      "confidence": 0.4532582461833954
-    }
-  },
-  {
-    "text": "What is the address and is there music?",
-    "intent": "request_has_live_music",
-    "intent_prediction": {
-      "name": "request_street_address",
-      "confidence": 0.8124131560325623
-    }
-  },
-  {
-    "text": "something like a Diner should do.",
-    "intent": "inform_cuisine",
-    "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.9200236201286316
-    }
-  },
-  {
-    "text": "i am looking for a different noodle place that is inexpensive. are there cheaper places in millbrae?",
-    "intent": "request_alts",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.8832300901412964
-    }
-  },
-  {
-    "text": "okay, let's keep looking then. let's look at pricey restaurants now. how about a Barbecue place?",
-    "intent": "request_alts",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.31716224551200867
-    }
-  },
-  {
-    "text": "Yes, sounds good.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.9422869086265564
-    }
-  },
-  {
-    "text": "i would like to make a reservation for six at a restaurant.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.6371429562568665
-    }
-  },
-  {
-    "text": "well, it works for me, can you make a reservation for 4 people at 1 o\"clock in the afternoon?",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "inform_party_size",
-      "confidence": 0.8033877015113831
-    }
-  },
-  {
-    "text": "yes, please get me a reservation there.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "affirm_intent",
-      "confidence": 0.963196337223053
-    }
-  },
-  {
-    "text": "I think so, yes.",
-    "intent": "affirm_intent",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.7471340894699097
-    }
-  },
-  {
-    "text": "Yes, please, for today.",
-    "intent": "affirm_intent",
-    "intent_prediction": {
-      "name": "inform_date",
-      "confidence": 0.4097260534763336
-    }
-  },
-  {
-    "text": "Yes please make a reservation for four.",
-    "intent": "inform_party_size",
-    "intent_prediction": {
-      "name": "affirm_intent",
-      "confidence": 0.9436930418014526
-    }
-  },
-  {
-    "text": "Yes, for one.",
-    "intent": "inform_party_size",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.6907665729522705
-    }
-  },
-  {
-    "text": "i would love to make an appointment for one myself at 4:30 pm.",
-    "intent": "inform_party_size",
-    "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.7272471785545349
-    }
-  },
-  {
-    "text": "yes i would like to make a reservation for 4 people at 11:00, please.",
-    "intent": "inform_party_size",
-    "intent_prediction": {
-      "name": "inform_time",
-      "confidence": 0.5789908170700073
-    }
-  },
-  {
-    "text": "Do they serve liquor and play live music?",
-    "intent": "request_serves_alcohol",
-    "intent_prediction": {
-      "name": "request_has_live_music",
-      "confidence": 0.8735076189041138
-    }
-  },
-  {
-    "text": "I'd also like it to have this restaurant live music inside, and to have a large variety of liquor to order as well.",
-    "intent": "request_serves_alcohol",
-    "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.32400551438331604
-    }
-  },
-  {
     "text": "super stoked",
     "intent": "mood_great",
     "intent_prediction": {
-      "name": "mood_unhappy",
-      "confidence": 0.5946702361106873
-    }
-  },
-  {
-    "text": "Bruno",
-    "intent": "inform_name",
-    "intent_prediction": {
-      "name": "inform_restaurant_name",
-      "confidence": 0.8490789532661438
-    }
-  },
-  {
-    "text": "i'd like to book a spot at a diner.",
-    "intent": "inform_intent",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.9052990674972534
-    }
-  },
-  {
-    "text": "instead of the previous time, can you make it at 18:00?",
-    "intent": "inform_intent",
-    "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.9689040780067444
-    }
-  },
-  {
-    "text": "what can i have for breakfast",
-    "intent": "inform_intent",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.994890570640564
-    }
-  },
-  {
-    "text": "i'd like it for four at 12:00 at lark creek in san jose",
-    "intent": "inform_time",
-    "intent_prediction": {
-      "name": "inform_party_size",
-      "confidence": 0.21616888046264648
-    }
-  },
-  {
-    "text": "Agave Grill please, for march 10th",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
-      "name": "inform_date",
-      "confidence": 0.3695215880870819
-    }
-  },
-  {
-    "text": "Sushi Hashiri, please.",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.913425862789154
-    }
-  },
-  {
-    "text": "i want san jose in village at 11:30 in the morning",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
       "name": "inform_city",
-      "confidence": 0.8747868537902832
+      "confidence": 0.293655663728714
     }
   },
   {
-    "text": "it's called the Alembic.",
-    "intent": "inform_restaurant_name",
+    "text": "my day was horrible",
+    "intent": "mood_unhappy",
     "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.7000964879989624
-    }
-  },
-  {
-    "text": "the diner is Darda.",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.947651743888855
-    }
-  },
-  {
-    "text": "yes i would like to be in oakland at restaurant Sukho on the 8th at 17:00",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.5709958076477051
-    }
-  },
-  {
-    "text": "Great! That is perfect. Now I need to know if they have live music?",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.345810204744339
-    }
-  },
-  {
-    "text": "Great. Is there live music? Is it a costly restaurant?",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "request_has_live_music",
-      "confidence": 0.8258721828460693
-    }
-  },
-  {
-    "text": "Indeed, that all sounds good.",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.5761446356773376
-    }
-  },
-  {
-    "text": "Yes will be ok for me",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "affirm_intent",
-      "confidence": 0.7261489629745483
-    }
-  },
-  {
-    "text": "Yes, thank you.",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.4308425486087799
-    }
-  },
-  {
-    "text": "yes, exactly, i will need the address. are they in the low priced category?",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "request_street_address",
-      "confidence": 0.484821081161499
-    }
-  },
-  {
-    "text": "Excellent. Thanks, that's it for me",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.9131883382797241
-    }
-  },
-  {
-    "text": "No thank you.",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.9942241907119751
-    }
-  },
-  {
-    "text": "Okay thanks. That'll be all.",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.637516438961029
-    }
-  },
-  {
-    "text": "Okay, thanks!",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.9838892817497253
-    }
-  },
-  {
-    "text": "Thank you for all your help. That is everything.",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.9014418125152588
-    }
-  },
-  {
-    "text": "Thanks, t",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.8573081493377686
-    }
-  },
-  {
-    "text": "Thanks. that's it",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.5735051035881042
-    }
-  },
-  {
-    "text": "Great, I want to toast the victory of the team.",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.19850434362888336
-    }
-  },
-  {
-    "text": "I really appreciate it.",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.8247361779212952
-    }
-  },
-  {
-    "text": "Thanks so much.",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.504935622215271
-    }
-  },
-  {
-    "text": "That's alright, thank you very much.",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.9070194959640503
-    }
-  },
-  {
-    "text": "actually, make the time 1 in the afternoon. the city is San Fran.",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.9594307541847229
-    }
-  },
-  {
-    "text": "i want to eat in San Bruno",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "inform_restaurant_name",
-      "confidence": 0.9158353805541992
-    }
-  },
-  {
-    "text": "i would prefer to eat at Pleasanton.",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.9963431358337402
-    }
-  },
-  {
-    "text": "can you make it on the 10th of this month at a quarter to 7 in the evening?",
-    "intent": "inform_date",
-    "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.5348350405693054
-    }
-  },
-  {
-    "text": "it's in berkeley. let's book for March 7th at 12 o\"clock in the afternoon",
-    "intent": "inform_date",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.36720648407936096
-    }
-  },
-  {
-    "text": "yes, any date works.",
-    "intent": "inform_date",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.9039109945297241
-    }
-  },
-  {
-    "text": "Can you tell me if they feature live music there? How much do the things cost in general there?",
-    "intent": "request_price_range",
-    "intent_prediction": {
-      "name": "request_has_live_music",
-      "confidence": 0.8120670914649963
-    }
-  },
-  {
-    "text": "How much they charge? Can I have their street address?",
-    "intent": "request_price_range",
-    "intent_prediction": {
-      "name": "request_street_address",
-      "confidence": 0.95095294713974
-    }
-  },
-  {
-    "text": "in second though i want it to be at 12:30 in the afternoon.",
-    "intent": "negate",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.6249321699142456
-    }
-  },
-  {
-    "text": "no. the restaurant is Siam Taste.",
-    "intent": "negate",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.7967355847358704
-    }
-  },
-  {
-    "text": "Do they have live music and could you provide me with their contact number?",
-    "intent": "request_phone_number",
-    "intent_prediction": {
-      "name": "request_has_live_music",
-      "confidence": 0.9533642530441284
-    }
-  },
-  {
-    "text": "What's the number of the restaurant? Is there live music?",
-    "intent": "request_phone_number",
-    "intent_prediction": {
-      "name": "request_has_live_music",
-      "confidence": 0.7303296327590942
-    }
-  },
-  {
-    "text": "any Liquor supply is available there? get me the contact number.",
-    "intent": "request_phone_number",
-    "intent_prediction": {
-      "name": "request_serves_alcohol",
-      "confidence": 0.9385825991630554
-    }
-  },
-  {
-    "text": "May I have their contact number and address?",
-    "intent": "request_street_address",
-    "intent_prediction": {
-      "name": "request_phone_number",
-      "confidence": 0.5563119649887085
-    }
-  },
-  {
-    "text": "what's rubio's address? do they serve Taiwanese food?",
-    "intent": "request_street_address",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.4197864830493927
-    }
-  },
-  {
-    "text": "i enjoy Szcheuan food.",
-    "intent": "inform_cuisine",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.7326119542121887
-    }
-  },
-  {
-    "text": "i was thinking in petaluma. preferably a Pizza place.",
-    "intent": "inform_cuisine",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.987809956073761
-    }
-  },
-  {
-    "text": "i would like to eat tacos, if available.",
-    "intent": "inform_cuisine",
-    "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.9734196662902832
-    }
-  },
-  {
-    "text": "can you give me more options? i want it in Milpitas now.",
-    "intent": "request_alts",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.934599757194519
-    }
-  },
-  {
-    "text": "All right, I'm willing to try them.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "request_phone_number",
-      "confidence": 0.7742481827735901
-    }
-  },
-  {
-    "text": "Oh okay. Yeah sure that's fine.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.9981430768966675
-    }
-  },
-  {
-    "text": "Ok its fine , i prefer the same.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.5661585927009583
-    }
-  },
-  {
-    "text": "Yes that is fine.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.9972911477088928
-    }
-  },
-  {
-    "text": "Yes that sounds awesome.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.6940367817878723
-    }
-  },
-  {
-    "text": "You have found a winner.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.43338266015052795
-    }
-  },
-  {
-    "text": "i'd like to make a reservation there.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.42474648356437683
-    }
-  },
-  {
-    "text": "yes, that's perfect. i want to reserve a table for 4.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.7001128792762756
-    }
-  },
-  {
-    "text": "yup, that works. please can you reserve at this restaurant?",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.953488826751709
-    }
-  },
-  {
-    "text": "Please do that.",
-    "intent": "affirm_intent",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.7583444118499756
-    }
-  },
-  {
-    "text": "Yes book me a table",
-    "intent": "affirm_intent",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.9838477373123169
-    }
-  },
-  {
-    "text": "Yes, I want to book a table.",
-    "intent": "affirm_intent",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.9087138772010803
-    }
-  },
-  {
-    "text": "Yes, that would be great. Please make a reservation.",
-    "intent": "affirm_intent",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.9034296274185181
-    }
-  },
-  {
-    "text": "please search in SF, for 4 people.",
-    "intent": "inform_party_size",
-    "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.7952960729598999
-    }
-  },
-  {
-    "text": "reserve it for this evening 7 pm for 6 people.",
-    "intent": "inform_party_size",
-    "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.7443222999572754
-    }
-  },
-  {
-    "text": "there's a place in San Jose called pearl river - can you just book it for one please",
-    "intent": "inform_party_size",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.916443407535553
-    }
-  },
-  {
-    "text": "Do you know if they serve alcoholic drinks and, also, can you give me their address.",
-    "intent": "request_serves_alcohol",
-    "intent_prediction": {
-      "name": "request_street_address",
-      "confidence": 0.4260488748550415
-    }
-  },
-  {
-    "text": "Great, thanks. What is their phone number? Do they serve alcohol?",
-    "intent": "request_serves_alcohol",
-    "intent_prediction": {
-      "name": "request_phone_number",
-      "confidence": 0.879925012588501
-    }
-  },
-  {
-    "text": "i want something with fish but make it an average priced restaurant.",
-    "intent": "inform_price_range",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.914763867855072
-    }
-  },
-  {
-    "text": "show me places to eat in san francisco. i am looking for something afforadable priced.",
-    "intent": "inform_price_range",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.8193216919898987
-    }
-  },
-  {
-    "text": "moin",
-    "intent": "greet",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.5469436645507812
-    }
-  },
-  {
-    "text": "good afternoon",
-    "intent": "greet",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.49137213826179504
-    }
-  },
-  {
-    "text": "i'm Luigi",
-    "intent": "inform_name",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.1987750381231308
+      "name": "greet",
+      "confidence": 0.5042521357536316
     }
   },
   {
@@ -1084,1039 +20,7 @@
     "intent": "inform_intent",
     "intent_prediction": {
       "name": "request_alts",
-      "confidence": 0.35709941387176514
-    }
-  },
-  {
-    "text": "can i make a reservation at this restaurant?",
-    "intent": "inform_intent",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.6156643033027649
-    }
-  },
-  {
-    "text": "can you get me dinner reservations for 6 in the evening?",
-    "intent": "inform_intent",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.9502375721931458
-    }
-  },
-  {
-    "text": "i want to make a reservation at a restaurant for the 6th of march.",
-    "intent": "inform_intent",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.8419502377510071
-    }
-  },
-  {
-    "text": "i'm interested in making a reservation for five people at the artisan restaurant in lafayette.",
-    "intent": "inform_intent",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.433356910943985
-    }
-  },
-  {
-    "text": "let me attempt to book hunan impression again. let's instead for with the 5th of this month, at evening 5:30.",
-    "intent": "inform_intent",
-    "intent_prediction": {
-      "name": "inform_date",
-      "confidence": 0.944071888923645
-    }
-  },
-  {
-    "text": "18:45 works fine for me.",
-    "intent": "inform_time",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.760899007320404
-    }
-  },
-  {
-    "text": "march 14th at 17:30, please.",
-    "intent": "inform_time",
-    "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.5535773634910583
-    }
-  },
-  {
-    "text": "Wence's is the restaurant i want.",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
-      "name": "inform_price_range",
-      "confidence": 0.36604538559913635
-    }
-  },
-  {
-    "text": "a restaurant called Rangecafe.",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
-      "name": "request_price_range",
-      "confidence": 0.2900714576244354
-    }
-  },
-  {
-    "text": "i need a table for one at the El Rancho restaurant in concord.",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
-      "name": "request_alts",
-      "confidence": 0.2315906435251236
-    }
-  },
-  {
-    "text": "the name of the resturaunt is Fontana's.",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
-      "name": "inform_name",
-      "confidence": 0.4352726936340332
-    }
-  },
-  {
-    "text": "yes, the State Bird in sfo",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.7788788676261902
-    }
-  },
-  {
-    "text": "Confirmed, what is the address?",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "request_street_address",
-      "confidence": 0.7336907982826233
-    }
-  },
-  {
-    "text": "yes",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "affirm_intent",
-      "confidence": 0.5483775734901428
-    }
-  },
-  {
-    "text": "Grateful, thank you.",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.8696832060813904
-    }
-  },
-  {
-    "text": "Thanks so mu",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.679886519908905
-    }
-  },
-  {
-    "text": "No. Thanks anyway.",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.8269882202148438
-    }
-  },
-  {
-    "text": "Okay great, thanks.",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.7159677743911743
-    }
-  },
-  {
-    "text": "Wow, what a waste. No, that'll be all.",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.5380861759185791
-    }
-  },
-  {
-    "text": "Alameda",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "inform_time",
-      "confidence": 0.4738697409629822
-    }
-  },
-  {
-    "text": "Hayward.",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.48073911666870117
-    }
-  },
-  {
-    "text": "Santa Clara",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.3272319436073303
-    }
-  },
-  {
-    "text": "find me a sushi place in Alameda.",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.9404408931732178
-    }
-  },
-  {
-    "text": "i want it on the 4th day of the month. i want the city of SFO.",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "inform_date",
-      "confidence": 0.8724489212036133
-    }
-  },
-  {
-    "text": "i would like it close to the office in SF and i think my boss likes burgers.",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.9545744061470032
-    }
-  },
-  {
-    "text": "i'd like pizza and somewhere in Sunnyvale.",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.9917067289352417
-    }
-  },
-  {
-    "text": "the restaurant i would like to place a reservation at is called bj's and i would like to place the reservation at the San Jose location of this restaurant.",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.6640327572822571
-    }
-  },
-  {
-    "text": "on the 12th at six pm",
-    "intent": "inform_date",
-    "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.5083774924278259
-    }
-  },
-  {
-    "text": "sure! i want to make a reservation for the 11th of March.",
-    "intent": "inform_date",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.9898661375045776
-    }
-  },
-  {
-    "text": "yes please reserve me a table for the 13th of March.",
-    "intent": "inform_date",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.701940655708313
-    }
-  },
-  {
-    "text": "yes, i really want to try the park. see if it's available on the 6th.",
-    "intent": "inform_date",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.43650147318840027
-    }
-  },
-  {
-    "text": "How expensive is their menu?",
-    "intent": "request_price_range",
-    "intent_prediction": {
-      "name": "request_street_address",
-      "confidence": 0.7336198091506958
-    }
-  },
-  {
-    "text": "What's their phone number? How pricey are they?",
-    "intent": "request_price_range",
-    "intent_prediction": {
-      "name": "request_phone_number",
-      "confidence": 0.9357051849365234
-    }
-  },
-  {
-    "text": "what is their phone number and are there prices economical?",
-    "intent": "request_price_range",
-    "intent_prediction": {
-      "name": "request_phone_number",
-      "confidence": 0.8421494364738464
-    }
-  },
-  {
-    "text": "I don't think so.",
-    "intent": "negate",
-    "intent_prediction": {
-      "name": "affirm_intent",
-      "confidence": 0.8045082688331604
-    }
-  },
-  {
-    "text": "i would like to make the booking at evening 7:30 on March 10th.",
-    "intent": "negate",
-    "intent_prediction": {
-      "name": "inform_time",
-      "confidence": 0.34936609864234924
-    }
-  },
-  {
-    "text": "no. the restaurant is villa d'este. i want it in San Francisco.",
-    "intent": "negate",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.9816556572914124
-    }
-  },
-  {
-    "text": "please make the reservation for 18:00.",
-    "intent": "negate",
-    "intent_prediction": {
-      "name": "inform_time",
-      "confidence": 0.9019523859024048
-    }
-  },
-  {
-    "text": "Do you know if they have live music? Also, please give me their number.",
-    "intent": "request_phone_number",
-    "intent_prediction": {
-      "name": "request_has_live_music",
-      "confidence": 0.8018231987953186
-    }
-  },
-  {
-    "text": "Do they have live music? What is their address?",
-    "intent": "request_street_address",
-    "intent_prediction": {
-      "name": "request_has_live_music",
-      "confidence": 0.6046432256698608
-    }
-  },
-  {
-    "text": "What is their address and contact number?",
-    "intent": "request_street_address",
-    "intent_prediction": {
-      "name": "request_phone_number",
-      "confidence": 0.8806531429290771
-    }
-  },
-  {
-    "text": "Where are they located? And do they serve liquor?",
-    "intent": "request_street_address",
-    "intent_prediction": {
-      "name": "request_serves_alcohol",
-      "confidence": 0.3518233597278595
-    }
-  },
-  {
-    "text": "Are they expensive?",
-    "intent": "request_has_live_music",
-    "intent_prediction": {
-      "name": "request_price_range",
-      "confidence": 0.8276514410972595
-    }
-  },
-  {
-    "text": "Do bands play there?",
-    "intent": "request_has_live_music",
-    "intent_prediction": {
-      "name": "request_serves_alcohol",
-      "confidence": 0.44160783290863037
-    }
-  },
-  {
-    "text": "May I have their address please? Do they play live music there?",
-    "intent": "request_has_live_music",
-    "intent_prediction": {
-      "name": "request_street_address",
-      "confidence": 0.8064014315605164
-    }
-  },
-  {
-    "text": "What's their phone number? And is there live music there?",
-    "intent": "request_has_live_music",
-    "intent_prediction": {
-      "name": "request_phone_number",
-      "confidence": 0.9403257369995117
-    }
-  },
-  {
-    "text": "a place with pasta will be perfect?",
-    "intent": "inform_cuisine",
-    "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.5236883759498596
-    }
-  },
-  {
-    "text": "here where i can get a reasonably priced burger.",
-    "intent": "inform_cuisine",
-    "intent_prediction": {
-      "name": "inform_price_range",
-      "confidence": 0.4734719395637512
-    }
-  },
-  {
-    "text": "i'd definitely like something affordable. actually, some Shabu-shabu sounds great right now.",
-    "intent": "inform_cuisine",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.39548349380493164
-    }
-  },
-  {
-    "text": "i need someplace cheaper. i want to eat a lot for not very costly.",
-    "intent": "request_alts",
-    "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.7433311939239502
-    }
-  },
-  {
-    "text": "That is good for me.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.7492877244949341
-    }
-  },
-  {
-    "text": "That is perfedt.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.96882563829422
-    }
-  },
-  {
-    "text": "That sounds good to me.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.55717933177948
-    }
-  },
-  {
-    "text": "That sounds good, thank you.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.6735022068023682
-    }
-  },
-  {
-    "text": "That will do.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.8923443555831909
-    }
-  },
-  {
-    "text": "That's great, thanks.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.6096727848052979
-    }
-  },
-  {
-    "text": "Yeah, that will do just fine.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.8012429475784302
-    }
-  },
-  {
-    "text": "Yes, if possible.",
-    "intent": "affirm_intent",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.6588110327720642
-    }
-  },
-  {
-    "text": "Yes make it for 2 people",
-    "intent": "inform_party_size",
-    "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.5007702708244324
-    }
-  },
-  {
-    "text": "1:30 in the afternoon, for 5 people.",
-    "intent": "inform_party_size",
-    "intent_prediction": {
-      "name": "inform_time",
-      "confidence": 0.5172988176345825
-    }
-  },
-  {
-    "text": "brixx pizzeria in petaluma is the place. it's a group of four people at 11 am.",
-    "intent": "inform_party_size",
-    "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.8132510185241699
-    }
-  },
-  {
-    "text": "our reservation is at 11:30 for four people.",
-    "intent": "inform_party_size",
-    "intent_prediction": {
-      "name": "inform_time",
-      "confidence": 0.5580896139144897
-    }
-  },
-  {
-    "text": "yes i would. Next Friday for six people.",
-    "intent": "inform_party_size",
-    "intent_prediction": {
-      "name": "inform_date",
-      "confidence": 0.7687798142433167
-    }
-  },
-  {
-    "text": "What's their number and is liquor available?",
-    "intent": "request_serves_alcohol",
-    "intent_prediction": {
-      "name": "request_phone_number",
-      "confidence": 0.9725694060325623
-    }
-  },
-  {
-    "text": "chinese food and not very costly, please.",
-    "intent": "inform_price_range",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.9357045888900757
-    }
-  },
-  {
-    "text": "please search in san mateo, price is not an issue.",
-    "intent": "inform_price_range",
-    "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.29826855659484863
-    }
-  },
-  {
-    "text": "let's go",
-    "intent": "greet",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.493847131729126
-    }
-  },
-  {
-    "text": "feeling like a king",
-    "intent": "mood_great",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.4664979577064514
-    }
-  },
-  {
-    "text": "my day was horrible",
-    "intent": "mood_unhappy",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.5076921582221985
-    }
-  },
-  {
-    "text": "unhappy",
-    "intent": "mood_unhappy",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.18688634037971497
-    }
-  },
-  {
-    "text": "i would like to make reservations for 2 at pescatore.",
-    "intent": "inform_intent",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.4892268776893616
-    }
-  },
-  {
-    "text": "i'd like to make a reservation on the 12th of march for three people.",
-    "intent": "inform_intent",
-    "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.8137144446372986
-    }
-  },
-  {
-    "text": "i'm looking for a good place to eat to take my date. she really like's shabu-shabu food and lives in berkeley.",
-    "intent": "inform_intent",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.7652662992477417
-    }
-  },
-  {
-    "text": "id like to make a reservation for friday next week.",
-    "intent": "inform_intent",
-    "intent_prediction": {
-      "name": "inform_date",
-      "confidence": 0.6485103964805603
-    }
-  },
-  {
-    "text": "the time is 13:30 and the city is alameda. i prefer applebee's; they have great food.",
-    "intent": "inform_time",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.8528781533241272
-    }
-  },
-  {
-    "text": "6:15 in the evening at Bistro liaison.",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.30062779784202576
-    }
-  },
-  {
-    "text": "i'm looking for a reservation to Amami in san bruno.",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.7971869111061096
-    }
-  },
-  {
-    "text": "in san carlos, the restaurant i'd like to find is West Park.",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.44559264183044434
-    }
-  },
-  {
-    "text": "let's set it up for 6:30 pm at Sakoon.",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
-      "name": "inform_time",
-      "confidence": 0.7363672852516174
-    }
-  },
-  {
-    "text": "yes, it's called Juerga.",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.5942559838294983
-    }
-  },
-  {
-    "text": "yup! i would prefer a mexican restaurant, the Crab House.",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.9971082210540771
-    }
-  },
-  {
-    "text": "Absolutely, thank you.",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.6985618472099304
-    }
-  },
-  {
-    "text": "Confirming all the details are correct. But how about the contact number, do you have it? and one more question, please. Are they serving alcoholic beverages?",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "request_serves_alcohol",
-      "confidence": 0.5461181998252869
-    }
-  },
-  {
-    "text": "Do they have been and liquor?",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "request_serves_alcohol",
-      "confidence": 0.9471118450164795
-    }
-  },
-  {
-    "text": "Is there live music?",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "request_has_live_music",
-      "confidence": 0.9915382862091064
-    }
-  },
-  {
-    "text": "Please check that for me.",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.8608290553092957
-    }
-  },
-  {
-    "text": "That sounds good.",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.9986236691474915
-    }
-  },
-  {
-    "text": "That will do.",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.9914357662200928
-    }
-  },
-  {
-    "text": "Yeah, that's fine.",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.994378924369812
-    }
-  },
-  {
-    "text": "Great! Thank you so much for your help.",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.9721959233283997
-    }
-  },
-  {
-    "text": "that's great, thank you very much",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.7669252157211304
-    }
-  },
-  {
-    "text": "No, thank a lot",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.82242751121521
-    }
-  },
-  {
-    "text": "No, that is all thank you.",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.589667797088623
-    }
-  },
-  {
-    "text": "No. That will be all. Thank you.",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.6527251601219177
-    }
-  },
-  {
-    "text": "Thank you for all.",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.9455175995826721
-    }
-  },
-  {
-    "text": "That is all thank you so much.",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.9708855748176575
-    }
-  },
-  {
-    "text": "That sounds great! Thank you.",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.9651519060134888
-    }
-  },
-  {
-    "text": "That's it! Thank you!",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.7746281027793884
-    }
-  },
-  {
-    "text": "find a place in Vallejo with live music.",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "request_has_live_music",
-      "confidence": 0.8026845455169678
-    }
-  },
-  {
-    "text": "i want to go to sushi omakase in Gilroy.",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "inform_date",
-      "confidence": 0.32151108980178833
-    }
-  },
-  {
-    "text": "please make the reservation for 1:30 in the afternoon in Portola Valley.",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "inform_party_size",
-      "confidence": 0.32967087626457214
-    }
-  },
-  {
-    "text": "the restaurant is named foreign cinema. i want to reserve it for later today.",
-    "intent": "inform_date",
-    "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.6916081309318542
-    }
-  },
-  {
-    "text": "What is the restaurant's price range? Do they serve alcohol?",
-    "intent": "request_price_range",
-    "intent_prediction": {
-      "name": "request_serves_alcohol",
-      "confidence": 0.5378782153129578
-    }
-  },
-  {
-    "text": "No",
-    "intent": "negate",
-    "intent_prediction": {
-      "name": "thank_you",
-      "confidence": 0.9632353186607361
-    }
-  },
-  {
-    "text": "no, i want it on the 12th of this month at 13:00.",
-    "intent": "negate",
-    "intent_prediction": {
-      "name": "inform_date",
-      "confidence": 0.5913243293762207
-    }
-  },
-  {
-    "text": "How can I reach them?",
-    "intent": "request_phone_number",
-    "intent_prediction": {
-      "name": "request_price_range",
-      "confidence": 0.5867710113525391
-    }
-  },
-  {
-    "text": "What's the number and address?",
-    "intent": "request_phone_number",
-    "intent_prediction": {
-      "name": "request_street_address",
-      "confidence": 0.6470673084259033
-    }
-  },
-  {
-    "text": "Will there be live music? What is their phone number?",
-    "intent": "request_phone_number",
-    "intent_prediction": {
-      "name": "request_has_live_music",
-      "confidence": 0.6244274377822876
-    }
-  },
-  {
-    "text": "I prefer a restaurant with a live music and by the way how's the price?",
-    "intent": "request_has_live_music",
-    "intent_prediction": {
-      "name": "request_price_range",
-      "confidence": 0.5051957368850708
-    }
-  },
-  {
-    "text": "are there any Pakistani places?",
-    "intent": "inform_cuisine",
-    "intent_prediction": {
-      "name": "request_alts",
-      "confidence": 0.7548465132713318
-    }
-  },
-  {
-    "text": "oh, i'm in oakland. please find an American restaurant.",
-    "intent": "inform_cuisine",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.40256622433662415
-    }
-  },
-  {
-    "text": "we will eat in alameda, and i am looking forward to eat some tacos.",
-    "intent": "inform_cuisine",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.8646177649497986
-    }
-  },
-  {
-    "text": "Excellent, that's perfect.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.9916609525680542
-    }
-  },
-  {
-    "text": "That's great.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.7731914520263672
-    }
-  },
-  {
-    "text": "alright, please make a reservation for me at this evening 7:15.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "inform_party_size",
-      "confidence": 0.44748032093048096
-    }
-  },
-  {
-    "text": "can i make a reservation for it",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.653550386428833
-    }
-  },
-  {
-    "text": "that's perfect! i need to book a reservation for 5 people on the 7th of march.",
-    "intent": "select",
-    "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.9291042685508728
-    }
-  },
-  {
-    "text": "Yes, that will be great.",
-    "intent": "affirm_intent",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.9814761281013489
-    }
-  },
-  {
-    "text": "Yes, I'll need to make a reservation for a table for 2.",
-    "intent": "inform_party_size",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.5691481828689575
-    }
-  },
-  {
-    "text": "i want the reservation in Walnut Creek for 1 person.",
-    "intent": "inform_party_size",
-    "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.9705579876899719
-    }
-  },
-  {
-    "text": "i was thinking 17:45, for two guests.",
-    "intent": "inform_party_size",
-    "intent_prediction": {
-      "name": "inform_time",
-      "confidence": 0.9026609659194946
-    }
-  },
-  {
-    "text": "yes, on the 7th for four people.",
-    "intent": "inform_party_size",
-    "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.7707589268684387
-    }
-  },
-  {
-    "text": "Do they have a bar there?",
-    "intent": "request_serves_alcohol",
-    "intent_prediction": {
-      "name": "request_has_live_music",
-      "confidence": 0.5964260697364807
-    }
-  },
-  {
-    "text": "Is there any liquor supply? and let me know the address.",
-    "intent": "request_serves_alcohol",
-    "intent_prediction": {
-      "name": "request_street_address",
-      "confidence": 0.7682386636734009
-    }
-  },
-  {
-    "text": "i am in the pacifica area. i would like sushi at an afforadable price.",
-    "intent": "inform_price_range",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.4983997941017151
-    }
-  },
-  {
-    "text": "something cafe like, i want some reasonably priced food.",
-    "intent": "inform_price_range",
-    "intent_prediction": {
-      "name": "inform_cuisine",
-      "confidence": 0.9946094751358032
-    }
-  },
-  {
-    "text": "extremely good",
-    "intent": "mood_great",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.4560653567314148
-    }
-  },
-  {
-    "text": "so good",
-    "intent": "mood_great",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.3294477164745331
-    }
-  },
-  {
-    "text": "I am disappointed",
-    "intent": "mood_unhappy",
-    "intent_prediction": {
-      "name": "inform_party_size",
-      "confidence": 0.6132593154907227
+      "confidence": 0.21143656969070435
     }
   },
   {
@@ -2124,119 +28,79 @@
     "intent": "inform_intent",
     "intent_prediction": {
       "name": "select",
-      "confidence": 0.37759897112846375
+      "confidence": 0.36510172486305237
     }
   },
   {
-    "text": "i want to eat something that is not very costly.",
-    "intent": "inform_intent",
-    "intent_prediction": {
-      "name": "inform_price_range",
-      "confidence": 0.6304703950881958
-    }
-  },
-  {
-    "text": "i want to eat somewhere in san mateo, can you give me a recommendation?",
-    "intent": "inform_intent",
-    "intent_prediction": {
-      "name": "request_alts",
-      "confidence": 0.49807658791542053
-    }
-  },
-  {
-    "text": "i want to make a reservation at asya",
-    "intent": "inform_intent",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.4500482976436615
-    }
-  },
-  {
-    "text": "i'd like to make a reservation.",
-    "intent": "inform_intent",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.9487764835357666
-    }
-  },
-  {
-    "text": "search eateries in san fran. please",
-    "intent": "inform_intent",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.9230366945266724
-    }
-  },
-  {
-    "text": "yes, can you change the time to 7 o\"clock in the evening?",
+    "text": "i'd like to make a reservation on the 12th of march for three people.",
     "intent": "inform_intent",
     "intent_prediction": {
       "name": "negate",
-      "confidence": 0.3661113679409027
+      "confidence": 0.8911539912223816
     }
   },
   {
-    "text": "at 18:45 for 2 people",
-    "intent": "inform_time",
+    "text": "6:15 in the evening at Bistro liaison.",
+    "intent": "inform_restaurant_name",
+    "intent_prediction": {
+      "name": "inform_date",
+      "confidence": 0.3432804346084595
+    }
+  },
+  {
+    "text": "a restaurant called Rangecafe.",
+    "intent": "inform_restaurant_name",
     "intent_prediction": {
       "name": "inform_party_size",
-      "confidence": 0.44320833683013916
+      "confidence": 0.3824923038482666
     }
   },
   {
-    "text": "Bj's is my first choice",
+    "text": "i could go for some Taco Bell.",
+    "intent": "inform_restaurant_name",
+    "intent_prediction": {
+      "name": "inform_cuisine",
+      "confidence": 0.770000696182251
+    }
+  },
+  {
+    "text": "i like the restaurant Paul Martin's.",
     "intent": "inform_restaurant_name",
     "intent_prediction": {
       "name": "inform_city",
-      "confidence": 0.9698759317398071
+      "confidence": 0.7850515246391296
     }
   },
   {
-    "text": "i would like to go to Bj's.",
-    "intent": "inform_restaurant_name",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.9983205795288086
-    }
-  },
-  {
-    "text": "we would like to make reservations for two at 18:00, at the Pub Republic in petaluma.",
+    "text": "i'm thinking about Rice Bowl, at morning 11:30",
     "intent": "inform_restaurant_name",
     "intent_prediction": {
       "name": "inform_time",
-      "confidence": 0.3974358141422272
+      "confidence": 0.5743188858032227
     }
   },
   {
-    "text": "Yes, do they serve liquor?",
+    "text": "Absolutely, thank you.",
     "intent": "affirm",
     "intent_prediction": {
-      "name": "request_serves_alcohol",
-      "confidence": 0.6258739233016968
+      "name": "thank_you",
+      "confidence": 0.89458167552948
     }
   },
   {
-    "text": "Yes, that sounds great. Could I also have their contact number, please?",
+    "text": "Is there live music?",
     "intent": "affirm",
     "intent_prediction": {
-      "name": "request_phone_number",
-      "confidence": 0.827147364616394
+      "name": "request_has_live_music",
+      "confidence": 0.9893546104431152
     }
   },
   {
-    "text": "that sounds great. can i know their address? do they serve Spicy Indian food?",
+    "text": "Yeah, that's fine.",
     "intent": "affirm",
     "intent_prediction": {
-      "name": "request_street_address",
-      "confidence": 0.8116581439971924
-    }
-  },
-  {
-    "text": "you got it. hey, do they have Noodles? what's the price range?",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "request_price_range",
-      "confidence": 0.66353839635849
+      "name": "select",
+      "confidence": 0.9844209551811218
     }
   },
   {
@@ -2244,127 +108,95 @@
     "intent": "goodbye",
     "intent_prediction": {
       "name": "thank_you",
-      "confidence": 0.8878798484802246
+      "confidence": 0.9386165738105774
     }
   },
   {
-    "text": "Thank you so much for all of your help.",
+    "text": "Thanks a lot",
     "intent": "goodbye",
     "intent_prediction": {
       "name": "thank_you",
-      "confidence": 0.5550017356872559
+      "confidence": 0.5274878144264221
     }
   },
   {
-    "text": "Thanks",
+    "text": "Thanks so mu",
     "intent": "goodbye",
     "intent_prediction": {
       "name": "thank_you",
-      "confidence": 0.7741395235061646
+      "confidence": 0.725017786026001
     }
   },
   {
-    "text": "No, that was all I needed but thank you.",
+    "text": "That sounds great! Thank you.",
     "intent": "thank_you",
     "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.5035437345504761
+      "name": "select",
+      "confidence": 0.7233670353889465
     }
   },
   {
-    "text": "That's it, thank you.",
-    "intent": "thank_you",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.7056611180305481
-    }
-  },
-  {
-    "text": "Antioch would be great.",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "affirm_intent",
-      "confidence": 0.36809074878692627
-    }
-  },
-  {
-    "text": "close to Dublin",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.5306556224822998
-    }
-  },
-  {
-    "text": "i am looking for restaurants located in Millbrae.",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "request_alts",
-      "confidence": 0.3540095388889313
-    }
-  },
-  {
-    "text": "i would like it in Danville.",
-    "intent": "inform_city",
-    "intent_prediction": {
-      "name": "inform_restaurant_name",
-      "confidence": 0.3816363513469696
-    }
-  },
-  {
-    "text": "i would prefer something located in San Jose and on the lines of punjabi cuisine.",
+    "text": "i want to go to Milpitas. spicy indian food sounds perfect.",
     "intent": "inform_city",
     "intent_prediction": {
       "name": "inform_cuisine",
-      "confidence": 0.7303671836853027
+      "confidence": 0.6191803812980652
     }
   },
   {
-    "text": "i'd like to go to golden harvest in St. Helena.",
+    "text": "the location is Fremont, please.",
     "intent": "inform_city",
     "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.9781484007835388
+      "name": "request_street_address",
+      "confidence": 0.45148149132728577
     }
   },
   {
-    "text": "i'd like to go to a restaurant in Martinez that serves thai food.",
-    "intent": "inform_city",
+    "text": "i want it for 12:15 pm next Friday.",
+    "intent": "inform_date",
     "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.9234929084777832
+      "name": "inform_time",
+      "confidence": 0.5508916974067688
     }
   },
   {
-    "text": "search in Cupertino for dumplings.",
-    "intent": "inform_city",
+    "text": "i'm looking in sfo in particular and i have open availability for the date.",
+    "intent": "inform_date",
     "intent_prediction": {
-      "name": "inform_party_size",
-      "confidence": 0.26775044202804565
+      "name": "request_alts",
+      "confidence": 0.5220654606819153
     }
   },
   {
-    "text": "7 pm on Thursday next week.",
+    "text": "the name of the restaurant is marche aux fleurs. the location is in ross, and the date is on the 10th.",
     "intent": "inform_date",
     "intent_prediction": {
       "name": "negate",
-      "confidence": 0.9678641557693481
+      "confidence": 0.18512283265590668
+    }
+  },
+  {
+    "text": "yes please reserve me a table for the 13th of March.",
+    "intent": "inform_date",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.5278801321983337
+    }
+  },
+  {
+    "text": "yes, any date works.",
+    "intent": "inform_date",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6586923599243164
     }
   },
   {
     "text": "yes, please. i want to make a reservation for next Thursday.",
     "intent": "inform_date",
     "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.6362321376800537
-    }
-  },
-  {
-    "text": "Do they have live music? What's the price range?",
-    "intent": "request_price_range",
-    "intent_prediction": {
-      "name": "request_has_live_music",
-      "confidence": 0.7511742115020752
+      "name": "select",
+      "confidence": 0.34586235880851746
     }
   },
   {
@@ -2372,15 +204,351 @@
     "intent": "request_price_range",
     "intent_prediction": {
       "name": "request_street_address",
-      "confidence": 0.9541296362876892
+      "confidence": 0.8049362301826477
     }
   },
   {
-    "text": "can you find out if they are average priced?",
+    "text": "what is their phone number and are there prices economical?",
     "intent": "request_price_range",
     "intent_prediction": {
+      "name": "request_phone_number",
+      "confidence": 0.5707849264144897
+    }
+  },
+  {
+    "text": "no. the restaurant is villa d'este. i want it in San Francisco.",
+    "intent": "negate",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.6271578669548035
+    }
+  },
+  {
+    "text": "Do you know if they have live music? Also, please give me their number.",
+    "intent": "request_phone_number",
+    "intent_prediction": {
+      "name": "request_has_live_music",
+      "confidence": 0.5744064450263977
+    }
+  },
+  {
+    "text": "Do they have live music? What is their address?",
+    "intent": "request_street_address",
+    "intent_prediction": {
+      "name": "request_has_live_music",
+      "confidence": 0.6401129961013794
+    }
+  },
+  {
+    "text": "Is it a costlier restaurant or a cheaper one? What's their prices? What's the street address of the restaurant?",
+    "intent": "request_street_address",
+    "intent_prediction": {
+      "name": "request_alts",
+      "confidence": 0.3797837793827057
+    }
+  },
+  {
+    "text": "May I have their contact number and address?",
+    "intent": "request_street_address",
+    "intent_prediction": {
+      "name": "request_phone_number",
+      "confidence": 0.8013168573379517
+    }
+  },
+  {
+    "text": "What is their contact number? Do they have live music?",
+    "intent": "request_has_live_music",
+    "intent_prediction": {
+      "name": "request_phone_number",
+      "confidence": 0.9597806930541992
+    }
+  },
+  {
+    "text": "are there any Pakistani places?",
+    "intent": "inform_cuisine",
+    "intent_prediction": {
+      "name": "request_alts",
+      "confidence": 0.488473117351532
+    }
+  },
+  {
+    "text": "i would like to eat tacos, if available.",
+    "intent": "inform_cuisine",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.6371155381202698
+    }
+  },
+  {
+    "text": "I think it would fit me perfectly",
+    "intent": "select",
+    "intent_prediction": {
       "name": "affirm",
-      "confidence": 0.37009140849113464
+      "confidence": 0.3172576427459717
+    }
+  },
+  {
+    "text": "alright, please make a reservation for me at this evening 7:15.",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "inform_time",
+      "confidence": 0.3538399338722229
+    }
+  },
+  {
+    "text": "yes, please get me a reservation there.",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "affirm_intent",
+      "confidence": 0.8319231271743774
+    }
+  },
+  {
+    "text": "I think so, yes.",
+    "intent": "affirm_intent",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6650471687316895
+    }
+  },
+  {
+    "text": "brixx pizzeria in petaluma is the place. it's a group of four people at 11 am.",
+    "intent": "inform_party_size",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.5071881413459778
+    }
+  },
+  {
+    "text": "there's a place in San Jose called pearl river - can you just book it for one please",
+    "intent": "inform_party_size",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.6531810164451599
+    }
+  },
+  {
+    "text": "I'd also like it to have this restaurant live music inside, and to have a large variety of liquor to order as well.",
+    "intent": "request_serves_alcohol",
+    "intent_prediction": {
+      "name": "inform_cuisine",
+      "confidence": 0.27291712164878845
+    }
+  },
+  {
+    "text": "Sound great. What is their contact number? Do you know if they serve liquor?",
+    "intent": "request_serves_alcohol",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.624839723110199
+    }
+  },
+  {
+    "text": "i want something with fish but make it an average priced restaurant.",
+    "intent": "inform_price_range",
+    "intent_prediction": {
+      "name": "inform_cuisine",
+      "confidence": 0.9105907678604126
+    }
+  },
+  {
+    "text": "let's go",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform_restaurant_name",
+      "confidence": 0.35445043444633484
+    }
+  },
+  {
+    "text": "I am going to save the world",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.16760538518428802
+    }
+  },
+  {
+    "text": "so saad",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.49096474051475525
+    }
+  },
+  {
+    "text": "i'm Luigi",
+    "intent": "inform_name",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.3302176594734192
+    }
+  },
+  {
+    "text": "i'd like to make a reservation.",
+    "intent": "inform_intent",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.874887228012085
+    }
+  },
+  {
+    "text": "instead of the previous time, can you make it at 18:00?",
+    "intent": "inform_intent",
+    "intent_prediction": {
+      "name": "negate",
+      "confidence": 0.920509397983551
+    }
+  },
+  {
+    "text": "at 18:45 for 2 people",
+    "intent": "inform_time",
+    "intent_prediction": {
+      "name": "inform_party_size",
+      "confidence": 0.689439594745636
+    }
+  },
+  {
+    "text": "i want san jose in village at 11:30 in the morning",
+    "intent": "inform_restaurant_name",
+    "intent_prediction": {
+      "name": "negate",
+      "confidence": 0.27271702885627747
+    }
+  },
+  {
+    "text": "it's called the Alembic.",
+    "intent": "inform_restaurant_name",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.796213686466217
+    }
+  },
+  {
+    "text": "please, make it at 7:15 pm. the restaurant is Hikari Sushi in san fran.",
+    "intent": "inform_restaurant_name",
+    "intent_prediction": {
+      "name": "negate",
+      "confidence": 0.5822949409484863
+    }
+  },
+  {
+    "text": "Great. Is there live music? Is it a costly restaurant?",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "request_has_live_music",
+      "confidence": 0.36681514978408813
+    }
+  },
+  {
+    "text": "Yes, thank you.",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.7297807335853577
+    }
+  },
+  {
+    "text": "that sounds great. can i know their address? do they serve Spicy Indian food?",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "request_street_address",
+      "confidence": 0.5261449217796326
+    }
+  },
+  {
+    "text": "Grateful, thank you.",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.8195639252662659
+    }
+  },
+  {
+    "text": "No thank you.",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.9980055689811707
+    }
+  },
+  {
+    "text": "Thank you!",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.9266267418861389
+    }
+  },
+  {
+    "text": "No. This should be enough for now.",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "negate",
+      "confidence": 0.5581710338592529
+    }
+  },
+  {
+    "text": "Sweet, thanks so much.",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.693340003490448
+    }
+  },
+  {
+    "text": "Thanks your a big help.",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.49568772315979004
+    }
+  },
+  {
+    "text": "Antioch would be great.",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "inform_cuisine",
+      "confidence": 0.8277407288551331
+    }
+  },
+  {
+    "text": "great! i am looking for food in Oakland.",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "inform_cuisine",
+      "confidence": 0.5607204437255859
+    }
+  },
+  {
+    "text": "please make the reservation for 1:30 in the afternoon in Portola Valley.",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "negate",
+      "confidence": 0.4631458520889282
+    }
+  },
+  {
+    "text": "we want to eat at the claw shack in San Jose. please make the reservation for 11:30 am.",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "negate",
+      "confidence": 0.7601430416107178
+    }
+  },
+  {
+    "text": "can you make it on the 10th of this month at a quarter to 7 in the evening?",
+    "intent": "inform_date",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.6084432601928711
+    }
+  },
+  {
+    "text": "I need the reservation for 2 people",
+    "intent": "negate",
+    "intent_prediction": {
+      "name": "inform_party_size",
+      "confidence": 0.8143109679222107
     }
   },
   {
@@ -2388,31 +556,31 @@
     "intent": "negate",
     "intent_prediction": {
       "name": "inform_party_size",
-      "confidence": 0.8701696991920471
+      "confidence": 0.7029234170913696
     }
   },
   {
-    "text": "will you make it at 11:30 am on 7th of March?",
+    "text": "No, thanks.",
     "intent": "negate",
     "intent_prediction": {
-      "name": "inform_time",
-      "confidence": 0.504072368144989
+      "name": "thank_you",
+      "confidence": 0.9960318803787231
     }
   },
   {
-    "text": "you know what, better make it at 6 o\"clock in the evening for three people",
+    "text": "can you change the city to Hayward?",
     "intent": "negate",
     "intent_prediction": {
-      "name": "inform_party_size",
-      "confidence": 0.2915634214878082
+      "name": "inform_city",
+      "confidence": 0.9806312322616577
     }
   },
   {
-    "text": "Can I call them? Is there live music?",
+    "text": "Can I please have the address and contact number?",
     "intent": "request_phone_number",
     "intent_prediction": {
-      "name": "request_has_live_music",
-      "confidence": 0.7697334885597229
+      "name": "request_street_address",
+      "confidence": 0.7552703619003296
     }
   },
   {
@@ -2420,127 +588,63 @@
     "intent": "request_phone_number",
     "intent_prediction": {
       "name": "request_has_live_music",
-      "confidence": 0.8354136347770691
+      "confidence": 0.7744527459144592
     }
   },
   {
-    "text": "What's the address and number?",
-    "intent": "request_phone_number",
-    "intent_prediction": {
-      "name": "request_street_address",
-      "confidence": 0.5277012586593628
-    }
-  },
-  {
-    "text": "What is the address of the restaurant and do the have live music?",
-    "intent": "request_street_address",
-    "intent_prediction": {
-      "name": "request_has_live_music",
-      "confidence": 0.8062428832054138
-    }
-  },
-  {
-    "text": "moderate",
+    "text": "May I have their address please? Do they play live music there?",
     "intent": "request_has_live_music",
     "intent_prediction": {
-      "name": "inform_intent",
-      "confidence": 0.2326558232307434
+      "name": "request_street_address",
+      "confidence": 0.7725942134857178
     }
   },
   {
-    "text": "Malaysian sounds good right now.",
+    "text": "anyone that is burger like in nature",
     "intent": "inform_cuisine",
     "intent_prediction": {
-      "name": "select",
-      "confidence": 0.4446527361869812
+      "name": "mood_great",
+      "confidence": 0.20040884613990784
     }
   },
   {
-    "text": "Spicy Indian sound really good.",
-    "intent": "inform_cuisine",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.7290218472480774
-    }
-  },
-  {
-    "text": "Sushi sounds good right now.",
-    "intent": "inform_cuisine",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.6102228164672852
-    }
-  },
-  {
-    "text": "i am looking for restaurants that offer Take-out.",
-    "intent": "inform_cuisine",
-    "intent_prediction": {
-      "name": "request_alts",
-      "confidence": 0.9044817686080933
-    }
-  },
-  {
-    "text": "i think a breakfast & brunch place would be perfect.",
+    "text": "here where i can get a reasonably priced burger.",
     "intent": "inform_cuisine",
     "intent_prediction": {
       "name": "inform_intent",
-      "confidence": 0.9870821833610535
-    }
-  },
-  {
-    "text": "i want to have Taiwanese food in san fran.",
-    "intent": "inform_cuisine",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.6643891334533691
-    }
-  },
-  {
-    "text": "i'd like to try Punjabi food, somewhere in sfo.",
-    "intent": "inform_cuisine",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.37330925464630127
-    }
-  },
-  {
-    "text": "look for burger restaurants in campbell.",
-    "intent": "inform_cuisine",
-    "intent_prediction": {
-      "name": "inform_restaurant_name",
-      "confidence": 0.4373135268688202
-    }
-  },
-  {
-    "text": "yes, some salad type food with low-cost will be perfect. also i need live music there.",
-    "intent": "inform_cuisine",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.9292324185371399
-    }
-  },
-  {
-    "text": "Please give a better choice.",
-    "intent": "request_alts",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.5567670464515686
+      "confidence": 0.29369762539863586
     }
   },
   {
     "text": "that's pretty expensive. i'm looking for a restaurant that's not very costly.",
     "intent": "request_alts",
     "intent_prediction": {
-      "name": "request_price_range",
-      "confidence": 0.5739653706550598
+      "name": "select",
+      "confidence": 0.6887558102607727
     }
   },
   {
-    "text": "Great.",
+    "text": "Oh okay. Yeah sure that's fine.",
     "intent": "select",
     "intent_prediction": {
-      "name": "mood_great",
-      "confidence": 0.7667249441146851
+      "name": "affirm",
+      "confidence": 0.3670579493045807
+    }
+  },
+  {
+    "text": "That is perfedt.",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8863621354103088
+    }
+  },
+  {
+    "text": "That will do.",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8042247891426086
     }
   },
   {
@@ -2548,95 +652,47 @@
     "intent": "select",
     "intent_prediction": {
       "name": "affirm",
-      "confidence": 0.9412944912910461
+      "confidence": 0.8885452747344971
     }
   },
   {
-    "text": "please can you make the reservation",
+    "text": "that's okay, can you make me a reservation at this restaurant for day after tomorrow.",
     "intent": "select",
     "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.4369232654571533
+      "name": "inform_intent",
+      "confidence": 0.45847541093826294
     }
   },
   {
-    "text": "yes. i would like to book a table.",
+    "text": "yes, that restaurant works for me. i would like to make a reservation for 2 people.",
     "intent": "select",
     "intent_prediction": {
-      "name": "affirm_intent",
-      "confidence": 0.9480863809585571
+      "name": "inform_party_size",
+      "confidence": 0.5364448428153992
     }
   },
   {
-    "text": "yes. please book a table.",
+    "text": "yup, that works. please can you reserve at this restaurant?",
     "intent": "select",
-    "intent_prediction": {
-      "name": "affirm_intent",
-      "confidence": 0.9663293957710266
-    }
-  },
-  {
-    "text": "Yes will be perfect",
-    "intent": "affirm_intent",
     "intent_prediction": {
       "name": "affirm",
-      "confidence": 0.3910712003707886
-    }
-  },
-  {
-    "text": "i want it in SFO, a restaurant called kabuto, just for one please",
-    "intent": "inform_party_size",
-    "intent_prediction": {
-      "name": "inform_restaurant_name",
-      "confidence": 0.3181305527687073
+      "confidence": 0.8965964317321777
     }
   },
   {
     "text": "i'd like a reservation for one person at 17:15.",
     "intent": "inform_party_size",
     "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.8305198550224304
+      "name": "inform_time",
+      "confidence": 0.7282928228378296
     }
   },
   {
-    "text": "yes! the Old Siam, it's my favorite. could you book it for 4 people please?",
-    "intent": "inform_party_size",
-    "intent_prediction": {
-      "name": "negate",
-      "confidence": 0.4314832091331482
-    }
-  },
-  {
-    "text": "yes, i would like to make a reservation. make a reservation for Sunday this week for 4 people.",
-    "intent": "inform_party_size",
-    "intent_prediction": {
-      "name": "select",
-      "confidence": 0.45494821667671204
-    }
-  },
-  {
-    "text": "Sound great. What is their contact number? Do you know if they serve liquor?",
+    "text": "Do you know if they serve alcoholic drinks and, also, can you give me their address.",
     "intent": "request_serves_alcohol",
     "intent_prediction": {
-      "name": "request_phone_number",
-      "confidence": 0.6515656113624573
-    }
-  },
-  {
-    "text": "is it expensive, and do they serve alcohol?",
-    "intent": "request_serves_alcohol",
-    "intent_prediction": {
-      "name": "request_has_live_music",
-      "confidence": 0.5254999995231628
-    }
-  },
-  {
-    "text": "i would like to eat in milpitas and the restaurant should be in the moderate price range.",
-    "intent": "inform_price_range",
-    "intent_prediction": {
-      "name": "inform_city",
-      "confidence": 0.6413664221763611
+      "name": "request_street_address",
+      "confidence": 0.5865668058395386
     }
   },
   {
@@ -2644,7 +700,1503 @@
     "intent": "inform_price_range",
     "intent_prediction": {
       "name": "inform_cuisine",
-      "confidence": 0.9676573872566223
+      "confidence": 0.933275043964386
+    }
+  },
+  {
+    "text": "show me places to eat in san francisco. i am looking for something afforadable priced.",
+    "intent": "inform_price_range",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.2336130291223526
+    }
+  },
+  {
+    "text": "I don't feel very well",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5917132496833801
+    }
+  },
+  {
+    "text": "can i make a reservation at this restaurant?",
+    "intent": "inform_intent",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.9591817855834961
+    }
+  },
+  {
+    "text": "can you check if a table is available at 17:30?",
+    "intent": "inform_intent",
+    "intent_prediction": {
+      "name": "inform_time",
+      "confidence": 0.5333730578422546
+    }
+  },
+  {
+    "text": "i would like to make reservations for 2 at pescatore.",
+    "intent": "inform_intent",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.30967578291893005
+    }
+  },
+  {
+    "text": "search eateries in san fran. please",
+    "intent": "inform_intent",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.650649905204773
+    }
+  },
+  {
+    "text": "can i make a reservation at a restaurant?",
+    "intent": "inform_intent",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.586087167263031
+    }
+  },
+  {
+    "text": "yes. i would like to make a reservation for 20:00.",
+    "intent": "inform_time",
+    "intent_prediction": {
+      "name": "inform_party_size",
+      "confidence": 0.5501481890678406
+    }
+  },
+  {
+    "text": "i need a table for one at the El Rancho restaurant in concord.",
+    "intent": "inform_restaurant_name",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.23494237661361694
+    }
+  },
+  {
+    "text": "the diner is Darda.",
+    "intent": "inform_restaurant_name",
+    "intent_prediction": {
+      "name": "inform_date",
+      "confidence": 0.1754329800605774
+    }
+  },
+  {
+    "text": "we would like to make reservations for two at 18:00, at the Pub Republic in petaluma.",
+    "intent": "inform_restaurant_name",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.8824050426483154
+    }
+  },
+  {
+    "text": "yes, it's called Juerga.",
+    "intent": "inform_restaurant_name",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.265384316444397
+    }
+  },
+  {
+    "text": "yes, the State Bird in sfo",
+    "intent": "inform_restaurant_name",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.5935927629470825
+    }
+  },
+  {
+    "text": "That will be great. Also, I just wanted to now pricey is it.",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "affirm_intent",
+      "confidence": 0.21927884221076965
+    }
+  },
+  {
+    "text": "That's great.",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.9388986229896545
+    }
+  },
+  {
+    "text": "That's would be excellent.",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.9746162295341492
+    }
+  },
+  {
+    "text": "that will work, is this going to cost a lot of money?  i do not want anything too extravagant.",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "request_alts",
+      "confidence": 0.3388824462890625
+    }
+  },
+  {
+    "text": "Okay, thanks!",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.9246805310249329
+    }
+  },
+  {
+    "text": "I really appreciate it.",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.43231961131095886
+    }
+  },
+  {
+    "text": "Thank you",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5968328714370728
+    }
+  },
+  {
+    "text": "Thank you for all your help.",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7663814425468445
+    }
+  },
+  {
+    "text": "Thanks very much.",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7100319862365723
+    }
+  },
+  {
+    "text": "That's alright, thank you very much.",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7783364057540894
+    }
+  },
+  {
+    "text": "thanks you very much",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5184447169303894
+    }
+  },
+  {
+    "text": "Hayward.",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "negate",
+      "confidence": 0.53675776720047
+    }
+  },
+  {
+    "text": "i want it on the 4th day of the month. i want the city of SFO.",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "inform_date",
+      "confidence": 0.9580367803573608
+    }
+  },
+  {
+    "text": "i want to make it for two people at one in the afternoon in San Francisco.",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "inform_party_size",
+      "confidence": 0.4617685079574585
+    }
+  },
+  {
+    "text": "i'd like pizza and somewhere in Sunnyvale.",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "inform_cuisine",
+      "confidence": 0.7967849373817444
+    }
+  },
+  {
+    "text": "ya, i like to eat at some nice place in Calistoga.",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.8641341924667358
+    }
+  },
+  {
+    "text": "can you make me a reservation at carnitas michoacan in gilroy at 11:15 am. any day will work for me.",
+    "intent": "inform_date",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.857967734336853
+    }
+  },
+  {
+    "text": "it's in berkeley. let's book for March 7th at 12 o\"clock in the afternoon",
+    "intent": "inform_date",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.35816991329193115
+    }
+  },
+  {
+    "text": "on the 12th at six pm",
+    "intent": "inform_date",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.7002977728843689
+    }
+  },
+  {
+    "text": "please make it at 10:45 in the morning on the 4th of this month.",
+    "intent": "inform_date",
+    "intent_prediction": {
+      "name": "negate",
+      "confidence": 0.6568193435668945
+    }
+  },
+  {
+    "text": "Do you know the price range of the restaurant?",
+    "intent": "request_price_range",
+    "intent_prediction": {
+      "name": "request_street_address",
+      "confidence": 0.4059865176677704
+    }
+  },
+  {
+    "text": "No. That doesn't work for me",
+    "intent": "negate",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.51644366979599
+    }
+  },
+  {
+    "text": "please no.",
+    "intent": "negate",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.39786064624786377
+    }
+  },
+  {
+    "text": "What is the price range? What is the phone number?",
+    "intent": "request_phone_number",
+    "intent_prediction": {
+      "name": "request_price_range",
+      "confidence": 0.24969398975372314
+    }
+  },
+  {
+    "text": "What's the number of the restaurant? Is there live music?",
+    "intent": "request_phone_number",
+    "intent_prediction": {
+      "name": "request_has_live_music",
+      "confidence": 0.9002610445022583
+    }
+  },
+  {
+    "text": "What is their address and contact number?",
+    "intent": "request_street_address",
+    "intent_prediction": {
+      "name": "request_phone_number",
+      "confidence": 0.6253164410591125
+    }
+  },
+  {
+    "text": "what's rubio's address? do they serve Taiwanese food?",
+    "intent": "request_street_address",
+    "intent_prediction": {
+      "name": "inform_cuisine",
+      "confidence": 0.8738523721694946
+    }
+  },
+  {
+    "text": "Brazilian.",
+    "intent": "inform_cuisine",
+    "intent_prediction": {
+      "name": "inform_name",
+      "confidence": 0.6853297352790833
+    }
+  },
+  {
+    "text": "i was thinking in petaluma. preferably a Pizza place.",
+    "intent": "inform_cuisine",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.9630681276321411
+    }
+  },
+  {
+    "text": "i'd like to try Punjabi food, somewhere in sfo.",
+    "intent": "inform_cuisine",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.880420982837677
+    }
+  },
+  {
+    "text": "we will be arriving in newark this weekend. we love to dine at a restaurant specializing in Afghan food.",
+    "intent": "inform_cuisine",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.44392406940460205
+    }
+  },
+  {
+    "text": "All right, I'm willing to try them.",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.2854323983192444
+    }
+  },
+  {
+    "text": "Great.",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.798761248588562
+    }
+  },
+  {
+    "text": "Yeah, that will do just fine.",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7655041813850403
+    }
+  },
+  {
+    "text": "Yes that is fine.",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9975171089172363
+    }
+  },
+  {
+    "text": "yes. i would like to book a table.",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "affirm_intent",
+      "confidence": 0.8689929842948914
+    }
+  },
+  {
+    "text": "yes. please book a table.",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "affirm_intent",
+      "confidence": 0.9476186037063599
+    }
+  },
+  {
+    "text": "Yes, please, for today.",
+    "intent": "affirm_intent",
+    "intent_prediction": {
+      "name": "inform_date",
+      "confidence": 0.594596266746521
+    }
+  },
+  {
+    "text": "Yes, that will be great.",
+    "intent": "affirm_intent",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.37551960349082947
+    }
+  },
+  {
+    "text": "Yes, that would be great. Please make a reservation.",
+    "intent": "affirm_intent",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.9551476836204529
+    }
+  },
+  {
+    "text": "Yes, I'll need to make a reservation for a table for 2.",
+    "intent": "inform_party_size",
+    "intent_prediction": {
+      "name": "affirm_intent",
+      "confidence": 0.36343422532081604
+    }
+  },
+  {
+    "text": "i want it in SFO, a restaurant called kabuto, just for one please",
+    "intent": "inform_party_size",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.593371570110321
+    }
+  },
+  {
+    "text": "i would love to make an appointment for one myself at 4:30 pm.",
+    "intent": "inform_party_size",
+    "intent_prediction": {
+      "name": "negate",
+      "confidence": 0.40758973360061646
+    }
+  },
+  {
+    "text": "i would like to eat in milpitas and the restaurant should be in the moderate price range.",
+    "intent": "inform_price_range",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.8451203107833862
+    }
+  },
+  {
+    "text": "something cafe like, i want some reasonably priced food.",
+    "intent": "inform_price_range",
+    "intent_prediction": {
+      "name": "inform_cuisine",
+      "confidence": 0.9446191191673279
+    }
+  },
+  {
+    "text": "moin",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.2320827841758728
+    }
+  },
+  {
+    "text": "you can call me Joao da China",
+    "intent": "inform_name",
+    "intent_prediction": {
+      "name": "inform_cuisine",
+      "confidence": 0.3326128423213959
+    }
+  },
+  {
+    "text": "i'm looking for a good place to eat to take my date. she really like's shabu-shabu food and lives in berkeley.",
+    "intent": "inform_intent",
+    "intent_prediction": {
+      "name": "inform_cuisine",
+      "confidence": 0.9163492321968079
+    }
+  },
+  {
+    "text": "Sushi Hashiri, please.",
+    "intent": "inform_restaurant_name",
+    "intent_prediction": {
+      "name": "inform_cuisine",
+      "confidence": 0.9024603962898254
+    }
+  },
+  {
+    "text": "evening 7:15 at Mcdonald's.",
+    "intent": "inform_restaurant_name",
+    "intent_prediction": {
+      "name": "inform_time",
+      "confidence": 0.671549916267395
+    }
+  },
+  {
+    "text": "let's set it up for 6:30 pm at Sakoon.",
+    "intent": "inform_restaurant_name",
+    "intent_prediction": {
+      "name": "inform_time",
+      "confidence": 0.6532159447669983
+    }
+  },
+  {
+    "text": "yup! i would prefer a mexican restaurant, the Crab House.",
+    "intent": "inform_restaurant_name",
+    "intent_prediction": {
+      "name": "inform_cuisine",
+      "confidence": 0.9386998414993286
+    }
+  },
+  {
+    "text": "Confirmed, what is the address?",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "request_street_address",
+      "confidence": 0.8224141001701355
+    }
+  },
+  {
+    "text": "Correct. What is their phone number?",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "request_phone_number",
+      "confidence": 0.7501899600028992
+    }
+  },
+  {
+    "text": "Did they serve liquor and what kind of food do they serve?",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "request_serves_alcohol",
+      "confidence": 0.5234319567680359
+    }
+  },
+  {
+    "text": "That sounds good.",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.9972253441810608
+    }
+  },
+  {
+    "text": "you got it. hey, do they have Noodles? what's the price range?",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "request_price_range",
+      "confidence": 0.24149470031261444
+    }
+  },
+  {
+    "text": "Great! Thank you so much for your help.",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.9925723075866699
+    }
+  },
+  {
+    "text": "No, thank you anyway.",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.9830060601234436
+    }
+  },
+  {
+    "text": "Thank you for all your help. That is everything.",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.6403605937957764
+    }
+  },
+  {
+    "text": "Thank you so much for all of your help.",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.9829266667366028
+    }
+  },
+  {
+    "text": "That is all I needed, thank you very much.",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.4665803015232086
+    }
+  },
+  {
+    "text": "that's great, thank you very much",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.9832582473754883
+    }
+  },
+  {
+    "text": "Excellent. Thank you.",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.35710787773132324
+    }
+  },
+  {
+    "text": "Thank You",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5567810535430908
+    }
+  },
+  {
+    "text": "Thank you for all.",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6179342269897461
+    }
+  },
+  {
+    "text": "Thanks so much.",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4954323172569275
+    }
+  },
+  {
+    "text": "Thanks, but no.",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "negate",
+      "confidence": 0.3969239592552185
+    }
+  },
+  {
+    "text": "Thanks.",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9197633862495422
+    }
+  },
+  {
+    "text": "Wow, what a waste. No, that'll be all.",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "negate",
+      "confidence": 0.5116117000579834
+    }
+  },
+  {
+    "text": "thanks",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5432689785957336
+    }
+  },
+  {
+    "text": "can you find a restaurant in San Fran?",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.6613329648971558
+    }
+  },
+  {
+    "text": "i would like it close to the office in SF and i think my boss likes burgers.",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "inform_cuisine",
+      "confidence": 0.7651434540748596
+    }
+  },
+  {
+    "text": "i would prefer something located in San Jose and on the lines of punjabi cuisine.",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "inform_cuisine",
+      "confidence": 0.8121392130851746
+    }
+  },
+  {
+    "text": "i would prefer to eat at Pleasanton.",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.7110744118690491
+    }
+  },
+  {
+    "text": "i'd like to go to a restaurant in Martinez that serves thai food.",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "inform_restaurant_name",
+      "confidence": 0.44193559885025024
+    }
+  },
+  {
+    "text": "yes, please look for the burma ruby restaurant in Palo Alto.",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "inform_party_size",
+      "confidence": 0.2348303347826004
+    }
+  },
+  {
+    "text": "in san rafael for the 5th of this month.",
+    "intent": "inform_date",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.6510176062583923
+    }
+  },
+  {
+    "text": "the restaurant is named foreign cinema. i want to reserve it for later today.",
+    "intent": "inform_date",
+    "intent_prediction": {
+      "name": "inform_name",
+      "confidence": 0.43576356768608093
+    }
+  },
+  {
+    "text": "Can you tell me if they feature live music there? How much do the things cost in general there?",
+    "intent": "request_price_range",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.413063645362854
+    }
+  },
+  {
+    "text": "Do they have live music? What's the price range?",
+    "intent": "request_price_range",
+    "intent_prediction": {
+      "name": "request_has_live_music",
+      "confidence": 0.9226884245872498
+    }
+  },
+  {
+    "text": "can you find out if they are average priced?",
+    "intent": "request_price_range",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.49140217900276184
+    }
+  },
+  {
+    "text": "No",
+    "intent": "negate",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.44017624855041504
+    }
+  },
+  {
+    "text": "make it at 5:30 pm for 1 instead.",
+    "intent": "negate",
+    "intent_prediction": {
+      "name": "inform_time",
+      "confidence": 0.5042296051979065
+    }
+  },
+  {
+    "text": "will you make it at 11:30 am on 7th of March?",
+    "intent": "negate",
+    "intent_prediction": {
+      "name": "inform_time",
+      "confidence": 0.4051852524280548
+    }
+  },
+  {
+    "text": "Can I call them? Is there live music?",
+    "intent": "request_phone_number",
+    "intent_prediction": {
+      "name": "request_has_live_music",
+      "confidence": 0.8826266527175903
+    }
+  },
+  {
+    "text": "What's their address and contact number?",
+    "intent": "request_phone_number",
+    "intent_prediction": {
+      "name": "request_street_address",
+      "confidence": 0.8464679718017578
+    }
+  },
+  {
+    "text": "any Liquor supply is available there? get me the contact number.",
+    "intent": "request_phone_number",
+    "intent_prediction": {
+      "name": "request_serves_alcohol",
+      "confidence": 0.495595246553421
+    }
+  },
+  {
+    "text": "are their prices extravagant? how can i contact them.",
+    "intent": "request_phone_number",
+    "intent_prediction": {
+      "name": "request_price_range",
+      "confidence": 0.8548959493637085
+    }
+  },
+  {
+    "text": "What is the address of the restaurant and do the have live music?",
+    "intent": "request_street_address",
+    "intent_prediction": {
+      "name": "request_has_live_music",
+      "confidence": 0.89341801404953
+    }
+  },
+  {
+    "text": "What's the address and phone number please?",
+    "intent": "request_street_address",
+    "intent_prediction": {
+      "name": "request_phone_number",
+      "confidence": 0.9843288064002991
+    }
+  },
+  {
+    "text": "Are they expensive?",
+    "intent": "request_has_live_music",
+    "intent_prediction": {
+      "name": "request_price_range",
+      "confidence": 0.836965024471283
+    }
+  },
+  {
+    "text": "Can you tell me if there is any live music there? What is their street number?",
+    "intent": "request_has_live_music",
+    "intent_prediction": {
+      "name": "request_phone_number",
+      "confidence": 0.57506263256073
+    }
+  },
+  {
+    "text": "What's their phone number? And is there live music there?",
+    "intent": "request_has_live_music",
+    "intent_prediction": {
+      "name": "request_phone_number",
+      "confidence": 0.9242093563079834
+    }
+  },
+  {
+    "text": "i am looking for restaurants that offer Take-out.",
+    "intent": "inform_cuisine",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.34581947326660156
+    }
+  },
+  {
+    "text": "something like a Diner should do.",
+    "intent": "inform_cuisine",
+    "intent_prediction": {
+      "name": "inform_price_range",
+      "confidence": 0.29641786217689514
+    }
+  },
+  {
+    "text": "yes, some salad type food with low-cost will be perfect. also i need live music there.",
+    "intent": "inform_cuisine",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8693475127220154
+    }
+  },
+  {
+    "text": "Eh, I've heard the food isn't too great there. How about something else?",
+    "intent": "request_alts",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.26896020770072937
+    }
+  },
+  {
+    "text": "Please give a better choice.",
+    "intent": "request_alts",
+    "intent_prediction": {
+      "name": "negate",
+      "confidence": 0.49961352348327637
+    }
+  },
+  {
+    "text": "i am looking for a different noodle place that is inexpensive. are there cheaper places in millbrae?",
+    "intent": "request_alts",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.27216506004333496
+    }
+  },
+  {
+    "text": "i need someplace cheaper. i want to eat a lot for not very costly.",
+    "intent": "request_alts",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.24243639409542084
+    }
+  },
+  {
+    "text": "okay, let's keep looking then. let's look at pricey restaurants now. how about a Barbecue place?",
+    "intent": "request_alts",
+    "intent_prediction": {
+      "name": "inform_cuisine",
+      "confidence": 0.21785412728786469
+    }
+  },
+  {
+    "text": "Excellent, that's perfect.",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9683024883270264
+    }
+  },
+  {
+    "text": "That's great.",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6905985474586487
+    }
+  },
+  {
+    "text": "You have found a winner.",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "inform_cuisine",
+      "confidence": 0.20563773810863495
+    }
+  },
+  {
+    "text": "can i make a reservation for it",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.716417670249939
+    }
+  },
+  {
+    "text": "great, can you make a reservation on the 7th of this month?",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "inform_date",
+      "confidence": 0.715252161026001
+    }
+  },
+  {
+    "text": "i would like to make a reservation at akemi.",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.7963098883628845
+    }
+  },
+  {
+    "text": "i would like to make a reservation for six at a restaurant.",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.9355317950248718
+    }
+  },
+  {
+    "text": "please can you make the reservation",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.2573176324367523
+    }
+  },
+  {
+    "text": "Yes will be perfect",
+    "intent": "affirm_intent",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7138274908065796
+    }
+  },
+  {
+    "text": "1:30 in the afternoon, for 5 people.",
+    "intent": "inform_party_size",
+    "intent_prediction": {
+      "name": "inform_time",
+      "confidence": 0.8277704119682312
+    }
+  },
+  {
+    "text": "i was thinking 17:45, for two guests.",
+    "intent": "inform_party_size",
+    "intent_prediction": {
+      "name": "inform_time",
+      "confidence": 0.9525058269500732
+    }
+  },
+  {
+    "text": "our reservation is at 11:30 for four people.",
+    "intent": "inform_party_size",
+    "intent_prediction": {
+      "name": "inform_time",
+      "confidence": 0.5942379832267761
+    }
+  },
+  {
+    "text": "Great, thanks. What is their phone number? Do they serve alcohol?",
+    "intent": "request_serves_alcohol",
+    "intent_prediction": {
+      "name": "request_phone_number",
+      "confidence": 0.6319417953491211
+    }
+  },
+  {
+    "text": "What's their number and is liquor available?",
+    "intent": "request_serves_alcohol",
+    "intent_prediction": {
+      "name": "request_phone_number",
+      "confidence": 0.6820683479309082
+    }
+  },
+  {
+    "text": "chinese food and not very costly, please.",
+    "intent": "inform_price_range",
+    "intent_prediction": {
+      "name": "inform_cuisine",
+      "confidence": 0.981809139251709
+    }
+  },
+  {
+    "text": "great",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.46108314394950867
+    }
+  },
+  {
+    "text": "let me attempt to book hunan impression again. let's instead for with the 5th of this month, at evening 5:30.",
+    "intent": "inform_intent",
+    "intent_prediction": {
+      "name": "inform_date",
+      "confidence": 0.6854329109191895
+    }
+  },
+  {
+    "text": "yes, can you change the time to 7 o\"clock in the evening?",
+    "intent": "inform_intent",
+    "intent_prediction": {
+      "name": "negate",
+      "confidence": 0.9208517670631409
+    }
+  },
+  {
+    "text": "march 14th at 17:30, please.",
+    "intent": "inform_time",
+    "intent_prediction": {
+      "name": "inform_date",
+      "confidence": 0.4166194200515747
+    }
+  },
+  {
+    "text": "Agave Grill please, for march 10th",
+    "intent": "inform_restaurant_name",
+    "intent_prediction": {
+      "name": "inform_date",
+      "confidence": 0.8090737462043762
+    }
+  },
+  {
+    "text": "i would like to go to Bj's.",
+    "intent": "inform_restaurant_name",
+    "intent_prediction": {
+      "name": "negate",
+      "confidence": 0.20574605464935303
+    }
+  },
+  {
+    "text": "i'm looking for a reservation to Amami in san bruno.",
+    "intent": "inform_restaurant_name",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.6675089597702026
+    }
+  },
+  {
+    "text": "in san carlos, the restaurant i'd like to find is West Park.",
+    "intent": "inform_restaurant_name",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.8888229131698608
+    }
+  },
+  {
+    "text": "Do they have been and liquor?",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "request_serves_alcohol",
+      "confidence": 0.9241185188293457
+    }
+  },
+  {
+    "text": "Indeed, that all sounds good.",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.5710853338241577
+    }
+  },
+  {
+    "text": "Ok, very perfect. Book it. Do they have live music?",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.8122762441635132
+    }
+  },
+  {
+    "text": "Sure that sounds good.",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.9717428684234619
+    }
+  },
+  {
+    "text": "That will do.",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.9767416715621948
+    }
+  },
+  {
+    "text": "This is good for me",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.9742577075958252
+    }
+  },
+  {
+    "text": "Excellent. Thanks, that's it for me",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.6217212080955505
+    }
+  },
+  {
+    "text": "Okay good to know.",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.7578093409538269
+    }
+  },
+  {
+    "text": "Perfect, thank you so much!",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.8841747641563416
+    }
+  },
+  {
+    "text": "Thanks",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.9531680345535278
+    }
+  },
+  {
+    "text": "Thanks, t",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.8524574041366577
+    }
+  },
+  {
+    "text": "Great, I want to toast the victory of the team.",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.7288162708282471
+    }
+  },
+  {
+    "text": "Thanks, that's one less thing I have to do.",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6225115060806274
+    }
+  },
+  {
+    "text": "That is all thank you so much.",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8175908923149109
+    }
+  },
+  {
+    "text": "no.",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "negate",
+      "confidence": 0.9490890502929688
+    }
+  },
+  {
+    "text": "Milpitas.",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "inform_price_range",
+      "confidence": 0.2358880192041397
+    }
+  },
+  {
+    "text": "Santa Clara",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.1714465320110321
+    }
+  },
+  {
+    "text": "actually, make the time 1 in the afternoon. the city is San Fran.",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "negate",
+      "confidence": 0.9902876615524292
+    }
+  },
+  {
+    "text": "do you know a place to eat in Petaluma?",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.8375188708305359
+    }
+  },
+  {
+    "text": "i want to eat in San Bruno",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.44919440150260925
+    }
+  },
+  {
+    "text": "the restaurant i would like to place a reservation at is called bj's and i would like to place the reservation at the San Jose location of this restaurant.",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.38489851355552673
+    }
+  },
+  {
+    "text": "let's make it an evening 7:30 reservation and you should look in san francisco.",
+    "intent": "inform_date",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.4043349325656891
+    }
+  },
+  {
+    "text": "sure! i want to make a reservation for the 11th of March.",
+    "intent": "inform_date",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.9738002419471741
+    }
+  },
+  {
+    "text": "yes, i really want to try the park. see if it's available on the 6th.",
+    "intent": "inform_date",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.6614651083946228
+    }
+  },
+  {
+    "text": "How much they charge? Can I have their street address?",
+    "intent": "request_price_range",
+    "intent_prediction": {
+      "name": "request_street_address",
+      "confidence": 0.9694812893867493
+    }
+  },
+  {
+    "text": "What's their phone number? How pricey are they?",
+    "intent": "request_price_range",
+    "intent_prediction": {
+      "name": "request_phone_number",
+      "confidence": 0.7097337245941162
+    }
+  },
+  {
+    "text": "Please make the reservation for three people.",
+    "intent": "negate",
+    "intent_prediction": {
+      "name": "inform_party_size",
+      "confidence": 0.7799365520477295
+    }
+  },
+  {
+    "text": "in second though i want it to be at 12:30 in the afternoon.",
+    "intent": "negate",
+    "intent_prediction": {
+      "name": "inform_date",
+      "confidence": 0.3720245659351349
+    }
+  },
+  {
+    "text": "no, i want it on the 12th of this month at 13:00.",
+    "intent": "negate",
+    "intent_prediction": {
+      "name": "inform_date",
+      "confidence": 0.6763043999671936
+    }
+  },
+  {
+    "text": "no. the restaurant is Siam Taste.",
+    "intent": "negate",
+    "intent_prediction": {
+      "name": "inform_cuisine",
+      "confidence": 0.5144525766372681
+    }
+  },
+  {
+    "text": "please make the reservation for 18:00.",
+    "intent": "negate",
+    "intent_prediction": {
+      "name": "inform_time",
+      "confidence": 0.9126383662223816
+    }
+  },
+  {
+    "text": "Do they have live music and could you provide me with their contact number?",
+    "intent": "request_phone_number",
+    "intent_prediction": {
+      "name": "request_has_live_music",
+      "confidence": 0.893972635269165
+    }
+  },
+  {
+    "text": "What is the address and phone number?",
+    "intent": "request_phone_number",
+    "intent_prediction": {
+      "name": "request_street_address",
+      "confidence": 0.5793390274047852
+    }
+  },
+  {
+    "text": "What is the address and is there music?",
+    "intent": "request_has_live_music",
+    "intent_prediction": {
+      "name": "request_street_address",
+      "confidence": 0.6430009007453918
+    }
+  },
+  {
+    "text": "moderate",
+    "intent": "request_has_live_music",
+    "intent_prediction": {
+      "name": "request_alts",
+      "confidence": 0.21397043764591217
+    }
+  },
+  {
+    "text": "can you find me a restaurant that serves freshwater fish that's close by?",
+    "intent": "inform_cuisine",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.3633139431476593
+    }
+  },
+  {
+    "text": "i want to order food in san jose, specifically Spicy Indian food which would be perfect.",
+    "intent": "inform_cuisine",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.579989492893219
+    }
+  },
+  {
+    "text": "i would prefer some Filipino food which is affordable and not too expensive.",
+    "intent": "inform_cuisine",
+    "intent_prediction": {
+      "name": "inform_price_range",
+      "confidence": 0.48748937249183655
+    }
+  },
+  {
+    "text": "oh, i'm in oakland. please find an American restaurant.",
+    "intent": "inform_cuisine",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.8937612175941467
+    }
+  },
+  {
+    "text": "That's great, thanks.",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.8167336583137512
+    }
+  },
+  {
+    "text": "Yes that sounds awesome.",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5314039587974548
+    }
+  },
+  {
+    "text": "Yes, sounds good.",
+    "intent": "select",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9087563753128052
+    }
+  },
+  {
+    "text": "Yeah, please make me a reservation.",
+    "intent": "affirm_intent",
+    "intent_prediction": {
+      "name": "select",
+      "confidence": 0.47090211510658264
+    }
+  },
+  {
+    "text": "i want the reservation in Walnut Creek for 1 person.",
+    "intent": "inform_party_size",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.3305284380912781
+    }
+  },
+  {
+    "text": "yes! the Old Siam, it's my favorite. could you book it for 4 people please?",
+    "intent": "inform_party_size",
+    "intent_prediction": {
+      "name": "negate",
+      "confidence": 0.6158596277236938
+    }
+  },
+  {
+    "text": "Do they serve liquor and play live music?",
+    "intent": "request_serves_alcohol",
+    "intent_prediction": {
+      "name": "request_has_live_music",
+      "confidence": 0.7822972536087036
+    }
+  },
+  {
+    "text": "Is there any liquor supply? and let me know the address.",
+    "intent": "request_serves_alcohol",
+    "intent_prediction": {
+      "name": "request_street_address",
+      "confidence": 0.8178114891052246
+    }
+  },
+  {
+    "text": "i would like something that i can pick-up in san fran at any price range.",
+    "intent": "inform_price_range",
+    "intent_prediction": {
+      "name": "request_alts",
+      "confidence": 0.5061876773834229
+    }
+  },
+  {
+    "text": "please search in san mateo, price is not an issue.",
+    "intent": "inform_price_range",
+    "intent_prediction": {
+      "name": "inform_intent",
+      "confidence": 0.4310983121395111
     }
   }
 ]
