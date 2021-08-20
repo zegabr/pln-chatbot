@@ -47,3 +47,4 @@ stories:
       - slot_was_set:
           - seen_restaurants
       - action: utter_make_reservation
+      - action: action_listen
