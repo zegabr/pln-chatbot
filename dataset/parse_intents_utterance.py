@@ -49,13 +49,17 @@ def filter_itents(json_file, file_name):
       text = turn['utterance']
       intent = 'NEGATE'
       for frame in turn['frames']:
-        if frame['service'] != type_name:
+        if frame['service'] != type_name or len(frame['actions']) > 1:
+          intent = None
           continue
         for action in frame['actions']:
           intent = '%s_%s' % (action['act'].lower(), action['slot'])
           if action['values'] and action['slot'] != 'party_size':
             entities.add(action['slot'])
-            text = text.lower().replace(action['values'][0].lower(), '[%s](%s)' % (action['values'][0], action['slot']))
+            # text = text.lower().replace(action['values'][0].lower(), '[%s](%s)' % (action['values'][0], action['slot']))
+            text = text.replace(action['values'][0], '[%s](%s)' % (action['values'][0], action['slot']))
+      if not intent:
+        continue
       if intent not in users[speaker]:
         users[speaker][intent] = set()
       users[speaker][intent].add(text)
