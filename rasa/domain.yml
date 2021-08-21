@@ -93,7 +93,6 @@ responses:
     - text: "where are you?"
 
   utter_ask_price_range:
-    - text: "Tu e rico boy?"
     - text: "what's your budget?"
 
 slots:
@@ -135,23 +134,12 @@ forms:
         - type: from_entity
           entity: cuisine
 
-    # to get some info about some restaurant
-  restaurant_info_form:
-    required_slots:
-      restaurant_name:
-        - type: from_entity
-          entity: restaurant_name
-
-    # request for restaurant recommendation
-  request_recommendation_form:
-    required_slots:
-      cuisine:
-        - type: from_entity
-          entity: cuisine
-
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 actions:
   - get_restaurant_info
   - get_restaurants_by_params
+  - get_restaurant_address
+  - get_restaurant_phone_number
+  - form_reset

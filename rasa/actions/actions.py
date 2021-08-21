@@ -3,7 +3,7 @@ from typing import Text, List, Optional, Dict, Any
 from rasa_sdk.forms import FormValidationAction
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk import Tracker, Action
-from rasa_sdk.events import SlotSet
+from rasa_sdk.events import SlotSet, AllSlotsReset
 import os
 import requests
 import json
@@ -12,7 +12,7 @@ import json
 from datetime import date, datetime, timezone
 import time
 
-api_url = "https://api.yelp.com/v3/businesses/search"
+api_url = "https://api.yelp.com/v3/businesses"
 api_key = "xTB47wf9wc8u1C0MrGmkpK3Qx0Ah06BKFN8er8IT9FkaY31oD-rcPmb3VX8O8RSMP_f9cJt6UcOtcb_Sm8FK-XYhjovAKoqjX8wbfEFp5o58d5stlQkF-PmaXjoYYXYx"
 api_headers = {
     "Content-Type": "application/json",
@@ -23,9 +23,10 @@ api_headers = {
 }
 
 
-def make_request(params):
+def make_search_request(params):
     try:
-        response = requests.get(api_url, headers=api_headers, params=params)
+        response = requests.get(f"{api_url}/search",
+                                headers=api_headers, params=params)
         response.raise_for_status()
     except requests.exceptions.HTTPError as err:
         raise SystemExit(err)
@@ -33,19 +34,30 @@ def make_request(params):
     return response
 
 
-class GetRestaurantInfo(Action):
+def make_request_by_id(id):
+    try:
+        response = requests.get(f"{api_url}/{id}",
+                                headers=api_headers)
+        response.raise_for_status()
+    except requests.exceptions.HTTPError as err:
+        raise SystemExit(err)
+
+    return response
+
+
+class GetRestaurantPhoneNumber(Action):
     def name(self) -> Text:
-        return "get_restaurant_info"
+        return "get_restaurant_phone_number"
 
     async def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        restaurantId = tracker.get_slot("suggested_restaurant")
+        seenRestaurants = tracker.get_slot("suggested_restaurant")
+        restaurantId = seenRestaurants.split(",")[-1]
 
         if not restaurantId:
             dispatcher.utter_message(text="ERROR.")
             return []
 
-
-        response = requests.get('https://api.yelp.com/v3/businesses/%s' % restaurantId, headers=api_headers)
+        response = make_request_by_id(restaurantId)
         restaurant = response.json()
 
         if not restaurant:
@@ -53,14 +65,41 @@ class GetRestaurantInfo(Action):
                 text="Sorry, I couldn't find a restaurant :(")
             return []
 
-        print(restaurant)
+        name = restaurant["name"]
+        phone = restaurant["display_phone"]
+
+        message = f"Here is the phone number for {name}: {phone}. Do you want to make a reservation?"
+        dispatcher.utter_message(text=message)
+        return []
+
+
+class GetRestaurantAddress(Action):
+    def name(self) -> Text:
+        return "get_restaurant_address"
+
+    async def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        seenRestaurants = tracker.get_slot("suggested_restaurant")
+        restaurantId = seenRestaurants.split(",")[-1]
+
+        if not restaurantId:
+            dispatcher.utter_message(text="ERROR.")
+            return []
+
+        response = make_request_by_id(restaurantId)
+        restaurant = response.json()
+
+        if not restaurant:
+            dispatcher.utter_message(
+                text="Sorry, I couldn't find a restaurant :(")
+            return []
 
         name = restaurant["name"]
-        rating = restaurant["rating"]
-        phone = restaurant["display_phone"]
         address = restaurant["location"]["display_address"]
+        addressString = ""
+        for addressPart in address:
+            addressString = addressString + addressPart + "\n"
 
-        message = f"Here is some info about {name}:\n It has a rating of {rating} out of 5 stars.\n Its phone number is {phone}. And it is located at {address}."
+        message = f"Here is the address for {name}:\n{addressString}\nDo you want to make a reservation?"
         dispatcher.utter_message(text=message)
         return []
 
@@ -73,10 +112,14 @@ class GetRestaurantsByParams(Action):
         food = tracker.get_slot("cuisine")
         price = tracker.get_slot("price_range")
         reservationTime = tracker.get_slot("time")
+        city = tracker.get_slot("city")
 
         params = {
-            "location": "recife"
+            "location": "Recife"
         }
+
+        if city:
+            params["location"] = city
         if food:
             params["term"] = food
         if price:
@@ -96,7 +139,7 @@ class GetRestaurantsByParams(Action):
             unixTime = time.mktime(goTime.timetuple())
             params["open_at"] = int(unixTime)
 
-        response = make_request(params)
+        response = make_search_request(params)
         restaurants = (json.loads(response.content))["businesses"]
 
         if not len(restaurants):
@@ -104,10 +147,34 @@ class GetRestaurantsByParams(Action):
                 text="Sorry, I couldn't find any restaurants :(")
             return []
 
-        restaurantName = restaurants[0]["name"]
-        restaurantId = restaurants[0]["id"]
+        seenRestaurants = tracker.get_slot("suggested_restaurant") or ""
+        restaurant = None
+        for rest in restaurants:
+            if rest["id"] not in seenRestaurants:
+                restaurant = rest
+                restId = rest["id"]
+                seenRestaurants += f",{restId}"
+                break
+
+        if not restaurant:
+            dispatcher.utter_message(
+                text="Sorry, I couldn't find any more restaurants :(")
+            return []
+
+        restaurantName = restaurant["name"]
 
         dispatcher.utter_message(
-            text=f"Here is the perfect restaurant for you! {restaurantName}.")
+            text=f"Here is the perfect restaurant for you! {restaurantName}. Do you want to make a reservation?")
 
-        return [SlotSet("suggested_restaurant", restaurantId)]
+        return [SlotSet("suggested_restaurant", seenRestaurants), SlotSet("restaurant_name", restaurantName)]
+
+class ResetForm(Action):
+    def name(self) -> Text:
+        return "form_reset"
+
+    async def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(
+            text=f"Okay, let's start fresh! :D")
+
+        return [AllSlotsReset()]
