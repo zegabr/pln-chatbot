@@ -3,46 +3,55 @@ version: "2.0"
 stories:
   - story: Ask for info when user requests reservation
     steps:
-      - intent: inform_intent
-      - action: form_reset
-      - action: reservation_form
-      - active_loop: reservation_form
-      - active_loop: null
-      - action: get_restaurants_by_params
+    - intent: inform_intent
+    - action: form_reset
+    - slot_was_set:
+      - found_restaurant: false
+    - action: reservation_form
+    - active_loop: reservation_form
+    - slot_was_set:
+      - requested_slot: phone_number
+    - slot_was_set:
+      - requested_slot: time
+    - slot_was_set:
+      - requested_slot: city
+    - slot_was_set:
+      - requested_slot: price_range
+    - slot_was_set:
+      - requested_slot: cuisine
+    - slot_was_set:
+      - requested_slot: null
+    - active_loop: null
+    - action: get_restaurants_by_params
+    - slot_was_set:
+      - found_restaurant: true
 
   - story: Request restaurant phone number
     steps:
       - intent: request_phone_number
-      - slot_was_set:
-        - suggested_restaurant
       - action: get_restaurant_phone_number
 
   - story: Request restaurant address
     steps:
       - intent: request_street_address
-      - slot_was_set:
-        - suggested_restaurant
       - action: get_restaurant_address
 
   - story: Request alternatives
     steps:
       - intent: request_alts
-      - slot_was_set:
-        - suggested_restaurant
       - action: get_restaurants_by_params
 
   - story: Make reservation
     steps:
       - intent: affirm_intent
-      - slot_was_set:
-        - suggested_restaurant
-      - action: utter_make_reservation
+      - action: make_reservation
       - action: form_reset
 
   - story: Happy path
     steps:
     - intent: greet
     - action: utter_greet
+    - action: utter_how_can_i_help
     - intent: mood_great
     - action: utter_happy
 
@@ -50,6 +59,7 @@ stories:
     steps:
     - intent: greet
     - action: utter_greet
+    - action: utter_how_can_i_help
     - intent: mood_unhappy
     - action: utter_cheer_up
     - action: utter_did_that_help

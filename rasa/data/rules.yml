@@ -1,48 +1,23 @@
 version: "2.0"
 
 rules:
+  - rule: Say goodbye anytime the user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+      - action: form_reset
+      
+  # - rule: Active restaurant form
+  #   steps:
+  #     - intent: inform_intent
+  #     - action: form_reset
+  #     - action: reservation_form
+  #     - active_loop: reservation_form
 
-- rule: Say goodbye anytime the user says goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
-
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
-##########################################33
-# - rule: stops reservation form and make reservation
-#   condition:
-#   # Condition that form is active.
-#     - active_loop: reservation_form
-#   steps:
-#     # Form is deactivated
-#     - action: reservation_form
-#     - active_loop: null
-#     - slot_was_set:
-#       - requested_slot: null
-#     # The actions we want to run when the form is submitted.
-#     - action: utter_make_reservation
-
-#################################################3
-- rule: Say goodbye anytime the user says goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
-  - action: form_reset
-
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
-
-- rule: happy path
-  steps:
-  - intent: mood_great
-  - action: utter_happy
-
-- rule: Main greet
-  steps:
-  - intent: greet
-  - action: utter_how_can_i_help
+  # - rule: Exit restaurant form
+  #   condition:
+  #     - active_loop: reservation_form
+  #   steps:
+  #     - action: reservation_form
+  #     - active_loop: null
+  #     - action: get_restaurants_by_params

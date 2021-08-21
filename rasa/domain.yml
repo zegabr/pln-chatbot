@@ -8,39 +8,25 @@ intents:
   - inform_intent
   - inform_time
   - inform_phone_number
-  - inform_name
-  - inform_restaurant_name
   - inform_cuisine
-  - inform_party_size
   - affirm
   - goodbye
-  - thank_you
   - inform_city
-  - inform_date
   - negate
   - request_price_range
   - request_phone_number
   - request_street_address
-  - request_cuisine
-  - request_has_live_music
-  - request_serves_alcohol
   - request_alts
-  - select
   - affirm_intent
   - inform_price_range
 
 entities:
-  - PERSON
-  - restaurant_name
   - cuisine
   - city
   - time
   - price_range
   - street_address
-  - count
   - date
-  - serves_alcohol
-  - has_live_music
   - phone_number
 
 responses:
@@ -60,40 +46,294 @@ responses:
 
   utter_can_help_more:
     - text: "Can i help you with something else?"
+    - text: Can I get you a table?
+    - text: Can I make a reservation for you?
+    - text: Can I reserve you a table?
+    - text: Do you want a reservation here?
+    - text: Do you want a reservation?
+    - text: Do you want make a reservation there?
+    - text: Do you want me to make a reservation for you?
+    - text: Do you want me to make a reservation.
+    - text: Do you want me to make a reservation?
+    - text: Do you want me to place a reservation for you?
+    - text: Do you want me to reserve a table for you
+    - text: Do you want me to reserve you a table.
+    - text: Do you want me to reserve you a table?
 
   utter_happy:
     - text: "Great, carry on!"
 
   utter_goodbye:
-    - text: "Bye"
-    - text: "Ok bye"
+    - text: Absolutely, have a wonderful time.
+    - text: Anytime, enjoy your day!
+    - text: Be sure to have a good day!
+    - text: Be sure to have a great day!
+    - text: Do have a lovely day.
+    - text: Enjoy the rest of your day then.
+    - text: Enjoy the rest of your day!
+    - text: Enjoy the rest of your day.
+    - text: Enjoy your day!
+    - text: Enjoy your day.
+    - text: Enjoy your dinner at Momoya Sushi.
+    - text: Enjoy your dinner!
+    - text: Enjoy your dinner.
+    - text: Enjoy your evening!
+    - text: Enjoy your lunch.
+    - text: Enjoy your meal!
+    - text: Enjoy your pasta.
+    - text: Enjoy your reservation!
+    - text: Glad i could help. Bye.
+    - text: Good bye.
+    - text: Good day to you.
+    - text: Good day.
+    - text: Gotcha, take it easy!
+    - text: Great! Have a wonderful meal.
+    - text: Great, have a good day!
+    - text: Great, see you then.
+    - text: Great. Take care.
 
   utter_iamabot:
     - text: "I am a bot, powered by Rasa."
 
-  utter_make_reservation:
-    - text: "Thank you. Your reservation was made for {restaurant_name}, today {time}"
-    - text: "Thank you. Your reservation was made for {restaurant_name}, today {time}. It's registered under your phone, {phone_number}"
-
   utter_ask_phone_number:
-    - text: "please tell me your phone number"
-    - text: "what is your phone number"
-
-  utter_ask_restaurant_name:
-    - text: "what restaurant do you want to go?"
+    - text: "Please tell me your phone number."
+    - text: "What is your phone number?"
+    - text: "Could you tell me your phone number?"
 
   utter_ask_time:
-    - text: "when do you want to go?"
+    - text: "When do you want to go?"
+    - text: At what time will you be arriving at the restaurant?
+    - text: At what time will you be arriving there?
+    - text: At what time do you want it?
+    - text: At what time do you want the reservation?
+    - text: At what time do you want to eat?
+    - text: At what time do you want to go?
+    - text: At what time do you want to reserve the restaurant?
+    - text: At what time reservation to be?
+    - text: All right. What time would you like me to make the reservation for?
+    - text: And for what time?
+    - text: And what time would you like this reservation.
+    - text: For what time shall I reserve your table?
+    - text: For what time?
+    - text: For when do you want to make it?
+    - text: Okay! What time did you want the reservation for?
+    - text: Okay, got it. And what time were you thinking?
+    - text: Okay, what time would you like to go out to eat?
+    - text: Okay. At what time would you like to eat there?
+    - text: Okay. What time should I make your reservation?
+    - text: What time did you want the reservation for?
+    - text: What time do you need the reservation?
+    - text: What time do you plan on stopping by?
+    - text: What time do you want it for?
+    - text: What time do you want me to make the reservation at?
+    - text: What time do you want me to make the reservation?
+    - text: What time do you want the reservation for.
+    - text: What time do you want the reservation for?
+    - text: What time do you want the reservation?
 
   utter_ask_cuisine:
-    - text: "what type of food do you like"
+    - text: "What type of food do you like"
+    - text: Alright, what type of food would you like?
+    - text: Are you interested in any specific type of cuisine? Feel free to say Mexican, Italian, or other kinds of foods.
+    - text: Are you looking for American or Chinese food, or something else?
+    - text: Are you looking for Italian, Indian or something else?
+    - text: Are you looking for Mexican or Italian food?
+    - text: Are you looking for Mexican, American, or some other type of food?
+    - text: Are you looking for Mexican, Indian or anything else?
+    - text: Are you looking for a specific cuisine like Italian or Indian?
+    - text: Are you looking for any kind of cuisine? Chinese? Maybe American?
+    - text: Can you tell me the type of food you would like for the place to have?
+    - text: Did you have any particular kind of food in mind?
+    - text: Do you have a food preference such as Indian, Chinese, or something else?
+    - text: Do you have a particular type of food you are craving? Mexican? American? Something else?
+    - text: Do you have a preference for the type of food?
+    - text: Do you have a preference for type of food? You can say Indian, American, Italian, or something else.
+    - text: Do you have a preference regarding the type of food?
+    - text: Do you have a preferred cuisine?
+    - text: Do you have a specific type of cuisine in mind? Feel free to choose American, Mexican, or any other cuisine.
+    - text: Do you have any food preferences, such as American, Indian or some other cuisine?
+    - text: Do you have any food preferences, such as Chinese or Italian?
+    - text: Do you have any kind of food as preference? Like Mexican, American or anything else.
+    - text: Do you have any type of food in mind?
+    - text: Do you like any particular kind of food like Italian, Chinese or any other?
+    - text: Do you prefer American or Chinese food?
+    - text: Do you prefer any special kind of food like Indian, Chinese or any other food?
+    - text: Do you want American, Indian or what type of food?
+    - text: I can help you with that. What kind of food are you interested in?
+    - text: Is there a particular cuisine you would like?
+    - text: Is there a specific cuisine type you enjoy, such as Mexican, Italian or something else?
+    - text: Is there a specific food you're looking for, for example Indian, Italian, or anything else?
+    - text: Is there any certain kind of restaurant you are wanting?
+    - text: Is there any kind of food you want to eat specifically today?
+    - text: Is there any particular food you're looking for, such as Italian, American, or anything else?
+    - text: Is there any particular type of food you want, like Chinese, Mexican, or anything else?
+    - text: Is there any preferred food specially liked by you?
+    - text: Ok, Which type of food are you looking for? Can you say Chinese, italian or any other languages?
+    - text: Okay, what type of cuisine do you want?
+    - text: Okay. What kind of food do you want?
+    - text: Sure, no problem. What kind of eateries are you interested in today?
+    - text: Sure, what kind of food are you interested in?
+    - text: Sure, what kind of food do you want?
+    - text: Sure, what kind of food do you want? You can request American, Mexican, or anything else.
+    - text: Sure, what style are you in the mood for? How about Chinese or Mexican?
+    - text: Sure, what type of cuisine would you like? Indian, Mexican, something else?
+    - text: Sure. What kind of food are you hungry for?
+    - text: There is American, Chinese, or anything else what do you want to eat?
+    - text: "What are you in the mood for: Mexican, Chinese, or something else?"
+    - text: What are you in the mood for?
+    - text: What are you in the mood for? American? Mexican? Whatever you'd like.
+    - text: What are your preference for a dining location?
+    - text: What do you think you're hungry for?
+    - text: What food are you looking to purchase?
+    - text: What food would you like to eat?
+    - text: What is your preferred food?
+    - text: What kind of cuisine would you prefer?
+    - text: What kind of food are you looking for? An example can be Chinese, American or anything else.
+    - text: What kind of food are you looking for? Italian, American, what?
+    - text: What kind of food are you looking for? You can search for Italian, Mexican or anything else.
+    - text: What kind of food are you planning to eat?
+    - text: What kind of food do you fancy? Chinese, Mexican, anything else?
+    - text: What kind of food do you want to eat?
+    - text: What kind of food do you want?
+    - text: What kind of food do you want? Examples include Chinese and Italian.
+    - text: What kind of food do you wish like Chinese, Indian or anything else.
+    - text: What kind of food like Indian or Chinese?
+    - text: What kind of food would you like the restaurant to serve?
+    - text: What kind of food would you like to eat.
+    - text: What kind of food would you like to eat?
+    - text: What kind of food would you like to eat? Perhaps Chinese, American, or another?
+    - text: What kind of food would you like?
+    - text: What kind of food would you like? American, Indian, or something else?
+    - text: What kind of food?
+    - text: What kind of food? You can say Indian, Italian, or something else.
+    - text: What kind of food? Chinese, Indian, or something else?
+    - text: What kind of restaurant would you like to eat at?
+    - text: What kind of restaurant would you like? Maybe American, Chinese, or anything else?
+    - text: What kinds of foods besides American and Mexican or you interested in?
+    - text: What style of food would you like? Chinese and Italian are a few options of many.
+    - text: What type of cuisine are you looking for, for example American, Indian, or anything else?
+    - text: What type of cuisine do you want? Mexican, Chinese or which one?
+    - text: What type of cuisine would you like?
+    - text: What type of cuisine? For example, Chinese, American, or something else?
+    - text: What type of food are you in the mood for? How about Italian, Indian, something else?
+    - text: What type of food do you fancy? Chinese, Indian?
+    - text: What type of food do you prefer? Please say Indian, Chinese, or something similar.
+    - text: What type of food do you want to eat?
+    - text: What type of food do you want?
+    - text: What type of food would like? You can say Italian, Chinese, BBQ, o something else?
+    - text: What type of food would you like to eat?
+    - text: What type of food would you?
+    - text: What type of food. Italian? Indian?
+    - text: What type of restaurant would you like
+    - text: What types of food are you interesting in eating?
+    - text: What would you like to eat today?
+    - text: Which cuisine? Maybe Mexican or Indian?
+    - text: Would you like Chinese, Italian, Mexican?
+    - text: Would you like Indian food, Mexican or anything else?
+    - text: Would you prefer Mexican, Chinese, or something else?
+    - text: Yes, I can help. What type of food are you hungry for?
 
   utter_ask_city:
-    - text: "where do you live?"
-    - text: "where are you?"
+    - text: And in which city is that located?
+    - text: Any city preferred?
+    - text: Any particular City, do I need to search for?
+    - text: Any particular city?
+    - text: Any preferred City , do I search for?
+    - text: Any specific city?
+    - text: Are you still in LA, if not where should I search?
+    - text: Certainly. What is the city you are looking for?
+    - text: Do you have a city?
+    - text: Do you have a preferred location?
+    - text: Do you have a specific area in mind where you would like to eat.
+    - text: Do you have a specific city in mind where you would like for the place to be?
+    - text: Do you have a specific which you want the eating place to be located at?
+    - text: Do you have any particular city in mind?
+    - text: For what city should I look?
+    - text: I can definitely help you with that. In which city would you like me to search?
+    - text: I can definitely help you. What city should I search in?
+    - text: I can help you. In what city?
+    - text: In what city do you want to look for?
+    - text: In what city please?
+    - text: In what city should I search?
+    - text: In what city would you like to dine?
+    - text: In what city would you like to eat?
+    - text: In what city?
+    - text: In which city are you looking for the restaurant?
+    - text: In which city do I need to make the reservation
+    - text: In which city should I be looking for Sushi food?
+    - text: In which city should I search?
+    - text: In which city?
+    - text: In which location you are looking for?
+    - text: Of course, where do you want to go?
+    - text: Of course. What city did you want to start looking in?
+    - text: Of course. Which city should I look for this restaurant in?
+    - text: Ok, which city will you be dining in?
+    - text: Okay sure, what city are we searching in?
+    - text: Okay! In which city you would prefer to reserve?
+    - text: Okay, where would you like to eat?
+    - text: Okay, which city are you looking in?
+    - text: Okay, which city would you like me to search?
+    - text: Please name the city I should search.
+    - text: Please state the city you're interested in.
+    - text: Please tell me the city in which to search.
+    - text: Sure thing! What city is it located in?
+    - text: Sure thing. Which city would you like to eat in?
+    - text: Sure, Which place should i search for?
+    - text: Sure, what city are you looking at?
+    - text: What city are you interested in?
+    - text: What city are you located?
+    - text: What city are you looking in?
+    - text: What city are you meeting in?
+    - text: What city do you prefer?
+    - text: What city do you want me to look in?
+    - text: What city is the restaurant in?
+    - text: What city is the restaurant located in?
+    - text: What city or town?
+    - text: What city please?
+    - text: What city shall I make this reservation?
+    - text: What city should I look in?
+    - text: What city should I search for the best restaurants?
+    - text: What city should I search in?
+    - text: What city will this be in?
+    - text: What city would you like for me to look in?
+    - text: What city would you like me to look in?
+    - text: What city would you like me to search in?
+    - text: What city would you like to dine in.
+    - text: What city would you like to eat in?
+    - text: What city would you like to make a reservation?
+    - text: What city would you like?
 
   utter_ask_price_range:
-    - text: "what's your budget?"
+    - text: "What's your budget?"
+      buttons:
+      - payload: /inform_price_range
+        title: Inexpensive
+      - payload: /inform_price_range
+        title: Moderate
+      - payload: /inform_price_range
+        title: Expensive
+      - payload: /inform_price_range
+        title: Very expensive
+    - text: "How much are you willing to spend?"
+      buttons:
+      - payload: /inform_price_range
+        title: Inexpensive
+      - payload: /inform_price_range
+        title: Moderate
+      - payload: /inform_price_range
+        title: Expensive
+      - payload: /inform_price_range
+        title: Very expensive
+    - text: "How expensive can the restaurant be?"
+      buttons:
+      - payload: /inform_price_range
+        title: Inexpensive
+      - payload: /inform_price_range
+        title: Moderate
+      - payload: /inform_price_range
+        title: Expensive
+      - payload: /inform_price_range
+        title: Very expensive
 
 slots:
   phone_number:
@@ -102,8 +342,6 @@ slots:
     type: text
   time:
     type: text
-  date:
-    type: text
   cuisine:
     type: text
   city:
@@ -111,35 +349,38 @@ slots:
   price_range:
     type: text
   suggested_restaurant:
-    influence_conversation: true
     type: text
+  found_restaurant:
+    type: bool
+    influence_conversation: true
+    initial_value: false
 
 forms:
-  # to request reservation
   reservation_form:
     required_slots:
       phone_number:
-        - type: from_entity
-          entity: phone_number
+      - type: from_entity
+        entity: phone_number
       time:
-        - type: from_entity
-          entity: time
+      - type: from_entity
+        entity: time
       city:
-        - type: from_entity
-          entity: city
+      - type: from_entity
+        entity: city
       price_range:
-        - type: from_entity
-          entity: price_range
+      - type: from_entity
+        entity: price_range
       cuisine:
-        - type: from_entity
-          entity: cuisine
+      - type: from_entity
+        entity: cuisine
 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
 actions:
-  - get_restaurant_info
   - get_restaurants_by_params
   - get_restaurant_address
   - get_restaurant_phone_number
   - form_reset
+  - make_reservation

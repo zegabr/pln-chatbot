@@ -11,6 +11,7 @@ import uuid
 import json
 from datetime import date, datetime, timezone
 import time
+import random
 
 api_url = "https://api.yelp.com/v3/businesses"
 api_key = "xTB47wf9wc8u1C0MrGmkpK3Qx0Ah06BKFN8er8IT9FkaY31oD-rcPmb3VX8O8RSMP_f9cJt6UcOtcb_Sm8FK-XYhjovAKoqjX8wbfEFp5o58d5stlQkF-PmaXjoYYXYx"
@@ -44,12 +45,19 @@ def make_request_by_id(id):
 
     return response
 
+def found_restaurant(tracker: Tracker, dispatcher: CollectingDispatcher):
+    found = tracker.get_slot("found_restaurant")
+    if not found:
+        dispatcher.utter_message('Please, try selecting a restaurant first.')
+    return found
 
 class GetRestaurantPhoneNumber(Action):
     def name(self) -> Text:
         return "get_restaurant_phone_number"
 
     async def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        if not found_restaurant(tracker, dispatcher):
+            return []
         seenRestaurants = tracker.get_slot("suggested_restaurant")
         restaurantId = seenRestaurants.split(",")[-1]
 
@@ -78,6 +86,8 @@ class GetRestaurantAddress(Action):
         return "get_restaurant_address"
 
     async def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        if not found_restaurant(tracker, dispatcher):
+            return []
         seenRestaurants = tracker.get_slot("suggested_restaurant")
         restaurantId = seenRestaurants.split(",")[-1]
 
@@ -166,7 +176,7 @@ class GetRestaurantsByParams(Action):
         dispatcher.utter_message(
             text=f"Here is the perfect restaurant for you! {restaurantName}. Do you want to make a reservation?")
 
-        return [SlotSet("suggested_restaurant", seenRestaurants), SlotSet("restaurant_name", restaurantName)]
+        return [SlotSet("suggested_restaurant", seenRestaurants), SlotSet("restaurant_name", restaurantName), SlotSet("found_restaurant", True)]
 
 class ResetForm(Action):
     def name(self) -> Text:
@@ -177,4 +187,42 @@ class ResetForm(Action):
         dispatcher.utter_message(
             text=f"Okay, let's start fresh! :D")
 
-        return [AllSlotsReset()]
+        return [AllSlotsReset(), SlotSet("found_restaurant", False)]
+
+class MakeReservation(Action):
+    def name(self) -> Text:
+        return "make_reservation"
+
+    async def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        if not found_restaurant(tracker, dispatcher):
+            return []
+
+        name = tracker.get_slot("restaurant_name")
+        book_messages = [
+            "Alright that worked and you're booked.",
+            "Congrats, your reservation is confirmed",
+            "Done. Everything's all set.",
+            "Done. I booked you a table.",
+            "Fine, your reservation is done.",
+            "Great, I made the reservation.",
+            "Great, the reservation is done.",
+            "Great, your reservation has been placed.",
+            "Great, your reservation is set.",
+            "Great. Your reservation has been confirmed.",
+            "I have booked your reservation.",
+            "I have made the reservation.",
+            "I have made your reservation.",
+            "I have successful made your reservation.",
+            "I have successfully booked your reservation!",
+            "I have successfully made the reservation.",
+            "I was able to book it!",
+            "I was able to book the reservation successfully.",
+            "I was able to complete the reservation successfully this time!",
+            "I was able to make the reservation.",
+            f"I was able to reserve your table at {name}.",
+            "I was able to successfully book your reservation. Thanks for your patience.",
+            "I was able to successfully confirm those reservations for you and you should be all set with them.",
+        ]
+        dispatcher.utter_message(
+            text=book_messages[random.randint(0, len(book_messages))])
+        return [AllSlotsReset(), SlotSet("found_restaurant", False)]
