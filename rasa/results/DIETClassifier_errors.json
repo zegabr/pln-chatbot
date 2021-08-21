@@ -1,0 +1,1214 @@
+[
+  {
+    "text": "what can I have for breakfast",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 20,
+        "end": 29,
+        "confidence_entity": 0.9919161200523376,
+        "value": "breakfast",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I will be eating there at 11:30 am so make it for then.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "value": "11:30 am",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 26,
+        "end": 34,
+        "confidence_entity": 0.9996471405029297,
+        "value": "11:30 am",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 50,
+        "end": 54,
+        "confidence_entity": 0.6192037463188171,
+        "value": "then",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would prefer to dine in at 19:15.",
+    "entities": [
+      {
+        "start": 29,
+        "end": 34,
+        "value": "19:15",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 23,
+        "end": 25,
+        "confidence_entity": 0.9989781379699707,
+        "value": "in",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 29,
+        "end": 34,
+        "confidence_entity": 0.999036431312561,
+        "value": "19:15",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "It should be as close to 6 in the evening as possible.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 41,
+        "value": "6 in the evening",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 25,
+        "end": 44,
+        "confidence_entity": 0.9782509803771973,
+        "value": "6 in the evening as",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Make it in the evening 7:15.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 27,
+        "value": "evening 7:15",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 10,
+        "confidence_entity": 0.5780841112136841,
+        "value": "in",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 15,
+        "end": 27,
+        "confidence_entity": 0.9994423985481262,
+        "value": "evening 7:15",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Please fix it at 11:30 am",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "11:30 am",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.8483443856239319,
+        "value": "fix",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.9996978044509888,
+        "value": "11:30 am",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would like some California style food.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 28,
+        "value": "California",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I'm on the mood for some dumplings.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 34,
+        "value": "dumplings",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I would like it to be in Half Moon Bay, please.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 38,
+        "value": "Half Moon Bay",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 24,
+        "confidence_entity": 0.9933217167854309,
+        "value": "in",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 25,
+        "end": 34,
+        "confidence_entity": 0.54324871301651,
+        "value": "Half Moon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'm looking for a place in Pacifica.",
+    "entities": [
+      {
+        "start": 27,
+        "end": 35,
+        "value": "Pacifica",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "In Vacaville I want to be",
+    "entities": [
+      {
+        "start": 3,
+        "end": 12,
+        "value": "Vacaville",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Let's go for Fairfield, please?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 22,
+        "value": "Fairfield",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.741465151309967,
+        "value": "Fairfield",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "The location is Fremont, please.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "Fremont",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Alameda",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "Alameda",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.6919389367103577,
+        "value": "Alameda",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Danville. And hurry up.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "Danville",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "city",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9234691262245178,
+        "value": "Danville",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 10,
+        "end": 13,
+        "confidence_entity": 0.6702742576599121,
+        "value": "And",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 14,
+        "end": 19,
+        "confidence_entity": 0.972804605960846,
+        "value": "hurry",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Pleasant Hill please.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "Pleasant Hill",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "good evening",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.536213219165802,
+        "value": "evening",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "good afternoon",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 5,
+        "end": 14,
+        "confidence_entity": 0.8668978214263916,
+        "value": "afternoon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Early evening 5:45 pm.",
+    "entities": [
+      {
+        "start": 6,
+        "end": 18,
+        "value": "evening 5:45",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 6,
+        "end": 13,
+        "confidence_entity": 0.9992014765739441,
+        "value": "evening",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 14,
+        "end": 21,
+        "confidence_entity": 0.8019887208938599,
+        "value": "5:45 pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would like to make the reservation for twelve in the afternoon.",
+    "entities": [
+      {
+        "start": 41,
+        "end": 64,
+        "value": "twelve in the afternoon",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 21,
+        "end": 24,
+        "confidence_entity": 0.9961091876029968,
+        "value": "the",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 41,
+        "end": 64,
+        "confidence_entity": 0.9984226226806641,
+        "value": "twelve in the afternoon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'd like to reserve the table for lunch, so 11 o\"clock in the morning, for 2 people.",
+    "entities": [
+      {
+        "start": 44,
+        "end": 69,
+        "value": "11 o\"clock in the morning",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 20,
+        "end": 23,
+        "confidence_entity": 0.9477406740188599,
+        "value": "the",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 44,
+        "end": 69,
+        "confidence_entity": 0.5674117803573608,
+        "value": "11 o\"clock in the morning",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 75,
+        "end": 76,
+        "confidence_entity": 0.9770538210868835,
+        "value": "2",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "We want to eat in the morning 11.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 32,
+        "value": "morning 11",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 18,
+        "end": 21,
+        "confidence_entity": 0.9094613790512085,
+        "value": "the",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 32,
+        "confidence_entity": 0.97603839635849,
+        "value": "morning 11",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "American food would really hit the spot.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "American",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I prefer Redwood City.",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "value": "Redwood City",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "city",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.9970344305038452,
+        "value": "City",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I will be walking around Healdsburg so I want for it to be there.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "value": "Healdsburg",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 25,
+        "end": 35,
+        "confidence_entity": 0.9837329983711243,
+        "value": "Healdsburg",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'm in Walnut Creek at the moment, please search there.",
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "value": "Walnut Creek",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Campbell please, thanks.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "Campbell",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What is the address for Alta Msp?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "city",
+        "start": 29,
+        "end": 32,
+        "confidence_entity": 0.5239030122756958,
+        "value": "Msp",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "The evening 6:45.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 16,
+        "value": "evening 6:45",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9947210550308228,
+        "value": "The",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 4,
+        "end": 16,
+        "confidence_entity": 0.9992101192474365,
+        "value": "evening 6:45",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "We would like to have lunch at this restaurant. Please make the reservation in the afternoon 1.",
+    "entities": [
+      {
+        "start": 83,
+        "end": 94,
+        "value": "afternoon 1",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 60,
+        "end": 63,
+        "confidence_entity": 0.9993917942047119,
+        "value": "the",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 76,
+        "end": 82,
+        "confidence_entity": 0.9990379810333252,
+        "value": "in the",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 83,
+        "end": 94,
+        "confidence_entity": 0.6642221808433533,
+        "value": "afternoon 1",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "The phone number for Aslam's Rasoi in San Francisco is 415-695-0599.",
+    "entities": [
+      {
+        "start": 55,
+        "end": 67,
+        "value": "415-695-0599",
+        "entity": "phone_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "city",
+        "start": 38,
+        "end": 51,
+        "confidence_entity": 0.999605119228363,
+        "value": "San Francisco",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "phone_number",
+        "start": 55,
+        "end": 67,
+        "confidence_entity": 0.99981290102005,
+        "value": "415-695-0599",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "A Diner kind of food will be good",
+    "entities": [
+      {
+        "start": 2,
+        "end": 7,
+        "value": "Diner",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I think a breakfast & brunch place would be perfect.",
+    "entities": [
+      {
+        "start": 10,
+        "end": 28,
+        "value": "breakfast & brunch",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I would love to eat some lobster.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 32,
+        "value": "lobster",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I would really like some Latin American food.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 39,
+        "value": "Latin American",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 31,
+        "end": 39,
+        "confidence_entity": 0.9993913173675537,
+        "value": "American",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Something like a Diner should do.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 22,
+        "value": "Diner",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want a place to eat in Berkeley.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 33,
+        "value": "Berkeley",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want to find one in South San Francisco.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 41,
+        "value": "South San Francisco",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "city",
+        "start": 28,
+        "end": 41,
+        "confidence_entity": 0.999476969242096,
+        "value": "San Francisco",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'd like to eat somewhere in Berkeley.",
+    "entities": [
+      {
+        "start": 29,
+        "end": 37,
+        "value": "Berkeley",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "No I left LA yesterday, find restaurants in Lafayette please.",
+    "entities": [
+      {
+        "start": 44,
+        "end": 53,
+        "value": "Lafayette",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Palo Alto would be great",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "Palo Alto",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I'd like to book a spot at a diner.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 29,
+        "end": 34,
+        "confidence_entity": 0.9988278746604919,
+        "value": "diner",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I think 6 in the evening should be okay.",
+    "entities": [
+      {
+        "start": 8,
+        "end": 24,
+        "value": "6 in the evening",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 24,
+        "confidence_entity": 0.9990575909614563,
+        "value": "6 in the evening",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 35,
+        "end": 39,
+        "confidence_entity": 0.8989831805229187,
+        "value": "okay",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would like to make the reservation for 19:30 tonight.",
+    "entities": [
+      {
+        "start": 41,
+        "end": 46,
+        "value": "19:30",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 41,
+        "end": 54,
+        "confidence_entity": 0.9803565144538879,
+        "value": "19:30 tonight",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "My plan is to be there by 1:30 in the afternoon.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 47,
+        "value": "1:30 in the afternoon",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 11,
+        "end": 13,
+        "confidence_entity": 0.9938289523124695,
+        "value": "to",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 17,
+        "end": 22,
+        "confidence_entity": 0.9829565286636353,
+        "value": "there",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 26,
+        "end": 47,
+        "confidence_entity": 0.9991679191589355,
+        "value": "1:30 in the afternoon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Please reserve in the morning at 11:15 am.",
+    "entities": [
+      {
+        "start": 33,
+        "end": 41,
+        "value": "11:15 am",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 15,
+        "end": 29,
+        "confidence_entity": 0.9950789213180542,
+        "value": "in the morning",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 33,
+        "end": 41,
+        "confidence_entity": 0.9991631507873535,
+        "value": "11:15 am",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "5:30 pm should be prime pasta time.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "5:30 pm",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9992941617965698,
+        "value": "5:30 pm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time",
+        "start": 24,
+        "end": 29,
+        "confidence_entity": 0.8367369174957275,
+        "value": "pasta",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would like to eat tacos, if available.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 25,
+        "value": "tacos",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Thai food would be great.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "Thai",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I would prefer eating in Newark.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "Newark",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Somewhere in Union City.",
+    "entities": [
+      {
+        "start": 13,
+        "end": 23,
+        "value": "Union City",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "city",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.9970793724060059,
+        "value": "City",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cupertino, please.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "Cupertino",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.7124976515769958,
+        "value": "Cupertino",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sure. Can be very expensive.",
+    "entities": [
+      {
+        "start": 13,
+        "end": 27,
+        "value": "very expensive",
+        "entity": "price_range"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price_range",
+        "start": 18,
+        "end": 27,
+        "confidence_entity": 0.997043788433075,
+        "value": "expensive",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you help me make a reservations at \" 8 Sushi \" restaurant?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 43,
+        "end": 48,
+        "confidence_entity": 0.9985866546630859,
+        "value": "Sushi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would like to be at 8 o\"clock in the night.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 44,
+        "value": "8 o\"clock in the night",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 38,
+        "confidence_entity": 0.960019588470459,
+        "value": "8 o\"clock in the",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I love cantonese food.",
+    "entities": [
+      {
+        "start": 7,
+        "end": 16,
+        "value": "cantonese",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want Pizza and Pasta, anything Italian really.",
+    "entities": [
+      {
+        "start": 7,
+        "end": 22,
+        "value": "Pizza and Pasta",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 7,
+        "end": 22,
+        "confidence_entity": 0.9942744374275208,
+        "value": "Pizza and Pasta",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 33,
+        "end": 40,
+        "confidence_entity": 0.8620448112487793,
+        "value": "Italian",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Some type of curry would be great, so Indian or Thai maybe.",
+    "entities": [
+      {
+        "start": 13,
+        "end": 18,
+        "value": "curry",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.9998884201049805,
+        "value": "curry",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 38,
+        "end": 44,
+        "confidence_entity": 0.9846694469451904,
+        "value": "Indian",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 48,
+        "end": 52,
+        "confidence_entity": 0.9993914365768433,
+        "value": "Thai",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Spicy Indian sound really good.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "Spicy Indian",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 6,
+        "end": 12,
+        "confidence_entity": 0.9968955516815186,
+        "value": "Indian",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to go to El Cerrito.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 26,
+        "value": "El Cerrito",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

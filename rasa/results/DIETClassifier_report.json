@@ -1,0 +1,57 @@
+{
+  "cuisine": {
+    "precision": 0.8878504672897196,
+    "recall": 0.8715596330275229,
+    "f1-score": 0.8796296296296298,
+    "support": 109,
+    "confused_with": {}
+  },
+  "price_range": {
+    "precision": 1.0,
+    "recall": 0.9565217391304348,
+    "f1-score": 0.9777777777777777,
+    "support": 23,
+    "confused_with": {}
+  },
+  "time": {
+    "precision": 0.9495327102803738,
+    "recall": 0.9980353634577603,
+    "f1-score": 0.9731800766283525,
+    "support": 509,
+    "confused_with": {}
+  },
+  "city": {
+    "precision": 0.9777777777777777,
+    "recall": 0.8354430379746836,
+    "f1-score": 0.9010238907849828,
+    "support": 158,
+    "confused_with": {
+      "cuisine": 4
+    }
+  },
+  "phone_number": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 22,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.9488428745432399,
+    "recall": 0.9488428745432399,
+    "f1-score": 0.9488428745432399,
+    "support": 821
+  },
+  "macro avg": {
+    "precision": 0.9630321910695742,
+    "recall": 0.9323119547180804,
+    "f1-score": 0.9463222749641487,
+    "support": 821
+  },
+  "weighted avg": {
+    "precision": 0.9495453585337131,
+    "recall": 0.9488428745432399,
+    "f1-score": 0.9477210137227493,
+    "support": 821
+  }
+}
