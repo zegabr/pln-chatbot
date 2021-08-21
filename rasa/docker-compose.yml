@@ -1,6 +1,12 @@
 version: "3"
 services:
-    chatbot:
-        build: .
-        ports:
-            - 5005:5005
+  chatbot:
+    build: .
+    ports:
+      - 5005:5005
+  actions-server:
+    build: 
+      context: .
+      dockerfile: actions.Dockerfile
+    ports:
+      - 5055:5055

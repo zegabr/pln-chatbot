@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -16,7 +15,6 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
 - intent: mood_great
   examples: |
     - perfect
@@ -33,7 +31,6 @@ nlu:
     - so so perfect
     - so good
     - so perfect
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -50,14 +47,12 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-  
 - intent: goodbye
   examples: |
     - Alright, Thank you.
@@ -66,7 +61,6 @@ nlu:
     - Great! Thank you so much for your help.
     - I appreciate it very much. That would be all.
     - I appreciate it very much. That's all I need right now.
-    - No thank you.
     - No, thank you anyway.
     - Ok, thank you, that will be all.
     - Okay good to know.
@@ -88,7 +82,6 @@ nlu:
     - Thanks
     - Thanks ,that is all that I needed
     - Thanks a lot
-    - Thanks
     - Thanks so much, that's it for now.
     - Thanks so much. I think I'm good for now.
     - Thanks so much. That'll be all for today.
@@ -108,7 +101,6 @@ nlu:
     - bye
     - bye bye
     - thank you, bye!
-
 - intent: inform_intent
   examples: |
     - Can I make a reservation at this restaurant?
@@ -194,7 +186,7 @@ nlu:
     - I need to reserve a table.
     - I think dining out will be a wonderful thing. Look for a suitable place please.
     - I wan to make reservations at a restaurant.
-    - I wanna find a place to eat. 
+    - I wanna find a place to eat.
     - I wanna make a reservation at a restaurant.
     - I want a reservation for a restaurant.
     - I want to book a reservation at a restaurant.
@@ -291,7 +283,7 @@ nlu:
     - Yes, make a reservation at the restaurant.
     - i want to make a reservation at restaurant
     - what can I have for breakfast
-
+    - i would like to book
 - intent: request_phone_number
   examples: |
     - Can I have their contact phone?
@@ -311,7 +303,6 @@ nlu:
     - What number do I contact to make a reservation?
     - What's their number?
     - What's their phone number?
-
 - intent: request_street_address
   examples: |
     - And their address?
@@ -341,7 +332,6 @@ nlu:
     - Where are they located?
     - Where is it located?
     - what is the address?
-
 - intent: request_alts
   examples: |
     - Another restaurant can you recommend?
@@ -409,7 +399,6 @@ nlu:
     - What other restaurants are there?
     - What's the other one?
     - any other option close by?
-
 - intent: affirm_intent
   examples: |
     - I think so, yes.
@@ -428,7 +417,6 @@ nlu:
     - Yes go ahead and make reservations.
     - Yes please do
     - Yes please do.
-    - Yes please do. 
     - Yes please!
     - Yes please! Make a reservation for a table.
     - Yes please, go ahead and book a table
@@ -439,7 +427,6 @@ nlu:
     - Yes thanks, please do it.
     - Yes will be perfect
     - Yes, I want a reservation.
-    - Yes, I want a reservation. 
     - Yes, I want to book a table.
     - Yes, I want to make a reservation.
     - Yes, I want to make one.
@@ -461,7 +448,6 @@ nlu:
     - Yes, reserve it for me.
     - Yes, that will be great.
     - Yes, that would be great. Please make a reservation.
-
 - intent: inform_time
   examples: |
     - A [quarter past 5 in the evening](time), please.
@@ -579,7 +565,7 @@ nlu:
     - Probably by [6:30 pm](time).
     - Put it for [morning 10:30](time).
     - Reserve for [six in the evening](time).
-    - Reserve it for [6 in the evening](time). 
+    - Reserve it for [6 in the evening](time).
     - Reserve it for [7 o"clock in the evening](time).
     - Reserve it for [Twelve pm](time).
     - Reserve me a place for [5:30 in the evening](time).
@@ -590,7 +576,7 @@ nlu:
     - The timing will be [half past 7 in the evening](time).
     - We want to eat in the [morning 11](time).
     - We will go at [five pm](time).
-    - We would like to have lunch at this restaurant. Please make the reservation in the [afternoon 1](time). 
+    - We would like to have lunch at this restaurant. Please make the reservation in the [afternoon 1](time).
     - You can set the reservation at [17:30](time).
     - You make make the reservation for [twelve pm](time).
     - [1 in the afternoon](time).
@@ -629,7 +615,7 @@ nlu:
     - [half past 5 in the evening](time) please.
     - at [afternoon 1:30](time)
     - id like it for [19:00](time).
-
+    - [12:00](time)
 - intent: inform_phone_number
   examples: |
     - I have a phone number of [415-402-5290](phone_number).
@@ -653,7 +639,7 @@ nlu:
     - Yes, it's [510-918-3205](phone_number).
     - You can reach them at [510-524-1286](phone_number).
     - [925-750-8888](phone_number) is the phone number
-
+    - [123-123-123](phone_number)
 - intent: inform_cuisine
   examples: |
     - A [Diner](cuisine) kind of food will be good
@@ -743,7 +729,7 @@ nlu:
     - [Sushi](cuisine) would be perfect.
     - [Thai](cuisine) food would be great.
     - [To-go](cuisine) please.
-
+    - [Italian](cuisine)
 - intent: inform_city
   examples: |
     - Can you find a restaurant in [San Fran](city)?
@@ -853,7 +839,7 @@ nlu:
     - [Santa Clara](city)
     - [Santa Rosa](city), please.
     - please search in [Petaluma](city)
-
+    - in [Alabama](city)
 - intent: negate
   examples: |
     - I don't think so.
@@ -868,7 +854,6 @@ nlu:
     - No, that will not work.
     - No. That doesn't work for me
     - please no.
-
 - intent: request_price_range
   examples: |
     - Are their prices [expensive](price_range)?
@@ -885,7 +870,6 @@ nlu:
     - Is the price range on the page [expensive](price_range)?
     - Is the restaurant [inexpensive](price_range)?`
     - Is the restaurant costly?
-
 - intent: inform_price_range
   examples: |
     - I would say they have [moderate](price_range) pricing.
@@ -894,7 +878,7 @@ nlu:
     - Looks like it's in the [moderate](price_range) range.
     - Not really, they are [moderate](price_range) priced.
     - The price range is [moderate](price_range).
-    - The price range is actually [moderate](price_range). 
+    - The price range is actually [moderate](price_range).
     - The prices are [moderate](price_range)
     - The prices are [moderate](price_range).
     - Their price range is [moderate](price_range).
@@ -904,3 +888,4 @@ nlu:
     - sure. The price range would be [inexpensive](price_range).
     - okay. Would be [expensive](price_range).
     - sure. Can be [very expensive](price_range).
+    - [moderate](price_range)

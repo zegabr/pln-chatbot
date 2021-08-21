@@ -89,3 +89,44 @@
 #       are you a bot?
 #     intent: bot_challenge
 #   - action: utter_iamabot
+
+# - story: bot challenge
+#   steps:
+#   - user: |
+#       are you a bot?
+#     intent: bot_challenge
+#   - action: utter_iamabot
+
+- story: Ask for info when user requests reservation
+  steps:
+  - user: i would like to book a restaurant
+    intent: inform_intent
+  - action: form_reset
+  - slot_was_set:
+    - found_restaurant: false
+  - action: reservation_form
+  - active_loop: reservation_form
+  - action: utter_ask_phone_number
+  - user: 123-123-123 is my phone
+  - slot_was_set:
+    - requested_slot: phone_number
+  - action: utter_ask_time
+  - user: "today 12:00"
+  - slot_was_set:
+    - requested_slot: time
+  - action: utter_ask_city
+  - user: in Alabama
+  - slot_was_set:
+    - requested_slot: city
+  - action: utter_ask_price_range
+  - user: moderate
+  - slot_was_set:
+    - requested_slot: price_range
+  - action: utter_ask_cuisine
+  - user: I would like Italian food
+  - slot_was_set:
+    - requested_slot: cuisine
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: get_restaurants_by_params

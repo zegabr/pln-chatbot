@@ -1,12 +1,7 @@
-FROM python:3.8.8-slim
+FROM rasa/rasa:2.8.3-full
 
-COPY . /src
+WORKDIR /app
+COPY . .
+ENV PYTHONUNBUFFERED=1
 
-WORKDIR /src
-
-RUN pip3 install -U pip
-RUN pip install rasa
-RUN pip install -r requirements.txt
-RUN rasa train
-
-CMD ["rasa", "run"]
+CMD [ "run", "--enable-api" ]
