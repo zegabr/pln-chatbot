@@ -15,3 +15,5 @@ Please add telegram tokens to `credentials.yml` file, than after you're good to 
 `make run`
 
 check http://localhost:5005 (it will be running) or send a message to `restaurant_book_bot` on Telegram.
+
+Video: https://youtu.be/1OsFGqVnzHg
